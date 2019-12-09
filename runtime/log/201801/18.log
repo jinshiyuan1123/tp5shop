@@ -1,0 +1,133 @@
+[ 2018-01-18T14:41:31+08:00 ] 172.31.179.54 119.147.207.152 GET /admin/base/login.html
+[ log ] dbgj.hoonking.com/admin/base/login.html [运行时间：0.875000s][吞吐率：1.14req/s] [内存消耗：2,087.83kb] [文件加载：50]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'accept-encoding' => 'deflate, gzip',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'connection' => 'Close',
+)
+[ info ] [ PARAM ] array (
+  'admin/base/login_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/admin\lang\zh-cn.php
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  tangtanglove <dai_hang_love@126.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\admin\controller\Base.php 37 - 71
+}
+
+[ info ] [ VIEW ] E:\www\dbgj/application/admin\view\base\login.html [ array (
+  0 => 'tyjfmc',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-01-18T14:42:30+08:00 ] 172.31.179.54 61.151.178.179 GET /admin/base/login.html
+[ log ] dbgj.hoonking.com/admin/base/login.html [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：2,087.56kb] [文件加载：50]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) 			Chrome/55.0.2883.95 Safari/537.36',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'admin/base/login_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/admin\lang\zh-cn.php
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  tangtanglove <dai_hang_love@126.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\admin\controller\Base.php 37 - 71
+}
+
+[ info ] [ VIEW ] E:\www\dbgj/application/admin\view\base\login.html [ array (
+  0 => 'tyjfmc',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-01-18T19:38:04+08:00 ] 172.31.179.54 220.181.55.141 GET /
+[ log ] dbgj.hoonking.com/ [运行时间：0.265625s][吞吐率：3.76req/s] [内存消耗：2,186.52kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-01-18T19:38:04+08:00 ] 172.31.179.54 220.181.55.141 GET /
+[ log ] dbgj.hoonking.com/ [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：2,186.52kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------

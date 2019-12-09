@@ -1,0 +1,3947 @@
+[ 2017-09-21T02:01:37+08:00 ] 172.31.179.54 123.131.102.20 GET /admin/base/login.html
+[ log ] www.525354.top/admin/base/login.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,669.02kb] [文件加载：50]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'host' => 'www.525354.top',
+)
+[ info ] [ PARAM ] array (
+  'admin/base/login_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/admin\lang\zh-cn.php
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  tangtanglove <dai_hang_love@126.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\admin\controller\Base.php 37 - 71
+}
+
+[ info ] [ VIEW ] E:\www\dbgj/application/admin\view\base\login.html [ array (
+  0 => 'tyjfmc',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T02:01:38+08:00 ] 172.31.179.54 123.131.102.20 GET /static/bootstrap/css/ionicons.min.css
+[ log ] www.525354.top/static/bootstrap/css/ionicons.min.css [运行时间：0.093750s][吞吐率：10.67req/s] [内存消耗：1,410.44kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'bootstrap',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'referer' => 'http://www.525354.top/admin/base/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'host' => 'www.525354.top',
+)
+[ info ] [ PARAM ] array (
+  'static/bootstrap/css/ionicons_min_css' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T02:01:38+08:00 ] 172.31.179.54 123.131.102.20 GET /static/bootstrap/css/font-awesome.min.css
+[ log ] www.525354.top/static/bootstrap/css/font-awesome.min.css [运行时间：0.093750s][吞吐率：10.67req/s] [内存消耗：1,410.50kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'bootstrap',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'referer' => 'http://www.525354.top/admin/base/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'host' => 'www.525354.top',
+)
+[ info ] [ PARAM ] array (
+  'static/bootstrap/css/font-awesome_min_css' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T02:01:38+08:00 ] 172.31.179.54 123.131.102.20 GET /static/plugins/iCheck/square/blue.css
+[ log ] www.525354.top/static/plugins/iCheck/square/blue.css [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,410.66kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'plugins',
+    2 => 'iCheck',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'referer' => 'http://www.525354.top/admin/base/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'host' => 'www.525354.top',
+)
+[ info ] [ PARAM ] array (
+  'static/plugins/iCheck/square/blue_css' => '',
+  'square' => 'blue.css',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T02:01:39+08:00 ] 172.31.179.54 123.131.102.20 GET /admin/base/captcha.html
+[ log ] www.525354.top/admin/base/captcha.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,708.98kb] [文件加载：50]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'base',
+    2 => 'captcha',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'referer' => 'http://www.525354.top/admin/base/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'host' => 'www.525354.top',
+)
+[ info ] [ PARAM ] array (
+  'admin/base/captcha_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/admin\lang\zh-cn.php
+[ info ] [ RUN ] /**
+     * 系统验证码方法
+     * @author  tangtanglove <dai_hang_love@126.com>
+     */
+Method [ <user> public method captcha ] {
+  @@ E:\www\dbgj\application\admin\controller\Base.php 77 - 81
+}
+
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T07:45:18+08:00 ] 172.31.179.54 42.156.251.208 GET /
+[ log ] www.525354.top/ [运行时间：0.093750s][吞吐率：10.67req/s] [内存消耗：1,744.59kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.525354.top',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'PHPSESSID=sl3jrk9j4anhjgu3ng4uq1g7qk; path=/; HttpOnly',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-A5000 Build/LRX22C ) AppleWebKit/603.1.30 (KHTML, like Gecko) Mobile/14E304 Tx(Tx/6.7.2) WindVane/8.2.0 750x1334',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T07:45:18+08:00 ] 172.31.179.54 42.156.251.208 GET /index/base/login.html
+[ log ] www.525354.top/index/base/login.html [运行时间：0.093750s][吞吐率：10.67req/s] [内存消耗：1,732.58kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.525354.top',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'think_var=zh-cn; expires=Thu, 21-Sep-2017 00:45:18 GMT; path=/, think_var=zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; HUAWEI MLA-AL10 Build/HUAWEIMLA-AL10) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/35.0.1916.138 Mobile Safari/537.36 T7/7.4 baiduboxapp/8.4 (Baidu; P1 6.0)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T07:45:19+08:00 ] 172.31.179.54 42.156.251.208 GET /
+[ log ] www.525354.top/ [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：1,744.23kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.525354.top',
+  'accept-language' => 'zh-CN,en,*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-A5000 Build/LRX22C ) AppleWebKit/603.1.30 (KHTML, like Gecko) Mobile/14E304 Tx(Tx/6.7.2) WindVane/8.2.0 750x1334',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T07:45:19+08:00 ] 172.31.179.54 42.156.251.208 GET /index/base/login.html
+[ log ] www.525354.top/index/base/login.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,732.22kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.525354.top',
+  'accept-language' => 'zh-CN,en,*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=u4pq2mnre1mgklmm373psmupv0',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-A5000 Build/LRX22C ) AppleWebKit/603.1.30 (KHTML, like Gecko) Mobile/14E304 Tx(Tx/6.7.2) WindVane/8.2.0 750x1334',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:37:32+08:00 ] 172.31.179.54 101.226.93.201 GET /?nsukey=%2F3TBNe5bR4HPDpvwBhUE03T625WaF4ACZFYiCK3auQN5lxD1k2lXvfoUmIUMk4wgwzg5vv3HfuEj25ddz3UoAKJ9D5JXdv%2FKnWsH7dXV52RMPgo2T3jlJ5l6PHLCsLmxNvXYVPMf56Gnij40tcjQBJO51TppjLB2I2WO%2BmU24pL508He6fsEBhUHnMdv8wln
+[ log ] www.525354.top/?nsukey=%2F3TBNe5bR4HPDpvwBhUE03T625WaF4ACZFYiCK3auQN5lxD1k2lXvfoUmIUMk4wgwzg5vv3HfuEj25ddz3UoAKJ9D5JXdv%2FKnWsH7dXV52RMPgo2T3jlJ5l6PHLCsLmxNvXYVPMf56Gnij40tcjQBJO51TppjLB2I2WO%2BmU24pL508He6fsEBhUHnMdv8wln [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,744.79kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-requestfrom' => '0',
+  'x-openshield' => '0',
+  'x-openfrequencylimit' => '0',
+  'x-busid' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.107 Safari/534.13',
+  'host' => 'www.525354.top',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'nsukey' => '/3TBNe5bR4HPDpvwBhUE03T625WaF4ACZFYiCK3auQN5lxD1k2lXvfoUmIUMk4wgwzg5vv3HfuEj25ddz3UoAKJ9D5JXdv/KnWsH7dXV52RMPgo2T3jlJ5l6PHLCsLmxNvXYVPMf56Gnij40tcjQBJO51TppjLB2I2WO+mU24pL508He6fsEBhUHnMdv8wln',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:37:32+08:00 ] 172.31.179.54 101.226.93.201 GET /index/base/login.html
+[ log ] www.525354.top/index/base/login.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,732.87kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-requestfrom' => '0',
+  'x-openshield' => '0',
+  'x-openfrequencylimit' => '0',
+  'x-busid' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.107 Safari/534.13',
+  'referer' => 'http://www.525354.top/?nsukey=%2F3TBNe5bR4HPDpvwBhUE03T625WaF4ACZFYiCK3auQN5lxD1k2lXvfoUmIUMk4wgwzg5vv3HfuEj25ddz3UoAKJ9D5JXdv%2FKnWsH7dXV52RMPgo2T3jlJ5l6PHLCsLmxNvXYVPMf56Gnij40tcjQBJO51TppjLB2I2WO%2BmU24pL508He6fsEBhUHnMdv8wln',
+  'host' => 'www.525354.top',
+  'cookie' => 'PHPSESSID=ddcvvpesc0gsvm0jt3im79hug0',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:37:33+08:00 ] 172.31.179.54 101.226.102.237 GET /?nsukey=%2F3TBNe5bR4HPDpvwBhUE03T625WaF4ACZFYiCK3auQN5lxD1k2lXvfoUmIUMk4wgwzg5vv3HfuEj25ddz3UoAKJ9D5JXdv%2FKnWsH7dXV52RMPgo2T3jlJ5l6PHLCsLmxNvXYVPMf56Gnij40tcjQBJO51TppjLB2I2WO%2BmU24pL508He6fsEBhUHnMdv8wln
+[ log ] www.525354.top/?nsukey=%2F3TBNe5bR4HPDpvwBhUE03T625WaF4ACZFYiCK3auQN5lxD1k2lXvfoUmIUMk4wgwzg5vv3HfuEj25ddz3UoAKJ9D5JXdv%2FKnWsH7dXV52RMPgo2T3jlJ5l6PHLCsLmxNvXYVPMf56Gnij40tcjQBJO51TppjLB2I2WO%2BmU24pL508He6fsEBhUHnMdv8wln [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,740.01kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'useragent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36',
+  'host' => 'www.525354.top',
+  'connection' => 'close',
+  'accept-language' => 'en-us,en',
+  'accept-encoding' => 'gzip',
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'nsukey' => '/3TBNe5bR4HPDpvwBhUE03T625WaF4ACZFYiCK3auQN5lxD1k2lXvfoUmIUMk4wgwzg5vv3HfuEj25ddz3UoAKJ9D5JXdv/KnWsH7dXV52RMPgo2T3jlJ5l6PHLCsLmxNvXYVPMf56Gnij40tcjQBJO51TppjLB2I2WO+mU24pL508He6fsEBhUHnMdv8wln',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\en-us.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:37:34+08:00 ] 172.31.179.54 101.226.102.139 GET /index/base/login.html
+[ log ] www.525354.top/index/base/login.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,727.50kb] [文件加载：51]
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-https' => '0',
+  'useragent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36',
+  'host' => 'www.525354.top',
+  'cookie' => 'think_var=en-us; PHPSESSID=le0fq60m7cctuco949ojhh82d0',
+  'connection' => 'close',
+  'accept-language' => 'en-us,en',
+  'accept-encoding' => 'gzip',
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\en-us.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:37:34+08:00 ] 172.31.179.54 140.207.54.215 GET /
+[ log ] www.525354.top/ [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,744.00kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9b4) Gecko/2008030317 Firefox/3.0b4',
+  'q-ua' => 'KQB22_GA/220020&KMTT_3/200020&JV2&151920&SunMicrosystemswtk&0&4309&V3',
+  'host' => 'www.525354.top',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-charset' => 'gb2312,iso8859-1,utf-8',
+  'accept' => 'text/vnd.wap.wml,text/html,application/vnd.wap.xhtml+xml,application/xhtml+xml',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:37:35+08:00 ] 172.31.179.54 117.136.7.234 GET /?nsukey=%2F3TBNe5bR4HPDpvwBhUE03T625WaF4ACZFYiCK3auQN5lxD1k2lXvfoUmIUMk4wgwzg5vv3HfuEj25ddz3UoAKJ9D5JXdv%2FKnWsH7dXV52RMPgo2T3jlJ5l6PHLCsLmxNvXYVPMf56Gnij40tcjQBJO51TppjLB2I2WO%2BmU24pL508He6fsEBhUHnMdv8wln
+[ log ] www.525354.top/?nsukey=%2F3TBNe5bR4HPDpvwBhUE03T625WaF4ACZFYiCK3auQN5lxD1k2lXvfoUmIUMk4wgwzg5vv3HfuEj25ddz3UoAKJ9D5JXdv%2FKnWsH7dXV52RMPgo2T3jlJ5l6PHLCsLmxNvXYVPMf56Gnij40tcjQBJO51TppjLB2I2WO%2BmU24pL508He6fsEBhUHnMdv8wln [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,745.05kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 MicroMessenger/6.5.17 NetType/4G Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'www.525354.top',
+)
+[ info ] [ PARAM ] array (
+  'nsukey' => '/3TBNe5bR4HPDpvwBhUE03T625WaF4ACZFYiCK3auQN5lxD1k2lXvfoUmIUMk4wgwzg5vv3HfuEj25ddz3UoAKJ9D5JXdv/KnWsH7dXV52RMPgo2T3jlJ5l6PHLCsLmxNvXYVPMf56Gnij40tcjQBJO51TppjLB2I2WO+mU24pL508He6fsEBhUHnMdv8wln',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:37:35+08:00 ] 172.31.179.54 117.136.7.234 GET /index/base/login.html
+[ log ] www.525354.top/index/base/login.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,732.31kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 MicroMessenger/6.5.17 NetType/4G Language/zh_CN',
+  'cookie' => 'PHPSESSID=6veln8o0osggailfsap25k8i01; think_var=zh-cn',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'host' => 'www.525354.top',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:37:38+08:00 ] 172.31.179.54 101.226.102.141 GET /index/base/login.html?nsukey=PdaSfa1DiChWEZo4I%2BuheWYDl%2FQethtzB%2BKqXHDVdR%2FPebOhBzWu3n33pVWRG0G5hSGp5gbz0vif19VT0Qaa2fh8FzzRK6Dooax22MLqeHntA4Q5K3EAdJ6GBlfNATJZpZrwL6CPYQHQYn9PtbrhG2Aydk8WUw3rJKN89uUumkiALoUmxR%2Bq6Bf3XTd%2BCyQn
+[ log ] www.525354.top/index/base/login.html?nsukey=PdaSfa1DiChWEZo4I%2BuheWYDl%2FQethtzB%2BKqXHDVdR%2FPebOhBzWu3n33pVWRG0G5hSGp5gbz0vif19VT0Qaa2fh8FzzRK6Dooax22MLqeHntA4Q5K3EAdJ6GBlfNATJZpZrwL6CPYQHQYn9PtbrhG2Aydk8WUw3rJKN89uUumkiALoUmxR%2Bq6Bf3XTd%2BCyQn [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,733.02kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-requestfrom' => '0',
+  'x-openshield' => '0',
+  'x-openfrequencylimit' => '0',
+  'x-busid' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.107 Safari/534.13',
+  'host' => 'www.525354.top',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+  'nsukey' => 'PdaSfa1DiChWEZo4I+uheWYDl/QethtzB+KqXHDVdR/PebOhBzWu3n33pVWRG0G5hSGp5gbz0vif19VT0Qaa2fh8FzzRK6Dooax22MLqeHntA4Q5K3EAdJ6GBlfNATJZpZrwL6CPYQHQYn9PtbrhG2Aydk8WUw3rJKN89uUumkiALoUmxR+q6Bf3XTd+CyQn',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:37:39+08:00 ] 172.31.179.54 101.226.102.89 GET /index/base/login.html?nsukey=PdaSfa1DiChWEZo4I%2BuheWYDl%2FQethtzB%2BKqXHDVdR%2FPebOhBzWu3n33pVWRG0G5hSGp5gbz0vif19VT0Qaa2fh8FzzRK6Dooax22MLqeHntA4Q5K3EAdJ6GBlfNATJZpZrwL6CPYQHQYn9PtbrhG2Aydk8WUw3rJKN89uUumkiALoUmxR%2Bq6Bf3XTd%2BCyQn
+[ log ] www.525354.top/index/base/login.html?nsukey=PdaSfa1DiChWEZo4I%2BuheWYDl%2FQethtzB%2BKqXHDVdR%2FPebOhBzWu3n33pVWRG0G5hSGp5gbz0vif19VT0Qaa2fh8FzzRK6Dooax22MLqeHntA4Q5K3EAdJ6GBlfNATJZpZrwL6CPYQHQYn9PtbrhG2Aydk8WUw3rJKN89uUumkiALoUmxR%2Bq6Bf3XTd%2BCyQn [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,728.04kb] [文件加载：51]
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'useragent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36',
+  'host' => 'www.525354.top',
+  'connection' => 'close',
+  'accept-language' => 'en-us,en',
+  'accept-encoding' => 'gzip',
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+  'nsukey' => 'PdaSfa1DiChWEZo4I+uheWYDl/QethtzB+KqXHDVdR/PebOhBzWu3n33pVWRG0G5hSGp5gbz0vif19VT0Qaa2fh8FzzRK6Dooax22MLqeHntA4Q5K3EAdJ6GBlfNATJZpZrwL6CPYQHQYn9PtbrhG2Aydk8WUw3rJKN89uUumkiALoUmxR+q6Bf3XTd+CyQn',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\en-us.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:37:39+08:00 ] 172.31.179.54 117.135.170.67 GET /
+[ log ] www.525354.top/ [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,744.00kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9b4) Gecko/2008030317 Firefox/3.0b4',
+  'q-ua' => 'KQB22_GA/220020&KMTT_3/200020&JV2&151920&SunMicrosystemswtk&0&4309&V3',
+  'host' => 'www.525354.top',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-charset' => 'gb2312,iso8859-1,utf-8',
+  'accept' => 'text/vnd.wap.wml,text/html,application/vnd.wap.xhtml+xml,application/xhtml+xml',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:37:40+08:00 ] 172.31.179.54 117.136.7.234 GET /index/base/login.html?nsukey=PdaSfa1DiChWEZo4I%2BuheWYDl%2FQethtzB%2BKqXHDVdR%2FPebOhBzWu3n33pVWRG0G5hSGp5gbz0vif19VT0Qaa2fh8FzzRK6Dooax22MLqeHntA4Q5K3EAdJ6GBlfNATJZpZrwL6CPYQHQYn9PtbrhG2Aydk8WUw3rJKN89uUumkiALoUmxR%2Bq6Bf3XTd%2BCyQn
+[ log ] www.525354.top/index/base/login.html?nsukey=PdaSfa1DiChWEZo4I%2BuheWYDl%2FQethtzB%2BKqXHDVdR%2FPebOhBzWu3n33pVWRG0G5hSGp5gbz0vif19VT0Qaa2fh8FzzRK6Dooax22MLqeHntA4Q5K3EAdJ6GBlfNATJZpZrwL6CPYQHQYn9PtbrhG2Aydk8WUw3rJKN89uUumkiALoUmxR%2Bq6Bf3XTd%2BCyQn [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,733.05kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 MicroMessenger/6.5.17 NetType/4G Language/zh_CN',
+  'cookie' => 'PHPSESSID=6veln8o0osggailfsap25k8i01; safedog-flow-item=; think_var=zh-cn',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'host' => 'www.525354.top',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+  'nsukey' => 'PdaSfa1DiChWEZo4I+uheWYDl/QethtzB+KqXHDVdR/PebOhBzWu3n33pVWRG0G5hSGp5gbz0vif19VT0Qaa2fh8FzzRK6Dooax22MLqeHntA4Q5K3EAdJ6GBlfNATJZpZrwL6CPYQHQYn9PtbrhG2Aydk8WUw3rJKN89uUumkiALoUmxR+q6Bf3XTd+CyQn',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:37:44+08:00 ] 172.31.179.54 117.185.24.243 GET /
+[ log ] www.525354.top/ [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,744.00kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9b4) Gecko/2008030317 Firefox/3.0b4',
+  'q-ua' => 'KQB22_GA/220020&KMTT_3/200020&JV2&151920&SunMicrosystemswtk&0&4309&V3',
+  'host' => 'www.525354.top',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-charset' => 'gb2312,iso8859-1,utf-8',
+  'accept' => 'text/vnd.wap.wml,text/html,application/vnd.wap.xhtml+xml,application/xhtml+xml',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:37:48+08:00 ] 172.31.179.54 117.185.27.114 GET /index/base/login.html?nsukey=PdaSfa1DiChWEZo4I%2BuheWYDl%2FQethtzB%2BKqXHDVdR%2FPebOhBzWu3n33pVWRG0G5hSGp5gbz0vif19VT0Qaa2fh8FzzRK6Dooax22MLqeHntA4Q5K3EAdJ6GBlfNATJZpZrwL6CPYQHQYn9PtbrhG2Aydk8WUw3rJKN89uUumkiALoUmxR%2Bq6Bf3XTd%2BCyQn
+[ log ] www.525354.top/index/base/login.html?nsukey=PdaSfa1DiChWEZo4I%2BuheWYDl%2FQethtzB%2BKqXHDVdR%2FPebOhBzWu3n33pVWRG0G5hSGp5gbz0vif19VT0Qaa2fh8FzzRK6Dooax22MLqeHntA4Q5K3EAdJ6GBlfNATJZpZrwL6CPYQHQYn9PtbrhG2Aydk8WUw3rJKN89uUumkiALoUmxR%2Bq6Bf3XTd%2BCyQn [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,732.93kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'www.525354.top',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.4; Coolpad Y82-520 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 MicroMessenger/6.5.4.1000 NetType/4G Language/zh_CN',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+  'nsukey' => 'PdaSfa1DiChWEZo4I+uheWYDl/QethtzB+KqXHDVdR/PebOhBzWu3n33pVWRG0G5hSGp5gbz0vif19VT0Qaa2fh8FzzRK6Dooax22MLqeHntA4Q5K3EAdJ6GBlfNATJZpZrwL6CPYQHQYn9PtbrhG2Aydk8WUw3rJKN89uUumkiALoUmxR+q6Bf3XTd+CyQn',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:37:48+08:00 ] 172.31.179.54 117.185.27.144 GET /
+[ log ] www.525354.top/ [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：1,744.00kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9b4) Gecko/2008030317 Firefox/3.0b4',
+  'q-ua' => 'KQB22_GA/220020&KMTT_3/200020&JV2&151920&SunMicrosystemswtk&0&4309&V3',
+  'host' => 'www.525354.top',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-charset' => 'gb2312,iso8859-1,utf-8',
+  'accept' => 'text/vnd.wap.wml,text/html,application/vnd.wap.xhtml+xml,application/xhtml+xml',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:37:55+08:00 ] 172.31.179.54 101.226.65.105 GET /?nsukey=%2F3TBNe5bR4HPDpvwBhUE03T625WaF4ACZFYiCK3auQN5lxD1k2lXvfoUmIUMk4wgwzg5vv3HfuEj25ddz3UoAKJ9D5JXdv%2FKnWsH7dXV52RMPgo2T3jlJ5l6PHLCsLmxNvXYVPMf56Gnij40tcjQBJO51TppjLB2I2WO%2BmU24pL508He6fsEBhUHnMdv8wln
+[ log ] www.525354.top/?nsukey=%2F3TBNe5bR4HPDpvwBhUE03T625WaF4ACZFYiCK3auQN5lxD1k2lXvfoUmIUMk4wgwzg5vv3HfuEj25ddz3UoAKJ9D5JXdv%2FKnWsH7dXV52RMPgo2T3jlJ5l6PHLCsLmxNvXYVPMf56Gnij40tcjQBJO51TppjLB2I2WO%2BmU24pL508He6fsEBhUHnMdv8wln [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：1,739.69kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'www.525354.top',
+  'accept-language' => 'en-US,*',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4',
+  'referer' => '',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'nsukey' => '/3TBNe5bR4HPDpvwBhUE03T625WaF4ACZFYiCK3auQN5lxD1k2lXvfoUmIUMk4wgwzg5vv3HfuEj25ddz3UoAKJ9D5JXdv/KnWsH7dXV52RMPgo2T3jlJ5l6PHLCsLmxNvXYVPMf56Gnij40tcjQBJO51TppjLB2I2WO+mU24pL508He6fsEBhUHnMdv8wln',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\en-us.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:37:55+08:00 ] 172.31.179.54 101.226.65.105 GET /index/base/login.html
+[ log ] www.525354.top/index/base/login.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,726.94kb] [文件加载：51]
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'www.525354.top',
+  'accept-language' => 'en-US,*',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'think_var=en-us; PHPSESSID=l5dpuo1jq8fmg32ag83k1tfhd0',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4',
+  'referer' => '',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\en-us.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:37:57+08:00 ] 172.31.179.54 117.136.7.234 POST /index/base/login.html
+[ log ] www.525354.top/index/base/login.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,721.80kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6veln8o0osggailfsap25k8i01; safedog-flow-item=; think_var=zh-cn',
+  'referer' => 'http://www.525354.top/index/base/login.html?nsukey=PdaSfa1DiChWEZo4I%2BuheWYDl%2FQethtzB%2BKqXHDVdR%2FPebOhBzWu3n33pVWRG0G5hSGp5gbz0vif19VT0Qaa2fh8FzzRK6Dooax22MLqeHntA4Q5K3EAdJ6GBlfNATJZpZrwL6CPYQHQYn9PtbrhG2Aydk8WUw3rJKN89uUumkiALoUmxR%2Bq6Bf3XTd%2BCyQn',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 MicroMessenger/6.5.17 NetType/4G Language/zh_CN',
+  'origin' => 'http://www.525354.top',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'host' => 'www.525354.top',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '36',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+  'key' => '18745138311',
+  'password' => 'fyb0808/5',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:38:03+08:00 ] 172.31.179.54 140.207.185.111 GET /index/base/login.html?nsukey=PdaSfa1DiChWEZo4I%2BuheWYDl%2FQethtzB%2BKqXHDVdR%2FPebOhBzWu3n33pVWRG0G5hSGp5gbz0vif19VT0Qaa2fh8FzzRK6Dooax22MLqeHntA4Q5K3EAdJ6GBlfNATJZpZrwL6CPYQHQYn9PtbrhG2Aydk8WUw3rJKN89uUumkiALoUmxR%2Bq6Bf3XTd%2BCyQn
+[ log ] www.525354.top/index/base/login.html?nsukey=PdaSfa1DiChWEZo4I%2BuheWYDl%2FQethtzB%2BKqXHDVdR%2FPebOhBzWu3n33pVWRG0G5hSGp5gbz0vif19VT0Qaa2fh8FzzRK6Dooax22MLqeHntA4Q5K3EAdJ6GBlfNATJZpZrwL6CPYQHQYn9PtbrhG2Aydk8WUw3rJKN89uUumkiALoUmxR%2Bq6Bf3XTd%2BCyQn [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,727.86kb] [文件加载：51]
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'www.525354.top',
+  'accept-language' => 'en-US,*',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4',
+  'referer' => '',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+  'nsukey' => 'PdaSfa1DiChWEZo4I+uheWYDl/QethtzB+KqXHDVdR/PebOhBzWu3n33pVWRG0G5hSGp5gbz0vif19VT0Qaa2fh8FzzRK6Dooax22MLqeHntA4Q5K3EAdJ6GBlfNATJZpZrwL6CPYQHQYn9PtbrhG2Aydk8WUw3rJKN89uUumkiALoUmxR+q6Bf3XTd+CyQn',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\en-us.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:38:10+08:00 ] 172.31.179.54 117.136.7.234 POST /index/base/login.html
+[ log ] www.525354.top/index/base/login.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,721.80kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6veln8o0osggailfsap25k8i01; safedog-flow-item=; think_var=zh-cn',
+  'referer' => 'http://www.525354.top/index/base/login.html?nsukey=PdaSfa1DiChWEZo4I%2BuheWYDl%2FQethtzB%2BKqXHDVdR%2FPebOhBzWu3n33pVWRG0G5hSGp5gbz0vif19VT0Qaa2fh8FzzRK6Dooax22MLqeHntA4Q5K3EAdJ6GBlfNATJZpZrwL6CPYQHQYn9PtbrhG2Aydk8WUw3rJKN89uUumkiALoUmxR%2Bq6Bf3XTd%2BCyQn',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 MicroMessenger/6.5.17 NetType/4G Language/zh_CN',
+  'origin' => 'http://www.525354.top',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'host' => 'www.525354.top',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '36',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+  'key' => '18745138311',
+  'password' => 'fyb0808/5',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:38:20+08:00 ] 172.31.179.54 117.136.7.234 POST /index/base/login.html
+[ log ] www.525354.top/index/base/login.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,721.84kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6veln8o0osggailfsap25k8i01; safedog-flow-item=; think_var=zh-cn',
+  'referer' => 'http://www.525354.top/index/base/login.html?nsukey=PdaSfa1DiChWEZo4I%2BuheWYDl%2FQethtzB%2BKqXHDVdR%2FPebOhBzWu3n33pVWRG0G5hSGp5gbz0vif19VT0Qaa2fh8FzzRK6Dooax22MLqeHntA4Q5K3EAdJ6GBlfNATJZpZrwL6CPYQHQYn9PtbrhG2Aydk8WUw3rJKN89uUumkiALoUmxR%2Bq6Bf3XTd%2BCyQn',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 MicroMessenger/6.5.17 NetType/4G Language/zh_CN',
+  'origin' => 'http://www.525354.top',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'host' => 'www.525354.top',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '31',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+  'key' => '18745138311',
+  'password' => '080825',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:38:24+08:00 ] 172.31.179.54 117.136.7.234 GET /index/base/getpassword.html
+[ log ] www.525354.top/index/base/getpassword.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,732.97kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'getpassword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://www.525354.top/index/base/login.html?nsukey=PdaSfa1DiChWEZo4I%2BuheWYDl%2FQethtzB%2BKqXHDVdR%2FPebOhBzWu3n33pVWRG0G5hSGp5gbz0vif19VT0Qaa2fh8FzzRK6Dooax22MLqeHntA4Q5K3EAdJ6GBlfNATJZpZrwL6CPYQHQYn9PtbrhG2Aydk8WUw3rJKN89uUumkiALoUmxR%2Bq6Bf3XTd%2BCyQn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 MicroMessenger/6.5.17 NetType/4G Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=6veln8o0osggailfsap25k8i01; safedog-flow-item=; think_var=zh-cn',
+  'host' => 'www.525354.top',
+)
+[ info ] [ PARAM ] array (
+  'index/base/getpassword_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 取回密码方法
+     * @author  完美°ぜ界丶
+     */
+Method [ <user> public method getPassword ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 196 - 233
+}
+
+[ info ] [ VIEW ] ./themes/default/index/get_password.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:38:26+08:00 ] 172.31.179.54 101.226.89.14 GET /index/base/getpassword.html?nsukey=WNn6sRH1sMMfZnjTLVf7N7BFNLFiiw3sXgrJ4kYVMoChXttlmnCzk%2BFL8LsCzCN3Pj5WsDzlHO7wjx7p76cUGvHLviPeebDew8o5XH7i8vNRBPvF%2FuVgvzcR%2Fqv6IefMOPp5ICFWnYi8T%2BBc645OaMKiAtVcwufCJ0l%2Bd9F7KgxaF%2FaRIwn3HpNESDhJFtWb
+[ log ] www.525354.top/index/base/getpassword.html?nsukey=WNn6sRH1sMMfZnjTLVf7N7BFNLFiiw3sXgrJ4kYVMoChXttlmnCzk%2BFL8LsCzCN3Pj5WsDzlHO7wjx7p76cUGvHLviPeebDew8o5XH7i8vNRBPvF%2FuVgvzcR%2Fqv6IefMOPp5ICFWnYi8T%2BBc645OaMKiAtVcwufCJ0l%2Bd9F7KgxaF%2FaRIwn3HpNESDhJFtWb [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,733.19kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'getpassword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-requestfrom' => '0',
+  'x-openshield' => '0',
+  'x-openfrequencylimit' => '0',
+  'x-busid' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.107 Safari/534.13',
+  'host' => 'www.525354.top',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'index/base/getpassword_html' => '',
+  'nsukey' => 'WNn6sRH1sMMfZnjTLVf7N7BFNLFiiw3sXgrJ4kYVMoChXttlmnCzk+FL8LsCzCN3Pj5WsDzlHO7wjx7p76cUGvHLviPeebDew8o5XH7i8vNRBPvF/uVgvzcR/qv6IefMOPp5ICFWnYi8T+Bc645OaMKiAtVcwufCJ0l+d9F7KgxaF/aRIwn3HpNESDhJFtWb',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 取回密码方法
+     * @author  完美°ぜ界丶
+     */
+Method [ <user> public method getPassword ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 196 - 233
+}
+
+[ info ] [ VIEW ] ./themes/default/index/get_password.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:38:26+08:00 ] 172.31.179.54 101.226.125.115 GET /index/base/getpassword.html?nsukey=WNn6sRH1sMMfZnjTLVf7N7BFNLFiiw3sXgrJ4kYVMoChXttlmnCzk%2BFL8LsCzCN3Pj5WsDzlHO7wjx7p76cUGvHLviPeebDew8o5XH7i8vNRBPvF%2FuVgvzcR%2Fqv6IefMOPp5ICFWnYi8T%2BBc645OaMKiAtVcwufCJ0l%2Bd9F7KgxaF%2FaRIwn3HpNESDhJFtWb
+[ log ] www.525354.top/index/base/getpassword.html?nsukey=WNn6sRH1sMMfZnjTLVf7N7BFNLFiiw3sXgrJ4kYVMoChXttlmnCzk%2BFL8LsCzCN3Pj5WsDzlHO7wjx7p76cUGvHLviPeebDew8o5XH7i8vNRBPvF%2FuVgvzcR%2Fqv6IefMOPp5ICFWnYi8T%2BBc645OaMKiAtVcwufCJ0l%2Bd9F7KgxaF%2FaRIwn3HpNESDhJFtWb [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,728.20kb] [文件加载：51]
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'getpassword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'useragent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36',
+  'host' => 'www.525354.top',
+  'connection' => 'close',
+  'accept-language' => 'en-us,en',
+  'accept-encoding' => 'gzip',
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'index/base/getpassword_html' => '',
+  'nsukey' => 'WNn6sRH1sMMfZnjTLVf7N7BFNLFiiw3sXgrJ4kYVMoChXttlmnCzk+FL8LsCzCN3Pj5WsDzlHO7wjx7p76cUGvHLviPeebDew8o5XH7i8vNRBPvF/uVgvzcR/qv6IefMOPp5ICFWnYi8T+Bc645OaMKiAtVcwufCJ0l+d9F7KgxaF/aRIwn3HpNESDhJFtWb',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\en-us.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 取回密码方法
+     * @author  完美°ぜ界丶
+     */
+Method [ <user> public method getPassword ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 196 - 233
+}
+
+[ info ] [ VIEW ] ./themes/default/index/get_password.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:38:28+08:00 ] 172.31.179.54 117.136.7.234 GET /index/base/getpassword.html?nsukey=WNn6sRH1sMMfZnjTLVf7N7BFNLFiiw3sXgrJ4kYVMoChXttlmnCzk%2BFL8LsCzCN3Pj5WsDzlHO7wjx7p76cUGvHLviPeebDew8o5XH7i8vNRBPvF%2FuVgvzcR%2Fqv6IefMOPp5ICFWnYi8T%2BBc645OaMKiAtVcwufCJ0l%2Bd9F7KgxaF%2FaRIwn3HpNESDhJFtWb
+[ log ] www.525354.top/index/base/getpassword.html?nsukey=WNn6sRH1sMMfZnjTLVf7N7BFNLFiiw3sXgrJ4kYVMoChXttlmnCzk%2BFL8LsCzCN3Pj5WsDzlHO7wjx7p76cUGvHLviPeebDew8o5XH7i8vNRBPvF%2FuVgvzcR%2Fqv6IefMOPp5ICFWnYi8T%2BBc645OaMKiAtVcwufCJ0l%2Bd9F7KgxaF%2FaRIwn3HpNESDhJFtWb [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,733.09kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'getpassword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 MicroMessenger/6.5.17 NetType/4G Language/zh_CN',
+  'cookie' => 'PHPSESSID=6veln8o0osggailfsap25k8i01; safedog-flow-item=; think_var=zh-cn',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'host' => 'www.525354.top',
+)
+[ info ] [ PARAM ] array (
+  'index/base/getpassword_html' => '',
+  'nsukey' => 'WNn6sRH1sMMfZnjTLVf7N7BFNLFiiw3sXgrJ4kYVMoChXttlmnCzk+FL8LsCzCN3Pj5WsDzlHO7wjx7p76cUGvHLviPeebDew8o5XH7i8vNRBPvF/uVgvzcR/qv6IefMOPp5ICFWnYi8T+Bc645OaMKiAtVcwufCJ0l+d9F7KgxaF/aRIwn3HpNESDhJFtWb',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 取回密码方法
+     * @author  完美°ぜ界丶
+     */
+Method [ <user> public method getPassword ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 196 - 233
+}
+
+[ info ] [ VIEW ] ./themes/default/index/get_password.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:38:43+08:00 ] 172.31.179.54 117.136.7.234 POST /index/alidayu/index.html
+[ log ] www.525354.top/index/alidayu/index.html [运行时间：1.093750s][吞吐率：0.91req/s] [内存消耗：1,761.37kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'alidayu',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6veln8o0osggailfsap25k8i01; safedog-flow-item=; think_var=zh-cn',
+  'referer' => 'http://www.525354.top/index/base/getpassword.html?nsukey=WNn6sRH1sMMfZnjTLVf7N7BFNLFiiw3sXgrJ4kYVMoChXttlmnCzk%2BFL8LsCzCN3Pj5WsDzlHO7wjx7p76cUGvHLviPeebDew8o5XH7i8vNRBPvF%2FuVgvzcR%2Fqv6IefMOPp5ICFWnYi8T%2BBc645OaMKiAtVcwufCJ0l%2Bd9F7KgxaF%2FaRIwn3HpNESDhJFtWb',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 MicroMessenger/6.5.17 NetType/4G Language/zh_CN',
+  'origin' => 'http://www.525354.top',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'host' => 'www.525354.top',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '18',
+)
+[ info ] [ PARAM ] array (
+  'index/alidayu/index_html' => '',
+  'mobile' => '18745138311',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ E:\www\dbgj\application\index\controller\Alidayu.php 17 - 77
+}
+
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:38:48+08:00 ] 172.31.179.54 101.226.89.121 GET /index/base/getpassword.html?nsukey=WNn6sRH1sMMfZnjTLVf7N7BFNLFiiw3sXgrJ4kYVMoChXttlmnCzk%2BFL8LsCzCN3Pj5WsDzlHO7wjx7p76cUGvHLviPeebDew8o5XH7i8vNRBPvF%2FuVgvzcR%2Fqv6IefMOPp5ICFWnYi8T%2BBc645OaMKiAtVcwufCJ0l%2Bd9F7KgxaF%2FaRIwn3HpNESDhJFtWb
+[ log ] www.525354.top/index/base/getpassword.html?nsukey=WNn6sRH1sMMfZnjTLVf7N7BFNLFiiw3sXgrJ4kYVMoChXttlmnCzk%2BFL8LsCzCN3Pj5WsDzlHO7wjx7p76cUGvHLviPeebDew8o5XH7i8vNRBPvF%2FuVgvzcR%2Fqv6IefMOPp5ICFWnYi8T%2BBc645OaMKiAtVcwufCJ0l%2Bd9F7KgxaF%2FaRIwn3HpNESDhJFtWb [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,727.49kb] [文件加载：50]
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'getpassword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'www.525354.top',
+  'accept-language' => 'en,*',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4',
+  'referer' => '',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'index/base/getpassword_html' => '',
+  'nsukey' => 'WNn6sRH1sMMfZnjTLVf7N7BFNLFiiw3sXgrJ4kYVMoChXttlmnCzk+FL8LsCzCN3Pj5WsDzlHO7wjx7p76cUGvHLviPeebDew8o5XH7i8vNRBPvF/uVgvzcR/qv6IefMOPp5ICFWnYi8T+Bc645OaMKiAtVcwufCJ0l+d9F7KgxaF/aRIwn3HpNESDhJFtWb',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 取回密码方法
+     * @author  完美°ぜ界丶
+     */
+Method [ <user> public method getPassword ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 196 - 233
+}
+
+[ info ] [ VIEW ] ./themes/default/index/get_password.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:39:16+08:00 ] 172.31.179.54 117.136.7.234 POST /index/base/getpassword.html
+[ log ] www.525354.top/index/base/getpassword.html [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：1,714.27kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'getpassword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6veln8o0osggailfsap25k8i01; safedog-flow-item=; think_var=zh-cn',
+  'referer' => 'http://www.525354.top/index/base/getpassword.html?nsukey=WNn6sRH1sMMfZnjTLVf7N7BFNLFiiw3sXgrJ4kYVMoChXttlmnCzk%2BFL8LsCzCN3Pj5WsDzlHO7wjx7p76cUGvHLviPeebDew8o5XH7i8vNRBPvF%2FuVgvzcR%2Fqv6IefMOPp5ICFWnYi8T%2BBc645OaMKiAtVcwufCJ0l%2Bd9F7KgxaF%2FaRIwn3HpNESDhJFtWb',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 MicroMessenger/6.5.17 NetType/4G Language/zh_CN',
+  'origin' => 'http://www.525354.top',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'host' => 'www.525354.top',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '70',
+)
+[ info ] [ PARAM ] array (
+  'index/base/getpassword_html' => '',
+  'password' => 'fyb080825',
+  'mobile' => '18745138311',
+  'repassword' => 'fyb080825',
+  'code' => '038020',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 取回密码方法
+     * @author  完美°ぜ界丶
+     */
+Method [ <user> public method getPassword ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 196 - 233
+}
+
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:39:20+08:00 ] 172.31.179.54 117.136.7.234 POST /index/base/getpassword.html
+[ log ] www.525354.top/index/base/getpassword.html [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：1,714.27kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'getpassword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6veln8o0osggailfsap25k8i01; safedog-flow-item=; think_var=zh-cn',
+  'referer' => 'http://www.525354.top/index/base/getpassword.html?nsukey=WNn6sRH1sMMfZnjTLVf7N7BFNLFiiw3sXgrJ4kYVMoChXttlmnCzk%2BFL8LsCzCN3Pj5WsDzlHO7wjx7p76cUGvHLviPeebDew8o5XH7i8vNRBPvF%2FuVgvzcR%2Fqv6IefMOPp5ICFWnYi8T%2BBc645OaMKiAtVcwufCJ0l%2Bd9F7KgxaF%2FaRIwn3HpNESDhJFtWb',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 MicroMessenger/6.5.17 NetType/4G Language/zh_CN',
+  'origin' => 'http://www.525354.top',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'host' => 'www.525354.top',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '70',
+)
+[ info ] [ PARAM ] array (
+  'index/base/getpassword_html' => '',
+  'password' => 'fyb080825',
+  'mobile' => '18745138311',
+  'repassword' => 'fyb080825',
+  'code' => '038020',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 取回密码方法
+     * @author  完美°ぜ界丶
+     */
+Method [ <user> public method getPassword ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 196 - 233
+}
+
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:39:24+08:00 ] 172.31.179.54 117.136.7.234 POST /index/base/getpassword.html
+[ log ] www.525354.top/index/base/getpassword.html [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,714.27kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'getpassword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6veln8o0osggailfsap25k8i01; safedog-flow-item=; think_var=zh-cn',
+  'referer' => 'http://www.525354.top/index/base/getpassword.html?nsukey=WNn6sRH1sMMfZnjTLVf7N7BFNLFiiw3sXgrJ4kYVMoChXttlmnCzk%2BFL8LsCzCN3Pj5WsDzlHO7wjx7p76cUGvHLviPeebDew8o5XH7i8vNRBPvF%2FuVgvzcR%2Fqv6IefMOPp5ICFWnYi8T%2BBc645OaMKiAtVcwufCJ0l%2Bd9F7KgxaF%2FaRIwn3HpNESDhJFtWb',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 MicroMessenger/6.5.17 NetType/4G Language/zh_CN',
+  'origin' => 'http://www.525354.top',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'host' => 'www.525354.top',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '70',
+)
+[ info ] [ PARAM ] array (
+  'index/base/getpassword_html' => '',
+  'password' => 'fyb080825',
+  'mobile' => '18745138311',
+  'repassword' => 'fyb080825',
+  'code' => '038020',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 取回密码方法
+     * @author  完美°ぜ界丶
+     */
+Method [ <user> public method getPassword ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 196 - 233
+}
+
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:39:47+08:00 ] 172.31.179.54 117.136.7.234 POST /index/base/getpassword.html
+[ log ] www.525354.top/index/base/getpassword.html [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,752.76kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'getpassword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6veln8o0osggailfsap25k8i01; safedog-flow-item=; think_var=zh-cn',
+  'referer' => 'http://www.525354.top/index/base/getpassword.html?nsukey=WNn6sRH1sMMfZnjTLVf7N7BFNLFiiw3sXgrJ4kYVMoChXttlmnCzk%2BFL8LsCzCN3Pj5WsDzlHO7wjx7p76cUGvHLviPeebDew8o5XH7i8vNRBPvF%2FuVgvzcR%2Fqv6IefMOPp5ICFWnYi8T%2BBc645OaMKiAtVcwufCJ0l%2Bd9F7KgxaF%2FaRIwn3HpNESDhJFtWb',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 MicroMessenger/6.5.17 NetType/4G Language/zh_CN',
+  'origin' => 'http://www.525354.top',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'host' => 'www.525354.top',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '64',
+)
+[ info ] [ PARAM ] array (
+  'index/base/getpassword_html' => '',
+  'password' => '080825',
+  'mobile' => '18745138311',
+  'repassword' => '080825',
+  'code' => '038020',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 取回密码方法
+     * @author  完美°ぜ界丶
+     */
+Method [ <user> public method getPassword ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 196 - 233
+}
+
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:39:48+08:00 ] 172.31.179.54 117.136.7.234 GET /index/base/login.html
+[ log ] www.525354.top/index/base/login.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,732.80kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://www.525354.top/index/base/getpassword.html?nsukey=WNn6sRH1sMMfZnjTLVf7N7BFNLFiiw3sXgrJ4kYVMoChXttlmnCzk%2BFL8LsCzCN3Pj5WsDzlHO7wjx7p76cUGvHLviPeebDew8o5XH7i8vNRBPvF%2FuVgvzcR%2Fqv6IefMOPp5ICFWnYi8T%2BBc645OaMKiAtVcwufCJ0l%2Bd9F7KgxaF%2FaRIwn3HpNESDhJFtWb',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 MicroMessenger/6.5.17 NetType/4G Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=6veln8o0osggailfsap25k8i01; safedog-flow-item=; think_var=zh-cn',
+  'host' => 'www.525354.top',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:39:51+08:00 ] 172.31.179.54 101.226.102.116 GET /index/base/login.html?nsukey=DZApHfj04vZfapEp3wTgizOB1liTFeYlmM%2BgEmQf6KI2KnLqg42w2TDv6GoBzSBIrxzkUPUUYrv%2BjutxGLPKipHPuR0w9OcH%2FsR%2FKwJKlvjr%2BWs5pZdpbA5HvgYZP0q4jQc7hAMbS0PZ9KUfPu%2FZmatDtJ4z34%2Bfjib4xGvCJKwwvq4z7n74%2BWPFCrcji%2BfJ
+[ log ] www.525354.top/index/base/login.html?nsukey=DZApHfj04vZfapEp3wTgizOB1liTFeYlmM%2BgEmQf6KI2KnLqg42w2TDv6GoBzSBIrxzkUPUUYrv%2BjutxGLPKipHPuR0w9OcH%2FsR%2FKwJKlvjr%2BWs5pZdpbA5HvgYZP0q4jQc7hAMbS0PZ9KUfPu%2FZmatDtJ4z34%2Bfjib4xGvCJKwwvq4z7n74%2BWPFCrcji%2BfJ [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,733.10kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-requestfrom' => '0',
+  'x-openshield' => '0',
+  'x-openfrequencylimit' => '0',
+  'x-busid' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.107 Safari/534.13',
+  'host' => 'www.525354.top',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+  'nsukey' => 'DZApHfj04vZfapEp3wTgizOB1liTFeYlmM+gEmQf6KI2KnLqg42w2TDv6GoBzSBIrxzkUPUUYrv+jutxGLPKipHPuR0w9OcH/sR/KwJKlvjr+Ws5pZdpbA5HvgYZP0q4jQc7hAMbS0PZ9KUfPu/ZmatDtJ4z34+fjib4xGvCJKwwvq4z7n74+WPFCrcji+fJ',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:39:52+08:00 ] 172.31.179.54 101.226.102.89 GET /index/base/login.html?nsukey=DZApHfj04vZfapEp3wTgizOB1liTFeYlmM%2BgEmQf6KI2KnLqg42w2TDv6GoBzSBIrxzkUPUUYrv%2BjutxGLPKipHPuR0w9OcH%2FsR%2FKwJKlvjr%2BWs5pZdpbA5HvgYZP0q4jQc7hAMbS0PZ9KUfPu%2FZmatDtJ4z34%2Bfjib4xGvCJKwwvq4z7n74%2BWPFCrcji%2BfJ
+[ log ] www.525354.top/index/base/login.html?nsukey=DZApHfj04vZfapEp3wTgizOB1liTFeYlmM%2BgEmQf6KI2KnLqg42w2TDv6GoBzSBIrxzkUPUUYrv%2BjutxGLPKipHPuR0w9OcH%2FsR%2FKwJKlvjr%2BWs5pZdpbA5HvgYZP0q4jQc7hAMbS0PZ9KUfPu%2FZmatDtJ4z34%2Bfjib4xGvCJKwwvq4z7n74%2BWPFCrcji%2BfJ [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：1,728.16kb] [文件加载：51]
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'useragent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36',
+  'host' => 'www.525354.top',
+  'connection' => 'close',
+  'accept-language' => 'en-us,en',
+  'accept-encoding' => 'gzip',
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+  'nsukey' => 'DZApHfj04vZfapEp3wTgizOB1liTFeYlmM+gEmQf6KI2KnLqg42w2TDv6GoBzSBIrxzkUPUUYrv+jutxGLPKipHPuR0w9OcH/sR/KwJKlvjr+Ws5pZdpbA5HvgYZP0q4jQc7hAMbS0PZ9KUfPu/ZmatDtJ4z34+fjib4xGvCJKwwvq4z7n74+WPFCrcji+fJ',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\en-us.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:39:53+08:00 ] 172.31.179.54 117.136.7.234 GET /index/base/login.html?nsukey=DZApHfj04vZfapEp3wTgizOB1liTFeYlmM%2BgEmQf6KI2KnLqg42w2TDv6GoBzSBIrxzkUPUUYrv%2BjutxGLPKipHPuR0w9OcH%2FsR%2FKwJKlvjr%2BWs5pZdpbA5HvgYZP0q4jQc7hAMbS0PZ9KUfPu%2FZmatDtJ4z34%2Bfjib4xGvCJKwwvq4z7n74%2BWPFCrcji%2BfJ
+[ log ] www.525354.top/index/base/login.html?nsukey=DZApHfj04vZfapEp3wTgizOB1liTFeYlmM%2BgEmQf6KI2KnLqg42w2TDv6GoBzSBIrxzkUPUUYrv%2BjutxGLPKipHPuR0w9OcH%2FsR%2FKwJKlvjr%2BWs5pZdpbA5HvgYZP0q4jQc7hAMbS0PZ9KUfPu%2FZmatDtJ4z34%2Bfjib4xGvCJKwwvq4z7n74%2BWPFCrcji%2BfJ [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,732.88kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 MicroMessenger/6.5.17 NetType/4G Language/zh_CN',
+  'cookie' => 'PHPSESSID=6veln8o0osggailfsap25k8i01; safedog-flow-item=; think_var=zh-cn',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'host' => 'www.525354.top',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+  'nsukey' => 'DZApHfj04vZfapEp3wTgizOB1liTFeYlmM+gEmQf6KI2KnLqg42w2TDv6GoBzSBIrxzkUPUUYrv+jutxGLPKipHPuR0w9OcH/sR/KwJKlvjr+Ws5pZdpbA5HvgYZP0q4jQc7hAMbS0PZ9KUfPu/ZmatDtJ4z34+fjib4xGvCJKwwvq4z7n74+WPFCrcji+fJ',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:40:11+08:00 ] 172.31.179.54 117.136.7.234 POST /index/base/login.html
+[ log ] www.525354.top/index/base/login.html [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：1,750.16kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6veln8o0osggailfsap25k8i01; safedog-flow-item=; think_var=zh-cn',
+  'referer' => 'http://www.525354.top/index/base/login.html?nsukey=DZApHfj04vZfapEp3wTgizOB1liTFeYlmM%2BgEmQf6KI2KnLqg42w2TDv6GoBzSBIrxzkUPUUYrv%2BjutxGLPKipHPuR0w9OcH%2FsR%2FKwJKlvjr%2BWs5pZdpbA5HvgYZP0q4jQc7hAMbS0PZ9KUfPu%2FZmatDtJ4z34%2Bfjib4xGvCJKwwvq4z7n74%2BWPFCrcji%2BfJ',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 MicroMessenger/6.5.17 NetType/4G Language/zh_CN',
+  'origin' => 'http://www.525354.top',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'host' => 'www.525354.top',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '31',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+  'key' => '18745138311',
+  'password' => '080825',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:40:11+08:00 ] 172.31.179.54 117.136.7.234 GET /index/user/usercenter.html
+[ log ] www.525354.top/index/user/usercenter.html [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,818.08kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://www.525354.top/index/base/login.html?nsukey=DZApHfj04vZfapEp3wTgizOB1liTFeYlmM%2BgEmQf6KI2KnLqg42w2TDv6GoBzSBIrxzkUPUUYrv%2BjutxGLPKipHPuR0w9OcH%2FsR%2FKwJKlvjr%2BWs5pZdpbA5HvgYZP0q4jQc7hAMbS0PZ9KUfPu%2FZmatDtJ4z34%2Bfjib4xGvCJKwwvq4z7n74%2BWPFCrcji%2BfJ',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 MicroMessenger/6.5.17 NetType/4G Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=6veln8o0osggailfsap25k8i01; safedog-flow-item=; think_var=zh-cn',
+  'host' => 'www.525354.top',
+)
+[ info ] [ PARAM ] array (
+  'index/user/usercenter_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人中心
+     * @author  ILsunshine
+     */
+Method [ <user> public method userCenter ] {
+  @@ E:\www\dbgj\application\index\controller\User.php 39 - 67
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_center.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'zhscore',
+  3 => 's_score',
+  4 => 'ytixian',
+  5 => 'tuijianren',
+  6 => 'userInfo',
+  7 => 'hys',
+  8 => 'scoreorder',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:40:12+08:00 ] 172.31.179.54 101.226.102.97 GET /index/base/login.html?nsukey=DZApHfj04vZfapEp3wTgizOB1liTFeYlmM%2BgEmQf6KI2KnLqg42w2TDv6GoBzSBIrxzkUPUUYrv%2BjutxGLPKipHPuR0w9OcH%2FsR%2FKwJKlvjr%2BWs5pZdpbA5HvgYZP0q4jQc7hAMbS0PZ9KUfPu%2FZmatDtJ4z34%2Bfjib4xGvCJKwwvq4z7n74%2BWPFCrcji%2BfJ
+[ log ] www.525354.top/index/base/login.html?nsukey=DZApHfj04vZfapEp3wTgizOB1liTFeYlmM%2BgEmQf6KI2KnLqg42w2TDv6GoBzSBIrxzkUPUUYrv%2BjutxGLPKipHPuR0w9OcH%2FsR%2FKwJKlvjr%2BWs5pZdpbA5HvgYZP0q4jQc7hAMbS0PZ9KUfPu%2FZmatDtJ4z34%2Bfjib4xGvCJKwwvq4z7n74%2BWPFCrcji%2BfJ [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：1,727.81kb] [文件加载：51]
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'www.525354.top',
+  'accept-language' => 'en-US,*',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4',
+  'referer' => '',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+  'nsukey' => 'DZApHfj04vZfapEp3wTgizOB1liTFeYlmM+gEmQf6KI2KnLqg42w2TDv6GoBzSBIrxzkUPUUYrv+jutxGLPKipHPuR0w9OcH/sR/KwJKlvjr+Ws5pZdpbA5HvgYZP0q4jQc7hAMbS0PZ9KUfPu/ZmatDtJ4z34+fjib4xGvCJKwwvq4z7n74+WPFCrcji+fJ',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\en-us.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:40:13+08:00 ] 172.31.179.54 101.226.125.19 GET /index/user/usercenter.html?nsukey=z%2BEgHZ0qtmNu7q4ED6%2FY31Vh3CPmdPxAa73dNqKFHR5k%2BtQUup8Q3Ejsw6xxIiPWq99K6T%2FQzBuWcV8dH%2BPMvgm80JYk%2B4fwHnY%2BFR%2F1%2BCYgMbwPI4VuizSmh9ntK6lFkIKfp%2BU%2B8OsjTnboaU%2F3dqpYG%2FZB9Bb3iZtJ79UK5UOOV1U%2BdbuRDlFB9tv5AKNa
+[ log ] www.525354.top/index/user/usercenter.html?nsukey=z%2BEgHZ0qtmNu7q4ED6%2FY31Vh3CPmdPxAa73dNqKFHR5k%2BtQUup8Q3Ejsw6xxIiPWq99K6T%2FQzBuWcV8dH%2BPMvgm80JYk%2B4fwHnY%2BFR%2F1%2BCYgMbwPI4VuizSmh9ntK6lFkIKfp%2BU%2B8OsjTnboaU%2F3dqpYG%2FZB9Bb3iZtJ79UK5UOOV1U%2BdbuRDlFB9tv5AKNa [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,803.46kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-requestfrom' => '0',
+  'x-openshield' => '0',
+  'x-openfrequencylimit' => '0',
+  'x-busid' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.107 Safari/534.13',
+  'host' => 'www.525354.top',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'index/user/usercenter_html' => '',
+  'nsukey' => 'z+EgHZ0qtmNu7q4ED6/Y31Vh3CPmdPxAa73dNqKFHR5k+tQUup8Q3Ejsw6xxIiPWq99K6T/QzBuWcV8dH+PMvgm80JYk+4fwHnY+FR/1+CYgMbwPI4VuizSmh9ntK6lFkIKfp+U+8OsjTnboaU/3dqpYG/ZB9Bb3iZtJ79UK5UOOV1U+dbuRDlFB9tv5AKNa',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:40:13+08:00 ] 172.31.179.54 101.226.125.19 GET /index/base/login.html
+[ log ] www.525354.top/index/base/login.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,732.98kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-requestfrom' => '0',
+  'x-openshield' => '0',
+  'x-openfrequencylimit' => '0',
+  'x-busid' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.107 Safari/534.13',
+  'referer' => 'http://www.525354.top/index/user/usercenter.html?nsukey=z%2BEgHZ0qtmNu7q4ED6%2FY31Vh3CPmdPxAa73dNqKFHR5k%2BtQUup8Q3Ejsw6xxIiPWq99K6T%2FQzBuWcV8dH%2BPMvgm80JYk%2B4fwHnY%2BFR%2F1%2BCYgMbwPI4VuizSmh9ntK6lFkIKfp%2BU%2B8OsjTnboaU%2F3dqpYG%2FZB9Bb3iZtJ79UK5UOOV1U%2BdbuRDlFB9tv5AKNa',
+  'host' => 'www.525354.top',
+  'cookie' => 'PHPSESSID=2sffpl7rjki8j8mel5mjajkbe4',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:40:17+08:00 ] 172.31.179.54 117.136.7.234 GET /index/user/usercenter.html?nsukey=z%2BEgHZ0qtmNu7q4ED6%2FY31Vh3CPmdPxAa73dNqKFHR5k%2BtQUup8Q3Ejsw6xxIiPWq99K6T%2FQzBuWcV8dH%2BPMvgm80JYk%2B4fwHnY%2BFR%2F1%2BCYgMbwPI4VuizSmh9ntK6lFkIKfp%2BU%2B8OsjTnboaU%2F3dqpYG%2FZB9Bb3iZtJ79UK5UOOV1U%2BdbuRDlFB9tv5AKNa
+[ log ] www.525354.top/index/user/usercenter.html?nsukey=z%2BEgHZ0qtmNu7q4ED6%2FY31Vh3CPmdPxAa73dNqKFHR5k%2BtQUup8Q3Ejsw6xxIiPWq99K6T%2FQzBuWcV8dH%2BPMvgm80JYk%2B4fwHnY%2BFR%2F1%2BCYgMbwPI4VuizSmh9ntK6lFkIKfp%2BU%2B8OsjTnboaU%2F3dqpYG%2FZB9Bb3iZtJ79UK5UOOV1U%2BdbuRDlFB9tv5AKNa [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,818.13kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 MicroMessenger/6.5.17 NetType/4G Language/zh_CN',
+  'cookie' => 'PHPSESSID=6veln8o0osggailfsap25k8i01; safedog-flow-item=; think_var=zh-cn',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'host' => 'www.525354.top',
+)
+[ info ] [ PARAM ] array (
+  'index/user/usercenter_html' => '',
+  'nsukey' => 'z+EgHZ0qtmNu7q4ED6/Y31Vh3CPmdPxAa73dNqKFHR5k+tQUup8Q3Ejsw6xxIiPWq99K6T/QzBuWcV8dH+PMvgm80JYk+4fwHnY+FR/1+CYgMbwPI4VuizSmh9ntK6lFkIKfp+U+8OsjTnboaU/3dqpYG/ZB9Bb3iZtJ79UK5UOOV1U+dbuRDlFB9tv5AKNa',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人中心
+     * @author  ILsunshine
+     */
+Method [ <user> public method userCenter ] {
+  @@ E:\www\dbgj\application\index\controller\User.php 39 - 67
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_center.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'zhscore',
+  3 => 's_score',
+  4 => 'ytixian',
+  5 => 'tuijianren',
+  6 => 'userInfo',
+  7 => 'hys',
+  8 => 'scoreorder',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:40:35+08:00 ] 172.31.179.54 101.226.89.119 GET /index/user/usercenter.html?nsukey=z%2BEgHZ0qtmNu7q4ED6%2FY31Vh3CPmdPxAa73dNqKFHR5k%2BtQUup8Q3Ejsw6xxIiPWq99K6T%2FQzBuWcV8dH%2BPMvgm80JYk%2B4fwHnY%2BFR%2F1%2BCYgMbwPI4VuizSmh9ntK6lFkIKfp%2BU%2B8OsjTnboaU%2F3dqpYG%2FZB9Bb3iZtJ79UK5UOOV1U%2BdbuRDlFB9tv5AKNa
+[ log ] www.525354.top/index/user/usercenter.html?nsukey=z%2BEgHZ0qtmNu7q4ED6%2FY31Vh3CPmdPxAa73dNqKFHR5k%2BtQUup8Q3Ejsw6xxIiPWq99K6T%2FQzBuWcV8dH%2BPMvgm80JYk%2B4fwHnY%2BFR%2F1%2BCYgMbwPI4VuizSmh9ntK6lFkIKfp%2BU%2B8OsjTnboaU%2F3dqpYG%2FZB9Bb3iZtJ79UK5UOOV1U%2BdbuRDlFB9tv5AKNa [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,798.25kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'www.525354.top',
+  'accept-language' => 'en-US,*',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4',
+  'referer' => '',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'index/user/usercenter_html' => '',
+  'nsukey' => 'z+EgHZ0qtmNu7q4ED6/Y31Vh3CPmdPxAa73dNqKFHR5k+tQUup8Q3Ejsw6xxIiPWq99K6T/QzBuWcV8dH+PMvgm80JYk+4fwHnY+FR/1+CYgMbwPI4VuizSmh9ntK6lFkIKfp+U+8OsjTnboaU/3dqpYG/ZB9Bb3iZtJ79UK5UOOV1U+dbuRDlFB9tv5AKNa',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\en-us.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:40:35+08:00 ] 172.31.179.54 101.226.89.119 GET /index/base/login.html
+[ log ] www.525354.top/index/base/login.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,726.94kb] [文件加载：51]
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'www.525354.top',
+  'accept-language' => 'en-US,*',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'think_var=en-us; PHPSESSID=go79vscabqk2rmk7em73711vj2',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4',
+  'referer' => '',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\en-us.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:40:58+08:00 ] 172.31.179.54 117.136.7.234 GET /index/user/user_friends.html
+[ log ] www.525354.top/index/user/user_friends.html [运行时间：0.093750s][吞吐率：10.67req/s] [内存消耗：1,903.53kb] [文件加载：57]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'user_friends',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://www.525354.top/index/user/usercenter.html?nsukey=z%2BEgHZ0qtmNu7q4ED6%2FY31Vh3CPmdPxAa73dNqKFHR5k%2BtQUup8Q3Ejsw6xxIiPWq99K6T%2FQzBuWcV8dH%2BPMvgm80JYk%2B4fwHnY%2BFR%2F1%2BCYgMbwPI4VuizSmh9ntK6lFkIKfp%2BU%2B8OsjTnboaU%2F3dqpYG%2FZB9Bb3iZtJ79UK5UOOV1U%2BdbuRDlFB9tv5AKNa',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 MicroMessenger/6.5.17 NetType/4G Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=6veln8o0osggailfsap25k8i01; safedog-flow-item=; think_var=zh-cn',
+  'host' => 'www.525354.top',
+)
+[ info ] [ PARAM ] array (
+  'index/user/user_friends_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method user_friends ] {
+  @@ E:\www\dbgj\application\index\controller\User.php 430 - 473
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_friends.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'zjh',
+  3 => 'hys',
+  4 => 'lists',
+  5 => 'page',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:40:59+08:00 ] 172.31.179.54 101.226.125.15 GET /index/user/user_friends.html?nsukey=okNdCUu4zHibZIzt8tG2PnTAoircgdt3PrcWsTSjsihiuwN1OUZzwniO2186xdL0ZWA5rsCJHj3lb9J4imoWQgJEkZJhBS23mcAtze%2FwjUyagcttKbMUDN0VbyGt1k2%2B337s1vhS8f1GkHZegcAXI3NP%2BBBOEbCo3E34tavA9Cv3McytqaL8bKbo0ULV9JtI
+[ log ] www.525354.top/index/user/user_friends.html?nsukey=okNdCUu4zHibZIzt8tG2PnTAoircgdt3PrcWsTSjsihiuwN1OUZzwniO2186xdL0ZWA5rsCJHj3lb9J4imoWQgJEkZJhBS23mcAtze%2FwjUyagcttKbMUDN0VbyGt1k2%2B337s1vhS8f1GkHZegcAXI3NP%2BBBOEbCo3E34tavA9Cv3McytqaL8bKbo0ULV9JtI [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,803.49kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'user_friends',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-requestfrom' => '0',
+  'x-openshield' => '0',
+  'x-openfrequencylimit' => '0',
+  'x-busid' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.107 Safari/534.13',
+  'host' => 'www.525354.top',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'index/user/user_friends_html' => '',
+  'nsukey' => 'okNdCUu4zHibZIzt8tG2PnTAoircgdt3PrcWsTSjsihiuwN1OUZzwniO2186xdL0ZWA5rsCJHj3lb9J4imoWQgJEkZJhBS23mcAtze/wjUyagcttKbMUDN0VbyGt1k2+337s1vhS8f1GkHZegcAXI3NP+BBOEbCo3E34tavA9Cv3McytqaL8bKbo0ULV9JtI',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:41:00+08:00 ] 172.31.179.54 101.226.125.15 GET /index/base/login.html
+[ log ] www.525354.top/index/base/login.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,732.88kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-requestfrom' => '0',
+  'x-openshield' => '0',
+  'x-openfrequencylimit' => '0',
+  'x-busid' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.107 Safari/534.13',
+  'referer' => 'http://www.525354.top/index/user/user_friends.html?nsukey=okNdCUu4zHibZIzt8tG2PnTAoircgdt3PrcWsTSjsihiuwN1OUZzwniO2186xdL0ZWA5rsCJHj3lb9J4imoWQgJEkZJhBS23mcAtze%2FwjUyagcttKbMUDN0VbyGt1k2%2B337s1vhS8f1GkHZegcAXI3NP%2BBBOEbCo3E34tavA9Cv3McytqaL8bKbo0ULV9JtI',
+  'host' => 'www.525354.top',
+  'cookie' => 'PHPSESSID=08vjn7l1fct8uke6360itovbv6',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:41:01+08:00 ] 172.31.179.54 101.226.102.78 GET /index/user/user_friends.html?nsukey=okNdCUu4zHibZIzt8tG2PnTAoircgdt3PrcWsTSjsihiuwN1OUZzwniO2186xdL0ZWA5rsCJHj3lb9J4imoWQgJEkZJhBS23mcAtze%2FwjUyagcttKbMUDN0VbyGt1k2%2B337s1vhS8f1GkHZegcAXI3NP%2BBBOEbCo3E34tavA9Cv3McytqaL8bKbo0ULV9JtI
+[ log ] www.525354.top/index/user/user_friends.html?nsukey=okNdCUu4zHibZIzt8tG2PnTAoircgdt3PrcWsTSjsihiuwN1OUZzwniO2186xdL0ZWA5rsCJHj3lb9J4imoWQgJEkZJhBS23mcAtze%2FwjUyagcttKbMUDN0VbyGt1k2%2B337s1vhS8f1GkHZegcAXI3NP%2BBBOEbCo3E34tavA9Cv3McytqaL8bKbo0ULV9JtI [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：1,798.52kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'user_friends',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'useragent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36',
+  'host' => 'www.525354.top',
+  'connection' => 'close',
+  'accept-language' => 'en-us,en',
+  'accept-encoding' => 'gzip',
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'index/user/user_friends_html' => '',
+  'nsukey' => 'okNdCUu4zHibZIzt8tG2PnTAoircgdt3PrcWsTSjsihiuwN1OUZzwniO2186xdL0ZWA5rsCJHj3lb9J4imoWQgJEkZJhBS23mcAtze/wjUyagcttKbMUDN0VbyGt1k2+337s1vhS8f1GkHZegcAXI3NP+BBOEbCo3E34tavA9Cv3McytqaL8bKbo0ULV9JtI',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\en-us.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:41:01+08:00 ] 172.31.179.54 117.185.27.103 GET /index/base/login.html
+[ log ] www.525354.top/index/base/login.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,727.50kb] [文件加载：51]
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-https' => '0',
+  'useragent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36',
+  'host' => 'www.525354.top',
+  'cookie' => 'think_var=en-us; PHPSESSID=ef74m00frlbjcvgbpsb2ri5hf1',
+  'connection' => 'close',
+  'accept-language' => 'en-us,en',
+  'accept-encoding' => 'gzip',
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\en-us.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:41:02+08:00 ] 172.31.179.54 117.136.7.234 GET /index/user/user_friends.html?nsukey=okNdCUu4zHibZIzt8tG2PnTAoircgdt3PrcWsTSjsihiuwN1OUZzwniO2186xdL0ZWA5rsCJHj3lb9J4imoWQgJEkZJhBS23mcAtze%2FwjUyagcttKbMUDN0VbyGt1k2%2B337s1vhS8f1GkHZegcAXI3NP%2BBBOEbCo3E34tavA9Cv3McytqaL8bKbo0ULV9JtI
+[ log ] www.525354.top/index/user/user_friends.html?nsukey=okNdCUu4zHibZIzt8tG2PnTAoircgdt3PrcWsTSjsihiuwN1OUZzwniO2186xdL0ZWA5rsCJHj3lb9J4imoWQgJEkZJhBS23mcAtze%2FwjUyagcttKbMUDN0VbyGt1k2%2B337s1vhS8f1GkHZegcAXI3NP%2BBBOEbCo3E34tavA9Cv3McytqaL8bKbo0ULV9JtI [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,903.55kb] [文件加载：57]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'user_friends',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 MicroMessenger/6.5.17 NetType/4G Language/zh_CN',
+  'cookie' => 'PHPSESSID=6veln8o0osggailfsap25k8i01; safedog-flow-item=; think_var=zh-cn',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'host' => 'www.525354.top',
+)
+[ info ] [ PARAM ] array (
+  'index/user/user_friends_html' => '',
+  'nsukey' => 'okNdCUu4zHibZIzt8tG2PnTAoircgdt3PrcWsTSjsihiuwN1OUZzwniO2186xdL0ZWA5rsCJHj3lb9J4imoWQgJEkZJhBS23mcAtze/wjUyagcttKbMUDN0VbyGt1k2+337s1vhS8f1GkHZegcAXI3NP+BBOEbCo3E34tavA9Cv3McytqaL8bKbo0ULV9JtI',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method user_friends ] {
+  @@ E:\www\dbgj\application\index\controller\User.php 430 - 473
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_friends.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'zjh',
+  3 => 'hys',
+  4 => 'lists',
+  5 => 'page',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:41:11+08:00 ] 172.31.179.54 101.226.125.18 GET /index/user/usercenter.html?nsukey=z%2BEgHZ0qtmNu7q4ED6%2FY31Vh3CPmdPxAa73dNqKFHR5k%2BtQUup8Q3Ejsw6xxIiPWq99K6T%2FQzBuWcV8dH%2BPMvgm80JYk%2B4fwHnY%2BFR%2F1%2BCYgMbwPI4VuizSmh9ntK6lFkIKfp%2BU%2B8OsjTnboaU%2F3dqpYG%2FZB9Bb3iZtJ79UK5UOOV1U%2BdbuRDlFB9tv5AKNa
+[ log ] www.525354.top/index/user/usercenter.html?nsukey=z%2BEgHZ0qtmNu7q4ED6%2FY31Vh3CPmdPxAa73dNqKFHR5k%2BtQUup8Q3Ejsw6xxIiPWq99K6T%2FQzBuWcV8dH%2BPMvgm80JYk%2B4fwHnY%2BFR%2F1%2BCYgMbwPI4VuizSmh9ntK6lFkIKfp%2BU%2B8OsjTnboaU%2F3dqpYG%2FZB9Bb3iZtJ79UK5UOOV1U%2BdbuRDlFB9tv5AKNa [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,803.46kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-requestfrom' => '0',
+  'x-openshield' => '0',
+  'x-openfrequencylimit' => '0',
+  'x-busid' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.107 Safari/534.13',
+  'host' => 'www.525354.top',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'index/user/usercenter_html' => '',
+  'nsukey' => 'z+EgHZ0qtmNu7q4ED6/Y31Vh3CPmdPxAa73dNqKFHR5k+tQUup8Q3Ejsw6xxIiPWq99K6T/QzBuWcV8dH+PMvgm80JYk+4fwHnY+FR/1+CYgMbwPI4VuizSmh9ntK6lFkIKfp+U+8OsjTnboaU/3dqpYG/ZB9Bb3iZtJ79UK5UOOV1U+dbuRDlFB9tv5AKNa',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:41:11+08:00 ] 172.31.179.54 101.226.125.18 GET /index/base/login.html
+[ log ] www.525354.top/index/base/login.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,732.98kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-requestfrom' => '0',
+  'x-openshield' => '0',
+  'x-openfrequencylimit' => '0',
+  'x-busid' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.107 Safari/534.13',
+  'referer' => 'http://www.525354.top/index/user/usercenter.html?nsukey=z%2BEgHZ0qtmNu7q4ED6%2FY31Vh3CPmdPxAa73dNqKFHR5k%2BtQUup8Q3Ejsw6xxIiPWq99K6T%2FQzBuWcV8dH%2BPMvgm80JYk%2B4fwHnY%2BFR%2F1%2BCYgMbwPI4VuizSmh9ntK6lFkIKfp%2BU%2B8OsjTnboaU%2F3dqpYG%2FZB9Bb3iZtJ79UK5UOOV1U%2BdbuRDlFB9tv5AKNa',
+  'host' => 'www.525354.top',
+  'cookie' => 'PHPSESSID=2ucfotne86odrgsfrkghh5ad80',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:41:11+08:00 ] 172.31.179.54 101.226.125.113 GET /index/user/usercenter.html?nsukey=z%2BEgHZ0qtmNu7q4ED6%2FY31Vh3CPmdPxAa73dNqKFHR5k%2BtQUup8Q3Ejsw6xxIiPWq99K6T%2FQzBuWcV8dH%2BPMvgm80JYk%2B4fwHnY%2BFR%2F1%2BCYgMbwPI4VuizSmh9ntK6lFkIKfp%2BU%2B8OsjTnboaU%2F3dqpYG%2FZB9Bb3iZtJ79UK5UOOV1U%2BdbuRDlFB9tv5AKNa
+[ log ] www.525354.top/index/user/usercenter.html?nsukey=z%2BEgHZ0qtmNu7q4ED6%2FY31Vh3CPmdPxAa73dNqKFHR5k%2BtQUup8Q3Ejsw6xxIiPWq99K6T%2FQzBuWcV8dH%2BPMvgm80JYk%2B4fwHnY%2BFR%2F1%2BCYgMbwPI4VuizSmh9ntK6lFkIKfp%2BU%2B8OsjTnboaU%2F3dqpYG%2FZB9Bb3iZtJ79UK5UOOV1U%2BdbuRDlFB9tv5AKNa [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,798.39kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'useragent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36',
+  'host' => 'www.525354.top',
+  'connection' => 'close',
+  'accept-language' => 'en-us,en',
+  'accept-encoding' => 'gzip',
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'index/user/usercenter_html' => '',
+  'nsukey' => 'z+EgHZ0qtmNu7q4ED6/Y31Vh3CPmdPxAa73dNqKFHR5k+tQUup8Q3Ejsw6xxIiPWq99K6T/QzBuWcV8dH+PMvgm80JYk+4fwHnY+FR/1+CYgMbwPI4VuizSmh9ntK6lFkIKfp+U+8OsjTnboaU/3dqpYG/ZB9Bb3iZtJ79UK5UOOV1U+dbuRDlFB9tv5AKNa',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\en-us.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:41:11+08:00 ] 172.31.179.54 117.185.24.151 GET /index/base/login.html
+[ log ] www.525354.top/index/base/login.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,727.50kb] [文件加载：51]
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-https' => '0',
+  'useragent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36',
+  'host' => 'www.525354.top',
+  'cookie' => 'think_var=en-us; PHPSESSID=uojcvd8bh6sjsltqshk72srr95',
+  'connection' => 'close',
+  'accept-language' => 'en-us,en',
+  'accept-encoding' => 'gzip',
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\en-us.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:41:12+08:00 ] 172.31.179.54 117.136.7.234 GET /index/user/usercenter.html?nsukey=z%2BEgHZ0qtmNu7q4ED6%2FY31Vh3CPmdPxAa73dNqKFHR5k%2BtQUup8Q3Ejsw6xxIiPWq99K6T%2FQzBuWcV8dH%2BPMvgm80JYk%2B4fwHnY%2BFR%2F1%2BCYgMbwPI4VuizSmh9ntK6lFkIKfp%2BU%2B8OsjTnboaU%2F3dqpYG%2FZB9Bb3iZtJ79UK5UOOV1U%2BdbuRDlFB9tv5AKNa
+[ log ] www.525354.top/index/user/usercenter.html?nsukey=z%2BEgHZ0qtmNu7q4ED6%2FY31Vh3CPmdPxAa73dNqKFHR5k%2BtQUup8Q3Ejsw6xxIiPWq99K6T%2FQzBuWcV8dH%2BPMvgm80JYk%2B4fwHnY%2BFR%2F1%2BCYgMbwPI4VuizSmh9ntK6lFkIKfp%2BU%2B8OsjTnboaU%2F3dqpYG%2FZB9Bb3iZtJ79UK5UOOV1U%2BdbuRDlFB9tv5AKNa [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：1,818.13kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 MicroMessenger/6.5.17 NetType/4G Language/zh_CN',
+  'cookie' => 'PHPSESSID=6veln8o0osggailfsap25k8i01; safedog-flow-item=; think_var=zh-cn',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'host' => 'www.525354.top',
+)
+[ info ] [ PARAM ] array (
+  'index/user/usercenter_html' => '',
+  'nsukey' => 'z+EgHZ0qtmNu7q4ED6/Y31Vh3CPmdPxAa73dNqKFHR5k+tQUup8Q3Ejsw6xxIiPWq99K6T/QzBuWcV8dH+PMvgm80JYk+4fwHnY+FR/1+CYgMbwPI4VuizSmh9ntK6lFkIKfp+U+8OsjTnboaU/3dqpYG/ZB9Bb3iZtJ79UK5UOOV1U+dbuRDlFB9tv5AKNa',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人中心
+     * @author  ILsunshine
+     */
+Method [ <user> public method userCenter ] {
+  @@ E:\www\dbgj\application\index\controller\User.php 39 - 67
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_center.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'zhscore',
+  3 => 's_score',
+  4 => 'ytixian',
+  5 => 'tuijianren',
+  6 => 'userInfo',
+  7 => 'hys',
+  8 => 'scoreorder',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:41:20+08:00 ] 172.31.179.54 101.226.99.196 GET /index/user/user_friends.html
+[ log ] www.525354.top/index/user/user_friends.html [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：1,797.70kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'user_friends',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'www.525354.top',
+  'accept-language' => 'en-US,*',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4',
+  'referer' => '',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'index/user/user_friends_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\en-us.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:41:20+08:00 ] 172.31.179.54 101.226.99.196 GET /index/base/login.html
+[ log ] www.525354.top/index/base/login.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,726.94kb] [文件加载：51]
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'www.525354.top',
+  'accept-language' => 'en-US,*',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'think_var=en-us; PHPSESSID=on0ghhf3rmh3392mh8h418h2a2',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4',
+  'referer' => '',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\en-us.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:41:58+08:00 ] 172.31.179.54 117.136.7.234 GET /index/common/logout.html
+[ log ] www.525354.top/index/common/logout.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,718.55kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'common',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://www.525354.top/index/user/usercenter.html?nsukey=z%2BEgHZ0qtmNu7q4ED6%2FY31Vh3CPmdPxAa73dNqKFHR5k%2BtQUup8Q3Ejsw6xxIiPWq99K6T%2FQzBuWcV8dH%2BPMvgm80JYk%2B4fwHnY%2BFR%2F1%2BCYgMbwPI4VuizSmh9ntK6lFkIKfp%2BU%2B8OsjTnboaU%2F3dqpYG%2FZB9Bb3iZtJ79UK5UOOV1U%2BdbuRDlFB9tv5AKNa',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 MicroMessenger/6.5.17 NetType/4G Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=6veln8o0osggailfsap25k8i01; safedog-flow-item=; think_var=zh-cn',
+  'host' => 'www.525354.top',
+)
+[ info ] [ PARAM ] array (
+  'index/common/logout_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 退出处理
+     */
+Method [ <user> public method logout ] {
+  @@ E:\www\dbgj\application\index\controller\Common.php 54 - 59
+}
+
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:44:53+08:00 ] 172.31.179.54 61.151.226.189 GET /index/base/login.html?nsukey=DZApHfj04vZfapEp3wTgizOB1liTFeYlmM%2BgEmQf6KI2KnLqg42w2TDv6GoBzSBIrxzkUPUUYrv%2BjutxGLPKipHPuR0w9OcH%2FsR%2FKwJKlvjr%2BWs5pZdpbA5HvgYZP0q4jQc7hAMbS0PZ9KUfPu%2FZmatDtJ4z34%2Bfjib4xGvCJKwwvq4z7n74%2BWPFCrcji%2BfJ
+[ log ] www.525354.top/index/base/login.html?nsukey=DZApHfj04vZfapEp3wTgizOB1liTFeYlmM%2BgEmQf6KI2KnLqg42w2TDv6GoBzSBIrxzkUPUUYrv%2BjutxGLPKipHPuR0w9OcH%2FsR%2FKwJKlvjr%2BWs5pZdpbA5HvgYZP0q4jQc7hAMbS0PZ9KUfPu%2FZmatDtJ4z34%2Bfjib4xGvCJKwwvq4z7n74%2BWPFCrcji%2BfJ [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,732.95kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'www.525354.top',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 MicroMessenger/6.5.5 NetType/WIFI Language/zh_CN',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+  'nsukey' => 'DZApHfj04vZfapEp3wTgizOB1liTFeYlmM+gEmQf6KI2KnLqg42w2TDv6GoBzSBIrxzkUPUUYrv+jutxGLPKipHPuR0w9OcH/sR/KwJKlvjr+Ws5pZdpbA5HvgYZP0q4jQc7hAMbS0PZ9KUfPu/ZmatDtJ4z34+fjib4xGvCJKwwvq4z7n74+WPFCrcji+fJ',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:45:11+08:00 ] 172.31.179.54 180.163.1.46 GET /?nsukey=%2F3TBNe5bR4HPDpvwBhUE03T625WaF4ACZFYiCK3auQN5lxD1k2lXvfoUmIUMk4wgwzg5vv3HfuEj25ddz3UoAKJ9D5JXdv%2FKnWsH7dXV52RMPgo2T3jlJ5l6PHLCsLmxNvXYVPMf56Gnij40tcjQBJO51TppjLB2I2WO%2BmU24pL508He6fsEBhUHnMdv8wln
+[ log ] www.525354.top/?nsukey=%2F3TBNe5bR4HPDpvwBhUE03T625WaF4ACZFYiCK3auQN5lxD1k2lXvfoUmIUMk4wgwzg5vv3HfuEj25ddz3UoAKJ9D5JXdv%2FKnWsH7dXV52RMPgo2T3jlJ5l6PHLCsLmxNvXYVPMf56Gnij40tcjQBJO51TppjLB2I2WO%2BmU24pL508He6fsEBhUHnMdv8wln [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：1,739.69kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'www.525354.top',
+  'accept-language' => 'en-US,*',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4',
+  'referer' => '',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'nsukey' => '/3TBNe5bR4HPDpvwBhUE03T625WaF4ACZFYiCK3auQN5lxD1k2lXvfoUmIUMk4wgwzg5vv3HfuEj25ddz3UoAKJ9D5JXdv/KnWsH7dXV52RMPgo2T3jlJ5l6PHLCsLmxNvXYVPMf56Gnij40tcjQBJO51TppjLB2I2WO+mU24pL508He6fsEBhUHnMdv8wln',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\en-us.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:45:11+08:00 ] 172.31.179.54 180.163.1.46 GET /index/base/login.html
+[ log ] www.525354.top/index/base/login.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,726.94kb] [文件加载：51]
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'www.525354.top',
+  'accept-language' => 'en-US,*',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'think_var=en-us; PHPSESSID=6cfthu87j1uqbj2cfnjiu4aco3',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4',
+  'referer' => '',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\en-us.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:46:00+08:00 ] 172.31.179.54 180.153.160.24 GET /index/user/user_friends.html
+[ log ] www.525354.top/index/user/user_friends.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,802.89kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'user_friends',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'www.525354.top',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.4; HUAWEI ALE-CL00 Build/HuaweiALE-CL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043024 Safari/537.36 MicroMessenger/6.5.4.1000 NetType/4G Language/zh_CN',
+)
+[ info ] [ PARAM ] array (
+  'index/user/user_friends_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:46:02+08:00 ] 172.31.179.54 180.153.160.24 GET /index/base/login.html
+[ log ] www.525354.top/index/base/login.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,732.48kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'www.525354.top',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'PHPSESSID=nj0d60ol7lr5ffjj317u3a6u16; think_var=zh-cn',
+  'referer' => 'http://www.525354.top/index/user/user_friends.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.4; HUAWEI ALE-CL00 Build/HuaweiALE-CL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043024 Safari/537.36 MicroMessenger/6.5.4.1000 NetType/4G Language/zh_CN',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:47:31+08:00 ] 172.31.179.54 123.151.64.201 GET /index/base/login.html?nsukey=DZApHfj04vZfapEp3wTgizOB1liTFeYlmM%2BgEmQf6KI2KnLqg42w2TDv6GoBzSBIrxzkUPUUYrv%2BjutxGLPKipHPuR0w9OcH%2FsR%2FKwJKlvjr%2BWs5pZdpbA5HvgYZP0q4jQc7hAMbS0PZ9KUfPu%2FZmatDtJ4z34%2Bfjib4xGvCJKwwvq4z7n74%2BWPFCrcji%2BfJ
+[ log ] www.525354.top/index/base/login.html?nsukey=DZApHfj04vZfapEp3wTgizOB1liTFeYlmM%2BgEmQf6KI2KnLqg42w2TDv6GoBzSBIrxzkUPUUYrv%2BjutxGLPKipHPuR0w9OcH%2FsR%2FKwJKlvjr%2BWs5pZdpbA5HvgYZP0q4jQc7hAMbS0PZ9KUfPu%2FZmatDtJ4z34%2Bfjib4xGvCJKwwvq4z7n74%2BWPFCrcji%2BfJ [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,727.81kb] [文件加载：51]
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'www.525354.top',
+  'accept-language' => 'en-US,*',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4',
+  'referer' => '',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+  'nsukey' => 'DZApHfj04vZfapEp3wTgizOB1liTFeYlmM+gEmQf6KI2KnLqg42w2TDv6GoBzSBIrxzkUPUUYrv+jutxGLPKipHPuR0w9OcH/sR/KwJKlvjr+Ws5pZdpbA5HvgYZP0q4jQc7hAMbS0PZ9KUfPu/ZmatDtJ4z34+fjib4xGvCJKwwvq4z7n74+WPFCrcji+fJ',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\en-us.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:48:40+08:00 ] 172.31.179.54 61.151.226.199 GET /index/user/user_friends.html
+[ log ] www.525354.top/index/user/user_friends.html [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：1,797.23kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'user_friends',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'www.525354.top',
+  'accept-language' => 'en,*',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4',
+  'referer' => '',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'index/user/user_friends_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T14:48:40+08:00 ] 172.31.179.54 61.151.226.199 GET /index/base/login.html
+[ log ] www.525354.top/index/base/login.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,726.51kb] [文件加载：50]
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'www.525354.top',
+  'accept-language' => 'en,*',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'think_var=en; PHPSESSID=ke2e3u2414j50gcvughlmbb8t6',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4',
+  'referer' => '',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T15:52:58+08:00 ] 172.31.179.54 101.226.102.145 GET /?nsukey=h0wOjZ9BpInm4jm%2FgqNbZmM2QV02HNrBYFfLSBKKe%2F%2FXGXVdzAqaoae3iERWHIpttCbqFWP2g8VF2U0Zune%2F52oR6DrGVSWqxM1R7HZJLtCjSocnbGZKLUtuqybo2L7Zf3SvMzzxivhcifR6Z5LuD5mHHs5sqmIWWMhGXf8jX%2F5xzuOivK4tbpXO%2Bhyn2UWy
+[ log ] www.525354.top/?nsukey=h0wOjZ9BpInm4jm%2FgqNbZmM2QV02HNrBYFfLSBKKe%2F%2FXGXVdzAqaoae3iERWHIpttCbqFWP2g8VF2U0Zune%2F52oR6DrGVSWqxM1R7HZJLtCjSocnbGZKLUtuqybo2L7Zf3SvMzzxivhcifR6Z5LuD5mHHs5sqmIWWMhGXf8jX%2F5xzuOivK4tbpXO%2Bhyn2UWy [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,744.78kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-requestfrom' => '0',
+  'x-openshield' => '0',
+  'x-openfrequencylimit' => '0',
+  'x-busid' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.107 Safari/534.13',
+  'host' => 'www.525354.top',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'nsukey' => 'h0wOjZ9BpInm4jm/gqNbZmM2QV02HNrBYFfLSBKKe//XGXVdzAqaoae3iERWHIpttCbqFWP2g8VF2U0Zune/52oR6DrGVSWqxM1R7HZJLtCjSocnbGZKLUtuqybo2L7Zf3SvMzzxivhcifR6Z5LuD5mHHs5sqmIWWMhGXf8jX/5xzuOivK4tbpXO+hyn2UWy',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T15:52:58+08:00 ] 172.31.179.54 101.226.102.145 GET /index/base/login.html
+[ log ] www.525354.top/index/base/login.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,732.86kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-requestfrom' => '0',
+  'x-openshield' => '0',
+  'x-openfrequencylimit' => '0',
+  'x-busid' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.107 Safari/534.13',
+  'referer' => 'http://www.525354.top/?nsukey=h0wOjZ9BpInm4jm%2FgqNbZmM2QV02HNrBYFfLSBKKe%2F%2FXGXVdzAqaoae3iERWHIpttCbqFWP2g8VF2U0Zune%2F52oR6DrGVSWqxM1R7HZJLtCjSocnbGZKLUtuqybo2L7Zf3SvMzzxivhcifR6Z5LuD5mHHs5sqmIWWMhGXf8jX%2F5xzuOivK4tbpXO%2Bhyn2UWy',
+  'host' => 'www.525354.top',
+  'cookie' => 'PHPSESSID=gljrn703gb45g883jiji4vg4q6',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T15:52:59+08:00 ] 172.31.179.54 101.226.125.121 GET /?nsukey=h0wOjZ9BpInm4jm%2FgqNbZmM2QV02HNrBYFfLSBKKe%2F%2FXGXVdzAqaoae3iERWHIpttCbqFWP2g8VF2U0Zune%2F52oR6DrGVSWqxM1R7HZJLtCjSocnbGZKLUtuqybo2L7Zf3SvMzzxivhcifR6Z5LuD5mHHs5sqmIWWMhGXf8jX%2F5xzuOivK4tbpXO%2Bhyn2UWy
+[ log ] www.525354.top/?nsukey=h0wOjZ9BpInm4jm%2FgqNbZmM2QV02HNrBYFfLSBKKe%2F%2FXGXVdzAqaoae3iERWHIpttCbqFWP2g8VF2U0Zune%2F52oR6DrGVSWqxM1R7HZJLtCjSocnbGZKLUtuqybo2L7Zf3SvMzzxivhcifR6Z5LuD5mHHs5sqmIWWMhGXf8jX%2F5xzuOivK4tbpXO%2Bhyn2UWy [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：1,740.02kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'useragent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36',
+  'host' => 'www.525354.top',
+  'connection' => 'close',
+  'accept-language' => 'en-us,en',
+  'accept-encoding' => 'gzip',
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'nsukey' => 'h0wOjZ9BpInm4jm/gqNbZmM2QV02HNrBYFfLSBKKe//XGXVdzAqaoae3iERWHIpttCbqFWP2g8VF2U0Zune/52oR6DrGVSWqxM1R7HZJLtCjSocnbGZKLUtuqybo2L7Zf3SvMzzxivhcifR6Z5LuD5mHHs5sqmIWWMhGXf8jX/5xzuOivK4tbpXO+hyn2UWy',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\en-us.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T15:52:59+08:00 ] 172.31.179.54 101.226.102.79 GET /
+[ log ] www.525354.top/ [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：1,744.00kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9b4) Gecko/2008030317 Firefox/3.0b4',
+  'q-ua' => 'KQB22_GA/220020&KMTT_3/200020&JV2&151920&SunMicrosystemswtk&0&4309&V3',
+  'host' => 'www.525354.top',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-charset' => 'gb2312,iso8859-1,utf-8',
+  'accept' => 'text/vnd.wap.wml,text/html,application/vnd.wap.xhtml+xml,application/xhtml+xml',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T15:52:59+08:00 ] 172.31.179.54 140.207.185.123 GET /
+[ log ] www.525354.top/ [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,743.87kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9b4) Gecko/2008030317 Firefox/3.0b4',
+  'q-ua' => 'KQB22_GA/220020&KMTT_3/200020&JV2&151920&SunMicrosystemswtk&0&4309&V3',
+  'host' => 'www.525354.top',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-charset' => 'gb2312,iso8859-1,utf-8',
+  'accept' => 'text/vnd.wap.wml,text/html,application/vnd.wap.xhtml+xml,application/xhtml+xml',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T15:53:07+08:00 ] 172.31.179.54 101.226.102.140 GET /?nsukey=h0wOjZ9BpInm4jm%2FgqNbZmM2QV02HNrBYFfLSBKKe%2F%2FXGXVdzAqaoae3iERWHIpttCbqFWP2g8VF2U0Zune%2F52oR6DrGVSWqxM1R7HZJLtCjSocnbGZKLUtuqybo2L7Zf3SvMzzxivhcifR6Z5LuD5mHHs5sqmIWWMhGXf8jX%2F5xzuOivK4tbpXO%2Bhyn2UWy
+[ log ] www.525354.top/?nsukey=h0wOjZ9BpInm4jm%2FgqNbZmM2QV02HNrBYFfLSBKKe%2F%2FXGXVdzAqaoae3iERWHIpttCbqFWP2g8VF2U0Zune%2F52oR6DrGVSWqxM1R7HZJLtCjSocnbGZKLUtuqybo2L7Zf3SvMzzxivhcifR6Z5LuD5mHHs5sqmIWWMhGXf8jX%2F5xzuOivK4tbpXO%2Bhyn2UWy [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,744.70kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-requestfrom' => '0',
+  'x-openshield' => '0',
+  'x-openfrequencylimit' => '0',
+  'x-busid' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.107 Safari/534.13',
+  'host' => 'www.525354.top',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'nsukey' => 'h0wOjZ9BpInm4jm/gqNbZmM2QV02HNrBYFfLSBKKe//XGXVdzAqaoae3iERWHIpttCbqFWP2g8VF2U0Zune/52oR6DrGVSWqxM1R7HZJLtCjSocnbGZKLUtuqybo2L7Zf3SvMzzxivhcifR6Z5LuD5mHHs5sqmIWWMhGXf8jX/5xzuOivK4tbpXO+hyn2UWy',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T15:53:07+08:00 ] 172.31.179.54 101.226.102.140 GET /index/base/login.html
+[ log ] www.525354.top/index/base/login.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,732.86kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-requestfrom' => '0',
+  'x-openshield' => '0',
+  'x-openfrequencylimit' => '0',
+  'x-busid' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.107 Safari/534.13',
+  'referer' => 'http://www.525354.top/?nsukey=h0wOjZ9BpInm4jm%2FgqNbZmM2QV02HNrBYFfLSBKKe%2F%2FXGXVdzAqaoae3iERWHIpttCbqFWP2g8VF2U0Zune%2F52oR6DrGVSWqxM1R7HZJLtCjSocnbGZKLUtuqybo2L7Zf3SvMzzxivhcifR6Z5LuD5mHHs5sqmIWWMhGXf8jX%2F5xzuOivK4tbpXO%2Bhyn2UWy',
+  'host' => 'www.525354.top',
+  'cookie' => 'PHPSESSID=koatgdd57v0dj27ji00unmmf16',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T15:53:07+08:00 ] 172.31.179.54 101.226.102.76 GET /?nsukey=h0wOjZ9BpInm4jm%2FgqNbZmM2QV02HNrBYFfLSBKKe%2F%2FXGXVdzAqaoae3iERWHIpttCbqFWP2g8VF2U0Zune%2F52oR6DrGVSWqxM1R7HZJLtCjSocnbGZKLUtuqybo2L7Zf3SvMzzxivhcifR6Z5LuD5mHHs5sqmIWWMhGXf8jX%2F5xzuOivK4tbpXO%2Bhyn2UWy
+[ log ] www.525354.top/?nsukey=h0wOjZ9BpInm4jm%2FgqNbZmM2QV02HNrBYFfLSBKKe%2F%2FXGXVdzAqaoae3iERWHIpttCbqFWP2g8VF2U0Zune%2F52oR6DrGVSWqxM1R7HZJLtCjSocnbGZKLUtuqybo2L7Zf3SvMzzxivhcifR6Z5LuD5mHHs5sqmIWWMhGXf8jX%2F5xzuOivK4tbpXO%2Bhyn2UWy [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,740.02kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'useragent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36',
+  'host' => 'www.525354.top',
+  'connection' => 'close',
+  'accept-language' => 'en-us,en',
+  'accept-encoding' => 'gzip',
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'nsukey' => 'h0wOjZ9BpInm4jm/gqNbZmM2QV02HNrBYFfLSBKKe//XGXVdzAqaoae3iERWHIpttCbqFWP2g8VF2U0Zune/52oR6DrGVSWqxM1R7HZJLtCjSocnbGZKLUtuqybo2L7Zf3SvMzzxivhcifR6Z5LuD5mHHs5sqmIWWMhGXf8jX/5xzuOivK4tbpXO+hyn2UWy',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\en-us.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T15:53:26+08:00 ] 172.31.179.54 101.226.33.218 GET /?nsukey=h0wOjZ9BpInm4jm%2FgqNbZmM2QV02HNrBYFfLSBKKe%2F%2FXGXVdzAqaoae3iERWHIpttCbqFWP2g8VF2U0Zune%2F52oR6DrGVSWqxM1R7HZJLtCjSocnbGZKLUtuqybo2L7Zf3SvMzzxivhcifR6Z5LuD5mHHs5sqmIWWMhGXf8jX%2F5xzuOivK4tbpXO%2Bhyn2UWy
+[ log ] www.525354.top/?nsukey=h0wOjZ9BpInm4jm%2FgqNbZmM2QV02HNrBYFfLSBKKe%2F%2FXGXVdzAqaoae3iERWHIpttCbqFWP2g8VF2U0Zune%2F52oR6DrGVSWqxM1R7HZJLtCjSocnbGZKLUtuqybo2L7Zf3SvMzzxivhcifR6Z5LuD5mHHs5sqmIWWMhGXf8jX%2F5xzuOivK4tbpXO%2Bhyn2UWy [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：1,739.46kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'www.525354.top',
+  'accept-language' => 'en,*',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4',
+  'referer' => '',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'nsukey' => 'h0wOjZ9BpInm4jm/gqNbZmM2QV02HNrBYFfLSBKKe//XGXVdzAqaoae3iERWHIpttCbqFWP2g8VF2U0Zune/52oR6DrGVSWqxM1R7HZJLtCjSocnbGZKLUtuqybo2L7Zf3SvMzzxivhcifR6Z5LuD5mHHs5sqmIWWMhGXf8jX/5xzuOivK4tbpXO+hyn2UWy',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T15:53:26+08:00 ] 172.31.179.54 101.226.33.218 GET /index/base/login.html
+[ log ] www.525354.top/index/base/login.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,726.51kb] [文件加载：50]
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'www.525354.top',
+  'accept-language' => 'en,*',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'think_var=en; PHPSESSID=9otp89q2c7bleh3rg2gtv8le05',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4',
+  'referer' => '',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T15:53:29+08:00 ] 172.31.179.54 117.136.7.234 GET /?nsukey=JwBVODIbZsd1DxibNGuLePSr0NOXAYpohQ1A3MuSAha5mJWrtf2dQp4BrABGN%2F%2FGetEIX7nVL0mixtaAb9p%2Bw5M%2Fj8L%2BsOn3cbLVKcjkcRcCfnlEkC8twTmLTAH1pXarMK%2FGrSX1Fltl6lCt%2Ft6jYt8hOZZlobFRoelVmuqY2djjX9I8KfsxLqhuBR8QP1YB
+[ log ] www.525354.top/?nsukey=JwBVODIbZsd1DxibNGuLePSr0NOXAYpohQ1A3MuSAha5mJWrtf2dQp4BrABGN%2F%2FGetEIX7nVL0mixtaAb9p%2Bw5M%2Fj8L%2BsOn3cbLVKcjkcRcCfnlEkC8twTmLTAH1pXarMK%2FGrSX1Fltl6lCt%2Ft6jYt8hOZZlobFRoelVmuqY2djjX9I8KfsxLqhuBR8QP1YB [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：1,745.41kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 MicroMessenger/6.5.17 NetType/4G Language/zh_CN',
+  'cookie' => 'PHPSESSID=6veln8o0osggailfsap25k8i01; safedog-flow-item=',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'host' => 'www.525354.top',
+)
+[ info ] [ PARAM ] array (
+  'nsukey' => 'JwBVODIbZsd1DxibNGuLePSr0NOXAYpohQ1A3MuSAha5mJWrtf2dQp4BrABGN//GetEIX7nVL0mixtaAb9p+w5M/j8L+sOn3cbLVKcjkcRcCfnlEkC8twTmLTAH1pXarMK/GrSX1Fltl6lCt/t6jYt8hOZZlobFRoelVmuqY2djjX9I8KfsxLqhuBR8QP1YB',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T15:58:20+08:00 ] 172.31.179.54 101.226.66.172 GET /?nsukey=JwBVODIbZsd1DxibNGuLePSr0NOXAYpohQ1A3MuSAha5mJWrtf2dQp4BrABGN%2F%2FGetEIX7nVL0mixtaAb9p%2Bw5M%2Fj8L%2BsOn3cbLVKcjkcRcCfnlEkC8twTmLTAH1pXarMK%2FGrSX1Fltl6lCt%2Ft6jYt8hOZZlobFRoelVmuqY2djjX9I8KfsxLqhuBR8QP1YB
+[ log ] www.525354.top/?nsukey=JwBVODIbZsd1DxibNGuLePSr0NOXAYpohQ1A3MuSAha5mJWrtf2dQp4BrABGN%2F%2FGetEIX7nVL0mixtaAb9p%2Bw5M%2Fj8L%2BsOn3cbLVKcjkcRcCfnlEkC8twTmLTAH1pXarMK%2FGrSX1Fltl6lCt%2Ft6jYt8hOZZlobFRoelVmuqY2djjX9I8KfsxLqhuBR8QP1YB [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,739.46kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'www.525354.top',
+  'accept-language' => 'en,*',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4',
+  'referer' => '',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'nsukey' => 'JwBVODIbZsd1DxibNGuLePSr0NOXAYpohQ1A3MuSAha5mJWrtf2dQp4BrABGN//GetEIX7nVL0mixtaAb9p+w5M/j8L+sOn3cbLVKcjkcRcCfnlEkC8twTmLTAH1pXarMK/GrSX1Fltl6lCt/t6jYt8hOZZlobFRoelVmuqY2djjX9I8KfsxLqhuBR8QP1YB',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T15:58:20+08:00 ] 172.31.179.54 101.226.66.172 GET /index/base/login.html
+[ log ] www.525354.top/index/base/login.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,726.51kb] [文件加载：50]
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'www.525354.top',
+  'accept-language' => 'en,*',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'think_var=en; PHPSESSID=3268e7i3asug65pg3b8khnomg6',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4',
+  'referer' => '',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T20:18:56+08:00 ] 172.31.179.54 202.173.11.239 GET /
+[ log ] www.525354.top/ [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,744.57kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'dnt' => '1',
+  'connection' => 'close',
+  'referer' => 'http://www.525354.top',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'host' => 'www.525354.top',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T20:18:56+08:00 ] 172.31.179.54 202.173.11.239 GET /index/base/login.html
+[ log ] www.525354.top/index/base/login.html [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：1,732.73kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'dnt' => '1',
+  'connection' => 'close',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=509cb1tbfl1inkucutp15oequ1',
+  'referer' => 'http://www.525354.top/index/base/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'host' => 'www.525354.top',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T23:03:14+08:00 ] 172.31.179.54 1.58.120.181 GET /index/user/usercenter.html
+[ log ] www.525354.top/index/user/usercenter.html [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,818.30kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.android.browser',
+  'cookie' => 'PHPSESSID=8bve2tii6u6s85knt11gbr2ro2; safedog-flow-item=',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 6.0.1;zh_cn; Le X520 Build/IEXCNFN5902605131S) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 Chrome/49.0.2623.91 Mobile Safari/537.36 EUI Browser/1.3.2.39',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.525354.top',
+)
+[ info ] [ PARAM ] array (
+  'index/user/usercenter_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人中心
+     * @author  ILsunshine
+     */
+Method [ <user> public method userCenter ] {
+  @@ E:\www\dbgj\application\index\controller\User.php 39 - 67
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_center.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'zhscore',
+  3 => 's_score',
+  4 => 'ytixian',
+  5 => 'tuijianren',
+  6 => 'userInfo',
+  7 => 'hys',
+  8 => 'scoreorder',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T23:03:15+08:00 ] 172.31.179.54 1.58.120.181 GET /favicon.ico
+[ log ] www.525354.top/favicon.ico [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：1,410.22kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.android.browser',
+  'cookie' => 'PHPSESSID=8bve2tii6u6s85knt11gbr2ro2; safedog-flow-item=; think_var=zh-cn',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.525354.top/index/user/usercenter.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 6.0.1;zh_cn; Le X520 Build/IEXCNFN5902605131S) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 Chrome/49.0.2623.91 Mobile Safari/537.36 EUI Browser/1.3.2.39',
+  'connection' => 'close',
+  'host' => 'www.525354.top',
+)
+[ info ] [ PARAM ] array (
+  'favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T23:03:23+08:00 ] 172.31.179.54 112.65.193.15 GET /index/user/usercenter.html
+[ log ] www.525354.top/index/user/usercenter.html [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：1,802.80kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'www.525354.top',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM801 Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko)     		Chrome/46.0.2490.11 Mobile Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'index/user/usercenter_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T23:03:23+08:00 ] 172.31.179.54 112.65.193.15 GET /index/base/login.html
+[ log ] www.525354.top/index/base/login.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,732.30kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'www.525354.top',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cookie' => 'PHPSESSID=6jqi5uh46b5qd66ec1c9rjku51; think_var=zh-cn',
+  'referer' => 'http://www.525354.top/index/user/usercenter.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM801 Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko)     		Chrome/46.0.2490.11 Mobile Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T23:03:26+08:00 ] 172.31.179.54 101.226.33.221 GET /index/user/usercenter.html
+[ log ] www.525354.top/index/user/usercenter.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,797.31kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'www.525354.top',
+  'accept-language' => 'en,*',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4',
+  'referer' => '',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'index/user/usercenter_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-09-21T23:03:26+08:00 ] 172.31.179.54 101.226.33.221 GET /index/base/login.html
+[ log ] www.525354.top/index/base/login.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,726.51kb] [文件加载：50]
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'www.525354.top',
+  'accept-language' => 'en,*',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'think_var=en; PHPSESSID=e7bj3kucdlalsrqesthucmob07',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4',
+  'referer' => '',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------

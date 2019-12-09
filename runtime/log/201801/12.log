@@ -1,0 +1,121 @@
+[ 2018-01-12T11:00:51+08:00 ] 172.31.179.54 113.4.184.19 GET /favicon.ico
+[ log ] dbgj.hoonking.com/favicon.ico [è¿è¡Œæ—¶é—´ï¼š0.078125s][åžåçŽ‡ï¼š12.80req/s] [å†…å­˜æ¶ˆè€—ï¼š1,766.05kb] [æ–‡ä»¶åŠ è½½ï¼š41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-01-12T15:58:52+08:00 ] 172.31.179.54 106.120.161.66 GET /
+[ log ] dbgj.hoonking.com/ [è¿è¡Œæ—¶é—´ï¼š0.109375s][åžåçŽ‡ï¼š9.14req/s] [å†…å­˜æ¶ˆè€—ï¼š2,187.55kb] [æ–‡ä»¶åŠ è½½ï¼š54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'referer' => 'http://dbgj.hoonking.com/',
+  'host' => 'dbgj.hoonking.com',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Tablet PC 2.0)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-01-12T15:59:18+08:00 ] 172.31.179.54 101.199.112.45 GET /
+[ log ] dbgj.hoonking.com/ [è¿è¡Œæ—¶é—´ï¼š0.109375s][åžåçŽ‡ï¼š9.14req/s] [å†…å­˜æ¶ˆè€—ï¼š2,235.19kb] [æ–‡ä»¶åŠ è½½ï¼š58]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 5.0.2; zh-CN; Redmi Note 3 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 OPR/11.2.3.102637 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+[ error ] [4]è¯­æ³•é”™è¯¯: unexpected '}'[xÚíTën£F~™HÞühÄ%i‚RWÅ8Æƒ‰Áæ2?vƒ=Æ—Ô‡ïHb§Rß H–a.g¾ó]æ&™N’üP|ÿñ}r…Õþ÷ûûœñþÛ{7ùãï?\'w7æør{7™N_¬ùt:y¾éû~:ùíÿçòLžÿÚ7!ûöÎb¼XœltV‡®ÒcS Ì.‰<«Ÿ°ot‘lô(iSCåk[2’aJ‡ýYCr»Œ2R˜Zú¨eXŒ2K=¥FKûD^bk4%’[ã±Çª äkMMC_¥oŽš›}ÐiWG™+]K%¯¹çNêÙ<™ùÊ¯VšcÃy–-‡¹ªâuôEõ3CsÖx‹_¾l5ô‹ÅåéŒE9ô”žyÑ¬å
+Îž)¯y•]éâ¥p<CŸÙS…4›÷×ÇKT™[µ|íT8gVâ„RäØEà=¤‘¾£œOaýçØ›3Ëˆ¤œBIi±w_:k×°7Êm)ðÚâ½·ò¿ÎCóð[¡H{¹ô¦±G Ñ ÀQì5ÒØƒ¾ö°)(Z
+cËFë;8÷xŒ2»ÂçÓbðn‰Ôˆk”€N”É¡Î`žqæ6ÐÛçY+çý¬—œGÐTd‘ì
+«K¿€x¯µYŸŠsƒÞæà²³¸G 6ðRãì‰ó}óµâK®àK"‹õÅë!p®0mAÿÔbÀgXZx þ:1]
+
+---------------------------------------------------------------
+[ 2018-01-12T23:45:58+08:00 ] 172.31.179.54 115.201.80.112 GET /favicon.ico
+[ log ] dbgj.hoonking.com/favicon.ico [è¿è¡Œæ—¶é—´ï¼š0.078125s][åžåçŽ‡ï¼š12.80req/s] [å†…å­˜æ¶ˆè€—ï¼š1,766.06kb] [æ–‡ä»¶åŠ è½½ï¼š41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dbgj.hoonking.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------

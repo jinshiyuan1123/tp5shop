@@ -1,0 +1,45 @@
+/**
+ * 首页轮播图
+ */
+.banner_wrap{padding: .2rem;}
+#banner {width: 100%;overflow: hidden;position: relative;border-radius: 6px;}
+#banner .swiper-slide {position: relative;text-align: center;}
+#banner img {width: 100%;display: block;border-radius: 6px;}
+.pagination {position: absolute;z-index: 20;	width: 66px;text-align: center;right: 0;}
+.swiper-pagination-bullet {display: inline-block;width: 8px;height: 8px;border-radius: 5px;background: #fff;margin: 0 2px;opacity: 0.8;cursor: pointer;}
+.swiper-pagination-bullet-active {background: #8F21F5;}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {left: 0;width: 100%;}
+
+.title img,.title span{vertical-align: middle;}
+.equities .title img,.finance_area .title img{width: 4px;margin-right: 5px;}
+.links_wrap{padding:0 .2rem .2rem;border-bottom: 1px #f0f0f0 solid;}
+.links img{display: block;width: 100%;border-radius: 6px;}
+.links{padding-right: .2rem;}
+.links a{float: left;width: 50%;margin-right: .2rem;margin-top: .2rem;}
+.links a:nth-of-type(2n){margin-right: -.2rem;}
+
+.equities{padding: .2rem;}
+.equities .title{padding-bottom: .2rem;}
+.equities .img-block{display: block;width: 100%;border-radius: 6px;}
+
+/**
+ * 个人中心
+ */
+.user_bg{background: url(../img/banner.png) no-repeat;background-size: 100% 100%;min-height: 2.3rem;
+padding-top: .3rem;text-align: center;color: #fff;}
+.user_bg img{width: 1rem;height:1rem;border-radius: 50%;}
+
+.user_infor_wrap{margin-top: -30px;}
+.user_infor_wrap .user_infor_inner{padding: 0 .3rem;}
+.user_infor_wrap .user_infor{background: #fff;padding: .2rem 0;display: flex;border-radius: 6px;box-shadow:0px 2px 5px #ccc;}
+.user_infor_wrap .user_infor div{text-align: center;flex: 1;}
+.user_infor_wrap .user_infor div:first-child{border-right: 1px #f8f8f8 solid;}
+.areas{margin: .2rem 0;background: #fff;}
+.areas .title{padding:.1rem  .2rem;border-bottom: 1px #f8f8f8 solid;}
+.areas .title img{width: .3rem;margin-right: 5px;}
+.areas a{float: left;width: 50%;text-align: center;padding: .2rem;box-sizing: border-box;display: block;border-right: 1px #f8f8f8 solid;}
+.areas a:nth-of-type(2n){border-right: 0;}
+.areas a img{width: .8rem;display: block;margin: auto;}
+
+.weui-cell__bd img,.weui-cell__bd span{vertical-align: middle;}
+.weui-cell__bd img{width: .5rem;}

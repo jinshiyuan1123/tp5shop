@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>转赠</title>
+
+<link rel=stylesheet type=text/css href="{:config('theme_path')}/index/new/css/user_tixian.css" />
+<script type="text/javascript" src="{:config('theme_path')}/index/new/js/user_tixian.js"></script>
+<style type="text/css">
+.jl_tj{ width:99%; height:38px;line-height:38px; text-align:center; display:block; background:#fff; border:1px #E7E7E7 solid; color:#000; cursor:pointer; font-size:1.4em;border-radius:3px; }
+.jl_tj:hover{ opacity:0.8; }
+.jl_tj2{ width:100%; height:38px;line-height:38px; text-align:center; display:block; background:#EC1A5B;  color:#fff; cursor:pointer; font-size:1.4em;border-radius:3px; }
+.jl_tj2:hover{ opacity:0.8; }
+.register_dl{ width:100%; height:45px; background:#EC1A5B;border:0; color:#FFFFFF; font-weight:500;font-family:Microsoft YaHei;  cursor:pointer; font-size:18px;border-radius:2px; }
+.register_dl:hover{ opacity:0.8; }
+.tijiao{ width:80px; height:37px; background:#EC1A5B;border:0; color:#FFFFFF; cursor:pointer; font-size:16px; }
+.tijiao:hover{ opacity:0.8; }
+.register_tc{ background:#fff; border:1px #E7E7E7 solid; margin:0 10px 0 10px;text-align:center;margin-top:10px;margin-bottom:10px;padding:12px;border-radius:3px; }
+.register_tc a{font-size:16px; color:#EC1A5B;}
+.register_tc:hover{ opacity:0.8; }
+.nr img{ width:300px;}
+ .wxts{font-size: 14px;margin:10px;line-height: 24px}input{cursor: pointer; -webkit-appearance: none;}
+</style>
+</head>
+<body><script>
+function cbCheckForm(input,$form){
+    var mobile     =$("#mobile").val();
+    var zzfs      =$("#zzfs").val();
+    var dlmm      =$("#dlmm").val();
+    $('#tijiao').val('提交中...');
+    if($('#tijiao').attr('ftj')==1){
+      alert('转赠中');
+      return false;
+    }
+    $('#tijiao').attr('ftj',1);
+  $.ajax({
+     type:'post',
+     url:"{:url('user/turnadd')}",
+     data:{"mobile":mobile,"zzfs":zzfs,"dlmm":dlmm},
+     dataType:'json',
+     success: function(data) {
+            if (data.code) {
+              alert(data.msg,data.url);
+            } else {
+              alert(data.msg);
+              $('#tijiao').val('确认转赠');
+              $('#tijiao').attr('ftj',0);
+            }
+        }
+  });
+  
+
+}
+</script>
+<div class="yingdao" align="center">
+  <p><b>提现</b><a href="javascript:;" onclick="history.back()" title="返回" class="left"></a><a href="{:url('user/usercenter')}" title="会员中心" class="right"></a> </p></div>  
+   <div class="admin_xfl">
+                    <ul>
+            <li > <a href="{:url('user/user_withdrawal')}" class="on">转赠</a> </li>
+            <li > <a href="{:url('user/score_detail')}" >{$tyjfmc}明细</a> </li>
+                    </ul>
+                </div>
+   <div class="p15" style="margin-top:-35px">
+  <div class="register">
+   <form onSubmit="return checkForm($(this),cbCheckForm)" action="">
+       <table border="0" width="100%" cellpadding="0" cellspacing="0" >
+                           
+             <tr height="20">
+                            <td  align="left"></td></tr>
+                          <tr height="40">
+                            <td width="230" align="left" class="ddinput">可转{$tyjfmc}：<font color="#FF0000"><B>
+                            {$kzjf}</b></font> {:config('web_score_danwei')}</td>
+                            </tr>
+              <tr height="40">
+                            <!--<td  height="35" align="left" class="ddinput">转赠要求（<span style="font-size:16px">最多可转<font color="#FF0000"><B>{$kzjf}</b></font> {:config('web_score_danwei')}）</span></td>--></tr>
+             {if condition="$userInfo['settlement_time']>0"} 
+              <tr height="40">
+                            <td  height="35" align="left" class="ddinput">增涨完成时间（<span style="font-size:14px"><font color="#FF0000"><B>{php}echo date('Y-m-d H:i:s',$userInfo['settlement_time']-60*60*24){/php}</b></font>）</span></td></tr>
+              {/if}              
+              <tr height="40">
+                            <td  height="35" align="left">接收人手机号码</td></tr>
+     <tr>
+                            <td align="left"><input id="mobile" type="text" class="ddinput" placeholder="请输入手机号码" value="" dd-required /></td>
+                          </tr>
+              <tr height="40">
+                            <td  height="35" align="left">填写转赠{:config('web_score_danwei')}数</td></tr>
+     <tr>
+                            <td align="left"><input id="zzfs" type="text" class="ddinput"  name="jifenbao" placeholder="单笔可转{$score_c}{:config('web_score_danwei')}" value="" dd-type="num" dd-required /></td>
+                          </tr>
+ <tr height="40">
+                            <td  height="35" align="left">会员登陆密码</td></tr>
+    <tr height="40">
+                            <td align="left"><input id="dlmm"  class="ddinput" value="" placeholder="输入登录密码" dd-required type="password"></td>
+                          </tr>
+              <tr height="40">
+                            <td height="90" colspan="3" align="left">
+<input type="submit" value="确认转赠" id="tijiao" class="register_dl"/></td>
+                          </tr>
+                   </table>
+   </form>
+         <div class="wxts">
+温馨提示：<br>
+1.{$tyjfmc}增涨以24小时为一个时间段，未到24小时，则当前时间段所增涨的{$tyjfmc}不可用！ <br>2.新转入{$tyjfmc}需等待{$web_score_bkzc}分钟才能转出！ 　
+    </div>
+</div>   </div>    
+{template file="index/footer.html" /}
+
+</body></html>

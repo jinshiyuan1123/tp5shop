@@ -1,0 +1,525 @@
+[ 2018-02-06T18:20:05+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php
+[ log ] 127.0.0.1:815/admin.php [运行时间：0.476000s][吞吐率：2.10req/s] [内存消耗：2,167.90kb] [文件加载：51]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\ceshi\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:815',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=q1qg80bpjtr627v0jdr3ajog20; __guid=96992031.1205516503173712400.1517912383541.7053; monitor_count=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\ceshi\dbgj/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-02-06T18:20:05+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/base/login.html
+[ log ] 127.0.0.1:815/admin.php/base/login.html [运行时间：0.126000s][吞吐率：7.94req/s] [内存消耗：2,093.44kb] [文件加载：48]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\ceshi\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:815',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=q1qg80bpjtr627v0jdr3ajog20; __guid=96992031.1205516503173712400.1517912383541.7053; monitor_count=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\ceshi\dbgj/application/admin\lang\zh-cn.php
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  tangtanglove <dai_hang_love@126.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\ceshi\dbgj\application\admin\controller\Base.php 37 - 71
+}
+
+[ info ] [ VIEW ] E:\ceshi\dbgj/application/admin\view\base\login.html [ array (
+  0 => 'tyjfmc',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-02-06T18:20:05+08:00 ] 127.0.0.1 127.0.0.1 GET /static/bootstrap/css/font-awesome.min.css
+[ log ] 127.0.0.1:815/static/bootstrap/css/font-awesome.min.css [运行时间：0.282000s][吞吐率：3.55req/s] [内存消耗：1,774.46kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\ceshi\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'bootstrap',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:815',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://127.0.0.1:815/admin.php/base/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=q1qg80bpjtr627v0jdr3ajog20; __guid=96992031.1205516503173712400.1517912383541.7053; monitor_count=2',
+)
+[ info ] [ PARAM ] array (
+  'static/bootstrap/css/font-awesome_min_css' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-02-06T18:20:05+08:00 ] 127.0.0.1 127.0.0.1 GET /static/bootstrap/css/ionicons.min.css
+[ log ] 127.0.0.1:815/static/bootstrap/css/ionicons.min.css [运行时间：0.262000s][吞吐率：3.82req/s] [内存消耗：1,774.41kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\ceshi\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'bootstrap',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:815',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://127.0.0.1:815/admin.php/base/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=q1qg80bpjtr627v0jdr3ajog20; __guid=96992031.1205516503173712400.1517912383541.7053; monitor_count=2',
+)
+[ info ] [ PARAM ] array (
+  'static/bootstrap/css/ionicons_min_css' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-02-06T18:20:05+08:00 ] 127.0.0.1 127.0.0.1 GET /static/plugins/iCheck/square/blue.css
+[ log ] 127.0.0.1:815/static/plugins/iCheck/square/blue.css [运行时间：0.114000s][吞吐率：8.77req/s] [内存消耗：1,774.62kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\ceshi\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'plugins',
+    2 => 'iCheck',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:815',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://127.0.0.1:815/admin.php/base/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=q1qg80bpjtr627v0jdr3ajog20; __guid=96992031.1205516503173712400.1517912383541.7053; monitor_count=2',
+)
+[ info ] [ PARAM ] array (
+  'static/plugins/iCheck/square/blue_css' => '',
+  'square' => 'blue.css',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-02-06T18:20:06+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/base/captcha.html
+[ log ] 127.0.0.1:815/admin.php/base/captcha.html [运行时间：0.540000s][吞吐率：1.85req/s] [内存消耗：2,142.50kb] [文件加载：48]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\ceshi\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'base',
+    2 => 'captcha',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:815',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:815/admin.php/base/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=q1qg80bpjtr627v0jdr3ajog20; __guid=96992031.1205516503173712400.1517912383541.7053; monitor_count=3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\ceshi\dbgj/application/admin\lang\zh-cn.php
+[ info ] [ RUN ] /**
+     * 系统验证码方法
+     * @author  tangtanglove <dai_hang_love@126.com>
+     */
+Method [ <user> public method captcha ] {
+  @@ E:\ceshi\dbgj\application\admin\controller\Base.php 77 - 81
+}
+
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-02-06T18:20:06+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] 127.0.0.1:815/favicon.ico [运行时间：0.058000s][吞吐率：17.24req/s] [内存消耗：1,774.22kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\ceshi\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:815',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:815/admin.php/base/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=q1qg80bpjtr627v0jdr3ajog20; __guid=96992031.1205516503173712400.1517912383541.7053; monitor_count=3',
+)
+[ info ] [ PARAM ] array (
+  'favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-02-06T18:20:14+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/base/captcha.html?rand=0.7615204155388651
+[ log ] 127.0.0.1:815/admin.php/base/captcha.html?rand=0.7615204155388651 [运行时间：0.092000s][吞吐率：10.87req/s] [内存消耗：2,142.75kb] [文件加载：48]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\ceshi\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'base',
+    2 => 'captcha',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:815',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:815/admin.php/base/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=q1qg80bpjtr627v0jdr3ajog20; __guid=96992031.1205516503173712400.1517912383541.7053; monitor_count=3',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.7615204155388651',
+)
+[ info ] [ LANG ] E:\ceshi\dbgj/application/admin\lang\zh-cn.php
+[ info ] [ RUN ] /**
+     * 系统验证码方法
+     * @author  tangtanglove <dai_hang_love@126.com>
+     */
+Method [ <user> public method captcha ] {
+  @@ E:\ceshi\dbgj\application\admin\controller\Base.php 77 - 81
+}
+
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-02-06T18:20:18+08:00 ] 127.0.0.1 127.0.0.1 POST /admin.php/base/login.html
+[ log ] 127.0.0.1:815/admin.php/base/login.html [运行时间：0.173000s][吞吐率：5.78req/s] [内存消耗：2,380.94kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\ceshi\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:815',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://127.0.0.1:815',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://127.0.0.1:815/admin.php/base/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=q1qg80bpjtr627v0jdr3ajog20; __guid=96992031.1205516503173712400.1517912383541.7053; monitor_count=3',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '43',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'captcha' => 'praz',
+)
+[ info ] [ LANG ] E:\ceshi\dbgj/application/admin\lang\zh-cn.php
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  tangtanglove <dai_hang_love@126.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\ceshi\dbgj\application\admin\controller\Base.php 37 - 71
+}
+
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-02-06T18:20:20+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/index/index.html
+[ log ] 127.0.0.1:815/admin.php/index/index.html [运行时间：0.354000s][吞吐率：2.82req/s] [内存消耗：2,267.31kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\ceshi\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:815',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:815/admin.php/base/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=q1qg80bpjtr627v0jdr3ajog20; __guid=96992031.1205516503173712400.1517912383541.7053; monitor_count=3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\ceshi\dbgj/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ E:\ceshi\dbgj\application\admin\controller\Index.php 21 - 40
+}
+
+[ info ] [ VIEW ] E:\ceshi\dbgj/application/admin\view\index\index.html [ array (
+  0 => 'menuTree',
+  1 => 'order_num',
+  2 => 'tixian',
+  3 => 'jh_num',
+  4 => 'wjh_num',
+  5 => 'zjf_num',
+  6 => 'user_num',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-02-06T18:20:38+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/config/edit.html
+[ log ] 127.0.0.1:815/admin.php/config/edit.html [运行时间：0.221000s][吞吐率：4.52req/s] [内存消耗：2,273.84kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\ceshi\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:815',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:815/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=q1qg80bpjtr627v0jdr3ajog20; __guid=96992031.1205516503173712400.1517912383541.7053; monitor_count=6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\ceshi\dbgj/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 系统配置
+     */
+Method [ <user> public method edit ] {
+  @@ E:\ceshi\dbgj\application\admin\controller\Config.php 24 - 44
+}
+
+[ info ] [ VIEW ] E:\ceshi\dbgj/application/admin\view\config\edit.html [ array (
+  0 => 'menuTree',
+  1 => 'list',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-02-06T18:20:39+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/ueditor/index.html?action=config&&noCache=1517912439253
+[ log ] 127.0.0.1:815/admin.php/ueditor/index.html?action=config&&noCache=1517912439253 [运行时间：0.155000s][吞吐率：6.45req/s] [内存消耗：2,157.92kb] [文件加载：48]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\ceshi\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ueditor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:815',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1:815/admin.php/config/edit.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=q1qg80bpjtr627v0jdr3ajog20; __guid=96992031.1205516503173712400.1517912383541.7053; monitor_count=7',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'config',
+  'noCache' => '1517912439253',
+)
+[ info ] [ LANG ] E:\ceshi\dbgj/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 上传文件
+     * @author tangtanglove <dai_hang_love@126.com>
+     */
+Method [ <user> public method index ] {
+  @@ E:\ceshi\dbgj\application\admin\controller\Ueditor.php 27 - 81
+}
+
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-02-06T18:20:39+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/ueditor/index.html?action=config&&noCache=1517912439250
+[ log ] 127.0.0.1:815/admin.php/ueditor/index.html?action=config&&noCache=1517912439250 [运行时间：0.152000s][吞吐率：6.58req/s] [内存消耗：2,157.92kb] [文件加载：48]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\ceshi\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ueditor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:815',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1:815/admin.php/config/edit.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=q1qg80bpjtr627v0jdr3ajog20; __guid=96992031.1205516503173712400.1517912383541.7053; monitor_count=7',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'config',
+  'noCache' => '1517912439250',
+)
+[ info ] [ LANG ] E:\ceshi\dbgj/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 上传文件
+     * @author tangtanglove <dai_hang_love@126.com>
+     */
+Method [ <user> public method index ] {
+  @@ E:\ceshi\dbgj\application\admin\controller\Ueditor.php 27 - 81
+}
+
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------

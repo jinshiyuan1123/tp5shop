@@ -1,0 +1,1383 @@
+[ 2018-06-26T00:00:00+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.171875s][吞吐率：5.82req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:01+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.140625s][吞吐率：7.11req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:02+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.093750s][吞吐率：10.67req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:03+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.093750s][吞吐率：10.67req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:04+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.171875s][吞吐率：5.82req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:05+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.093750s][吞吐率：10.67req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:06+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.093750s][吞吐率：10.67req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:07+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:08+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.187500s][吞吐率：5.33req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:09+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.093750s][吞吐率：10.67req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:10+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.109375s][吞吐率：9.14req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:11+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.203125s][吞吐率：4.92req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:12+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.187500s][吞吐率：5.33req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:13+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.125000s][吞吐率：8.00req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:14+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.093750s][吞吐率：10.67req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:15+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.171875s][吞吐率：5.82req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:16+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:17+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.187500s][吞吐率：5.33req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:18+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:19+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.140625s][吞吐率：7.11req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:20+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.109375s][吞吐率：9.14req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:21+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.093750s][吞吐率：10.67req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:22+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.187500s][吞吐率：5.33req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:23+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.125000s][吞吐率：8.00req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:24+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.156250s][吞吐率：6.40req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:25+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.156250s][吞吐率：6.40req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:26+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.125000s][吞吐率：8.00req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:27+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.109375s][吞吐率：9.14req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:28+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.125000s][吞吐率：8.00req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:29+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.171875s][吞吐率：5.82req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:30+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:31+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.109375s][吞吐率：9.14req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:32+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.234375s][吞吐率：4.27req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:33+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:34+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.140625s][吞吐率：7.11req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:35+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.171875s][吞吐率：5.82req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:36+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.125000s][吞吐率：8.00req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:37+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.140625s][吞吐率：7.11req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:38+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.156250s][吞吐率：6.40req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:39+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.093750s][吞吐率：10.67req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:40+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.171875s][吞吐率：5.82req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:41+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.093750s][吞吐率：10.67req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:42+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.093750s][吞吐率：10.67req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:43+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.109375s][吞吐率：9.14req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:44+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.218750s][吞吐率：4.57req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:45+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.140625s][吞吐率：7.11req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:46+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.156250s][吞吐率：6.40req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:47+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.125000s][吞吐率：8.00req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:48+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.109375s][吞吐率：9.14req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:49+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:50+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:51+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.156250s][吞吐率：6.40req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:52+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:53+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.140625s][吞吐率：7.11req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:54+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:55+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.109375s][吞吐率：9.14req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:56+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.093750s][吞吐率：10.67req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:57+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.109375s][吞吐率：9.14req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T00:00:58+08:00 ] 0.0.0.0 0.0.0.0 CLI 
+[ log ] cmd:think auto [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,609.95kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T10:46:15+08:00 ] 122.114.73.147 183.67.21.6 GET /
+[ log ] zsh.ruishengkj.net/ [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,790.58kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] Z:\wwwroot\zsh.ruishengkj.net\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'zsh.ruishengkj.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] Z:\wwwroot\zsh.ruishengkj.net/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T10:46:15+08:00 ] 122.114.73.147 183.67.21.6 GET /index/base/login.html
+[ log ] zsh.ruishengkj.net/index/base/login.html [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,779.94kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] Z:\wwwroot\zsh.ruishengkj.net\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'think_var=zh-cn; PHPSESSID=1c967kevot1cvk1rp9pnu7tua1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'zsh.ruishengkj.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/base/login_html' => '',
+)
+[ info ] [ LANG ] Z:\wwwroot\zsh.ruishengkj.net/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ Z:\wwwroot\zsh.ruishengkj.net\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T10:46:16+08:00 ] 122.114.73.147 183.67.21.6 GET /favicon.ico
+[ log ] zsh.ruishengkj.net/favicon.ico [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：1,450.48kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] Z:\wwwroot\zsh.ruishengkj.net\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'think_var=zh-cn; PHPSESSID=1c967kevot1cvk1rp9pnu7tua1; __guid=194247078.1852237010263544000.1529981220250.59; monitor_count=1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://zsh.ruishengkj.net/index/base/login.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'zsh.ruishengkj.net',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T11:15:36+08:00 ] 122.114.73.147 113.129.205.100 GET /
+[ log ] zsh.ruishengkj.net/ [运行时间：0.093750s][吞吐率：10.67req/s] [内存消耗：1,791.05kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] Z:\wwwroot\zsh.ruishengkj.net\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'starttime' => '1529982988069',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; vivo Xplay6 Build/NMF26F; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36 VivoBrowser/5.5.1.2',
+  'upgrade-insecure-requests' => '1',
+  'request-type' => '1',
+  'connection' => 'close',
+  'host' => 'zsh.ruishengkj.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] Z:\wwwroot\zsh.ruishengkj.net/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T11:15:37+08:00 ] 122.114.73.147 113.129.205.100 GET /index/base/login.html
+[ log ] zsh.ruishengkj.net/index/base/login.html [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,780.20kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] Z:\wwwroot\zsh.ruishengkj.net\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'think_var=zh-cn; PHPSESSID=d39ob1ja3o7bscv5duqev3hrf7',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'starttime' => '1529982988069',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; vivo Xplay6 Build/NMF26F; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36 VivoBrowser/5.5.1.2',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'zsh.ruishengkj.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/base/login_html' => '',
+)
+[ info ] [ LANG ] Z:\wwwroot\zsh.ruishengkj.net/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ Z:\wwwroot\zsh.ruishengkj.net\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T11:15:38+08:00 ] 122.114.73.147 113.129.205.100 GET /favicon.ico
+[ log ] zsh.ruishengkj.net/favicon.ico [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：1,450.53kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] Z:\wwwroot\zsh.ruishengkj.net\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'think_var=zh-cn; PHPSESSID=d39ob1ja3o7bscv5duqev3hrf7',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://zsh.ruishengkj.net/index/base/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; vivo Xplay6 Build/NMF26F; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36 VivoBrowser/5.5.1.2',
+  'connection' => 'close',
+  'host' => 'zsh.ruishengkj.net',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T11:15:53+08:00 ] 122.114.73.147 113.129.205.100 GET /index/base/getpassword.html
+[ log ] zsh.ruishengkj.net/index/base/getpassword.html [运行时间：0.109375s][吞吐率：9.14req/s] [内存消耗：1,780.57kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] Z:\wwwroot\zsh.ruishengkj.net\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'getpassword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'think_var=zh-cn; PHPSESSID=d39ob1ja3o7bscv5duqev3hrf7',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://zsh.ruishengkj.net/index/base/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'starttime' => '1529983009252',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; vivo Xplay6 Build/NMF26F; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36 VivoBrowser/5.5.1.2',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'zsh.ruishengkj.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/base/getpassword_html' => '',
+)
+[ info ] [ LANG ] Z:\wwwroot\zsh.ruishengkj.net/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 取回密码方法
+     * @author  完美°ぜ界丶
+     */
+Method [ <user> public method getPassword ] {
+  @@ Z:\wwwroot\zsh.ruishengkj.net\application\index\controller\Base.php 199 - 236
+}
+
+[ info ] [ VIEW ] ./themes/default/index/get_password.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T11:15:54+08:00 ] 122.114.73.147 113.129.205.100 GET /favicon.ico
+[ log ] zsh.ruishengkj.net/favicon.ico [运行时间：0.093750s][吞吐率：10.67req/s] [内存消耗：1,450.59kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] Z:\wwwroot\zsh.ruishengkj.net\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'think_var=zh-cn; PHPSESSID=d39ob1ja3o7bscv5duqev3hrf7',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://zsh.ruishengkj.net/index/base/getpassword.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; vivo Xplay6 Build/NMF26F; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36 VivoBrowser/5.5.1.2',
+  'connection' => 'close',
+  'host' => 'zsh.ruishengkj.net',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T11:16:33+08:00 ] 122.114.73.147 61.151.226.77 GET /
+[ log ] zsh.ruishengkj.net/ [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,790.45kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] Z:\wwwroot\zsh.ruishengkj.net\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'zsh.ruishengkj.net',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; zh-CN; HUAWEI ALE-CL00 Build/HuaweiALE-CL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCBrowser/11.3.0.907 Mobile Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] Z:\wwwroot\zsh.ruishengkj.net/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T11:16:53+08:00 ] 122.114.73.147 61.151.178.165 GET /index/base/getpassword.html
+[ log ] zsh.ruishengkj.net/index/base/getpassword.html [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：1,780.21kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] Z:\wwwroot\zsh.ruishengkj.net\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'getpassword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'zsh.ruishengkj.net',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; zh-CN; Coolpad Y82-520 Build/KTU84P) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.9.8.738 U3/0.8.0 Mobile Safari/534.30',
+)
+[ info ] [ PARAM ] array (
+  '/index/base/getpassword_html' => '',
+)
+[ info ] [ LANG ] Z:\wwwroot\zsh.ruishengkj.net/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 取回密码方法
+     * @author  完美°ぜ界丶
+     */
+Method [ <user> public method getPassword ] {
+  @@ Z:\wwwroot\zsh.ruishengkj.net\application\index\controller\Base.php 199 - 236
+}
+
+[ info ] [ VIEW ] ./themes/default/index/get_password.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T11:20:23+08:00 ] 122.114.73.147 180.163.28.123 GET /
+[ log ] zsh.ruishengkj.net/ [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,790.55kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] Z:\wwwroot\zsh.ruishengkj.net\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; zh-CN; Coolpad Y82-520 Build/KTU84P) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.9.8.738 U3/0.8.0 Mobile Safari/534.30',
+  'host' => 'zsh.ruishengkj.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] Z:\wwwroot\zsh.ruishengkj.net/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T11:51:43+08:00 ] 122.114.73.147 113.129.205.100 GET /
+[ log ] zsh.ruishengkj.net/ [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,790.41kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] Z:\wwwroot\zsh.ruishengkj.net\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'think_var=zh-cn; PHPSESSID=d39ob1ja3o7bscv5duqev3hrf7',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'starttime' => '1529985164441',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; vivo Xplay6 Build/NMF26F; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36 VivoBrowser/5.5.1.2',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'zsh.ruishengkj.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] Z:\wwwroot\zsh.ruishengkj.net/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T11:51:43+08:00 ] 122.114.73.147 113.129.205.100 GET /index/base/login.html
+[ log ] zsh.ruishengkj.net/index/base/login.html [运行时间：0.093750s][吞吐率：10.67req/s] [内存消耗：1,780.20kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] Z:\wwwroot\zsh.ruishengkj.net\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'think_var=zh-cn; PHPSESSID=d39ob1ja3o7bscv5duqev3hrf7',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'starttime' => '1529985164441',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; vivo Xplay6 Build/NMF26F; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36 VivoBrowser/5.5.1.2',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'zsh.ruishengkj.net',
+)
+[ info ] [ PARAM ] array (
+  '/index/base/login_html' => '',
+)
+[ info ] [ LANG ] Z:\wwwroot\zsh.ruishengkj.net/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ Z:\wwwroot\zsh.ruishengkj.net\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T11:51:43+08:00 ] 122.114.73.147 113.129.205.100 GET /favicon.ico
+[ log ] zsh.ruishengkj.net/favicon.ico [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,450.53kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] Z:\wwwroot\zsh.ruishengkj.net\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'think_var=zh-cn; PHPSESSID=d39ob1ja3o7bscv5duqev3hrf7',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://zsh.ruishengkj.net/index/base/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; vivo Xplay6 Build/NMF26F; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36 VivoBrowser/5.5.1.2',
+  'connection' => 'close',
+  'host' => 'zsh.ruishengkj.net',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T11:52:45+08:00 ] 122.114.73.147 101.226.79.235 GET /
+[ log ] zsh.ruishengkj.net/ [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,790.44kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] Z:\wwwroot\zsh.ruishengkj.net\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'zsh.ruishengkj.net',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 6.0.1; zh-cn; OPPO R9s Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/38.0.0.0 Mobile Safari/537.36 OppoBrowser/4.2.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] Z:\wwwroot\zsh.ruishengkj.net/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T20:30:11+08:00 ] 122.114.73.147 47.75.202.82 HEAD /web.rar
+[ log ] zsh.ruishengkj.net/web.rar [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,450.03kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] Z:\wwwroot\zsh.ruishengkj.net\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web.rar',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cache-control' => 'no-cache',
+  'host' => 'zsh.ruishengkj.net',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0)',
+  'accept' => '*/*',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+  '/web_rar' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T20:30:12+08:00 ] 122.114.73.147 47.75.202.82 HEAD /wwwroot.rar
+[ log ] zsh.ruishengkj.net/wwwroot.rar [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：1,450.08kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] Z:\wwwroot\zsh.ruishengkj.net\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wwwroot.rar',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cache-control' => 'no-cache',
+  'host' => 'zsh.ruishengkj.net',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0)',
+  'accept' => '*/*',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+  '/wwwroot_rar' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T20:30:12+08:00 ] 122.114.73.147 47.75.202.82 HEAD /www.rar
+[ log ] zsh.ruishengkj.net/www.rar [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：1,450.03kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] Z:\wwwroot\zsh.ruishengkj.net\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'www.rar',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cache-control' => 'no-cache',
+  'host' => 'zsh.ruishengkj.net',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0)',
+  'accept' => '*/*',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+  '/www_rar' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T20:30:12+08:00 ] 122.114.73.147 47.75.202.82 HEAD /public_html.rar
+[ log ] zsh.ruishengkj.net/public_html.rar [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,450.12kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] Z:\wwwroot\zsh.ruishengkj.net\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public_html.rar',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cache-control' => 'no-cache',
+  'host' => 'zsh.ruishengkj.net',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0)',
+  'accept' => '*/*',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+  '/public_html_rar' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T20:30:15+08:00 ] 122.114.73.147 47.75.202.82 HEAD /htdocs.rar
+[ log ] zsh.ruishengkj.net/htdocs.rar [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：1,450.03kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] Z:\wwwroot\zsh.ruishengkj.net\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'htdocs.rar',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cache-control' => 'no-cache',
+  'host' => 'zsh.ruishengkj.net',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0)',
+  'accept' => '*/*',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+  '/htdocs_rar' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T20:30:15+08:00 ] 122.114.73.147 47.75.202.82 HEAD /data.rar
+[ log ] zsh.ruishengkj.net/data.rar [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：1,450.04kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] Z:\wwwroot\zsh.ruishengkj.net\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'data.rar',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cache-control' => 'no-cache',
+  'host' => 'zsh.ruishengkj.net',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0)',
+  'accept' => '*/*',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+  '/data_rar' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T20:30:16+08:00 ] 122.114.73.147 47.75.202.82 HEAD /web.zip
+[ log ] zsh.ruishengkj.net/web.zip [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：1,450.03kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] Z:\wwwroot\zsh.ruishengkj.net\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web.zip',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cache-control' => 'no-cache',
+  'host' => 'zsh.ruishengkj.net',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0)',
+  'accept' => '*/*',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+  '/web_zip' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T20:30:16+08:00 ] 122.114.73.147 47.75.202.82 HEAD /wwwroot.zip
+[ log ] zsh.ruishengkj.net/wwwroot.zip [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：1,450.08kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] Z:\wwwroot\zsh.ruishengkj.net\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wwwroot.zip',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cache-control' => 'no-cache',
+  'host' => 'zsh.ruishengkj.net',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0)',
+  'accept' => '*/*',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+  '/wwwroot_zip' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T20:30:16+08:00 ] 122.114.73.147 47.75.202.82 HEAD /www.zip
+[ log ] zsh.ruishengkj.net/www.zip [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,450.03kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] Z:\wwwroot\zsh.ruishengkj.net\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'www.zip',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cache-control' => 'no-cache',
+  'host' => 'zsh.ruishengkj.net',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0)',
+  'accept' => '*/*',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+  '/www_zip' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T20:30:16+08:00 ] 122.114.73.147 47.75.202.82 HEAD /public_html.zip
+[ log ] zsh.ruishengkj.net/public_html.zip [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：1,450.12kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] Z:\wwwroot\zsh.ruishengkj.net\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public_html.zip',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cache-control' => 'no-cache',
+  'host' => 'zsh.ruishengkj.net',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0)',
+  'accept' => '*/*',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+  '/public_html_zip' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T20:30:16+08:00 ] 122.114.73.147 47.75.202.82 HEAD /htdocs.zip
+[ log ] zsh.ruishengkj.net/htdocs.zip [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,450.03kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] Z:\wwwroot\zsh.ruishengkj.net\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'htdocs.zip',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cache-control' => 'no-cache',
+  'host' => 'zsh.ruishengkj.net',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0)',
+  'accept' => '*/*',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+  '/htdocs_zip' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T20:30:17+08:00 ] 122.114.73.147 47.75.202.82 HEAD /data.zip
+[ log ] zsh.ruishengkj.net/data.zip [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：1,450.04kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] Z:\wwwroot\zsh.ruishengkj.net\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'data.zip',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cache-control' => 'no-cache',
+  'host' => 'zsh.ruishengkj.net',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0)',
+  'accept' => '*/*',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+  '/data_zip' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T20:30:17+08:00 ] 122.114.73.147 47.75.202.82 HEAD /web.tar.gz
+[ log ] zsh.ruishengkj.net/web.tar.gz [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,450.03kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] Z:\wwwroot\zsh.ruishengkj.net\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web.tar.gz',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cache-control' => 'no-cache',
+  'host' => 'zsh.ruishengkj.net',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0)',
+  'accept' => '*/*',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+  '/web_tar_gz' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T20:30:22+08:00 ] 122.114.73.147 47.75.202.82 HEAD /wwwroot.tar.gz
+[ log ] zsh.ruishengkj.net/wwwroot.tar.gz [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,450.10kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] Z:\wwwroot\zsh.ruishengkj.net\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wwwroot.tar.gz',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cache-control' => 'no-cache',
+  'host' => 'zsh.ruishengkj.net',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0)',
+  'accept' => '*/*',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+  '/wwwroot_tar_gz' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T20:30:27+08:00 ] 122.114.73.147 47.75.202.82 HEAD /www.tar.gz
+[ log ] zsh.ruishengkj.net/www.tar.gz [运行时间：0.093750s][吞吐率：10.67req/s] [内存消耗：1,450.03kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] Z:\wwwroot\zsh.ruishengkj.net\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'www.tar.gz',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cache-control' => 'no-cache',
+  'host' => 'zsh.ruishengkj.net',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0)',
+  'accept' => '*/*',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+  '/www_tar_gz' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T20:30:28+08:00 ] 122.114.73.147 47.75.202.82 HEAD /public_html.tar.gz
+[ log ] zsh.ruishengkj.net/public_html.tar.gz [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,450.13kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] Z:\wwwroot\zsh.ruishengkj.net\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public_html.tar.gz',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cache-control' => 'no-cache',
+  'host' => 'zsh.ruishengkj.net',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0)',
+  'accept' => '*/*',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+  '/public_html_tar_gz' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T20:30:28+08:00 ] 122.114.73.147 47.75.202.82 HEAD /htdocs.tar.gz
+[ log ] zsh.ruishengkj.net/htdocs.tar.gz [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,450.09kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] Z:\wwwroot\zsh.ruishengkj.net\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'htdocs.tar.gz',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cache-control' => 'no-cache',
+  'host' => 'zsh.ruishengkj.net',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0)',
+  'accept' => '*/*',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+  '/htdocs_tar_gz' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-06-26T20:30:28+08:00 ] 122.114.73.147 47.75.202.82 HEAD /data.tar.gz
+[ log ] zsh.ruishengkj.net/data.tar.gz [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：1,450.08kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] Z:\wwwroot\zsh.ruishengkj.net\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'data.tar.gz',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cache-control' => 'no-cache',
+  'host' => 'zsh.ruishengkj.net',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0)',
+  'accept' => '*/*',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+  '/data_tar_gz' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------

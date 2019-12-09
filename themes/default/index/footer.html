@@ -1,0 +1,45 @@
+ <style type="text/css">
+ 	/*底部样式*/ /************尾部固定导航*************/.fix-bottom {box-sizing: border-box;
+	position:fixed;
+	left:0;
+	bottom:0;
+	width:100%;
+	border-top:#eee solid 1px;
+	background:#f9f9f9;
+	padding:6px 0;
+	z-index:90;
+	height: 48px;
+}
+.fix-bottom .fix-b-a {
+	display:block;
+	float:left;
+	width:25%;
+	text-align:center;
+	height:40px;
+	color:#666;
+	font-size:11px;    line-height: 1em;
+}
+.fix-bottom .fix-b-a img {
+	width:20px;
+	height:20px;
+	margin-bottom:2px
+}
+.fix-bottom .bottom-n-cur {
+	color:#ee4f4f;
+}
+ </style>
+ <div class="fix-bottom">
+	<a href="{:url('Index/index')}" class="fix-b-a bottom-n-cur">
+		<img src="{:config('theme_path')}/index/new/picture/today2.png"><br>首页
+	  </a>
+	  <a href="{:url('order/orderLists')}" class="fix-b-a ">
+		  <img src="{:config('theme_path')}/index/new/picture/fenlei.png"><br>订单
+	  </a>
+
+	  <a href="{:url('user/score_detail')}" class="fix-b-a ">
+		  <img src="{:config('theme_path')}/index/new/picture/coupon.png"><br>明细
+	  </a>
+	  <a href="{:url('user/userCenter')}" class="fix-b-a ">
+		  <img src="{:config('theme_path')}/index/new/picture/pinp.png"><br>个人中心
+	  </a>
+</div> 

@@ -1,0 +1,112 @@
+[ 2017-10-12T23:33:58+08:00 ] 172.31.179.54 216.145.17.190 GET /robots.txt
+[ log ] www.525354.top/robots.txt [运行时间：0.140627s][吞吐率：7.11req/s] [内存消耗：1,404.53kb] [文件加载：40]
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'robots.txt',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en; rv:1.9.0.13) Gecko/2009073022 Firefox/3.5.2 (.NET CLR 3.5.30729) SurveyBot/2.3 (DomainTools)',
+  'connection' => 'close',
+  'accept-language' => 'en-us,fr-be;q=0.5',
+  'host' => 'www.525354.top',
+)
+[ info ] [ PARAM ] array (
+  'robots_txt' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-10-12T23:34:00+08:00 ] 172.31.179.54 216.145.17.190 GET /
+[ log ] www.525354.top/ [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,739.45kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'wsip' => '47.90.121.75',
+  'wshost' => 'www.525354.top',
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en; rv:1.9.0.13) Gecko/2009073022 Firefox/3.5.2 (.NET CLR 3.5.30729) SurveyBot/2.3 (DomainTools)',
+  'referer' => 'http://whois.domaintools.com/525354.top',
+  'host' => 'www.525354.top',
+  'from' => 'feedback@surveybot.com',
+  'accept-language' => 'en-us,fr-be;q=0.5',
+  'accept-encoding' => 'gzip, x-gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\en-us.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2017-10-12T23:34:00+08:00 ] 172.31.179.54 216.145.17.190 GET /index/base/login.html
+[ log ] www.525354.top/index/base/login.html [运行时间：0.046876s][吞吐率：21.33req/s] [内存消耗：1,727.87kb] [文件加载：51]
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'wsip' => '47.90.121.75',
+  'wshost' => 'www.525354.top',
+  'cookie2' => '$Version="1"',
+  'cookie' => 'PHPSESSID=bhkjjelpv52kn077tlnr24eie5; think_var=en-us',
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en; rv:1.9.0.13) Gecko/2009073022 Firefox/3.5.2 (.NET CLR 3.5.30729) SurveyBot/2.3 (DomainTools)',
+  'referer' => 'http://whois.domaintools.com/525354.top',
+  'host' => 'www.525354.top',
+  'from' => 'feedback@surveybot.com',
+  'accept-language' => 'en-us,fr-be;q=0.5',
+  'accept-encoding' => 'gzip, x-gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+)
+[ info ] [ LANG ] E:\www\dbgj/application/index\lang\en-us.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------

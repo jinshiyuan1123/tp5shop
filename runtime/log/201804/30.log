@@ -1,0 +1,4700 @@
+[ 2018-04-30T01:16:50+08:00 ] 172.17.146.225 203.209.234.156 GET /wap.php/alipay/return_url.html
+[ log ] gp.nmd8.cn/wap.php/alipay/return_url.html [运行时间：0.021784s][吞吐率：45.91req/s] [内存消耗：2,401.49kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap.php',
+    1 => 'alipay',
+    2 => 'return_url',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.52 Safari/536.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'host' => 'gp.nmd8.cn',
+)
+[ info ] [ PARAM ] array (
+  'wap_php/alipay/return_url_html' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T01:16:51+08:00 ] 172.17.146.225 203.209.234.128 GET /wap.php/alipay/notify_url.html
+[ log ] gp.nmd8.cn/wap.php/alipay/notify_url.html [运行时间：0.020063s][吞吐率：49.84req/s] [内存消耗：2,401.13kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap.php',
+    1 => 'alipay',
+    2 => 'notify_url',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.52 Safari/536.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'host' => 'gp.nmd8.cn',
+  'cookie' => '$Version=0; think_var=zh-cn; $Path=/',
+)
+[ info ] [ PARAM ] array (
+  'wap_php/alipay/notify_url_html' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T03:46:10+08:00 ] 172.17.146.225 117.152.202.180 GET /index/base/register.html?reid=1
+[ log ] gp.nmd8.cn/index/base/register.html?reid=1 [运行时间：0.028537s][吞吐率：35.04req/s] [内存消耗：2,941.20kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'register',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gp.nmd8.cn',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E216 MicroMessenger/6.6.6 NetType/WIFI Language/zh_CN',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'index/base/register_html' => '',
+  'reid' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户注册方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method register ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/Base.php 91 - 145
+}
+
+[ info ] [ VIEW ] ./themes/default/index/register.html [ array (
+  0 => 'userinfo',
+  1 => 'tjmobile',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T03:46:49+08:00 ] 172.17.146.225 47.97.220.124 GET /index/base/login.html
+[ log ] gp.nmd8.cn/index/base/login.html [运行时间：0.027112s][吞吐率：36.88req/s] [内存消耗：2,921.62kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'host' => 'gp.nmd8.cn',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T03:47:09+08:00 ] 172.17.146.225 117.185.117.57 GET /index/base/register.html?reid=1
+[ log ] gp.nmd8.cn/index/base/register.html?reid=1 [运行时间：0.029348s][吞吐率：34.07req/s] [内存消耗：2,940.28kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'register',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM801 Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043024 Safari/537.36 MicroMessenger/6.5.4.1000 NetType/4G Language/zh_CN',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'index/base/register_html' => '',
+  'reid' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户注册方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method register ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/Base.php 91 - 145
+}
+
+[ info ] [ VIEW ] ./themes/default/index/register.html [ array (
+  0 => 'userinfo',
+  1 => 'tjmobile',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T08:22:31+08:00 ] 172.17.146.225 144.0.158.108 GET /favicon.ico
+[ log ] gp.nmd8.cn/favicon.ico [运行时间：0.021834s][吞吐率：45.80req/s] [内存消耗：2,402.00kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=64839161.982740095129433600.1524796085715.3877',
+)
+[ info ] [ PARAM ] array (
+  'favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T09:21:05+08:00 ] 172.17.146.225 123.151.77.49 GET /
+[ log ] gp.nmd8.cn/ [运行时间：0.031184s][吞吐率：32.07req/s] [内存消耗：2,982.21kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=i131903eb7dv8tcavc5t3cv564; mini_car=%5B%5B%2250%22%2C%22%E6%B5%8B%E8%AF%95%22%2C10%2C1%5D%5D',
+  'host' => 'gp.nmd8.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060632) NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '61.54.214.60',
+  'x-forwarded-for-pound' => '61.54.214.60',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/Index.php 21 - 34
+}
+
+[ info ] [ VIEW ] ./themes/default/index/index.html [ array (
+  0 => 'userinfo',
+  1 => 'goodslist',
+  2 => 'gp_goodslist',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T09:21:06+08:00 ] 172.17.146.225 61.54.214.60 GET /favicon.ico
+[ log ] gp.nmd8.cn/favicon.ico [运行时间：0.021686s][吞吐率：46.11req/s] [内存消耗：2,401.88kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060632) NetType/WIFI Language/zh_CN',
+  'accept' => 'image/webp,image/wxpic,image/sharpp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://gp.nmd8.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=i131903eb7dv8tcavc5t3cv564; mini_car=%5B%5B%2250%22%2C%22%E6%B5%8B%E8%AF%95%22%2C10%2C1%5D%5D; think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+  'favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T09:21:07+08:00 ] 172.17.146.225 123.151.77.49 GET /index/user/usercenter.html
+[ log ] gp.nmd8.cn/index/user/usercenter.html [运行时间：0.035836s][吞吐率：27.90req/s] [内存消耗：3,114.98kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=i131903eb7dv8tcavc5t3cv564; mini_car=%5B%5B%2250%22%2C%22%E6%B5%8B%E8%AF%95%22%2C10%2C1%5D%5D; think_var=zh-cn',
+  'host' => 'gp.nmd8.cn',
+  'referer' => 'http://gp.nmd8.cn/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060632) NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '61.54.214.60',
+  'x-forwarded-for-pound' => '61.54.214.60',
+)
+[ info ] [ PARAM ] array (
+  'index/user/usercenter_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人中心
+     * @author  ILsunshine
+     */
+Method [ <user> public method userCenter ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/User.php 39 - 71
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_center.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'is_gongpai',
+  3 => 'gp_user',
+  4 => 'ytixian',
+  5 => 'tuijianren',
+  6 => 'userInfo',
+  7 => 'hys',
+  8 => 'zt_count',
+  9 => 'scoreorder',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T09:21:15+08:00 ] 172.17.146.225 123.151.77.49 GET /
+[ log ] gp.nmd8.cn/ [运行时间：0.030830s][吞吐率：32.44req/s] [内存消耗：2,981.41kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=i131903eb7dv8tcavc5t3cv564; mini_car=%5B%5B%2250%22%2C%22%E6%B5%8B%E8%AF%95%22%2C10%2C1%5D%5D; think_var=zh-cn',
+  'host' => 'gp.nmd8.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060632) NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '61.54.214.60',
+  'x-forwarded-for-pound' => '61.54.214.60',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/Index.php 21 - 34
+}
+
+[ info ] [ VIEW ] ./themes/default/index/index.html [ array (
+  0 => 'userinfo',
+  1 => 'goodslist',
+  2 => 'gp_goodslist',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T09:22:12+08:00 ] 172.17.146.225 123.151.77.49 GET /
+[ log ] gp.nmd8.cn/ [运行时间：0.030883s][吞吐率：32.38req/s] [内存消耗：2,981.41kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=i131903eb7dv8tcavc5t3cv564; mini_car=%5B%5B%2250%22%2C%22%E6%B5%8B%E8%AF%95%22%2C10%2C1%5D%5D; think_var=zh-cn',
+  'host' => 'gp.nmd8.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060632) NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '61.54.214.60',
+  'x-forwarded-for-pound' => '61.54.214.60',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/Index.php 21 - 34
+}
+
+[ info ] [ VIEW ] ./themes/default/index/index.html [ array (
+  0 => 'userinfo',
+  1 => 'goodslist',
+  2 => 'gp_goodslist',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T09:22:12+08:00 ] 172.17.146.225 61.54.214.60 GET /favicon.ico
+[ log ] gp.nmd8.cn/favicon.ico [运行时间：0.022429s][吞吐率：44.59req/s] [内存消耗：2,401.88kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060632) NetType/WIFI Language/zh_CN',
+  'accept' => 'image/webp,image/wxpic,image/sharpp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://gp.nmd8.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=i131903eb7dv8tcavc5t3cv564; mini_car=%5B%5B%2250%22%2C%22%E6%B5%8B%E8%AF%95%22%2C10%2C1%5D%5D; think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+  'favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T09:22:15+08:00 ] 172.17.146.225 123.151.77.49 GET /index/user/usercenter.html
+[ log ] gp.nmd8.cn/index/user/usercenter.html [运行时间：0.036419s][吞吐率：27.46req/s] [内存消耗：3,114.98kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=i131903eb7dv8tcavc5t3cv564; mini_car=%5B%5B%2250%22%2C%22%E6%B5%8B%E8%AF%95%22%2C10%2C1%5D%5D; think_var=zh-cn',
+  'host' => 'gp.nmd8.cn',
+  'referer' => 'http://gp.nmd8.cn/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060632) NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '61.54.214.60',
+  'x-forwarded-for-pound' => '61.54.214.60',
+)
+[ info ] [ PARAM ] array (
+  'index/user/usercenter_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人中心
+     * @author  ILsunshine
+     */
+Method [ <user> public method userCenter ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/User.php 39 - 71
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_center.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'is_gongpai',
+  3 => 'gp_user',
+  4 => 'ytixian',
+  5 => 'tuijianren',
+  6 => 'userInfo',
+  7 => 'hys',
+  8 => 'zt_count',
+  9 => 'scoreorder',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T09:22:25+08:00 ] 172.17.146.225 123.151.77.49 GET /
+[ log ] gp.nmd8.cn/ [运行时间：0.031763s][吞吐率：31.48req/s] [内存消耗：2,981.41kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=i131903eb7dv8tcavc5t3cv564; mini_car=%5B%5B%2250%22%2C%22%E6%B5%8B%E8%AF%95%22%2C10%2C1%5D%5D; think_var=zh-cn',
+  'host' => 'gp.nmd8.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060632) NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '61.54.214.60',
+  'x-forwarded-for-pound' => '61.54.214.60',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/Index.php 21 - 34
+}
+
+[ info ] [ VIEW ] ./themes/default/index/index.html [ array (
+  0 => 'userinfo',
+  1 => 'goodslist',
+  2 => 'gp_goodslist',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T09:24:17+08:00 ] 172.17.146.225 123.151.77.49 GET /
+[ log ] gp.nmd8.cn/ [运行时间：0.030953s][吞吐率：32.31req/s] [内存消耗：2,981.41kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=i131903eb7dv8tcavc5t3cv564; mini_car=%5B%5B%2250%22%2C%22%E6%B5%8B%E8%AF%95%22%2C10%2C1%5D%5D; think_var=zh-cn',
+  'host' => 'gp.nmd8.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060632) NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '61.54.214.60',
+  'x-forwarded-for-pound' => '61.54.214.60',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/Index.php 21 - 34
+}
+
+[ info ] [ VIEW ] ./themes/default/index/index.html [ array (
+  0 => 'userinfo',
+  1 => 'goodslist',
+  2 => 'gp_goodslist',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T09:24:17+08:00 ] 172.17.146.225 61.54.214.60 GET /favicon.ico
+[ log ] gp.nmd8.cn/favicon.ico [运行时间：0.022405s][吞吐率：44.63req/s] [内存消耗：2,401.88kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060632) NetType/WIFI Language/zh_CN',
+  'accept' => 'image/webp,image/wxpic,image/sharpp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://gp.nmd8.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=i131903eb7dv8tcavc5t3cv564; mini_car=%5B%5B%2250%22%2C%22%E6%B5%8B%E8%AF%95%22%2C10%2C1%5D%5D; think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+  'favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T09:24:32+08:00 ] 172.17.146.225 123.151.77.49 GET /index/user/usercenter.html
+[ log ] gp.nmd8.cn/index/user/usercenter.html [运行时间：0.035819s][吞吐率：27.92req/s] [内存消耗：3,114.98kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=i131903eb7dv8tcavc5t3cv564; mini_car=%5B%5B%2250%22%2C%22%E6%B5%8B%E8%AF%95%22%2C10%2C1%5D%5D; think_var=zh-cn',
+  'host' => 'gp.nmd8.cn',
+  'referer' => 'http://gp.nmd8.cn/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060632) NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '61.54.214.60',
+  'x-forwarded-for-pound' => '61.54.214.60',
+)
+[ info ] [ PARAM ] array (
+  'index/user/usercenter_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人中心
+     * @author  ILsunshine
+     */
+Method [ <user> public method userCenter ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/User.php 39 - 71
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_center.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'is_gongpai',
+  3 => 'gp_user',
+  4 => 'ytixian',
+  5 => 'tuijianren',
+  6 => 'userInfo',
+  7 => 'hys',
+  8 => 'zt_count',
+  9 => 'scoreorder',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T09:24:39+08:00 ] 172.17.146.225 123.151.77.49 GET /index/index/index.html
+[ log ] gp.nmd8.cn/index/index/index.html [运行时间：0.030964s][吞吐率：32.30req/s] [内存消耗：2,987.24kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=i131903eb7dv8tcavc5t3cv564; mini_car=%5B%5B%2250%22%2C%22%E6%B5%8B%E8%AF%95%22%2C10%2C1%5D%5D; think_var=zh-cn',
+  'host' => 'gp.nmd8.cn',
+  'referer' => 'http://gp.nmd8.cn/index/user/usercenter.html',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060632) NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '61.54.214.60',
+  'x-forwarded-for-pound' => '61.54.214.60',
+)
+[ info ] [ PARAM ] array (
+  'index/index/index_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/Index.php 21 - 34
+}
+
+[ info ] [ VIEW ] ./themes/default/index/index.html [ array (
+  0 => 'userinfo',
+  1 => 'goodslist',
+  2 => 'gp_goodslist',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T09:24:43+08:00 ] 172.17.146.225 123.151.77.49 GET /index/user/usercenter.html
+[ log ] gp.nmd8.cn/index/user/usercenter.html [运行时间：0.035838s][吞吐率：27.90req/s] [内存消耗：3,114.98kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=i131903eb7dv8tcavc5t3cv564; mini_car=%5B%5B%2250%22%2C%22%E6%B5%8B%E8%AF%95%22%2C10%2C1%5D%5D; think_var=zh-cn',
+  'host' => 'gp.nmd8.cn',
+  'referer' => 'http://gp.nmd8.cn/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060632) NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '61.54.214.60',
+  'x-forwarded-for-pound' => '61.54.214.60',
+)
+[ info ] [ PARAM ] array (
+  'index/user/usercenter_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人中心
+     * @author  ILsunshine
+     */
+Method [ <user> public method userCenter ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/User.php 39 - 71
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_center.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'is_gongpai',
+  3 => 'gp_user',
+  4 => 'ytixian',
+  5 => 'tuijianren',
+  6 => 'userInfo',
+  7 => 'hys',
+  8 => 'zt_count',
+  9 => 'scoreorder',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T09:24:45+08:00 ] 172.17.146.225 123.151.77.49 GET /index/user/user_link.html
+[ log ] gp.nmd8.cn/index/user/user_link.html [运行时间：0.030914s][吞吐率：32.35req/s] [内存消耗：3,093.94kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'user_link',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=i131903eb7dv8tcavc5t3cv564; mini_car=%5B%5B%2250%22%2C%22%E6%B5%8B%E8%AF%95%22%2C10%2C1%5D%5D; think_var=zh-cn',
+  'host' => 'gp.nmd8.cn',
+  'referer' => 'http://gp.nmd8.cn/index/user/usercenter.html',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060632) NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '61.54.214.60',
+  'x-forwarded-for-pound' => '61.54.214.60',
+)
+[ info ] [ PARAM ] array (
+  'index/user/user_link_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 推广链接
+     * @author  赵祥祥654377754
+     */
+Method [ <user> public method user_link ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/User.php 363 - 369
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_link.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T09:24:57+08:00 ] 172.17.146.225 123.151.77.49 GET /index/user/tuiguangqrcode.html
+[ log ] gp.nmd8.cn/index/user/tuiguangqrcode.html [运行时间：0.310179s][吞吐率：3.22req/s] [内存消耗：8,628.79kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'tuiguangqrcode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=i131903eb7dv8tcavc5t3cv564; mini_car=%5B%5B%2250%22%2C%22%E6%B5%8B%E8%AF%95%22%2C10%2C1%5D%5D; think_var=zh-cn',
+  'host' => 'gp.nmd8.cn',
+  'referer' => 'http://gp.nmd8.cn/index/user/user_link.html',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060632) NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '61.54.214.60',
+  'x-forwarded-for-pound' => '61.54.214.60',
+)
+[ info ] [ PARAM ] array (
+  'index/user/tuiguangqrcode_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method tuiguangqrcode ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/User.php 370 - 396
+}
+
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T09:25:06+08:00 ] 172.17.146.225 123.151.77.49 GET /index/user/user_link.html
+[ log ] gp.nmd8.cn/index/user/user_link.html [运行时间：0.031629s][吞吐率：31.62req/s] [内存消耗：3,093.94kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'user_link',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=i131903eb7dv8tcavc5t3cv564; mini_car=%5B%5B%2250%22%2C%22%E6%B5%8B%E8%AF%95%22%2C10%2C1%5D%5D; think_var=zh-cn',
+  'host' => 'gp.nmd8.cn',
+  'referer' => 'http://gp.nmd8.cn/index/user/usercenter.html',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060632) NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '61.54.214.60',
+  'x-forwarded-for-pound' => '61.54.214.60',
+)
+[ info ] [ PARAM ] array (
+  'index/user/user_link_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 推广链接
+     * @author  赵祥祥654377754
+     */
+Method [ <user> public method user_link ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/User.php 363 - 369
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_link.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T09:25:08+08:00 ] 172.17.146.225 123.151.77.49 GET /index/user/score_detail.html
+[ log ] gp.nmd8.cn/index/user/score_detail.html [运行时间：0.032572s][吞吐率：30.70req/s] [内存消耗：3,242.12kb] [文件加载：57]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'score_detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=i131903eb7dv8tcavc5t3cv564; mini_car=%5B%5B%2250%22%2C%22%E6%B5%8B%E8%AF%95%22%2C10%2C1%5D%5D; think_var=zh-cn',
+  'host' => 'gp.nmd8.cn',
+  'referer' => 'http://gp.nmd8.cn/index/user/user_link.html',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060632) NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '61.54.214.60',
+  'x-forwarded-for-pound' => '61.54.214.60',
+)
+[ info ] [ PARAM ] array (
+  'index/user/score_detail_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 积分详情
+     * @author  赵祥祥654377754
+     */
+Method [ <user> public method score_detail ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/User.php 330 - 343
+}
+
+[ info ] [ VIEW ] ./themes/default/index/score_detail.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'page',
+  3 => 'lists',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T09:25:10+08:00 ] 172.17.146.225 123.151.77.49 GET /index/index/index.html
+[ log ] gp.nmd8.cn/index/index/index.html [运行时间：0.030847s][吞吐率：32.42req/s] [内存消耗：2,987.27kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=i131903eb7dv8tcavc5t3cv564; mini_car=%5B%5B%2250%22%2C%22%E6%B5%8B%E8%AF%95%22%2C10%2C1%5D%5D; think_var=zh-cn',
+  'host' => 'gp.nmd8.cn',
+  'referer' => 'http://gp.nmd8.cn/index/user/score_detail.html',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060632) NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '61.54.214.60',
+  'x-forwarded-for-pound' => '61.54.214.60',
+)
+[ info ] [ PARAM ] array (
+  'index/index/index_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/Index.php 21 - 34
+}
+
+[ info ] [ VIEW ] ./themes/default/index/index.html [ array (
+  0 => 'userinfo',
+  1 => 'goodslist',
+  2 => 'gp_goodslist',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T09:25:11+08:00 ] 172.17.146.225 123.151.77.49 GET /index/order/orderlists.html
+[ log ] gp.nmd8.cn/index/order/orderlists.html [运行时间：0.034680s][吞吐率：28.83req/s] [内存消耗：3,068.05kb] [文件加载：57]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderlists',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=i131903eb7dv8tcavc5t3cv564; mini_car=%5B%5B%2250%22%2C%22%E6%B5%8B%E8%AF%95%22%2C10%2C1%5D%5D; think_var=zh-cn',
+  'host' => 'gp.nmd8.cn',
+  'referer' => 'http://gp.nmd8.cn/index/index/index.html',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060632) NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '61.54.214.60',
+  'x-forwarded-for-pound' => '61.54.214.60',
+)
+[ info ] [ PARAM ] array (
+  'index/order/orderlists_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人订单
+     * @author ILsunshien
+     */
+Method [ <user> public method orderLists ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/Order.php 25 - 52
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_order.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'page',
+  3 => 'lists',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T09:25:13+08:00 ] 172.17.146.225 123.151.77.49 GET /index/order/orderlists.html?status=paid
+[ log ] gp.nmd8.cn/index/order/orderlists.html?status=paid [运行时间：0.034284s][吞吐率：29.17req/s] [内存消耗：3,068.69kb] [文件加载：57]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderlists',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=i131903eb7dv8tcavc5t3cv564; mini_car=%5B%5B%2250%22%2C%22%E6%B5%8B%E8%AF%95%22%2C10%2C1%5D%5D; think_var=zh-cn',
+  'host' => 'gp.nmd8.cn',
+  'referer' => 'http://gp.nmd8.cn/index/order/orderlists.html',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060632) NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '61.54.214.60',
+  'x-forwarded-for-pound' => '61.54.214.60',
+)
+[ info ] [ PARAM ] array (
+  'index/order/orderlists_html' => '',
+  'status' => 'paid',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人订单
+     * @author ILsunshien
+     */
+Method [ <user> public method orderLists ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/Order.php 25 - 52
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_order.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'page',
+  3 => 'lists',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T09:25:15+08:00 ] 172.17.146.225 123.151.77.49 GET /index/order/orderlists.html?status=shipped
+[ log ] gp.nmd8.cn/index/order/orderlists.html?status=shipped [运行时间：0.030684s][吞吐率：32.59req/s] [内存消耗：2,911.52kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderlists',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=i131903eb7dv8tcavc5t3cv564; mini_car=%5B%5B%2250%22%2C%22%E6%B5%8B%E8%AF%95%22%2C10%2C1%5D%5D; think_var=zh-cn',
+  'host' => 'gp.nmd8.cn',
+  'referer' => 'http://gp.nmd8.cn/index/order/orderlists.html?status=paid',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060632) NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '61.54.214.60',
+  'x-forwarded-for-pound' => '61.54.214.60',
+)
+[ info ] [ PARAM ] array (
+  'index/order/orderlists_html' => '',
+  'status' => 'shipped',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人订单
+     * @author ILsunshien
+     */
+Method [ <user> public method orderLists ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/Order.php 25 - 52
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_order.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'page',
+  3 => 'lists',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T09:25:15+08:00 ] 172.17.146.225 123.151.77.49 GET /index/order/orderlists.html?status=completed
+[ log ] gp.nmd8.cn/index/order/orderlists.html?status=completed [运行时间：0.030736s][吞吐率：32.54req/s] [内存消耗：2,911.48kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderlists',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=i131903eb7dv8tcavc5t3cv564; mini_car=%5B%5B%2250%22%2C%22%E6%B5%8B%E8%AF%95%22%2C10%2C1%5D%5D; think_var=zh-cn',
+  'host' => 'gp.nmd8.cn',
+  'referer' => 'http://gp.nmd8.cn/index/order/orderlists.html?status=shipped',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060632) NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '61.54.214.60',
+  'x-forwarded-for-pound' => '61.54.214.60',
+)
+[ info ] [ PARAM ] array (
+  'index/order/orderlists_html' => '',
+  'status' => 'completed',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人订单
+     * @author ILsunshien
+     */
+Method [ <user> public method orderLists ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/Order.php 25 - 52
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_order.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'page',
+  3 => 'lists',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T09:25:17+08:00 ] 172.17.146.225 123.151.77.49 GET /index/user/usercenter.html
+[ log ] gp.nmd8.cn/index/user/usercenter.html [运行时间：0.035679s][吞吐率：28.03req/s] [内存消耗：3,115.00kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=i131903eb7dv8tcavc5t3cv564; mini_car=%5B%5B%2250%22%2C%22%E6%B5%8B%E8%AF%95%22%2C10%2C1%5D%5D; think_var=zh-cn',
+  'host' => 'gp.nmd8.cn',
+  'referer' => 'http://gp.nmd8.cn/index/order/orderlists.html?status=completed',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060632) NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '61.54.214.60',
+  'x-forwarded-for-pound' => '61.54.214.60',
+)
+[ info ] [ PARAM ] array (
+  'index/user/usercenter_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人中心
+     * @author  ILsunshine
+     */
+Method [ <user> public method userCenter ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/User.php 39 - 71
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_center.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'is_gongpai',
+  3 => 'gp_user',
+  4 => 'ytixian',
+  5 => 'tuijianren',
+  6 => 'userInfo',
+  7 => 'hys',
+  8 => 'zt_count',
+  9 => 'scoreorder',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T09:25:25+08:00 ] 172.17.146.225 123.151.77.49 GET /index/user/user_fenhong.html
+[ log ] gp.nmd8.cn/index/user/user_fenhong.html [运行时间：0.034564s][吞吐率：28.93req/s] [内存消耗：3,092.38kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'user_fenhong',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=i131903eb7dv8tcavc5t3cv564; mini_car=%5B%5B%2250%22%2C%22%E6%B5%8B%E8%AF%95%22%2C10%2C1%5D%5D; think_var=zh-cn',
+  'host' => 'gp.nmd8.cn',
+  'referer' => 'http://gp.nmd8.cn/index/user/usercenter.html',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060632) NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '61.54.214.60',
+  'x-forwarded-for-pound' => '61.54.214.60',
+)
+[ info ] [ PARAM ] array (
+  'index/user/user_fenhong_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method user_fenhong ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/User.php 444 - 561
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_fenhong.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'zuanshi_zong_fafang',
+  3 => 'zuanshi_count',
+  4 => 'zuanshi_user_fafang',
+  5 => 'jinzuan_zong_fafang',
+  6 => 'jinzuan_count',
+  7 => 'jinzuan_user_fafang',
+  8 => 'yinguan_zong_fafang',
+  9 => 'yinguan_count',
+  10 => 'yinguan_user_fafang',
+  11 => 'jinguan_zong_fafang',
+  12 => 'jinguan_count',
+  13 => 'jinguan_user_fafang',
+  14 => 'huangguan_zong_fafang',
+  15 => 'huangguan_count',
+  16 => 'huangguan_user_fafang',
+  17 => 'zong_yy_zong_fafang',
+  18 => 'zong_yy_count',
+  19 => 'zong_yy_user_fafang',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T09:25:25+08:00 ] 172.17.146.225 61.54.214.60 GET /themes/default/index/new/css/common.css
+[ log ] gp.nmd8.cn/themes/default/index/new/css/common.css [运行时间：0.022816s][吞吐率：43.83req/s] [内存消耗：2,402.35kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'themes',
+    1 => 'default',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060632) NetType/WIFI Language/zh_CN',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://gp.nmd8.cn/index/user/user_fenhong.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=i131903eb7dv8tcavc5t3cv564; mini_car=%5B%5B%2250%22%2C%22%E6%B5%8B%E8%AF%95%22%2C10%2C1%5D%5D; think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+  'themes/default/index/new/css/common_css' => '',
+  'new' => 'css',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T09:25:25+08:00 ] 172.17.146.225 61.54.214.60 GET /themes/default/index/new/css/index.css?v=1.2.1
+[ log ] gp.nmd8.cn/themes/default/index/new/css/index.css?v=1.2.1 [运行时间：0.022279s][吞吐率：44.89req/s] [内存消耗：2,402.38kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'themes',
+    1 => 'default',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060632) NetType/WIFI Language/zh_CN',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://gp.nmd8.cn/index/user/user_fenhong.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=i131903eb7dv8tcavc5t3cv564; mini_car=%5B%5B%2250%22%2C%22%E6%B5%8B%E8%AF%95%22%2C10%2C1%5D%5D; think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+  'themes/default/index/new/css/index_css' => '',
+  'v' => '1.2.1',
+  'new' => 'css',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T09:25:45+08:00 ] 172.17.146.225 61.151.226.77 GET /index/user/user_link.html
+[ log ] gp.nmd8.cn/index/user/user_link.html [运行时间：0.026279s][吞吐率：38.05req/s] [内存消耗：3,073.87kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'user_link',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.4; HUAWEI ALE-CL00 Build/HuaweiALE-CL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043024 Safari/537.36 MicroMessenger/6.5.4.1000 NetType/4G Language/zh_CN',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'index/user/user_link_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T09:25:45+08:00 ] 172.17.146.225 61.151.226.77 GET /index/base/login.html
+[ log ] gp.nmd8.cn/index/base/login.html [运行时间：0.027368s][吞吐率：36.54req/s] [内存消耗：2,922.73kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.4; HUAWEI ALE-CL00 Build/HuaweiALE-CL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043024 Safari/537.36 MicroMessenger/6.5.4.1000 NetType/4G Language/zh_CN',
+  'accept' => '*/*',
+  'referer' => 'http://gp.nmd8.cn/index/user/user_link.html',
+  'cookie' => 'PHPSESSID=g5kp7djf39r423a1tj944i8236; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T09:25:48+08:00 ] 172.17.146.225 61.151.226.67 GET /index/user/user_link.html
+[ log ] gp.nmd8.cn/index/user/user_link.html [运行时间：0.026407s][吞吐率：37.87req/s] [内存消耗：3,064.81kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'user_link',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'referer' => '',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MX4 Pro Build/KTU84P) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,*',
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'index/user/user_link_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T09:25:48+08:00 ] 172.17.146.225 61.151.226.67 GET /index/base/login.html
+[ log ] gp.nmd8.cn/index/base/login.html [运行时间：0.027283s][吞吐率：36.65req/s] [内存消耗：2,913.09kb] [文件加载：50]
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'referer' => '',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MX4 Pro Build/KTU84P) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'cookie' => 'think_var=en; PHPSESSID=l9jsh7led8dgb93muqv3rpnif3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,*',
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T09:25:57+08:00 ] 172.17.146.225 61.151.226.53 GET /index/user/tuiguangqrcode.html
+[ log ] gp.nmd8.cn/index/user/tuiguangqrcode.html [运行时间：0.025137s][吞吐率：39.78req/s] [内存消耗：3,073.62kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'tuiguangqrcode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.4; HUAWEI ALE-CL00 Build/HuaweiALE-CL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043024 Safari/537.36 MicroMessenger/6.5.4.1000 NetType/4G Language/zh_CN',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'index/user/tuiguangqrcode_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T09:25:57+08:00 ] 172.17.146.225 61.151.226.53 GET /index/base/login.html
+[ log ] gp.nmd8.cn/index/base/login.html [运行时间：0.026553s][吞吐率：37.66req/s] [内存消耗：2,922.62kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.4; HUAWEI ALE-CL00 Build/HuaweiALE-CL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043024 Safari/537.36 MicroMessenger/6.5.4.1000 NetType/4G Language/zh_CN',
+  'accept' => '*/*',
+  'referer' => 'http://gp.nmd8.cn/index/user/tuiguangqrcode.html',
+  'cookie' => 'PHPSESSID=pgffov61al77qutrgs7mcqrun1; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T09:25:59+08:00 ] 172.17.146.225 61.151.226.85 GET /index/user/tuiguangqrcode.html
+[ log ] gp.nmd8.cn/index/user/tuiguangqrcode.html [运行时间：0.025993s][吞吐率：38.47req/s] [内存消耗：3,064.59kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'tuiguangqrcode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'referer' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,*',
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'index/user/tuiguangqrcode_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T09:25:59+08:00 ] 172.17.146.225 61.151.226.85 GET /index/base/login.html
+[ log ] gp.nmd8.cn/index/base/login.html [运行时间：0.027024s][吞吐率：37.00req/s] [内存消耗：2,913.52kb] [文件加载：50]
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'referer' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4',
+  'cookie' => 'think_var=en; PHPSESSID=r5k637lttvr4u77q17ktpqvjp0',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,*',
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T09:26:11+08:00 ] 172.17.146.225 61.151.226.76 GET /index/order/orderlists.html
+[ log ] gp.nmd8.cn/index/order/orderlists.html [运行时间：0.024515s][吞吐率：40.79req/s] [内存消耗：2,906.54kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderlists',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 MicroMessenger/6.5.5 NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'index/order/orderlists_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T09:26:15+08:00 ] 172.17.146.225 120.204.200.82 GET /index/order/orderlists.html?status=shipped
+[ log ] gp.nmd8.cn/index/order/orderlists.html?status=shipped [运行时间：0.025826s][吞吐率：38.72req/s] [内存消耗：2,906.98kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderlists',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.4; Coolpad Y82-520 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 MicroMessenger/6.5.4.1000 NetType/4G Language/zh_CN',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'index/order/orderlists_html' => '',
+  'status' => 'shipped',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T09:37:32+08:00 ] 172.17.146.225 117.185.117.54 GET /index/user/user_link.html
+[ log ] gp.nmd8.cn/index/user/user_link.html [运行时间：0.025321s][吞吐率：39.49req/s] [内存消耗：3,073.77kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'user_link',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 MicroMessenger/6.5.5 NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'index/user/user_link_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T09:37:36+08:00 ] 172.17.146.225 117.185.117.54 GET /index/base/login.html
+[ log ] gp.nmd8.cn/index/base/login.html [运行时间：0.028208s][吞吐率：35.45req/s] [内存消耗：2,922.39kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 MicroMessenger/6.5.5 NetType/WIFI Language/zh_CN',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://gp.nmd8.cn/index/user/user_link.html',
+  'cookie' => 'PHPSESSID=tkm04b8uivtiuqtkei8bjaq2p0; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T11:41:25+08:00 ] 172.17.146.225 183.136.190.62 GET /
+[ log ] gp.nmd8.cn/ [运行时间：0.025360s][吞吐率：39.43req/s] [内存消耗：2,941.70kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gp.nmd8.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => '',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T12:01:45+08:00 ] 172.17.146.225 171.8.74.35 GET /admin/base/logintest
+[ log ] gp.nmd8.cn/admin/base/logintest [运行时间：0.026556s][吞吐率：37.66req/s] [内存消耗：2,819.41kb] [文件加载：51]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'base',
+    2 => 'logintest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'admin/base/logintest' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/admin/lang/zh-cn.php
+[ info ] [ RUN ] Method [ <user> public method logintest ] {
+  @@ /www/wwwroot/gongpai/application/admin/controller/Base.php 82 - 89
+}
+
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /www/wwwroot/gongpai/themes/default/index/dispatch_jump.html [ array (
+  0 => 'tyjfmc',
+  1 => 'code',
+  2 => 'msg',
+  3 => 'data',
+  4 => 'url',
+  5 => 'wait',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T12:01:47+08:00 ] 172.17.146.225 171.8.74.35 GET /admin
+[ log ] gp.nmd8.cn/admin [运行时间：0.040973s][吞吐率：24.41req/s] [内存消耗：3,056.42kb] [文件加载：55]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'referer' => 'http://gp.nmd8.cn/admin/base/logintest',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=rs7li2i99e9i2or4kq3mokst41',
+)
+[ info ] [ PARAM ] array (
+  'admin' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /www/wwwroot/gongpai/application/admin/controller/Index.php 21 - 40
+}
+
+[ info ] [ VIEW ] /www/wwwroot/gongpai/application/admin/view/index/index.html [ array (
+  0 => 'menuTree',
+  1 => 'order_num',
+  2 => 'tixian',
+  3 => 'jh_num',
+  4 => 'wjh_num',
+  5 => 'zjf_num',
+  6 => 'user_num',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T12:01:53+08:00 ] 172.17.146.225 171.8.74.35 GET /admin/member/withdrawal.html
+[ log ] gp.nmd8.cn/admin/member/withdrawal.html [运行时间：0.044257s][吞吐率：22.60req/s] [内存消耗：3,517.65kb] [文件加载：62]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'withdrawal',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'referer' => 'http://gp.nmd8.cn/admin',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=rs7li2i99e9i2or4kq3mokst41',
+)
+[ info ] [ PARAM ] array (
+  'admin/member/withdrawal_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method withdrawal ] {
+  @@ /www/wwwroot/gongpai/application/admin/controller/Member.php 273 - 301
+}
+
+[ info ] [ VIEW ] /www/wwwroot/gongpai/application/admin/view/member/withdrawal.html [ array (
+  0 => 'menuTree',
+  1 => 'userList',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T12:02:23+08:00 ] 172.17.146.225 171.8.74.35 GET /admin/member/gongpai_xinxi.html
+[ log ] gp.nmd8.cn/admin/member/gongpai_xinxi.html [运行时间：0.040149s][吞吐率：24.91req/s] [内存消耗：3,281.85kb] [文件加载：59]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'gongpai_xinxi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'referer' => 'http://gp.nmd8.cn/admin/member/withdrawal.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=rs7li2i99e9i2or4kq3mokst41',
+)
+[ info ] [ PARAM ] array (
+  'admin/member/gongpai_xinxi_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method gongpai_xinxi ] {
+  @@ /www/wwwroot/gongpai/application/admin/controller/Member.php 55 - 88
+}
+
+[ info ] [ VIEW ] /www/wwwroot/gongpai/application/admin/view/member/gongpai_xinxi.html [ array (
+  0 => 'menuTree',
+  1 => 'userList',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T12:02:27+08:00 ] 172.17.146.225 171.8.74.35 GET /admin/member/gongpai_xinxi.html
+[ log ] gp.nmd8.cn/admin/member/gongpai_xinxi.html [运行时间：0.038756s][吞吐率：25.80req/s] [内存消耗：3,281.79kb] [文件加载：59]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'gongpai_xinxi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'referer' => 'http://gp.nmd8.cn/admin/member/gongpai_xinxi.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=rs7li2i99e9i2or4kq3mokst41',
+)
+[ info ] [ PARAM ] array (
+  'admin/member/gongpai_xinxi_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method gongpai_xinxi ] {
+  @@ /www/wwwroot/gongpai/application/admin/controller/Member.php 55 - 88
+}
+
+[ info ] [ VIEW ] /www/wwwroot/gongpai/application/admin/view/member/gongpai_xinxi.html [ array (
+  0 => 'menuTree',
+  1 => 'userList',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T12:02:28+08:00 ] 172.17.146.225 171.8.74.35 GET /admin/member/index.html
+[ log ] gp.nmd8.cn/admin/member/index.html [运行时间：0.042348s][吞吐率：23.61req/s] [内存消耗：3,327.52kb] [文件加载：59]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'referer' => 'http://gp.nmd8.cn/admin/member/gongpai_xinxi.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=rs7li2i99e9i2or4kq3mokst41',
+)
+[ info ] [ PARAM ] array (
+  'admin/member/index_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /www/wwwroot/gongpai/application/admin/controller/Member.php 23 - 53
+}
+
+[ info ] [ VIEW ] /www/wwwroot/gongpai/application/admin/view/member/index.html [ array (
+  0 => 'menuTree',
+  1 => 'userList',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T12:02:33+08:00 ] 172.17.146.225 171.8.74.35 GET /admin/member/gongpai_xinxi.html
+[ log ] gp.nmd8.cn/admin/member/gongpai_xinxi.html [运行时间：0.039289s][吞吐率：25.45req/s] [内存消耗：3,281.74kb] [文件加载：59]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'gongpai_xinxi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'referer' => 'http://gp.nmd8.cn/admin/member/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=rs7li2i99e9i2or4kq3mokst41',
+)
+[ info ] [ PARAM ] array (
+  'admin/member/gongpai_xinxi_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method gongpai_xinxi ] {
+  @@ /www/wwwroot/gongpai/application/admin/controller/Member.php 55 - 88
+}
+
+[ info ] [ VIEW ] /www/wwwroot/gongpai/application/admin/view/member/gongpai_xinxi.html [ array (
+  0 => 'menuTree',
+  1 => 'userList',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T12:02:40+08:00 ] 172.17.146.225 171.8.74.35 GET /admin/member/gongpai_xinxi.html
+[ log ] gp.nmd8.cn/admin/member/gongpai_xinxi.html [运行时间：0.041784s][吞吐率：23.93req/s] [内存消耗：3,281.79kb] [文件加载：59]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'gongpai_xinxi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'referer' => 'http://gp.nmd8.cn/admin/member/gongpai_xinxi.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=rs7li2i99e9i2or4kq3mokst41',
+)
+[ info ] [ PARAM ] array (
+  'admin/member/gongpai_xinxi_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method gongpai_xinxi ] {
+  @@ /www/wwwroot/gongpai/application/admin/controller/Member.php 55 - 88
+}
+
+[ info ] [ VIEW ] /www/wwwroot/gongpai/application/admin/view/member/gongpai_xinxi.html [ array (
+  0 => 'menuTree',
+  1 => 'userList',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T12:02:41+08:00 ] 172.17.146.225 171.8.74.35 GET /admin/member/gongpai_xinxi.html
+[ log ] gp.nmd8.cn/admin/member/gongpai_xinxi.html [运行时间：0.040683s][吞吐率：24.58req/s] [内存消耗：3,281.79kb] [文件加载：59]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'gongpai_xinxi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'referer' => 'http://gp.nmd8.cn/admin/member/gongpai_xinxi.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=rs7li2i99e9i2or4kq3mokst41',
+)
+[ info ] [ PARAM ] array (
+  'admin/member/gongpai_xinxi_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method gongpai_xinxi ] {
+  @@ /www/wwwroot/gongpai/application/admin/controller/Member.php 55 - 88
+}
+
+[ info ] [ VIEW ] /www/wwwroot/gongpai/application/admin/view/member/gongpai_xinxi.html [ array (
+  0 => 'menuTree',
+  1 => 'userList',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T12:02:41+08:00 ] 172.17.146.225 171.8.74.35 GET /admin/member/index.html
+[ log ] gp.nmd8.cn/admin/member/index.html [运行时间：0.042114s][吞吐率：23.75req/s] [内存消耗：3,327.52kb] [文件加载：59]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'referer' => 'http://gp.nmd8.cn/admin/member/gongpai_xinxi.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=rs7li2i99e9i2or4kq3mokst41',
+)
+[ info ] [ PARAM ] array (
+  'admin/member/index_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /www/wwwroot/gongpai/application/admin/controller/Member.php 23 - 53
+}
+
+[ info ] [ VIEW ] /www/wwwroot/gongpai/application/admin/view/member/index.html [ array (
+  0 => 'menuTree',
+  1 => 'userList',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T12:02:42+08:00 ] 172.17.146.225 171.8.74.35 GET /admin/member/gongpai_xinxi.html
+[ log ] gp.nmd8.cn/admin/member/gongpai_xinxi.html [运行时间：0.040331s][吞吐率：24.79req/s] [内存消耗：3,281.74kb] [文件加载：59]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'gongpai_xinxi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'referer' => 'http://gp.nmd8.cn/admin/member/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=rs7li2i99e9i2or4kq3mokst41',
+)
+[ info ] [ PARAM ] array (
+  'admin/member/gongpai_xinxi_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method gongpai_xinxi ] {
+  @@ /www/wwwroot/gongpai/application/admin/controller/Member.php 55 - 88
+}
+
+[ info ] [ VIEW ] /www/wwwroot/gongpai/application/admin/view/member/gongpai_xinxi.html [ array (
+  0 => 'menuTree',
+  1 => 'userList',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T12:02:44+08:00 ] 172.17.146.225 61.151.226.63 GET /admin/base/logintest
+[ log ] gp.nmd8.cn/admin/base/logintest [运行时间：0.025862s][吞吐率：38.67req/s] [内存消耗：2,818.41kb] [文件加载：51]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'base',
+    2 => 'logintest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'admin/base/logintest' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/admin/lang/zh-cn.php
+[ info ] [ RUN ] Method [ <user> public method logintest ] {
+  @@ /www/wwwroot/gongpai/application/admin/controller/Base.php 82 - 89
+}
+
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /www/wwwroot/gongpai/themes/default/index/dispatch_jump.html [ array (
+  0 => 'tyjfmc',
+  1 => 'code',
+  2 => 'msg',
+  3 => 'data',
+  4 => 'url',
+  5 => 'wait',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T12:02:45+08:00 ] 172.17.146.225 171.8.74.35 GET /admin/member/index.html
+[ log ] gp.nmd8.cn/admin/member/index.html [运行时间：0.042417s][吞吐率：23.58req/s] [内存消耗：3,327.52kb] [文件加载：59]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'referer' => 'http://gp.nmd8.cn/admin/member/gongpai_xinxi.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=rs7li2i99e9i2or4kq3mokst41',
+)
+[ info ] [ PARAM ] array (
+  'admin/member/index_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /www/wwwroot/gongpai/application/admin/controller/Member.php 23 - 53
+}
+
+[ info ] [ VIEW ] /www/wwwroot/gongpai/application/admin/view/member/index.html [ array (
+  0 => 'menuTree',
+  1 => 'userList',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T12:02:47+08:00 ] 172.17.146.225 117.135.170.150 GET /admin
+[ log ] gp.nmd8.cn/admin [运行时间：0.025177s][吞吐率：39.72req/s] [内存消耗：2,908.65kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => '*/*',
+  'referer' => 'F249AAC7B66CAF6831171.8.74.35',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'admin' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T12:02:47+08:00 ] 172.17.146.225 120.204.200.82 GET /admin
+[ log ] gp.nmd8.cn/admin [运行时间：0.024707s][吞吐率：40.47req/s] [内存消耗：2,908.67kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; rv:11.0) like Gecko',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'admin' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T12:02:54+08:00 ] 172.17.146.225 61.151.226.63 GET /admin/member/withdrawal.html
+[ log ] gp.nmd8.cn/admin/member/withdrawal.html [运行时间：0.025991s][吞吐率：38.47req/s] [内存消耗：2,994.70kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'withdrawal',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'admin/member/withdrawal_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T12:03:23+08:00 ] 172.17.146.225 140.207.118.16 GET /admin/member/gongpai_xinxi.html
+[ log ] gp.nmd8.cn/admin/member/gongpai_xinxi.html [运行时间：0.025119s][吞吐率：39.81req/s] [内存消耗：2,994.52kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'gongpai_xinxi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'admin/member/gongpai_xinxi_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T12:03:28+08:00 ] 172.17.146.225 61.151.226.76 GET /admin/member/index.html
+[ log ] gp.nmd8.cn/admin/member/index.html [运行时间：0.024661s][吞吐率：40.55req/s] [内存消耗：2,994.46kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.2141.400 QQBrowser/9.5.10219.400',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'admin/member/index_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T12:18:40+08:00 ] 172.17.146.225 120.204.200.81 GET /admin
+[ log ] gp.nmd8.cn/admin [运行时间：0.024372s][吞吐率：41.03req/s] [内存消耗：2,909.14kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'F249AAC7B66CAF6831171.8.74.35',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'admin' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T12:18:44+08:00 ] 172.17.146.225 120.204.200.81 GET /admin/base/login.html
+[ log ] gp.nmd8.cn/admin/base/login.html [运行时间：0.026974s][吞吐率：37.07req/s] [内存消耗：2,818.29kb] [文件加载：50]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://gp.nmd8.cn/admin',
+  'cookie' => 'PHPSESSID=fj15448l2rt1u04dhs6ipshsq3; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'admin/base/login_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/admin/lang/zh-cn.php
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  tangtanglove <dai_hang_love@126.com>
+     */
+Method [ <user> public method login ] {
+  @@ /www/wwwroot/gongpai/application/admin/controller/Base.php 37 - 71
+}
+
+[ info ] [ VIEW ] /www/wwwroot/gongpai/application/admin/view/base/login.html [ array (
+  0 => 'tyjfmc',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T16:46:52+08:00 ] 172.17.146.225 42.233.157.38 GET /
+[ log ] gp.nmd8.cn/ [运行时间：0.031546s][吞吐率：31.70req/s] [内存消耗：2,982.22kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060632) NetType/WIFI Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=i131903eb7dv8tcavc5t3cv564; mini_car=%5B%5B%2250%22%2C%22%E6%B5%8B%E8%AF%95%22%2C10%2C1%5D%5D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/Index.php 21 - 34
+}
+
+[ info ] [ VIEW ] ./themes/default/index/index.html [ array (
+  0 => 'userinfo',
+  1 => 'goodslist',
+  2 => 'gp_goodslist',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T16:46:53+08:00 ] 172.17.146.225 42.233.157.38 GET /favicon.ico
+[ log ] gp.nmd8.cn/favicon.ico [运行时间：0.022522s][吞吐率：44.40req/s] [内存消耗：2,401.88kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060632) NetType/WIFI Language/zh_CN',
+  'accept' => 'image/webp,image/wxpic,image/sharpp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://gp.nmd8.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=i131903eb7dv8tcavc5t3cv564; mini_car=%5B%5B%2250%22%2C%22%E6%B5%8B%E8%AF%95%22%2C10%2C1%5D%5D; think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+  'favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T16:46:58+08:00 ] 172.17.146.225 123.151.77.49 GET /index/user/usercenter.html
+[ log ] gp.nmd8.cn/index/user/usercenter.html [运行时间：0.035900s][吞吐率：27.86req/s] [内存消耗：3,114.98kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=i131903eb7dv8tcavc5t3cv564; mini_car=%5B%5B%2250%22%2C%22%E6%B5%8B%E8%AF%95%22%2C10%2C1%5D%5D; think_var=zh-cn',
+  'host' => 'gp.nmd8.cn',
+  'referer' => 'http://gp.nmd8.cn/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060632) NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '42.233.157.38',
+  'x-forwarded-for-pound' => '42.233.157.38',
+)
+[ info ] [ PARAM ] array (
+  'index/user/usercenter_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人中心
+     * @author  ILsunshine
+     */
+Method [ <user> public method userCenter ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/User.php 39 - 71
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_center.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'is_gongpai',
+  3 => 'gp_user',
+  4 => 'ytixian',
+  5 => 'tuijianren',
+  6 => 'userInfo',
+  7 => 'hys',
+  8 => 'zt_count',
+  9 => 'scoreorder',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T16:47:01+08:00 ] 172.17.146.225 123.151.77.49 GET /
+[ log ] gp.nmd8.cn/ [运行时间：0.029309s][吞吐率：34.12req/s] [内存消耗：2,981.41kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=i131903eb7dv8tcavc5t3cv564; mini_car=%5B%5B%2250%22%2C%22%E6%B5%8B%E8%AF%95%22%2C10%2C1%5D%5D; think_var=zh-cn',
+  'host' => 'gp.nmd8.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060632) NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '42.233.157.38',
+  'x-forwarded-for-pound' => '42.233.157.38',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/Index.php 21 - 34
+}
+
+[ info ] [ VIEW ] ./themes/default/index/index.html [ array (
+  0 => 'userinfo',
+  1 => 'goodslist',
+  2 => 'gp_goodslist',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T17:01:08+08:00 ] 172.17.146.225 123.151.77.49 GET /
+[ log ] gp.nmd8.cn/ [运行时间：0.030276s][吞吐率：33.03req/s] [内存消耗：2,981.41kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=i131903eb7dv8tcavc5t3cv564; mini_car=%5B%5B%2250%22%2C%22%E6%B5%8B%E8%AF%95%22%2C10%2C1%5D%5D; think_var=zh-cn',
+  'host' => 'gp.nmd8.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060632) NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '42.233.157.38',
+  'x-forwarded-for-pound' => '42.233.157.38',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/Index.php 21 - 34
+}
+
+[ info ] [ VIEW ] ./themes/default/index/index.html [ array (
+  0 => 'userinfo',
+  1 => 'goodslist',
+  2 => 'gp_goodslist',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T17:01:09+08:00 ] 172.17.146.225 42.233.157.38 GET /favicon.ico
+[ log ] gp.nmd8.cn/favicon.ico [运行时间：0.021799s][吞吐率：45.87req/s] [内存消耗：2,401.88kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060632) NetType/WIFI Language/zh_CN',
+  'accept' => 'image/webp,image/wxpic,image/sharpp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://gp.nmd8.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=i131903eb7dv8tcavc5t3cv564; mini_car=%5B%5B%2250%22%2C%22%E6%B5%8B%E8%AF%95%22%2C10%2C1%5D%5D; think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+  'favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T17:01:10+08:00 ] 172.17.146.225 123.151.77.49 GET /index/user/usercenter.html
+[ log ] gp.nmd8.cn/index/user/usercenter.html [运行时间：0.035859s][吞吐率：27.89req/s] [内存消耗：3,114.98kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=i131903eb7dv8tcavc5t3cv564; mini_car=%5B%5B%2250%22%2C%22%E6%B5%8B%E8%AF%95%22%2C10%2C1%5D%5D; think_var=zh-cn',
+  'host' => 'gp.nmd8.cn',
+  'referer' => 'http://gp.nmd8.cn/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060632) NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '42.233.157.38',
+  'x-forwarded-for-pound' => '42.233.157.38',
+)
+[ info ] [ PARAM ] array (
+  'index/user/usercenter_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人中心
+     * @author  ILsunshine
+     */
+Method [ <user> public method userCenter ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/User.php 39 - 71
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_center.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'is_gongpai',
+  3 => 'gp_user',
+  4 => 'ytixian',
+  5 => 'tuijianren',
+  6 => 'userInfo',
+  7 => 'hys',
+  8 => 'zt_count',
+  9 => 'scoreorder',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T17:01:15+08:00 ] 172.17.146.225 123.151.77.49 GET /index/user/user_withdrawal.html
+[ log ] gp.nmd8.cn/index/user/user_withdrawal.html [运行时间：0.032178s][吞吐率：31.08req/s] [内存消耗：3,097.39kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'user_withdrawal',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=i131903eb7dv8tcavc5t3cv564; mini_car=%5B%5B%2250%22%2C%22%E6%B5%8B%E8%AF%95%22%2C10%2C1%5D%5D; think_var=zh-cn',
+  'host' => 'gp.nmd8.cn',
+  'referer' => 'http://gp.nmd8.cn/index/user/usercenter.html',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060632) NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '42.233.157.38',
+  'x-forwarded-for-pound' => '42.233.157.38',
+)
+[ info ] [ PARAM ] array (
+  'index/user/user_withdrawal_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 提现
+     * @author  赵祥祥654377754
+     */
+Method [ <user> public method user_withdrawal ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/User.php 618 - 685
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_withdrawal.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'ytixian',
+  3 => 'tx_zt_num',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T17:01:30+08:00 ] 172.17.146.225 123.151.77.49 GET /index/user/usercenter.html
+[ log ] gp.nmd8.cn/index/user/usercenter.html [运行时间：0.035905s][吞吐率：27.85req/s] [内存消耗：3,114.98kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=i131903eb7dv8tcavc5t3cv564; mini_car=%5B%5B%2250%22%2C%22%E6%B5%8B%E8%AF%95%22%2C10%2C1%5D%5D; think_var=zh-cn',
+  'host' => 'gp.nmd8.cn',
+  'referer' => 'http://gp.nmd8.cn/',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060632) NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '42.233.157.38',
+  'x-forwarded-for-pound' => '42.233.157.38',
+)
+[ info ] [ PARAM ] array (
+  'index/user/usercenter_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人中心
+     * @author  ILsunshine
+     */
+Method [ <user> public method userCenter ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/User.php 39 - 71
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_center.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'is_gongpai',
+  3 => 'gp_user',
+  4 => 'ytixian',
+  5 => 'tuijianren',
+  6 => 'userInfo',
+  7 => 'hys',
+  8 => 'zt_count',
+  9 => 'scoreorder',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T17:01:32+08:00 ] 172.17.146.225 123.151.77.49 GET /
+[ log ] gp.nmd8.cn/ [运行时间：0.030887s][吞吐率：32.38req/s] [内存消耗：2,981.41kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=i131903eb7dv8tcavc5t3cv564; mini_car=%5B%5B%2250%22%2C%22%E6%B5%8B%E8%AF%95%22%2C10%2C1%5D%5D; think_var=zh-cn',
+  'host' => 'gp.nmd8.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060632) NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '42.233.157.38',
+  'x-forwarded-for-pound' => '42.233.157.38',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/Index.php 21 - 34
+}
+
+[ info ] [ VIEW ] ./themes/default/index/index.html [ array (
+  0 => 'userinfo',
+  1 => 'goodslist',
+  2 => 'gp_goodslist',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T17:56:45+08:00 ] 172.17.146.225 61.158.149.210 GET /
+[ log ] gp.nmd8.cn/ [运行时间：0.030618s][吞吐率：32.66req/s] [内存消耗：2,979.57kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044027 Mobile Safari/537.36 V1_AND_SQ_7.5.8_818_YYB_D QQ/7.5.8.3490 NetType/4G WebP/0.3.0 Pixel/1080',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=9abu6ciov6p7fphjdt5ffumu24',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/Index.php 21 - 34
+}
+
+[ info ] [ VIEW ] ./themes/default/index/index.html [ array (
+  0 => 'userinfo',
+  1 => 'goodslist',
+  2 => 'gp_goodslist',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T17:56:47+08:00 ] 172.17.146.225 119.147.207.144 GET /
+[ log ] gp.nmd8.cn/ [运行时间：0.025476s][吞吐率：39.25req/s] [内存消耗：2,941.13kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gp.nmd8.cn',
+  'accept-encoding' => 'deflate, gzip',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'connection' => 'Close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T17:56:48+08:00 ] 172.17.146.225 119.147.207.144 GET /index/base/login.html
+[ log ] gp.nmd8.cn/index/base/login.html [运行时间：0.027283s][吞吐率：36.65req/s] [内存消耗：2,923.52kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gp.nmd8.cn',
+  'accept-encoding' => 'deflate, gzip',
+  'referer' => 'http://gp.nmd8.cn/',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'connection' => 'Close',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T17:56:52+08:00 ] 172.17.146.225 61.158.149.210 GET /index/user/usercenter.html
+[ log ] gp.nmd8.cn/index/user/usercenter.html [运行时间：0.036163s][吞吐率：27.65req/s] [内存消耗：3,111.90kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044027 Mobile Safari/537.36 V1_AND_SQ_7.5.8_818_YYB_D QQ/7.5.8.3490 NetType/4G WebP/0.3.0 Pixel/1080',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,*/*;q=0.8',
+  'referer' => 'http://gp.nmd8.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=9abu6ciov6p7fphjdt5ffumu24; think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+  'index/user/usercenter_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人中心
+     * @author  ILsunshine
+     */
+Method [ <user> public method userCenter ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/User.php 39 - 71
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_center.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'is_gongpai',
+  3 => 'gp_user',
+  4 => 'ytixian',
+  5 => 'tuijianren',
+  6 => 'userInfo',
+  7 => 'hys',
+  8 => 'zt_count',
+  9 => 'scoreorder',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T18:56:24+08:00 ] 172.17.146.225 144.0.158.108 GET /favicon.ico
+[ log ] gp.nmd8.cn/favicon.ico [运行时间：0.022986s][吞吐率：43.50req/s] [内存消耗：2,402.00kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=64839161.982740095129433600.1524796085715.3877',
+)
+[ info ] [ PARAM ] array (
+  'favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T20:42:22+08:00 ] 172.17.146.225 123.151.76.158 GET /
+[ log ] gp.nmd8.cn/ [运行时间：0.025889s][吞吐率：38.63req/s] [内存消耗：2,941.94kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=11ieretdlq5vtp9c9pu6c7b5q1',
+  'host' => 'gp.nmd8.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; vivo X7Plus Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060636) NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '119.251.83.207',
+  'x-forwarded-for-pound' => '119.251.83.207',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T20:42:22+08:00 ] 172.17.146.225 123.151.76.158 GET /index/base/login.html
+[ log ] gp.nmd8.cn/index/base/login.html [运行时间：0.028481s][吞吐率：35.11req/s] [内存消耗：2,923.08kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=11ieretdlq5vtp9c9pu6c7b5q1; think_var=zh-cn',
+  'host' => 'gp.nmd8.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; vivo X7Plus Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060636) NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '119.251.83.207',
+  'x-forwarded-for-pound' => '119.251.83.207',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T20:42:23+08:00 ] 172.17.146.225 119.251.83.207 GET /favicon.ico
+[ log ] gp.nmd8.cn/favicon.ico [运行时间：0.022814s][吞吐率：43.83req/s] [内存消耗：2,401.69kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; vivo X7Plus Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060636) NetType/WIFI Language/zh_CN',
+  'accept' => 'image/webp,image/wxpic,image/sharpp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://gp.nmd8.cn/index/base/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=11ieretdlq5vtp9c9pu6c7b5q1; think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+  'favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T20:42:25+08:00 ] 172.17.146.225 123.151.76.158 POST /index/base/login.html
+[ log ] gp.nmd8.cn/index/base/login.html [运行时间：0.030574s][吞吐率：32.71req/s] [内存消耗：2,905.73kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=11ieretdlq5vtp9c9pu6c7b5q1; think_var=zh-cn',
+  'host' => 'gp.nmd8.cn',
+  'origin' => 'http://gp.nmd8.cn',
+  'referer' => 'http://gp.nmd8.cn/index/base/login.html',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; vivo X7Plus Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060636) NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '119.251.83.207',
+  'x-forwarded-for-pound' => '119.251.83.207',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '25',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+  'key' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/Base.php 57 - 83
+}
+
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T20:42:35+08:00 ] 172.17.146.225 123.151.76.158 POST /index/base/login.html
+[ log ] gp.nmd8.cn/index/base/login.html [运行时间：0.031986s][吞吐率：31.26req/s] [内存消耗：2,954.73kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=11ieretdlq5vtp9c9pu6c7b5q1; think_var=zh-cn',
+  'host' => 'gp.nmd8.cn',
+  'origin' => 'http://gp.nmd8.cn',
+  'referer' => 'http://gp.nmd8.cn/index/base/login.html',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; vivo X7Plus Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060636) NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '119.251.83.207',
+  'x-forwarded-for-pound' => '119.251.83.207',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '31',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+  'key' => '15666666666',
+  'password' => '123456',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/Base.php 57 - 83
+}
+
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T20:42:35+08:00 ] 172.17.146.225 123.151.76.158 GET /index/user/usercenter.html
+[ log ] gp.nmd8.cn/index/user/usercenter.html [运行时间：0.035218s][吞吐率：28.39req/s] [内存消耗：3,112.38kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=11ieretdlq5vtp9c9pu6c7b5q1; think_var=zh-cn',
+  'host' => 'gp.nmd8.cn',
+  'referer' => 'http://gp.nmd8.cn/index/base/login.html',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; vivo X7Plus Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060636) NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '119.251.83.207',
+  'x-forwarded-for-pound' => '119.251.83.207',
+)
+[ info ] [ PARAM ] array (
+  'index/user/usercenter_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人中心
+     * @author  ILsunshine
+     */
+Method [ <user> public method userCenter ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/User.php 39 - 71
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_center.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'is_gongpai',
+  3 => 'gp_user',
+  4 => 'ytixian',
+  5 => 'tuijianren',
+  6 => 'userInfo',
+  7 => 'hys',
+  8 => 'zt_count',
+  9 => 'scoreorder',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T20:42:37+08:00 ] 172.17.146.225 123.151.76.158 GET /index/user/user_link.html
+[ log ] gp.nmd8.cn/index/user/user_link.html [运行时间：0.031397s][吞吐率：31.85req/s] [内存消耗：3,091.80kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'user_link',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=11ieretdlq5vtp9c9pu6c7b5q1; think_var=zh-cn',
+  'host' => 'gp.nmd8.cn',
+  'referer' => 'http://gp.nmd8.cn/index/user/usercenter.html',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; vivo X7Plus Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060636) NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '119.251.83.207',
+  'x-forwarded-for-pound' => '119.251.83.207',
+)
+[ info ] [ PARAM ] array (
+  'index/user/user_link_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 推广链接
+     * @author  赵祥祥654377754
+     */
+Method [ <user> public method user_link ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/User.php 363 - 369
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_link.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T20:42:39+08:00 ] 172.17.146.225 123.151.76.158 GET /index/user/usercenter.html
+[ log ] gp.nmd8.cn/index/user/usercenter.html [运行时间：0.035719s][吞吐率：28.00req/s] [内存消耗：3,112.59kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=11ieretdlq5vtp9c9pu6c7b5q1; think_var=zh-cn',
+  'host' => 'gp.nmd8.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; vivo X7Plus Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060636) NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '119.251.83.207',
+  'x-forwarded-for-pound' => '119.251.83.207',
+)
+[ info ] [ PARAM ] array (
+  'index/user/usercenter_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人中心
+     * @author  ILsunshine
+     */
+Method [ <user> public method userCenter ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/User.php 39 - 71
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_center.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'is_gongpai',
+  3 => 'gp_user',
+  4 => 'ytixian',
+  5 => 'tuijianren',
+  6 => 'userInfo',
+  7 => 'hys',
+  8 => 'zt_count',
+  9 => 'scoreorder',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T20:42:44+08:00 ] 172.17.146.225 123.151.76.158 GET /index/user/user_friends1.html
+[ log ] gp.nmd8.cn/index/user/user_friends1.html [运行时间：0.032951s][吞吐率：30.35req/s] [内存消耗：3,335.72kb] [文件加载：57]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'user_friends1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=11ieretdlq5vtp9c9pu6c7b5q1; think_var=zh-cn',
+  'host' => 'gp.nmd8.cn',
+  'referer' => 'http://gp.nmd8.cn/index/user/usercenter.html',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; vivo X7Plus Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060636) NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '119.251.83.207',
+  'x-forwarded-for-pound' => '119.251.83.207',
+)
+[ info ] [ PARAM ] array (
+  'index/user/user_friends1_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method user_friends1 ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/User.php 593 - 613
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_friends1.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'lists',
+  3 => 'page',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T20:42:53+08:00 ] 172.17.146.225 123.151.76.158 GET /index/user/usercenter.html
+[ log ] gp.nmd8.cn/index/user/usercenter.html [运行时间：0.035771s][吞吐率：27.96req/s] [内存消耗：3,112.59kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=11ieretdlq5vtp9c9pu6c7b5q1; think_var=zh-cn',
+  'host' => 'gp.nmd8.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; vivo X7Plus Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060636) NetType/WIFI Language/zh_CN',
+  'x-forwarded-for' => '119.251.83.207',
+  'x-forwarded-for-pound' => '119.251.83.207',
+)
+[ info ] [ PARAM ] array (
+  'index/user/usercenter_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人中心
+     * @author  ILsunshine
+     */
+Method [ <user> public method userCenter ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/User.php 39 - 71
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_center.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'is_gongpai',
+  3 => 'gp_user',
+  4 => 'ytixian',
+  5 => 'tuijianren',
+  6 => 'userInfo',
+  7 => 'hys',
+  8 => 'zt_count',
+  9 => 'scoreorder',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T20:43:44+08:00 ] 172.17.146.225 61.151.225.155 GET /index/user/user_friends1.html
+[ log ] gp.nmd8.cn/index/user/user_friends1.html [运行时间：0.026037s][吞吐率：38.41req/s] [内存消耗：3,073.73kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'user_friends1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM801 Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043024 Safari/537.36 MicroMessenger/6.5.4.1000 NetType/4G Language/zh_CN',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'index/user/user_friends1_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T20:48:52+08:00 ] 172.17.146.225 117.136.62.112 GET /index/base/register.html?reid=1
+[ log ] gp.nmd8.cn/index/base/register.html?reid=1 [运行时间：0.030070s][吞吐率：33.26req/s] [内存消耗：2,941.23kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'register',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gp.nmd8.cn',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E216 MicroMessenger/6.6.6 NetType/4G Language/zh_CN',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'index/base/register_html' => '',
+  'reid' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户注册方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method register ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/Base.php 91 - 145
+}
+
+[ info ] [ VIEW ] ./themes/default/index/register.html [ array (
+  0 => 'userinfo',
+  1 => 'tjmobile',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T20:49:52+08:00 ] 172.17.146.225 61.151.226.53 GET /index/base/register.html?reid=1
+[ log ] gp.nmd8.cn/index/base/register.html?reid=1 [运行时间：0.030749s][吞吐率：32.52req/s] [内存消耗：2,940.28kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'register',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM801 Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043024 Safari/537.36 MicroMessenger/6.5.4.1000 NetType/4G Language/zh_CN',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'index/base/register_html' => '',
+  'reid' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户注册方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method register ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/Base.php 91 - 145
+}
+
+[ info ] [ VIEW ] ./themes/default/index/register.html [ array (
+  0 => 'userinfo',
+  1 => 'tjmobile',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T21:01:30+08:00 ] 172.17.146.225 120.204.17.70 GET /index/user/user_friends1.html
+[ log ] gp.nmd8.cn/index/user/user_friends1.html [运行时间：0.026123s][吞吐率：38.28req/s] [内存消耗：3,074.12kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'user_friends1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM801 Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043024 Safari/537.36 MicroMessenger/6.5.4.1000 NetType/4G Language/zh_CN',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'index/user/user_friends1_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T21:01:37+08:00 ] 172.17.146.225 120.204.17.70 GET /index/base/login.html
+[ log ] gp.nmd8.cn/index/base/login.html [运行时间：0.029079s][吞吐率：34.39req/s] [内存消耗：2,922.56kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM801 Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043024 Safari/537.36 MicroMessenger/6.5.4.1000 NetType/4G Language/zh_CN',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://gp.nmd8.cn/index/user/user_friends1.html',
+  'cookie' => 'PHPSESSID=brcl1bpq6panno0rrkbdk5t0t6; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T21:02:25+08:00 ] 172.17.146.225 61.151.226.53 GET /index/user/user_friends1.html
+[ log ] gp.nmd8.cn/index/user/user_friends1.html [运行时间：0.025535s][吞吐率：39.16req/s] [内存消耗：3,064.69kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'user_friends1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'referer' => '',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MX4 Pro Build/KTU84P) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,*',
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'index/user/user_friends1_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T21:02:25+08:00 ] 172.17.146.225 61.151.226.53 GET /index/base/login.html
+[ log ] gp.nmd8.cn/index/base/login.html [运行时间：0.026949s][吞吐率：37.11req/s] [内存消耗：2,913.09kb] [文件加载：50]
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'referer' => '',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MX4 Pro Build/KTU84P) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'cookie' => 'think_var=en; PHPSESSID=d96mq97ke8abfdc2pvga2ntuu0',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,*',
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T21:37:15+08:00 ] 172.17.146.225 121.40.70.38 GET ///uploads//picture//20180427//e820807e90a569c46a60ee45167a25fc.php
+[ log ] gp.nmd8.cn///uploads//picture//20180427//e820807e90a569c46a60ee45167a25fc.php [运行时间：0.021402s][吞吐率：46.72req/s] [内存消耗：2,401.01kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => '',
+    2 => 'picture',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'python-requests/2.18.4',
+)
+[ info ] [ PARAM ] array (
+  'uploads/picture/20180427/e820807e90a569c46a60ee45167a25fc_php' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T22:08:13+08:00 ] 172.17.146.225 144.0.158.108 GET /favicon.ico
+[ log ] gp.nmd8.cn/favicon.ico [运行时间：0.023155s][吞吐率：43.19req/s] [内存消耗：2,402.00kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=64839161.982740095129433600.1524796085715.3877',
+)
+[ info ] [ PARAM ] array (
+  'favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T22:41:50+08:00 ] 172.17.146.225 182.117.162.191 GET /
+[ log ] gp.nmd8.cn/ [运行时间：0.024190s][吞吐率：41.34req/s] [内存消耗：2,941.60kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044027 Mobile Safari/537.36 V1_AND_SQ_7.5.8_818_YYB_D QQ/7.5.8.3490 NetType/WIFI WebP/0.3.0 Pixel/1080',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=9abu6ciov6p7fphjdt5ffumu24',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T22:41:51+08:00 ] 172.17.146.225 182.117.162.191 GET /index/base/login.html
+[ log ] gp.nmd8.cn/index/base/login.html [运行时间：0.027120s][吞吐率：36.87req/s] [内存消耗：2,922.78kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044027 Mobile Safari/537.36 V1_AND_SQ_7.5.8_818_YYB_D QQ/7.5.8.3490 NetType/WIFI WebP/0.3.0 Pixel/1080',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=9abu6ciov6p7fphjdt5ffumu24; think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T22:41:59+08:00 ] 172.17.146.225 182.117.162.191 POST /index/base/login.html
+[ log ] gp.nmd8.cn/index/base/login.html [运行时间：0.030603s][吞吐率：32.68req/s] [内存消耗：2,953.98kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://gp.nmd8.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044027 Mobile Safari/537.36 V1_AND_SQ_7.5.8_818_YYB_D QQ/7.5.8.3490 NetType/WIFI WebP/0.3.0 Pixel/1080',
+  'referer' => 'http://gp.nmd8.cn/index/base/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=9abu6ciov6p7fphjdt5ffumu24; think_var=zh-cn',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '32',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+  'key' => '17630545278',
+  'password' => 'zhaokai',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/Base.php 57 - 83
+}
+
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T22:41:59+08:00 ] 172.17.146.225 182.117.162.191 GET /index/user/usercenter.html
+[ log ] gp.nmd8.cn/index/user/usercenter.html [运行时间：0.034746s][吞吐率：28.78req/s] [内存消耗：3,109.56kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044027 Mobile Safari/537.36 V1_AND_SQ_7.5.8_818_YYB_D QQ/7.5.8.3490 NetType/WIFI WebP/0.3.0 Pixel/1080',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,*/*;q=0.8',
+  'referer' => 'http://gp.nmd8.cn/index/base/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=9abu6ciov6p7fphjdt5ffumu24; think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+  'index/user/usercenter_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人中心
+     * @author  ILsunshine
+     */
+Method [ <user> public method userCenter ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/User.php 39 - 71
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_center.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'is_gongpai',
+  3 => 'ytixian',
+  4 => 'tuijianren',
+  5 => 'userInfo',
+  6 => 'hys',
+  7 => 'zt_count',
+  8 => 'scoreorder',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T22:42:03+08:00 ] 172.17.146.225 182.117.162.191 GET /index/user/user_friends1.html
+[ log ] gp.nmd8.cn/index/user/user_friends1.html [运行时间：0.031755s][吞吐率：31.49req/s] [内存消耗：3,236.51kb] [文件加载：57]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'user_friends1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044027 Mobile Safari/537.36 V1_AND_SQ_7.5.8_818_YYB_D QQ/7.5.8.3490 NetType/WIFI WebP/0.3.0 Pixel/1080',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,*/*;q=0.8',
+  'referer' => 'http://gp.nmd8.cn/index/user/usercenter.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=9abu6ciov6p7fphjdt5ffumu24; think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+  'index/user/user_friends1_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method user_friends1 ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/User.php 593 - 613
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_friends1.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'lists',
+  3 => 'page',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T22:42:07+08:00 ] 172.17.146.225 182.117.162.191 GET /index/user/score_detail.html
+[ log ] gp.nmd8.cn/index/user/score_detail.html [运行时间：0.032975s][吞吐率：30.33req/s] [内存消耗：3,237.44kb] [文件加载：57]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'score_detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044027 Mobile Safari/537.36 V1_AND_SQ_7.5.8_818_YYB_D QQ/7.5.8.3490 NetType/WIFI WebP/0.3.0 Pixel/1080',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,*/*;q=0.8',
+  'referer' => 'http://gp.nmd8.cn/index/user/user_friends1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=9abu6ciov6p7fphjdt5ffumu24; think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+  'index/user/score_detail_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 积分详情
+     * @author  赵祥祥654377754
+     */
+Method [ <user> public method score_detail ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/User.php 330 - 343
+}
+
+[ info ] [ VIEW ] ./themes/default/index/score_detail.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'page',
+  3 => 'lists',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T22:42:08+08:00 ] 172.17.146.225 182.117.162.191 GET /index/user/usercenter.html
+[ log ] gp.nmd8.cn/index/user/usercenter.html [运行时间：0.035258s][吞吐率：28.36req/s] [内存消耗：3,109.51kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044027 Mobile Safari/537.36 V1_AND_SQ_7.5.8_818_YYB_D QQ/7.5.8.3490 NetType/WIFI WebP/0.3.0 Pixel/1080',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,*/*;q=0.8',
+  'referer' => 'http://gp.nmd8.cn/index/user/score_detail.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=9abu6ciov6p7fphjdt5ffumu24; think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+  'index/user/usercenter_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人中心
+     * @author  ILsunshine
+     */
+Method [ <user> public method userCenter ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/User.php 39 - 71
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_center.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'is_gongpai',
+  3 => 'ytixian',
+  4 => 'tuijianren',
+  5 => 'userInfo',
+  6 => 'hys',
+  7 => 'zt_count',
+  8 => 'scoreorder',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T22:42:13+08:00 ] 172.17.146.225 182.117.162.191 GET /index/index/index.html
+[ log ] gp.nmd8.cn/index/index/index.html [运行时间：0.030628s][吞吐率：32.65req/s] [内存消耗：2,984.41kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044027 Mobile Safari/537.36 V1_AND_SQ_7.5.8_818_YYB_D QQ/7.5.8.3490 NetType/WIFI WebP/0.3.0 Pixel/1080',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,*/*;q=0.8',
+  'referer' => 'http://gp.nmd8.cn/index/user/usercenter.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=9abu6ciov6p7fphjdt5ffumu24; think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+  'index/index/index_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/Index.php 21 - 34
+}
+
+[ info ] [ VIEW ] ./themes/default/index/index.html [ array (
+  0 => 'userinfo',
+  1 => 'goodslist',
+  2 => 'gp_goodslist',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T22:42:15+08:00 ] 172.17.146.225 182.117.162.191 GET /index/user/usercenter.html
+[ log ] gp.nmd8.cn/index/user/usercenter.html [运行时间：0.036491s][吞吐率：27.40req/s] [内存消耗：3,109.44kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044027 Mobile Safari/537.36 V1_AND_SQ_7.5.8_818_YYB_D QQ/7.5.8.3490 NetType/WIFI WebP/0.3.0 Pixel/1080',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,*/*;q=0.8',
+  'referer' => 'http://gp.nmd8.cn/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=9abu6ciov6p7fphjdt5ffumu24; think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+  'index/user/usercenter_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人中心
+     * @author  ILsunshine
+     */
+Method [ <user> public method userCenter ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/User.php 39 - 71
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_center.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'is_gongpai',
+  3 => 'ytixian',
+  4 => 'tuijianren',
+  5 => 'userInfo',
+  6 => 'hys',
+  7 => 'zt_count',
+  8 => 'scoreorder',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-04-30T22:42:26+08:00 ] 172.17.146.225 182.117.162.191 GET /index/index/index.html
+[ log ] gp.nmd8.cn/index/index/index.html [运行时间：0.030583s][吞吐率：32.70req/s] [内存消耗：2,984.41kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/gongpai/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gp.nmd8.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.0; Mi Note 2 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044027 Mobile Safari/537.36 V1_AND_SQ_7.5.8_818_YYB_D QQ/7.5.8.3490 NetType/WIFI WebP/0.3.0 Pixel/1080',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,*/*;q=0.8',
+  'referer' => 'http://gp.nmd8.cn/index/user/usercenter.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=9abu6ciov6p7fphjdt5ffumu24; think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+  'index/index/index_html' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/gongpai/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /www/wwwroot/gongpai/application/index/controller/Index.php 21 - 34
+}
+
+[ info ] [ VIEW ] ./themes/default/index/index.html [ array (
+  0 => 'userinfo',
+  1 => 'goodslist',
+  2 => 'gp_goodslist',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------

@@ -1,0 +1,31 @@
+/*翻页样式*/
+DIV.djpage {
+	PADDING-RIGHT:6px;
+	PADDING-BOTTOM:10px;
+	PADDING-TOP:10px;
+	TEXT-ALIGN:center;
+	font-family:"宋体";
+	clear:both;
+	line-height:20px;
+}
+DIV.djpage li {display:inline-table;
+	BORDER:#ddd 1px solid;
+	font-size:0.8em;
+	background:#FFFFFF;
+	BACKGROUND-POSITION:50% bottom;
+	COLOR:#000;
+	MARGIN-RIGHT:5px;
+	border-radius:5px;
+	TEXT-DECORATION:none;
+	width: 30px;height: 30px;line-height: 30px;
+}
+DIV.djpage li a{display: block;width: 100%}
+DIV.djpage li.active {
+ 	border-radius:5px;
+	BORDER:#ff6699 1px solid;
+	FONT-WEIGHT:bold;
+	COLOR:#ff6699;
+	MARGIN-RIGHT:5px;
+	BACKGROUND-COLOR:#fff
+}
+ 

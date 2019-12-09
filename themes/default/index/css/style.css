@@ -1,0 +1,21 @@
+body{max-width: 720px;margin: 0 auto !important;}
+.mui-bar-nav{height: 56px;padding-top: 2px;}
+.mui-bar-nav~.mui-content {
+    padding-top: 0px;
+}
+.dgg{color: #581C1D;font-size: 16px}
+.mui-bar-tab{max-width: 720px;margin:0 auto;}
+
+.dj_listbg{background: #fff;	border: 1px solid #CCC;border-bottom: 0; }
+
+.dj_listbg ul{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	height: 50px;
+	overflow:hidden;
+	padding: 0 10px;margin:0 ;
+}
+
+.dj_listbg ul li{ color:#666; width:25%; float:left; padding-left:0px; height:50px; line-height:25px; overflow:hidden; font-size:10px;line-height: 50px;}
+.dj_listbg ul li span{ width:10px; display:inline-block;}

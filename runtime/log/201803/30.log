@@ -1,0 +1,1184 @@
+[ 2018-03-30T10:11:02+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] 127.0.0.1:815/ [运行时间：0.428000s][吞吐率：2.34req/s] [内存消耗：2,205.05kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\ceshi\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:815',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ZIYOUZHIFU=68h3ot0ptekfkqc7o7rerglom5; __guid=96992031.84130287506307040.1522373402996.4602; admin_type=1; PHPSESSID=4vkh8ja6g7j9ng6l7moeb9d896; user_id=36; is_distribut=1; uname=13066086803; cn=0; is_mobile=0; province_id=1; city_id=2; district_id=3; monitor_count=15; workspaceParam=index%7CUser',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\ceshi\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-03-30T10:11:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index/base/login.html
+[ log ] 127.0.0.1:815/index/base/login.html [运行时间：0.275000s][吞吐率：3.64req/s] [内存消耗：2,188.89kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\ceshi\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:815',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ZIYOUZHIFU=68h3ot0ptekfkqc7o7rerglom5; __guid=96992031.84130287506307040.1522373402996.4602; admin_type=1; PHPSESSID=4vkh8ja6g7j9ng6l7moeb9d896; user_id=36; is_distribut=1; uname=13066086803; cn=0; is_mobile=0; province_id=1; city_id=2; district_id=3; monitor_count=15; workspaceParam=index%7CUser; think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+)
+[ info ] [ LANG ] E:\ceshi\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\ceshi\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-03-30T10:11:03+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] 127.0.0.1:815/favicon.ico [运行时间：0.073000s][吞吐率：13.70req/s] [内存消耗：1,775.04kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\ceshi\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:815',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:815/index/base/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ZIYOUZHIFU=68h3ot0ptekfkqc7o7rerglom5; __guid=96992031.84130287506307040.1522373402996.4602; admin_type=1; PHPSESSID=4vkh8ja6g7j9ng6l7moeb9d896; user_id=36; is_distribut=1; uname=13066086803; cn=0; is_mobile=0; province_id=1; city_id=2; district_id=3; workspaceParam=index%7CUser; think_var=zh-cn; monitor_count=16',
+)
+[ info ] [ PARAM ] array (
+  'favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-03-30T10:11:11+08:00 ] 127.0.0.1 127.0.0.1 POST /index/base/login.html
+[ log ] 127.0.0.1:815/index/base/login.html [运行时间：0.218000s][吞吐率：4.59req/s] [内存消耗：2,206.45kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\ceshi\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:815',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1:815',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'referer' => 'http://127.0.0.1:815/index/base/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ZIYOUZHIFU=68h3ot0ptekfkqc7o7rerglom5; __guid=96992031.84130287506307040.1522373402996.4602; admin_type=1; PHPSESSID=4vkh8ja6g7j9ng6l7moeb9d896; user_id=36; is_distribut=1; uname=13066086803; cn=0; is_mobile=0; province_id=1; city_id=2; district_id=3; workspaceParam=index%7CUser; think_var=zh-cn; monitor_count=16',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '31',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+  'key' => '15666666666',
+  'password' => '123456',
+)
+[ info ] [ LANG ] E:\ceshi\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\ceshi\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-03-30T10:11:12+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/usercenter.html
+[ log ] 127.0.0.1:815/index/user/usercenter.html [运行时间：0.508000s][吞吐率：1.97req/s] [内存消耗：2,301.41kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\ceshi\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:815',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:815/index/base/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ZIYOUZHIFU=68h3ot0ptekfkqc7o7rerglom5; __guid=96992031.84130287506307040.1522373402996.4602; admin_type=1; PHPSESSID=4vkh8ja6g7j9ng6l7moeb9d896; user_id=36; is_distribut=1; uname=13066086803; cn=0; is_mobile=0; province_id=1; city_id=2; district_id=3; workspaceParam=index%7CUser; think_var=zh-cn; monitor_count=16',
+)
+[ info ] [ PARAM ] array (
+  'index/user/usercenter_html' => '',
+)
+[ info ] [ LANG ] E:\ceshi\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人中心
+     * @author  ILsunshine
+     */
+Method [ <user> public method userCenter ] {
+  @@ E:\ceshi\dbgj\application\index\controller\User.php 39 - 67
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_center.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'zhscore',
+  3 => 's_score',
+  4 => 'ytixian',
+  5 => 'tuijianren',
+  6 => 'userInfo',
+  7 => 'hys',
+  8 => 'scoreorder',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-03-30T10:13:12+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index.html
+[ log ] 127.0.0.1:815/index/index/index.html [运行时间：0.176000s][吞吐率：5.68req/s] [内存消耗：2,224.30kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\ceshi\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:815',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:815/index/user/usercenter.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ZIYOUZHIFU=68h3ot0ptekfkqc7o7rerglom5; __guid=96992031.84130287506307040.1522373402996.4602; admin_type=1; PHPSESSID=4vkh8ja6g7j9ng6l7moeb9d896; user_id=36; is_distribut=1; uname=13066086803; cn=0; is_mobile=0; province_id=1; city_id=2; district_id=3; workspaceParam=index%7CUser; think_var=zh-cn; monitor_count=17',
+)
+[ info ] [ PARAM ] array (
+  'index/index/index_html' => '',
+)
+[ info ] [ LANG ] E:\ceshi\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ E:\ceshi\dbgj\application\index\controller\Index.php 21 - 28
+}
+
+[ info ] [ VIEW ] ./themes/default/index/index.html [ array (
+  0 => 'userinfo',
+  1 => 'goodslist',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-03-30T10:13:55+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/usercenter.html
+[ log ] 127.0.0.1:815/index/user/usercenter.html [运行时间：0.184000s][吞吐率：5.43req/s] [内存消耗：2,301.41kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\ceshi\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:815',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:815/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ZIYOUZHIFU=68h3ot0ptekfkqc7o7rerglom5; __guid=96992031.84130287506307040.1522373402996.4602; admin_type=1; PHPSESSID=4vkh8ja6g7j9ng6l7moeb9d896; user_id=36; is_distribut=1; uname=13066086803; cn=0; is_mobile=0; province_id=1; city_id=2; district_id=3; workspaceParam=index%7CUser; think_var=zh-cn; monitor_count=18',
+)
+[ info ] [ PARAM ] array (
+  'index/user/usercenter_html' => '',
+)
+[ info ] [ LANG ] E:\ceshi\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人中心
+     * @author  ILsunshine
+     */
+Method [ <user> public method userCenter ] {
+  @@ E:\ceshi\dbgj\application\index\controller\User.php 39 - 67
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_center.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'zhscore',
+  3 => 's_score',
+  4 => 'ytixian',
+  5 => 'tuijianren',
+  6 => 'userInfo',
+  7 => 'hys',
+  8 => 'scoreorder',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-03-30T10:18:39+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php
+[ log ] 127.0.0.1:815/admin.php [运行时间：0.138000s][吞吐率：7.25req/s] [内存消耗：2,174.94kb] [文件加载：51]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\ceshi\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:815',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ZIYOUZHIFU=68h3ot0ptekfkqc7o7rerglom5; __guid=96992031.84130287506307040.1522373402996.4602; admin_type=1; PHPSESSID=4vkh8ja6g7j9ng6l7moeb9d896; user_id=36; is_distribut=1; uname=13066086803; cn=0; is_mobile=0; province_id=1; city_id=2; district_id=3; workspaceParam=index%7CUser; think_var=zh-cn; monitor_count=19',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\ceshi\dbgj/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-03-30T10:18:39+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/base/login.html
+[ log ] 127.0.0.1:815/admin.php/base/login.html [运行时间：0.094000s][吞吐率：10.64req/s] [内存消耗：2,094.10kb] [文件加载：48]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\ceshi\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:815',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ZIYOUZHIFU=68h3ot0ptekfkqc7o7rerglom5; __guid=96992031.84130287506307040.1522373402996.4602; admin_type=1; PHPSESSID=4vkh8ja6g7j9ng6l7moeb9d896; user_id=36; is_distribut=1; uname=13066086803; cn=0; is_mobile=0; province_id=1; city_id=2; district_id=3; workspaceParam=index%7CUser; think_var=zh-cn; monitor_count=19',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\ceshi\dbgj/application/admin\lang\zh-cn.php
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  tangtanglove <dai_hang_love@126.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\ceshi\dbgj\application\admin\controller\Base.php 37 - 71
+}
+
+[ info ] [ VIEW ] E:\ceshi\dbgj/application/admin\view\base\login.html [ array (
+  0 => 'tyjfmc',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-03-30T10:18:39+08:00 ] 127.0.0.1 127.0.0.1 GET /static/plugins/iCheck/square/blue.css
+[ log ] 127.0.0.1:815/static/plugins/iCheck/square/blue.css [运行时间：0.077000s][吞吐率：12.99req/s] [内存消耗：1,775.46kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\ceshi\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'plugins',
+    2 => 'iCheck',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:815',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://127.0.0.1:815/admin.php/base/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ZIYOUZHIFU=68h3ot0ptekfkqc7o7rerglom5; __guid=96992031.84130287506307040.1522373402996.4602; admin_type=1; PHPSESSID=4vkh8ja6g7j9ng6l7moeb9d896; user_id=36; is_distribut=1; uname=13066086803; cn=0; is_mobile=0; province_id=1; city_id=2; district_id=3; workspaceParam=index%7CUser; think_var=zh-cn; monitor_count=19',
+)
+[ info ] [ PARAM ] array (
+  'static/plugins/iCheck/square/blue_css' => '',
+  'square' => 'blue.css',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-03-30T10:18:39+08:00 ] 127.0.0.1 127.0.0.1 GET /static/bootstrap/css/font-awesome.min.css
+[ log ] 127.0.0.1:815/static/bootstrap/css/font-awesome.min.css [运行时间：0.133000s][吞吐率：7.52req/s] [内存消耗：1,775.34kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\ceshi\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'bootstrap',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:815',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://127.0.0.1:815/admin.php/base/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ZIYOUZHIFU=68h3ot0ptekfkqc7o7rerglom5; __guid=96992031.84130287506307040.1522373402996.4602; admin_type=1; PHPSESSID=4vkh8ja6g7j9ng6l7moeb9d896; user_id=36; is_distribut=1; uname=13066086803; cn=0; is_mobile=0; province_id=1; city_id=2; district_id=3; workspaceParam=index%7CUser; think_var=zh-cn; monitor_count=19',
+)
+[ info ] [ PARAM ] array (
+  'static/bootstrap/css/font-awesome_min_css' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-03-30T10:18:39+08:00 ] 127.0.0.1 127.0.0.1 GET /static/bootstrap/css/ionicons.min.css
+[ log ] 127.0.0.1:815/static/bootstrap/css/ionicons.min.css [运行时间：0.128000s][吞吐率：7.81req/s] [内存消耗：1,775.27kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\ceshi\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'bootstrap',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:815',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://127.0.0.1:815/admin.php/base/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ZIYOUZHIFU=68h3ot0ptekfkqc7o7rerglom5; __guid=96992031.84130287506307040.1522373402996.4602; admin_type=1; PHPSESSID=4vkh8ja6g7j9ng6l7moeb9d896; user_id=36; is_distribut=1; uname=13066086803; cn=0; is_mobile=0; province_id=1; city_id=2; district_id=3; workspaceParam=index%7CUser; think_var=zh-cn; monitor_count=19',
+)
+[ info ] [ PARAM ] array (
+  'static/bootstrap/css/ionicons_min_css' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-03-30T10:18:39+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/base/captcha.html
+[ log ] 127.0.0.1:815/admin.php/base/captcha.html [运行时间：0.133000s][吞吐率：7.52req/s] [内存消耗：2,149.34kb] [文件加载：48]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\ceshi\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'base',
+    2 => 'captcha',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:815',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:815/admin.php/base/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ZIYOUZHIFU=68h3ot0ptekfkqc7o7rerglom5; __guid=96992031.84130287506307040.1522373402996.4602; admin_type=1; PHPSESSID=4vkh8ja6g7j9ng6l7moeb9d896; user_id=36; is_distribut=1; uname=13066086803; cn=0; is_mobile=0; province_id=1; city_id=2; district_id=3; workspaceParam=index%7CUser; think_var=zh-cn; monitor_count=20',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\ceshi\dbgj/application/admin\lang\zh-cn.php
+[ info ] [ RUN ] /**
+     * 系统验证码方法
+     * @author  tangtanglove <dai_hang_love@126.com>
+     */
+Method [ <user> public method captcha ] {
+  @@ E:\ceshi\dbgj\application\admin\controller\Base.php 77 - 81
+}
+
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-03-30T10:18:45+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/base/captcha.html?rand=0.7439737951986343
+[ log ] 127.0.0.1:815/admin.php/base/captcha.html?rand=0.7439737951986343 [运行时间：0.128000s][吞吐率：7.81req/s] [内存消耗：2,149.78kb] [文件加载：48]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\ceshi\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'base',
+    2 => 'captcha',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:815',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:815/admin.php/base/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ZIYOUZHIFU=68h3ot0ptekfkqc7o7rerglom5; __guid=96992031.84130287506307040.1522373402996.4602; admin_type=1; PHPSESSID=4vkh8ja6g7j9ng6l7moeb9d896; user_id=36; is_distribut=1; uname=13066086803; cn=0; is_mobile=0; province_id=1; city_id=2; district_id=3; workspaceParam=index%7CUser; think_var=zh-cn; monitor_count=20',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.7439737951986343',
+)
+[ info ] [ LANG ] E:\ceshi\dbgj/application/admin\lang\zh-cn.php
+[ info ] [ RUN ] /**
+     * 系统验证码方法
+     * @author  tangtanglove <dai_hang_love@126.com>
+     */
+Method [ <user> public method captcha ] {
+  @@ E:\ceshi\dbgj\application\admin\controller\Base.php 77 - 81
+}
+
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-03-30T10:18:47+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/base/captcha.html?rand=0.02539201326534979
+[ log ] 127.0.0.1:815/admin.php/base/captcha.html?rand=0.02539201326534979 [运行时间：0.072000s][吞吐率：13.89req/s] [内存消耗：2,149.69kb] [文件加载：48]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\ceshi\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'base',
+    2 => 'captcha',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:815',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:815/admin.php/base/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ZIYOUZHIFU=68h3ot0ptekfkqc7o7rerglom5; __guid=96992031.84130287506307040.1522373402996.4602; admin_type=1; PHPSESSID=4vkh8ja6g7j9ng6l7moeb9d896; user_id=36; is_distribut=1; uname=13066086803; cn=0; is_mobile=0; province_id=1; city_id=2; district_id=3; workspaceParam=index%7CUser; think_var=zh-cn; monitor_count=20',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.02539201326534979',
+)
+[ info ] [ LANG ] E:\ceshi\dbgj/application/admin\lang\zh-cn.php
+[ info ] [ RUN ] /**
+     * 系统验证码方法
+     * @author  tangtanglove <dai_hang_love@126.com>
+     */
+Method [ <user> public method captcha ] {
+  @@ E:\ceshi\dbgj\application\admin\controller\Base.php 77 - 81
+}
+
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-03-30T10:18:48+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/base/captcha.html?rand=0.21833538348590342
+[ log ] 127.0.0.1:815/admin.php/base/captcha.html?rand=0.21833538348590342 [运行时间：0.110000s][吞吐率：9.09req/s] [内存消耗：2,149.69kb] [文件加载：48]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\ceshi\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'base',
+    2 => 'captcha',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:815',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:815/admin.php/base/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ZIYOUZHIFU=68h3ot0ptekfkqc7o7rerglom5; __guid=96992031.84130287506307040.1522373402996.4602; admin_type=1; PHPSESSID=4vkh8ja6g7j9ng6l7moeb9d896; user_id=36; is_distribut=1; uname=13066086803; cn=0; is_mobile=0; province_id=1; city_id=2; district_id=3; workspaceParam=index%7CUser; think_var=zh-cn; monitor_count=20',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.21833538348590342',
+)
+[ info ] [ LANG ] E:\ceshi\dbgj/application/admin\lang\zh-cn.php
+[ info ] [ RUN ] /**
+     * 系统验证码方法
+     * @author  tangtanglove <dai_hang_love@126.com>
+     */
+Method [ <user> public method captcha ] {
+  @@ E:\ceshi\dbgj\application\admin\controller\Base.php 77 - 81
+}
+
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-03-30T10:18:53+08:00 ] 127.0.0.1 127.0.0.1 POST /admin.php/base/login.html
+[ log ] 127.0.0.1:815/admin.php/base/login.html [运行时间：0.153000s][吞吐率：6.54req/s] [内存消耗：2,388.01kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\ceshi\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:815',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://127.0.0.1:815',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://127.0.0.1:815/admin.php/base/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ZIYOUZHIFU=68h3ot0ptekfkqc7o7rerglom5; __guid=96992031.84130287506307040.1522373402996.4602; admin_type=1; PHPSESSID=4vkh8ja6g7j9ng6l7moeb9d896; user_id=36; is_distribut=1; uname=13066086803; cn=0; is_mobile=0; province_id=1; city_id=2; district_id=3; workspaceParam=index%7CUser; think_var=zh-cn; monitor_count=20',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '43',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'captcha' => 'piiq',
+)
+[ info ] [ LANG ] E:\ceshi\dbgj/application/admin\lang\zh-cn.php
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  tangtanglove <dai_hang_love@126.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\ceshi\dbgj\application\admin\controller\Base.php 37 - 71
+}
+
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-03-30T10:18:55+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/index/index.html
+[ log ] 127.0.0.1:815/admin.php/index/index.html [运行时间：0.496000s][吞吐率：2.02req/s] [内存消耗：2,274.19kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\ceshi\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:815',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:815/admin.php/base/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ZIYOUZHIFU=68h3ot0ptekfkqc7o7rerglom5; __guid=96992031.84130287506307040.1522373402996.4602; admin_type=1; PHPSESSID=4vkh8ja6g7j9ng6l7moeb9d896; user_id=36; is_distribut=1; uname=13066086803; cn=0; is_mobile=0; province_id=1; city_id=2; district_id=3; workspaceParam=index%7CUser; think_var=zh-cn; monitor_count=20',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\ceshi\dbgj/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ E:\ceshi\dbgj\application\admin\controller\Index.php 21 - 40
+}
+
+[ info ] [ VIEW ] E:\ceshi\dbgj/application/admin\view\index\index.html [ array (
+  0 => 'menuTree',
+  1 => 'order_num',
+  2 => 'tixian',
+  3 => 'jh_num',
+  4 => 'wjh_num',
+  5 => 'zjf_num',
+  6 => 'user_num',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-03-30T10:19:01+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/config/edit.html
+[ log ] 127.0.0.1:815/admin.php/config/edit.html [运行时间：0.266000s][吞吐率：3.76req/s] [内存消耗：2,280.69kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\ceshi\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:815',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:815/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ZIYOUZHIFU=68h3ot0ptekfkqc7o7rerglom5; __guid=96992031.84130287506307040.1522373402996.4602; admin_type=1; PHPSESSID=4vkh8ja6g7j9ng6l7moeb9d896; user_id=36; is_distribut=1; uname=13066086803; cn=0; is_mobile=0; province_id=1; city_id=2; district_id=3; workspaceParam=index%7CUser; think_var=zh-cn; monitor_count=21',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\ceshi\dbgj/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 系统配置
+     */
+Method [ <user> public method edit ] {
+  @@ E:\ceshi\dbgj\application\admin\controller\Config.php 24 - 44
+}
+
+[ info ] [ VIEW ] E:\ceshi\dbgj/application/admin\view\config\edit.html [ array (
+  0 => 'menuTree',
+  1 => 'list',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-03-30T10:19:02+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/ueditor/index.html?action=config&&noCache=1522376342266
+[ log ] 127.0.0.1:815/admin.php/ueditor/index.html?action=config&&noCache=1522376342266 [运行时间：0.134000s][吞吐率：7.46req/s] [内存消耗：2,164.88kb] [文件加载：48]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\ceshi\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ueditor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:815',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1:815/admin.php/config/edit.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ZIYOUZHIFU=68h3ot0ptekfkqc7o7rerglom5; __guid=96992031.84130287506307040.1522373402996.4602; admin_type=1; PHPSESSID=4vkh8ja6g7j9ng6l7moeb9d896; user_id=36; is_distribut=1; uname=13066086803; cn=0; is_mobile=0; province_id=1; city_id=2; district_id=3; workspaceParam=index%7CUser; think_var=zh-cn; monitor_count=22',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'config',
+  'noCache' => '1522376342266',
+)
+[ info ] [ LANG ] E:\ceshi\dbgj/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 上传文件
+     * @author tangtanglove <dai_hang_love@126.com>
+     */
+Method [ <user> public method index ] {
+  @@ E:\ceshi\dbgj\application\admin\controller\Ueditor.php 27 - 81
+}
+
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-03-30T10:19:02+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/ueditor/index.html?action=config&&noCache=1522376342265
+[ log ] 127.0.0.1:815/admin.php/ueditor/index.html?action=config&&noCache=1522376342265 [运行时间：0.233000s][吞吐率：4.29req/s] [内存消耗：2,164.88kb] [文件加载：48]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\ceshi\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ueditor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:815',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1:815/admin.php/config/edit.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ZIYOUZHIFU=68h3ot0ptekfkqc7o7rerglom5; __guid=96992031.84130287506307040.1522373402996.4602; admin_type=1; PHPSESSID=4vkh8ja6g7j9ng6l7moeb9d896; user_id=36; is_distribut=1; uname=13066086803; cn=0; is_mobile=0; province_id=1; city_id=2; district_id=3; workspaceParam=index%7CUser; think_var=zh-cn; monitor_count=22',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'config',
+  'noCache' => '1522376342265',
+)
+[ info ] [ LANG ] E:\ceshi\dbgj/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 上传文件
+     * @author tangtanglove <dai_hang_love@126.com>
+     */
+Method [ <user> public method index ] {
+  @@ E:\ceshi\dbgj\application\admin\controller\Ueditor.php 27 - 81
+}
+
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-03-30T11:05:27+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php
+[ log ] 127.0.0.1:815/index.php [运行时间：0.485000s][吞吐率：2.06req/s] [内存消耗：2,221.41kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\ceshi\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:815',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ZIYOUZHIFU=68h3ot0ptekfkqc7o7rerglom5; __guid=96992031.84130287506307040.1522373402996.4602; admin_type=1; PHPSESSID=4vkh8ja6g7j9ng6l7moeb9d896; user_id=36; is_distribut=1; uname=13066086803; cn=0; province_id=1; city_id=2; district_id=3; workspaceParam=index%7CUser; think_var=zh-cn; monitor_count=23',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\ceshi\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ E:\ceshi\dbgj\application\index\controller\Index.php 21 - 28
+}
+
+[ info ] [ VIEW ] ./themes/default/index/index.html [ array (
+  0 => 'userinfo',
+  1 => 'goodslist',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-03-30T11:05:32+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/user/usercenter.html
+[ log ] 127.0.0.1:815/index.php/index/user/usercenter.html [运行时间：0.386000s][吞吐率：2.59req/s] [内存消耗：2,299.00kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\ceshi\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:815',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:815/index.php',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ZIYOUZHIFU=68h3ot0ptekfkqc7o7rerglom5; __guid=96992031.84130287506307040.1522373402996.4602; admin_type=1; PHPSESSID=4vkh8ja6g7j9ng6l7moeb9d896; user_id=36; is_distribut=1; uname=13066086803; cn=0; province_id=1; city_id=2; district_id=3; workspaceParam=index%7CUser; think_var=zh-cn; monitor_count=24',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\ceshi\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人中心
+     * @author  ILsunshine
+     */
+Method [ <user> public method userCenter ] {
+  @@ E:\ceshi\dbgj\application\index\controller\User.php 39 - 67
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_center.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'zhscore',
+  3 => 's_score',
+  4 => 'ytixian',
+  5 => 'tuijianren',
+  6 => 'userInfo',
+  7 => 'hys',
+  8 => 'scoreorder',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-03-30T11:06:41+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/user/usercenter.html
+[ log ] 127.0.0.1:815/index.php/index/user/usercenter.html [运行时间：0.242000s][吞吐率：4.13req/s] [内存消耗：2,465.45kb] [文件加载：56]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\ceshi\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:815',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:815/index.php',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ZIYOUZHIFU=68h3ot0ptekfkqc7o7rerglom5; __guid=96992031.84130287506307040.1522373402996.4602; admin_type=1; PHPSESSID=4vkh8ja6g7j9ng6l7moeb9d896; user_id=36; is_distribut=1; uname=13066086803; cn=0; province_id=1; city_id=2; district_id=3; workspaceParam=index%7CUser; think_var=zh-cn; monitor_count=25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\ceshi\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人中心
+     * @author  ILsunshine
+     */
+Method [ <user> public method userCenter ] {
+  @@ E:\ceshi\dbgj\application\index\controller\User.php 39 - 67
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_center.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'zhscore',
+  3 => 's_score',
+  4 => 'ytixian',
+  5 => 'tuijianren',
+  6 => 'userInfo',
+  7 => 'hys',
+  8 => 'scoreorder',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-03-30T11:08:28+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/user/usercenter.html
+[ log ] 127.0.0.1:815/index.php/index/user/usercenter.html [运行时间：0.251000s][吞吐率：3.98req/s] [内存消耗：2,465.60kb] [文件加载：56]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\ceshi\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:815',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:815/index.php',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ZIYOUZHIFU=68h3ot0ptekfkqc7o7rerglom5; __guid=96992031.84130287506307040.1522373402996.4602; admin_type=1; PHPSESSID=4vkh8ja6g7j9ng6l7moeb9d896; user_id=36; is_distribut=1; uname=13066086803; cn=0; province_id=1; city_id=2; district_id=3; workspaceParam=index%7CUser; think_var=zh-cn; monitor_count=26',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\ceshi\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人中心
+     * @author  ILsunshine
+     */
+Method [ <user> public method userCenter ] {
+  @@ E:\ceshi\dbgj\application\index\controller\User.php 39 - 67
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_center.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'zhscore',
+  3 => 's_score',
+  4 => 'ytixian',
+  5 => 'tuijianren',
+  6 => 'userInfo',
+  7 => 'hys',
+  8 => 'scoreorder',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-03-30T13:36:24+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] 127.0.0.1:815/ [运行时间：0.295000s][吞吐率：3.39req/s] [内存消耗：2,196.96kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\ceshi\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:815',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\ceshi\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-03-30T13:36:24+08:00 ] 127.0.0.1 127.0.0.1 GET /index/base/login.html
+[ log ] 127.0.0.1:815/index/base/login.html [运行时间：0.136000s][吞吐率：7.35req/s] [内存消耗：2,181.56kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\ceshi\dbgj\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:815',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=54kqj5q9rp1mho4ljeb89g9uq1',
+)
+[ info ] [ PARAM ] array (
+  'index/base/login_html' => '',
+)
+[ info ] [ LANG ] E:\ceshi\dbgj/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ E:\ceshi\dbgj\application\index\controller\Base.php 57 - 83
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------

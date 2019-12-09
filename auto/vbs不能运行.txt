@@ -1,0 +1,2 @@
+cmd ¿Ô√Ê
+wscript.exe //e:vbscript D:\Apache+PHP\vhtdocs\wanbo\auto\auto.vbs

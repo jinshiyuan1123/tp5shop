@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<title>幸运大转盘</title>
+<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link href="{:config('theme_path')}/index/choujiang/css/activity-style.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+    .layui-m-layercont{color: #fff}
+    .layui-m-anim-scale .layui-m-layercont{color: #000}
+</style>
+</head>
+
+<body class="activity-lottery-winning">
+<div class="main">
+ <div id="outercont">
+<div id="outer-cont">
+<div id="outer" style="-webkit-transform: rotate(2129deg);"><img src="{:config('theme_path')}/index/choujiang/images/activity-lottery-1.png" width="310px"></div>
+</div>
+<div id="inner-cont">
+<div id="inner"><img src="{:config('theme_path')}/index/choujiang/images/activity-lottery-2.png"></div>
+</div>
+</div>
+<div class="content">
+
+<div class="boxcontent boxyellow">
+<div class="box">
+<div class="title-green"><span>奖项设置：</span></div>
+<div class="Detail">
+{:config('web_lucky_jxsz')}
+</div>
+</div>
+</div>
+<div class="boxcontent boxyellow">
+<div class="box">
+<div class="title-green">活动说明：</div>
+<div class="Detail">
+{:config('web_lucky_hdsm')}
+</div>
+</div>
+</div>
+{empty name="list"}{else/}
+<div class="boxcontent boxyellow">
+<div class="box">
+<div class="title-orange"><span>中奖记录</span></div>
+<div class="Detail">
+{volist name="list" id="ill"}
+<p>恭喜获得 {$ill.result_described} {php}echo date('m-d H:i',$ill['add_time']);{/php} <span style="float: right">{eq name="$ill.is_sure" value="0"}未发奖{else/}已发奖{/eq}</span></p>
+{/volist}
+</div>
+</div>
+</div>
+{/empty}
+</div>
+
+</div>
+<script src="{:config('theme_path')}/index/choujiang/js/jquery.js" type="text/javascript"></script> 
+ <script type="text/javascript" src="{:config('theme_path')}/index/choujiang/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="{:config('theme_path')}/index/choujiang/js/awardRotate.js"></script>
+<script src="{:config('theme_path')}/index/js/layer_mobile/layer.js"></script>
+<script type="text/javascript">
+    $(function () {
+        
+        var rotateTimeOut = function () {
+            $('#outer').rotate({
+                angle: 0,
+                animateTo: 2160,
+                duration: 8000,
+                callback: function () {
+                    layer.open({content:'网络超时，请检查您的网络设置！',skin: 'msg',time: 2});
+                }
+            });
+        };
+        var bRotate = false;
+
+        var rotateFn = function (awards, angles, txt) {
+            bRotate = !bRotate;
+            $('#outer').stopRotate();
+            $('#outer').rotate({
+                angle: 0,
+                animateTo: angles + 1800,
+                duration: 8000,
+                callback: function () {
+                    layer.open({content:txt,skin: 'msg',time: 2});
+                    bRotate = !bRotate;
+                }
+            })
+        };
+
+        //操作转盘
+        function choujiang(vtext) {
+                var span_per = $("#span_per").text();
+                if(vtext == 0){
+                    rotateFn(0, 330, '谢谢参与');
+                }else if(vtext == 1){
+                    rotateFn(1, 0, '恭喜您:抽中 一等奖');
+                }else if(vtext == 2){
+                    rotateFn(2, 120, '恭喜您:抽中 二等奖');
+                }else if(vtext == 3){
+                    rotateFn(3, 237, '恭喜您:抽中 三等奖');
+                }else if(vtext == 4){
+                    rotateFn(4, 268, '要加油哦');
+                }else if(vtext == 5){
+                    rotateFn(5, 33, '不要灰心');
+                }else if(vtext == 6){
+                    rotateFn(6, 94, '祝你好运');
+                }else if(vtext == 7){
+                    rotateFn(7, 150,'再接再厉');
+                }else if(vtext == 8){
+                    rotateFn(8, 207, '运气先攒着');
+                }
+                span_per--;
+                if(span_per <0){
+                    span_per = 0;
+                }
+                $('#span_per').text(span_per);
+        }
+
+        $('#inner').click(function () {
+              //询问框
+          layer.open({
+            content: '您确定要消耗积分{$web_lucky_score}抽奖吗？'
+            ,btn: ['确定', '取消']
+            ,yes: function(index){
+              layer.close(index);
+                $.ajax({
+                    url:"{:url('lucky/choujiang')}",
+                    type:'get',
+                    data:{},
+                    dataType:"json",
+                    success:function(data) {
+                        
+                        if(data.v < 0){
+                            layer.open({content:data.yes,skin: 'msg',time: 2});
+                        }else{
+                            choujiang(data.v);
+                        }
+
+                    }
+                })
+            }
+          });
+
+
+        });
+
+        $('.lucky_btn').click(function(){
+            $('div.bgfix').hide();
+        })
+    });
+    function rnd(n, m) {
+        return Math.floor(Math.random() * (m - n + 1) + n)
+    }
+</script>
+ 
+
+</body></html>

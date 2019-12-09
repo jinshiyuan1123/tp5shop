@@ -1,0 +1,115 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:33:"./themes/default/index/login.html";i:1530189017;}*/ ?>
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title><?php echo config('web_site_title'); ?></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<!--标准mui.css-->
+		<script type="text/javascript" src="<?php echo config('theme_path'); ?>/index/new/js/user_set.js"></script>
+		<link rel=stylesheet type=text/css href="<?php echo config('theme_path'); ?>/index/zxf/css/user_login.css" />
+		
+	</head>
+
+	<body>
+<style type="text/css">
+html{background:url('/themes/default/index/zxf/img/bj.png') no-repeat; background-size: 100%;}
+.jl_tj{ width:99%; height:38px;line-height:38px; text-align:center; display:block; background:#fff; border:1px #E7E7E7 solid; color:#000; cursor:pointer; font-size:1.4em;border-radius:3px; }
+.jl_tj:hover{ opacity:0.8; }
+.jl_tj2{ width:100%; height:38px;line-height:38px; text-align:center; display:block; background:#EC1A5B;  color:#fff; cursor:pointer; font-size:1.4em;border-radius:3px; }
+.jl_tj2:hover{ opacity:0.8; }
+.register_dl{ width:100%; height:45px; background:#EC1A5B;border:0; color:#FFFFFF; font-weight:500;font-family:Microsoft YaHei;  cursor:pointer; font-size:18px;border-radius:2px; }
+.register_dl:hover{ opacity:0.8; }
+.tijiao{ width:80px; height:37px; background:#EC1A5B;border:0; color:#FFFFFF; cursor:pointer; font-size:16px; }
+.tijiao:hover{ opacity:0.8; }
+.register_tc{ background:#fff; border:1px #E7E7E7 solid; margin:0 10px 0 10px;text-align:center;margin-top:10px;margin-bottom:10px;padding:12px;border-radius:3px; }
+.register_tc a{font-size:16px; color:#EC1A5B;}
+.register_tc:hover{ opacity:0.8; }
+.nr img{ width:300px;}
+input{cursor: pointer; -webkit-appearance: none; outline:none;}
+.login{width:100px; height:100px; margin:0 auto; border-radius:50%; border:2px solid #fff; background:url(<?php echo config('theme_path'); ?>/index/zxf/img/login.jpg);background-size:100px 100px; margin-top:8%;}
+</style>
+		
+<div class="yingdao" align="center" style="display:none;">
+  <p><b>会员登录</b><a href="javascript:;" onclick="history.back()" title="返回" class="left"></a> <a href="<?php echo url('user/usercenter'); ?>" title="会员中心" class="right"></a> </p></div>  
+  <div class="login"></div>
+  <div class="p15">
+ <div class="register">
+ <form onSubmit="return checkForm($(this),cbCheckForm)">
+<table border="0" align="left" cellpadding="0" cellspacing="0" bordercolorlight="#9acd32" width="100%">
+ 
+		<tr height="40">
+		  <td><input id="username" class="ddinput_yhm" placeholder="请输入手机号" type="text" /></td>
+		</tr>
+		<tr height="40">
+		  <td><input id="password" value="" class="ddinput_mima" placeholder="请输入您的密码" type="password"></td>
+		</tr>
+		
+      <tr height="40">
+		  <td height="80" colspan="2">
+		   <button type="button" class="register_dl"  id="submit" >登录</button>
+		  </td>                       
+		  </tr>
+		
+    </table>
+</form>
+</div>
+ <span style="float:left; font-size:14px; color:#888"><a href="<?php echo url('base/getPassword'); ?>">忘记密码</a></span> 
+ <span style="float:right; font-size:14px; color:#888"><a href="http://www.baidu.com">APP下载</a></span>
+ 
+    
+  <div class="h30"></div>
+	 
+
+<script type="text/javascript">
+
+  $('.show-nav').click(function(){
+		$('#h-nav').slideToggle();
+  })
+
+  $('#submit').click(function(){
+  var key = $("#username").val();
+  var password = $("#password").val();
+  if(key ==""||key =="请输入手机号/用户名")
+  {
+     alert("请输入手机号或用户名");
+     return false;  
+  }
+  if(password ==""||password =="请输入密码")
+  {
+     alert("请输入密码");
+     return false;  
+  }
+  $.ajax({
+    type:"post",
+    url:"<?php echo url('base/login'); ?>",
+    data:{"key":key,"password":password},
+    dataType:'json',
+    success: function(data) {
+            if (data.code) {
+              $('#submit').text('登录中...')
+              setTimeout(function () {
+                location.href = data.url;
+              }, 1000);
+            } else {
+              alert(data.msg);
+            }
+
+          },
+          error: function(request) {
+            alert("页面错误");
+          },
+     });
+
+
+
+});
+</script>
+
+	</body>
+
+</html>
