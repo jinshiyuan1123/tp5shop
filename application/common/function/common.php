@@ -1658,3 +1658,31 @@ function jiangli($panhao,$lunshu){
 }
 
 
+  /**
+ * 图片上传
+ * @param  [type] $file   [description]
+ * @param  [type] $folder [description]
+ * @return [type]         [description]
+ */
+   function upload($field = 'file', $domain = false)
+    {
+       if(empty($field)) {
+            $field = 'file';
+        }
+        if(!$domain) {
+            $url_path = url('/');
+        } else {
+            $url_path = url('/', null, null, true);
+        }
+        $php_path = 'uploads/' . gsdate('Y') . '/' . gsdate('m') . '/' . gsdate('d') . '/';
+        $file = request()->file($field);
+        $info = $file->rule('named_upload')->move(_ROOT_ . $php_path);
+        if(!$info) {
+            return make_return(0, $file->getError());
+        } else {
+            $res_url = $url_path . $php_path . preg_replace("/[\/\\\\]{1,}/", "/", $info->getSaveName());
+            return make_return(1, $res_url);
+        }
+
+
+    }

@@ -17,13 +17,13 @@ return [
     // 数据库连接DSN配置
     'dsn'         => '',
     // 服务器地址
-    'hostname'    => '127.0.0.1',
+    'hostname'    => '111.229.35.100',
     // 数据库名
-    'database'    => 'tp5',
+    'database'    => 'tp5shop',
     // 数据库用户名
     'username'    => 'root',
     // 数据库密码
-    'password'    => 'root',
+    'password'    => 'w134789',
     // 数据库连接端口
     'hostport'    => '3306',
     // 数据库连接参数

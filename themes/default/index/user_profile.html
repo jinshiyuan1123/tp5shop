@@ -22,30 +22,43 @@
 </style>
 </head>
 <body><script>
-function cbCheckForm(input,$form){
+function cbCheckForm(){
     var name     =$("#name").val();
     var zhifubao   =$("#zhifubao").val();
     var weixinhao   =$("#weixinhao").val();
-  $.ajax({
-     type:'post',
-     url:"{:url('user/userProfile')}",
-     data:{"name":name,"zhifubao":zhifubao,"weixinhao":weixinhao
-          },
-     dataType:'json',
-     success: function(data) {
-            if (data.code) {
-            alert(data.msg);
-          setTimeout(function () {
-          location.href = data.url;
-        }, 1000);
-        } else {
-        	alert(data.msg);
-        }
-        },
-        error: function(request) {
-        	alert('页面错误');
-      }
-  });
+    if(name == ''){
+      alert('姓名不能为空');
+      return false;
+    }
+    if(zhifubao == ''){
+      alert('支付宝不能为空');
+      return false;
+    }
+     if(weixinhao == ''){
+      alert('微信不能为空');
+      return false;
+    }
+    return true;
+  // $.ajax({
+  //    type:'post',
+  //    url:"{:url('user/userProfile')}",
+  //    data:{"name":name,"zhifubao":zhifubao,"weixinhao":weixinhao,"image_url":image_url
+  //         },
+  //    dataType:'json',
+  //    success: function(data) {
+  //           if (data.code) {
+  //           alert(data.msg);
+  //         setTimeout(function () {
+  //         location.href = data.url;
+  //       }, 1000);
+  //       } else {
+  //       	alert(data.msg);
+  //       }
+  //       },
+  //       error: function(request) {
+  //       	alert('页面错误');
+  //     }
+  // });
 }
 
 function goBack(){
@@ -63,14 +76,36 @@ function goBack(){
            </div>	
 <div class="p15" align="center" style="margin-top:-10px">   
 <div class="register">
-    <form onSubmit="return checkForm($(this),cbCheckForm)" action="">
+    <form onSubmit="return cbCheckForm()" action="{:url('user/userProfile')}" enctype="multipart/form-data" method="post" >
     <table border="0" width="100%" cellpadding="0" cellspacing="0" >
+    <!-- /.box-body -->
+    <div class="box-footer"><br/>
+    <div class="insertCover" >修改头像</div>
+    </div>
+
+    <input type="file" class="files" name="image_url" id="image_url" value="修改头像" style="display: none"><br/>
+    <div class="insertCover" onclick = "image_url();">
+    <img src="{$domain}{$userInfo['pic']}" class="img"  width="120" height="120" >
+    </div>
+    <script type="text/javascript">
+    $("input[name='image_url']").change(function(){
+    console.info($(this)[0].files[0]);
+      $(".img").attr("src",URL.createObjectURL($(this)[0].files[0]));
+    });
+
+    function image_url(){
+    return $("#image_url").click();
+    }
+
+    </script>
+    </div>
+    
 		  <tr height="40">
 		  <td  height="35" style="text-align:left">姓名 </td>
 		</tr>
 		<tr height="40">
 		  <td> 
-		  <input type="text" id="name" value="{$userInfo['zsname']}" dd-required class="ddinput" placeholder="真实姓名">
+		  <input type="text" id="name" name="name" value="{$userInfo['zsname']}" dd-required class="ddinput" placeholder="真实姓名">
 		  </td>
 		</tr>
 		  <tr height="40">
@@ -78,18 +113,19 @@ function goBack(){
 		</tr>
 		<tr height="40">
 		  <td>
-		  <input type="text" id="zhifubao" value="{$userInfo['zhifubao']}" dd-required class="ddinput" placeholder="支付宝账户（非常重要）">
+		  <input type="text" id="zhifubao" name="zhifubao" value="{$userInfo['zhifubao']}" dd-required class="ddinput" placeholder="支付宝账户（非常重要）">
 		  </td>
 		</tr>
 		  <tr height="40">
 		  <td  height="35" style="text-align:left">微信账户 </td>
 		</tr>
 		<tr height="40">
-		  <td><input type="text" id="weixinhao" value="{$userInfo['weixinhao']}" dd-required class="ddinput"  placeholder="微信账户（非常重要）"></td>
+		  <td><input type="text" id="weixinhao" name="weixinhao" value="{$userInfo['weixinhao']}" dd-required class="ddinput"  placeholder="微信账户（非常重要）"></td>
 		</tr>
 		<tr height="40">
 		  <td height="90" colspan="2">    
-          <input type="submit" value="保存信息" id="sub"  class="register_dl">   
+      <button type="submit" class="register_dl">保存信息</button>
+          <!-- <input type="submit" value="保存信息" id="sub2"  class="register_dl">    -->
   </td>
 		  <td></td>
 		</tr>

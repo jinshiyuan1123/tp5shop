@@ -23,7 +23,13 @@
 </style>
 
  <div class="user_top " align="center">
- <img class="user_tb" src="{:config('theme_path')}/index/new/picture/noavatar_middle.jpg"></a>
+ <img class="user_tb" src="
+ {if condition="$userInfo['pic'] eq true"}
+ {$domain}{$userInfo['pic']}
+ {else/}
+ {:config('theme_path')}/index/new/picture/noavatar_middle.jpg
+ {/if}
+ "></a>
  <div class="name">{$userInfo['nickname']}
  <span class="profile-uname">
 <span class="star v1" ></span>
