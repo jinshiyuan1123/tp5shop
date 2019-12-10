@@ -432,10 +432,10 @@ class User extends Common
         $e_p = imagecreatefrompng($path);
         $width=imagesx($e_p);
         $height=imagesy($e_p);
-        imagecopyresampled($thumb, $e_p, 171, 643, 0, 0, 379, 379, $width, $height);
+        imagecopyresampled($thumb, $e_p, 171, 563, 0, 0, 379, 379, $width, $height);
 
         $black = imagecolorallocate($thumb, 255,255,255);
-        imagettftext($thumb, 22, 0, 215, 1090, $black, './themes/default/index/fonts/msyh.ttf', '推荐人：'.substr_replace($userinfo['mobile'],'****',3,4)); //输出一个灰色的字符串作为阴影
+        imagettftext($thumb, 22, 0, 215, 1010, $black, './themes/default/index/fonts/msyh.ttf', '推荐人：'.substr_replace($userinfo['mobile'],'****',3,4)); //输出一个灰色的字符串作为阴影
         // Output
         imagejpeg($thumb,'./uploads/qrcode/tg'.$uid.'.jpg');
         imagedestroy($thumb);           
