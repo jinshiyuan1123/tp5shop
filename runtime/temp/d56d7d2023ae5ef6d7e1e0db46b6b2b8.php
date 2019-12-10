@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:81:"D:\phpStudy2018\PHPTutorial\WWW\tp5shop/application/admin\view\user\password.html";i:1575943965;s:79:"D:\phpStudy2018\PHPTutorial\WWW\tp5shop/application/admin\view\common\head.html";i:1575945141;s:81:"D:\phpStudy2018\PHPTutorial\WWW\tp5shop/application/admin\view\common\header.html";i:1575943965;s:81:"D:\phpStudy2018\PHPTutorial\WWW\tp5shop/application/admin\view\common\navbar.html";i:1575943965;s:81:"D:\phpStudy2018\PHPTutorial\WWW\tp5shop/application/admin\view\common\footer.html";i:1575943965;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:81:"D:\phpStudy2018\PHPTutorial\WWW\tp5shop/application/admin\view\user\password.html";i:1575943965;s:79:"D:\phpStudy2018\PHPTutorial\WWW\tp5shop/application/admin\view\common\head.html";i:1575945625;s:81:"D:\phpStudy2018\PHPTutorial\WWW\tp5shop/application/admin\view\common\header.html";i:1575943965;s:81:"D:\phpStudy2018\PHPTutorial\WWW\tp5shop/application/admin\view\common\navbar.html";i:1575943965;s:81:"D:\phpStudy2018\PHPTutorial\WWW\tp5shop/application/admin\view\common\footer.html";i:1575943965;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>

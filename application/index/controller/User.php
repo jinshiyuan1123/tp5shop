@@ -622,6 +622,32 @@ class User extends Common
     
             return $this->themeFetch('user_friends1');
         } 
+     //我的团队2
+        public function user_friends2(){ 
+            $id = input('get.id');
+            if(empty($id)){
+                 return $this->error('没有下级会员');
+            }
+            $page=input('get.page');
+            if(empty($page)){  
+                $page = 1;
+            }else{ 
+                $page=input('get.page');
+            }
+            $size=20;//每页显示的记录数
+    
+           $user_list = Db::name('users')->where(['reid'=>$id,'status'=>1])->select();
+            
+           $newarr = array_slice($user_list, ($page-1)*$size, $size);
+           $config['path']=url('user/user_friends2');
+           $list1=\think\paginator\driver\Bootstrap::make($newarr, $size, $page, count($user_list), false, $config);
+           $page=$list1->render();
+    
+            $this->assign('lists',$list1); 
+            $this->assign('page',$page);
+    
+            return $this->themeFetch('user_friends2');
+        } 
     /**
      * 提现
      * @author  xuelang

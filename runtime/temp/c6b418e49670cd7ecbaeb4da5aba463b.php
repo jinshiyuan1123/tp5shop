@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:41:"./themes/default/index/user_friends1.html";i:1575962523;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:41:"./themes/default/index/user_friends2.html";i:1575961168;}*/ ?>
 <!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -25,7 +25,7 @@
 </style>
 </head>
 <body><div class="yingdao" align="center">
-  <p><b>我的团队(一级)</b><a href="javascript:;" onclick="history.back()" title="返回" class="left"></a> <a href="<?php echo url('user/usercenter'); ?>"  title="会员中心" class="right"></a> </p></div>  
+  <p><b>我的团队(二级)</b><a href="javascript:;" onclick="history.back()" title="返回" class="left"></a> <a href="<?php echo url('user/usercenter'); ?>"  title="会员中心" class="right"></a> </p></div>  
  
 <!--b显示列表-->
 <?php if(empty($lists) || ($lists instanceof \think\Collection && $lists->isEmpty())): ?>
@@ -36,27 +36,17 @@
 <div class="mc radius"> 
 	<ul class="mu-l2w">
 
-<?php if(is_array($lists) || $lists instanceof \think\Collection): $k = 0; $__LIST__ = $lists;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($k % 2 );++$k;if(empty($data['reid']) || ($data['reid'] instanceof \think\Collection && $data['reid']->isEmpty())): ?>
-<a href="#">
-<?php else: ?>
-<a href="<?php echo url('user/user_friends2'); ?>?id=<?php echo $data['id']; ?>">
-<?php endif; ?>
+<?php if(is_array($lists) || $lists instanceof \think\Collection): $k = 0; $__LIST__ = $lists;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($k % 2 );++$k;?>
 <li style="padding: 10px;margin-top:5px;border-top: none;overflow: hidden; line-height: 1.6em;border-bottom: 1px dashed #DED6C9;"> 
   <span style="display: block;overflow: hidden;clear: both;padding: .22em 0;line-height: 30px;">
   
     <?php echo $data['nickname']; ?>
   </span>
-  
+  <a href="<?php echo url('user/user_friends2'); ?>">
   <span class="pricecolor" style="display: block;margin-top:5px;color:#ff3366"><?php 
         if($data['mobile']){
         echo substr_replace($data['mobile'],'****',3,4);
-        } ?> <span></span>
-        <?php 
-        if($data['reid']){
-        echo '直推会员';
-        }
-         ?>
-        <span style="float: right;">
+        } ?><span style="float: right;">
             <?php if($data['is_shop'] == '1'): ?>
               已购买
             <?php else: ?>

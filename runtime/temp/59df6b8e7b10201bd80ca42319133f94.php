@@ -1,9 +1,9 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:41:"./themes/default/index/user_friends1.html";i:1575962523;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:39:"./themes/default/index/user_qrcode.html";i:1575960016;}*/ ?>
 <!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
-<title>我的团队</title>
+<title>邀请好友</title>
 
 <link rel=stylesheet type=text/css href="<?php echo config('theme_path'); ?>/index/new/css/user_mingxi.css" />
 <link rel=stylesheet type=text/css href="<?php echo config('theme_path'); ?>/index/new/css/page.css" />
@@ -21,57 +21,33 @@
 .register_tc a{font-size:16px; color:#EC1A5B;}
 .register_tc:hover{ opacity:0.8; }
 .nr img{ width:300px;}
-.tx{width: 30px;height: 30px;border-radius: 50%;float: left;margin-right: 5px;}
+ .dj_link{line-height:24px;background-color: #fff;color: #2A8B08;text-align: center;font-size: 14px;padding: 20px;border-bottom: 1px solid #e5e5e5;word-wrap: break-word; 
+word-break: normal;}
+      .dj_link_c{font-size: 12px;padding: 10px;color: #555;line-height:24px;}
+      .dj_link_c a{color: #000}
 </style>
 </head>
-<body><div class="yingdao" align="center">
-  <p><b>我的团队(一级)</b><a href="javascript:;" onclick="history.back()" title="返回" class="left"></a> <a href="<?php echo url('user/usercenter'); ?>"  title="会员中心" class="right"></a> </p></div>  
- 
-<!--b显示列表-->
-<?php if(empty($lists) || ($lists instanceof \think\Collection && $lists->isEmpty())): ?>
-<div class="mc radius">
-	<ul class="mu-l2w" ><div style=" width:185px; height:115px; margin:0 auto;"><img src="<?php echo config('theme_path'); ?>/index/new/picture/img_nocontent.png"/></div></ul>
+<body>
+<style>
+	.mui-control-content {
+		background-color: white;
+		min-height: 215px;
+	}
+	.mui-control-content .mui-loading {
+		margin-top: 50px;
+	}
+	.mui-table-view::before {
+		background-color: #fff;
+	}
+	.mui-table-view::after {
+		background-color: #f0f0f0;
+	}
+</style>
+<!-- 头部结束 -->
+<div class="mui-content">
+  <img style="-webkit-user-select: none;width: 100%;float: left;" src="/uploads/qrcode/tg<?php echo $uid; ?>.jpg">
 </div>
-<?php else: ?>
-<div class="mc radius"> 
-	<ul class="mu-l2w">
-
-<?php if(is_array($lists) || $lists instanceof \think\Collection): $k = 0; $__LIST__ = $lists;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($k % 2 );++$k;if(empty($data['reid']) || ($data['reid'] instanceof \think\Collection && $data['reid']->isEmpty())): ?>
-<a href="#">
-<?php else: ?>
-<a href="<?php echo url('user/user_friends2'); ?>?id=<?php echo $data['id']; ?>">
-<?php endif; ?>
-<li style="padding: 10px;margin-top:5px;border-top: none;overflow: hidden; line-height: 1.6em;border-bottom: 1px dashed #DED6C9;"> 
-  <span style="display: block;overflow: hidden;clear: both;padding: .22em 0;line-height: 30px;">
-  
-    <?php echo $data['nickname']; ?>
-  </span>
-  
-  <span class="pricecolor" style="display: block;margin-top:5px;color:#ff3366"><?php 
-        if($data['mobile']){
-        echo substr_replace($data['mobile'],'****',3,4);
-        } ?> <span></span>
-        <?php 
-        if($data['reid']){
-        echo '直推会员';
-        }
-         ?>
-        <span style="float: right;">
-            <?php if($data['is_shop'] == '1'): ?>
-              已购买
-            <?php else: ?>
-            未购买
-            <?php endif; ?>
-    </span></span></span> 
-</li>
-</a>
- <?php endforeach; endif; else: echo "" ;endif; ?>       
-      </ul>
-      <div class="djpage" style="background-color: #fff"><?php echo $page; ?></div>
-</div>
-
-<?php endif; ?>
-
+<div style="height:50px; line-height:50px; clear:both;"></div>
  <style type="text/css">
  	/*底部样式*/ /************尾部固定导航*************/.fix-bottom {box-sizing: border-box;
 	position:fixed;
@@ -117,5 +93,6 @@
 		  <img src="<?php echo config('theme_path'); ?>/index/new/picture/pinp.png"><br>个人中心
 	  </a>
 </div> 
- 
-</body></html>
+<!-- 底部结束 -->
+</body>
+</html>

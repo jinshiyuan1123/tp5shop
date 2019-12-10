@@ -24,7 +24,7 @@
 </style>
 </head>
 <body><div class="yingdao" align="center">
-  <p><b>我的团队(一级)</b><a href="javascript:;" onclick="history.back()" title="返回" class="left"></a> <a href="{:url('user/usercenter')}"  title="会员中心" class="right"></a> </p></div>  
+  <p><b>我的团队(二级)</b><a href="javascript:;" onclick="history.back()" title="返回" class="left"></a> <a href="{:url('user/usercenter')}"  title="会员中心" class="right"></a> </p></div>  
  
 <!--b显示列表-->
 {empty name="lists"}
@@ -36,27 +36,16 @@
 	<ul class="mu-l2w">
 
 {volist name="lists" key='k' id="data"}
- {empty name="$data['reid']"}
-<a href="#">
-{else/}
-<a href="{:url('user/user_friends2')}?id={$data.id}">
-{/empty}
 <li style="padding: 10px;margin-top:5px;border-top: none;overflow: hidden; line-height: 1.6em;border-bottom: 1px dashed #DED6C9;"> 
   <span style="display: block;overflow: hidden;clear: both;padding: .22em 0;line-height: 30px;">
   
     {$data.nickname}
   </span>
-  
+  <a href="{:url('user/user_friends2')}">
   <span class="pricecolor" style="display: block;margin-top:5px;color:#ff3366">{php}
         if($data['mobile']){
         echo substr_replace($data['mobile'],'****',3,4);
-        }{/php} <span></span>
-        {php}
-        if($data['reid']){
-        echo '直推会员';
-        }
-        {/php}
-        <span style="float: right;">
+        }{/php}<span style="float: right;">
             {eq name="data.is_shop" value='1'}
               已购买
             {else/}
