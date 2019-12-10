@@ -51,11 +51,9 @@
         if($data['mobile']){
         echo substr_replace($data['mobile'],'****',3,4);
         }{/php} <span></span>
-        {php}
-        if($data['reid']){
-        echo '直推会员';
-        }
-        {/php}
+        
+       {if condition="$data.num eq 0"}下级{$data.num}人{else /} 下级{$data.num}人{/if}
+       
         <span style="float: right;">
             {eq name="data.is_shop" value='1'}
               已购买

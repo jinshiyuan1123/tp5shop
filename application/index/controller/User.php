@@ -646,12 +646,16 @@ class User extends Common
             $size=20;//每页显示的记录数
     
            $user_list = Db::name('users')->where(['reid'=>UID,'status'=>1])->select();
-            
+           //筛选下级人数
+           foreach($user_list as $k=>$v){
+                $user_list[$k]['num'] = Db::name('users')->where(['reid'=>$v['id'],'status'=>1])->count();
+                 
+           }
            $newarr = array_slice($user_list, ($page-1)*$size, $size);
            $config['path']=url('user/user_friends1');
            $list1=\think\paginator\driver\Bootstrap::make($newarr, $size, $page, count($user_list), false, $config);
            $page=$list1->render();
-    
+           
             $this->assign('lists',$list1); 
             $this->assign('page',$page);
     
