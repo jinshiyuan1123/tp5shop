@@ -124,7 +124,8 @@ class Base extends Mini
                 $value['password']      = minishop_md5($password,$value['salt']);
                 $value['regdate']       = time();
                 $value['status']        = '1';
-                $value['reid']          = $reid;             
+                $value['reid']          = $reid;    
+                $value['level']         = '1';         
                 //插入数据表
 
                 $res = Db::name('Users')->insert($value);
