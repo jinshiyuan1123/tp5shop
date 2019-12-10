@@ -1,4 +1,5 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:33:"./themes/default/index/login.html";i:1530189017;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:33:"./themes/default/index/login.html";i:1575946638;}*/ ?>
+
 <!DOCTYPE html>
 <html>
 
@@ -31,7 +32,7 @@ html{background:url('/themes/default/index/zxf/img/bj.png') no-repeat; backgroun
 .register_tc:hover{ opacity:0.8; }
 .nr img{ width:300px;}
 input{cursor: pointer; -webkit-appearance: none; outline:none;}
-.login{width:100px; height:100px; margin:0 auto; border-radius:50%; border:2px solid #fff; background:url(<?php echo config('theme_path'); ?>/index/zxf/img/login.jpg);background-size:100px 100px; margin-top:8%;}
+.login{width:100px; height:100px; margin:0 auto; border-radius:50%; border:2px solid #fff; background:url(/themes/default/index/zxf/img/logo1.png);background-size:100px 100px; margin-top:8%;}
 </style>
 		
 <div class="yingdao" align="center" style="display:none;">
@@ -59,12 +60,14 @@ input{cursor: pointer; -webkit-appearance: none; outline:none;}
 </form>
 </div>
  <span style="float:left; font-size:14px; color:#888"><a href="<?php echo url('base/getPassword'); ?>">忘记密码</a></span> 
- <span style="float:right; font-size:14px; color:#888"><a href="http://www.baidu.com">APP下载</a></span>
+ <span style="float:right; font-size:14px; color:#888"><a href="#">APP下载</a></span>
  
     
   <div class="h30"></div>
 	 
-
+     </div>  
+ <div class="clear"></div>
+<script src="<?php echo config('theme_path'); ?>/index/js/jquery.min.js"></script>
 <script type="text/javascript">
 
   $('.show-nav').click(function(){

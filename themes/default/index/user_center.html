@@ -21,9 +21,15 @@
 .bdziti b{font-size: 40px;color: #fff;line-height: 50px;}
 .zzan{float: right;border: 1px solid #fff;border-radius: 3px;padding:0 5px;font-size: 14px;line-height: 24px;margin-top: 3px;margin-right: 10px;color: #fff}
 </style>
- <div class="user_top" align="center">
+
+ <div class="user_top " align="center">
  <img class="user_tb" src="{:config('theme_path')}/index/new/picture/noavatar_middle.jpg"></a>
- <div class="name">{$userInfo['nickname']}<br>推荐人：{$tuijianren}</div>
+ <div class="name">{$userInfo['nickname']}
+ <span class="profile-uname">
+<span class="star v1" ></span>
+</span>
+<br>推荐人：{$tuijianren}</div>
+ 
  <div class="name clear" style="height: 35px;margin-left:10px;margin-top:10px;  "><a href="{:url('user/user_withdrawal')}">累计提现：{$ytixian}元</a></div>
  <div style="color: #fff;line-height: 24px;text-align: left;font-size: 16px;padding-left: 10px;">
    {eq name="is_gongpai" value="1"}

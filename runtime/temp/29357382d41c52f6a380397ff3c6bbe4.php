@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:39:"./themes/default/index/user_center.html";i:1575942787;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:39:"./themes/default/index/user_center.html";i:1575948776;}*/ ?>
 <!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -22,9 +22,15 @@
 .bdziti b{font-size: 40px;color: #fff;line-height: 50px;}
 .zzan{float: right;border: 1px solid #fff;border-radius: 3px;padding:0 5px;font-size: 14px;line-height: 24px;margin-top: 3px;margin-right: 10px;color: #fff}
 </style>
- <div class="user_top" align="center">
+
+ <div class="user_top " align="center">
  <img class="user_tb" src="<?php echo config('theme_path'); ?>/index/new/picture/noavatar_middle.jpg"></a>
- <div class="name"><?php echo $userInfo['nickname']; ?><br>推荐人：<?php echo $tuijianren; ?></div>
+ <div class="name"><?php echo $userInfo['nickname']; ?>
+ <span class="profile-uname">
+<span class="star v1" ></span>
+</span>
+<br>推荐人：<?php echo $tuijianren; ?></div>
+ 
  <div class="name clear" style="height: 35px;margin-left:10px;margin-top:10px;  "><a href="<?php echo url('user/user_withdrawal'); ?>">累计提现：<?php echo $ytixian; ?>元</a></div>
  <div style="color: #fff;line-height: 24px;text-align: left;font-size: 16px;padding-left: 10px;">
    <?php if($is_gongpai == '1'): ?>

@@ -1,342 +1,0 @@
-[ 2017-11-17T05:55:33+08:00 ] 172.31.179.54 144.0.159.106 GET /favicon.ico
-[ log ] dbgj.hoonking.com/favicon.ico [è¿è¡Œæ—¶é—´ï¼š0.062500s][åžåçŽ‡ï¼š16.00req/s] [å†…å­˜æ¶ˆè€—ï¼š1,766.40kb] [æ–‡ä»¶åŠ è½½ï¼š41]
-[ info ] [ DB ] INIT mysql
-[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'favicon.ico',
-    1 => NULL,
-    2 => NULL,
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'dbgj.hoonking.com',
-  'connection' => 'keep-alive',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'cookie' => 'PHPSESSID=eshupeap3d3b028c1js857fks6; __guid=25234792.1316364079261461500.1510801909956.837; monitor_count=5',
-)
-[ info ] [ PARAM ] array (
-  'favicon_ico' => '',
-)
-[ info ] [ LOG ] INIT file
-
----------------------------------------------------------------
-[ 2017-11-17T20:57:33+08:00 ] 172.31.179.54 220.181.132.180 GET /
-[ log ] dbgj.hoonking.com/ [è¿è¡Œæ—¶é—´ï¼š0.109375s][åžåçŽ‡ï¼š9.14req/s] [å†…å­˜æ¶ˆè€—ï¼š2,234.97kb] [æ–‡ä»¶åŠ è½½ï¼š58]
-[ info ] [ DB ] INIT mysql
-[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => '',
-    1 => NULL,
-    2 => NULL,
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'dbgj.hoonking.com',
-  'connection' => 'keep-alive',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-  'referer' => 'http://dbgj.hoonking.com/',
-  'accept-encoding' => 'gzip,deflate',
-  'accept-charset' => 'iso-8859-1,*,utf-8',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
-[ info ] [ SESSION ] INIT array (
-  'prefix' => 'minishop',
-  'type' => '',
-  'auto_start' => true,
-)
-[ info ] [ LOG ] INIT file
-[ error ] [4]è¯­æ³•é”™è¯¯: unexpected '}'[xÚíTën£F~™HÞühÄ%i‚RWÅ8Æƒ‰Áæ2?vƒ=Æ—Ô‡ïHb§Rß H–a.g¾ó]æ&™N’üP|ÿñ}r…Õþ÷ûûœñþÛ{7ùãï?\'w7æør{7™N_¬ùt:y¾éû~:ùíÿçòLžÿÚ7!ûöÎb¼XœltV‡®ÒcS Ì.‰<«Ÿ°ot‘lô(iSCåk[2’aJ‡ýYCr»Œ2R˜Zú¨eXŒ2K=¥FKûD^bk4%’[ã±Çª äkMMC_¥oŽš›}ÐiWG™+]K%¯¹çNêÙ<™ùÊ¯VšcÃy–-‡¹ªâuôEõ3CsÖx‹_¾l5ô‹ÅåéŒE9ô”žyÑ¬å
-Îž)¯y•]éâ¥p<CŸÙS…4›÷×ÇKT™[µ|íT8gVâ„RäØEà=¤‘¾£œOaýçØ›3Ëˆ¤œBIi±w_:k×°7Êm)ðÚâ½·ò¿ÎCóð[¡H{¹ô¦±G Ñ ÀQì5ÒØƒ¾ö°)(Z
-cËFë;8÷xŒ2»ÂçÓbðn‰Ôˆk”€N”É¡Î`žqæ6ÐÛçY+çý¬—œGÐTd‘ì
-«K¿€x¯µYŸŠsƒÞæà²³¸G 6ðRãì‰ó}óµâK®àK"‹õÅë!p®0mAÿÔb3ÖZF þ:1]
-
----------------------------------------------------------------
-[ 2017-11-17T20:57:34+08:00 ] 172.31.179.54 182.118.20.152 GET /
-[ log ] dbgj.hoonking.com/ [è¿è¡Œæ—¶é—´ï¼š0.046875s][åžåçŽ‡ï¼š21.33req/s] [å†…å­˜æ¶ˆè€—ï¼š2,234.80kb] [æ–‡ä»¶åŠ è½½ï¼š58]
-[ info ] [ DB ] INIT mysql
-[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => '',
-    1 => NULL,
-    2 => NULL,
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'dbgj.hoonking.com',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-  'referer' => 'http://dbgj.hoonking.com/',
-  'accept-encoding' => 'gzip,deflate',
-  'accept-charset' => 'iso-8859-1,*,utf-8',
-  'cookie' => 'think_var=zh-cn; PHPSESSID=rfu5igi6bl9lrl4s0e5crnabh5',
-  'x-forwarded-for' => 'unknown',
-  'cache-control' => 'max-age=0',
-  'connection' => 'keep-alive',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
-[ info ] [ SESSION ] INIT array (
-  'prefix' => 'minishop',
-  'type' => '',
-  'auto_start' => true,
-)
-[ info ] [ LOG ] INIT file
-[ error ] [4]è¯­æ³•é”™è¯¯: unexpected '}'[xÚíTën£F~™HÞühÄ%i‚RWÅ8Æƒ‰Áæ2?vƒ=Æ—Ô‡ïHb§Rß H–a.g¾ó]æ&™N’üP|ÿñ}r…Õþ÷ûûœñþÛ{7ùãï?\'w7æør{7™N_¬ùt:y¾éû~:ùíÿçòLžÿÚ7!ûöÎb¼XœltV‡®ÒcS Ì.‰<«Ÿ°ot‘lô(iSCåk[2’aJ‡ýYCr»Œ2R˜Zú¨eXŒ2K=¥FKûD^bk4%’[ã±Çª äkMMC_¥oŽš›}ÐiWG™+]K%¯¹çNêÙ<™ùÊ¯VšcÃy–-‡¹ªâuôEõ3CsÖx‹_¾l5ô‹ÅåéŒE9ô”žyÑ¬å
-Îž)¯y•]éâ¥p<CŸÙS…4›÷×ÇKT™[µ|íT8gVâ„RäØEà=¤‘¾£œOaýçØ›3Ëˆ¤œBIi±w_:k×°7Êm)ðÚâ½·ò¿ÎCóð[¡H{¹ô¦±G Ñ ÀQì5ÒØƒ¾ö°)(Z
-cËFë;8÷xŒ2»ÂçÓbðn‰Ôˆk”€N”É¡Î`žqæ6ÐÛçY+çý¬—œGÐTd‘ì
-«K¿€x¯µYŸŠsƒÞæà²³¸G 6ðRãì‰ó}óµâK®àK"‹õÅë!p®0mAÿÔb3ÖZF þ:1]
-
----------------------------------------------------------------
-[ 2017-11-17T20:57:35+08:00 ] 172.31.179.54 171.13.14.132 GET /
-[ log ] dbgj.hoonking.com/ [è¿è¡Œæ—¶é—´ï¼š0.046875s][åžåçŽ‡ï¼š21.33req/s] [å†…å­˜æ¶ˆè€—ï¼š2,234.80kb] [æ–‡ä»¶åŠ è½½ï¼š58]
-[ info ] [ DB ] INIT mysql
-[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => '',
-    1 => NULL,
-    2 => NULL,
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'dbgj.hoonking.com',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-  'referer' => 'http://dbgj.hoonking.com/',
-  'accept-encoding' => 'gzip,deflate',
-  'accept-charset' => 'iso-8859-1,*,utf-8',
-  'cookie' => 'think_var=zh-cn; PHPSESSID=rfu5igi6bl9lrl4s0e5crnabh5',
-  'x-forwarded-for' => 'unknown',
-  'cache-control' => 'max-age=0',
-  'connection' => 'keep-alive',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
-[ info ] [ SESSION ] INIT array (
-  'prefix' => 'minishop',
-  'type' => '',
-  'auto_start' => true,
-)
-[ info ] [ LOG ] INIT file
-[ error ] [4]è¯­æ³•é”™è¯¯: unexpected '}'[xÚíTën£F~™HÞühÄ%i‚RWÅ8Æƒ‰Áæ2?vƒ=Æ—Ô‡ïHb§Rß H–a.g¾ó]æ&™N’üP|ÿñ}r…Õþ÷ûûœñþÛ{7ùãï?\'w7æør{7™N_¬ùt:y¾éû~:ùíÿçòLžÿÚ7!ûöÎb¼XœltV‡®ÒcS Ì.‰<«Ÿ°ot‘lô(iSCåk[2’aJ‡ýYCr»Œ2R˜Zú¨eXŒ2K=¥FKûD^bk4%’[ã±Çª äkMMC_¥oŽš›}ÐiWG™+]K%¯¹çNêÙ<™ùÊ¯VšcÃy–-‡¹ªâuôEõ3CsÖx‹_¾l5ô‹ÅåéŒE9ô”žyÑ¬å
-Îž)¯y•]éâ¥p<CŸÙS…4›÷×ÇKT™[µ|íT8gVâ„RäØEà=¤‘¾£œOaýçØ›3Ëˆ¤œBIi±w_:k×°7Êm)ðÚâ½·ò¿ÎCóð[¡H{¹ô¦±G Ñ ÀQì5ÒØƒ¾ö°)(Z
-cËFë;8÷xŒ2»ÂçÓbðn‰Ôˆk”€N”É¡Î`žqæ6ÐÛçY+çý¬—œGÐTd‘ì
-«K¿€x¯µYŸŠsƒÞæà²³¸G 6ðRãì‰ó}óµâK®àK"‹õÅë!p®0mAÿÔb3ÖZF þ:1]
-
----------------------------------------------------------------
-[ 2017-11-17T20:58:10+08:00 ] 172.31.179.54 210.209.85.175 GET /
-[ log ] dbgj.hoonking.com/ [è¿è¡Œæ—¶é—´ï¼š0.031250s][åžåçŽ‡ï¼š32.00req/s] [å†…å­˜æ¶ˆè€—ï¼š2,235.13kb] [æ–‡ä»¶åŠ è½½ï¼š58]
-[ info ] [ DB ] INIT mysql
-[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => '',
-    1 => NULL,
-    2 => NULL,
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'dbgj.hoonking.com',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-  'referer' => 'http://dbgj.hoonking.com/',
-  'accept-encoding' => 'gzip,deflate',
-  'accept-charset' => 'iso-8859-1,*,utf-8',
-  'cache-control' => 'max-age=259200',
-  'connection' => 'keep-alive',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
-[ info ] [ SESSION ] INIT array (
-  'prefix' => 'minishop',
-  'type' => '',
-  'auto_start' => true,
-)
-[ info ] [ LOG ] INIT file
-[ error ] [4]è¯­æ³•é”™è¯¯: unexpected '}'[xÚíTën£F~™HÞühÄ%i‚RWÅ8Æƒ‰Áæ2?vƒ=Æ—Ô‡ïHb§Rß H–a.g¾ó]æ&™N’üP|ÿñ}r…Õþ÷ûûœñþÛ{7ùãï?\'w7æør{7™N_¬ùt:y¾éû~:ùíÿçòLžÿÚ7!ûöÎb¼XœltV‡®ÒcS Ì.‰<«Ÿ°ot‘lô(iSCåk[2’aJ‡ýYCr»Œ2R˜Zú¨eXŒ2K=¥FKûD^bk4%’[ã±Çª äkMMC_¥oŽš›}ÐiWG™+]K%¯¹çNêÙ<™ùÊ¯VšcÃy–-‡¹ªâuôEõ3CsÖx‹_¾l5ô‹ÅåéŒE9ô”žyÑ¬å
-Îž)¯y•]éâ¥p<CŸÙS…4›÷×ÇKT™[µ|íT8gVâ„RäØEà=¤‘¾£œOaýçØ›3Ëˆ¤œBIi±w_:k×°7Êm)ðÚâ½·ò¿ÎCóð[¡H{¹ô¦±G Ñ ÀQì5ÒØƒ¾ö°)(Z
-cËFë;8÷xŒ2»ÂçÓbðn‰Ôˆk”€N”É¡Î`žqæ6ÐÛçY+çý¬—œGÐTd‘ì
-«K¿€x¯µYŸŠsƒÞæà²³¸G 6ðRãì‰ó}óµâK®àK"‹õÅë!p®0mAÿÔb3ÖZF þ:1]
-
----------------------------------------------------------------
-[ 2017-11-17T20:58:10+08:00 ] 172.31.179.54 182.118.20.143 GET /
-[ log ] dbgj.hoonking.com/ [è¿è¡Œæ—¶é—´ï¼š0.046875s][åžåçŽ‡ï¼š21.33req/s] [å†…å­˜æ¶ˆè€—ï¼š2,234.80kb] [æ–‡ä»¶åŠ è½½ï¼š58]
-[ info ] [ DB ] INIT mysql
-[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => '',
-    1 => NULL,
-    2 => NULL,
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'dbgj.hoonking.com',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-  'referer' => 'http://dbgj.hoonking.com/',
-  'accept-encoding' => 'gzip,deflate',
-  'accept-charset' => 'iso-8859-1,*,utf-8',
-  'cookie' => 'think_var=zh-cn; PHPSESSID=18v8245rh3vnu3do439rskntr6',
-  'x-forwarded-for' => 'unknown',
-  'cache-control' => 'max-age=0',
-  'connection' => 'keep-alive',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
-[ info ] [ SESSION ] INIT array (
-  'prefix' => 'minishop',
-  'type' => '',
-  'auto_start' => true,
-)
-[ info ] [ LOG ] INIT file
-[ error ] [4]è¯­æ³•é”™è¯¯: unexpected '}'[xÚíTën£F~™HÞühÄ%i‚RWÅ8Æƒ‰Áæ2?vƒ=Æ—Ô‡ïHb§Rß H–a.g¾ó]æ&™N’üP|ÿñ}r…Õþ÷ûûœñþÛ{7ùãï?\'w7æør{7™N_¬ùt:y¾éû~:ùíÿçòLžÿÚ7!ûöÎb¼XœltV‡®ÒcS Ì.‰<«Ÿ°ot‘lô(iSCåk[2’aJ‡ýYCr»Œ2R˜Zú¨eXŒ2K=¥FKûD^bk4%’[ã±Çª äkMMC_¥oŽš›}ÐiWG™+]K%¯¹çNêÙ<™ùÊ¯VšcÃy–-‡¹ªâuôEõ3CsÖx‹_¾l5ô‹ÅåéŒE9ô”žyÑ¬å
-Îž)¯y•]éâ¥p<CŸÙS…4›÷×ÇKT™[µ|íT8gVâ„RäØEà=¤‘¾£œOaýçØ›3Ëˆ¤œBIi±w_:k×°7Êm)ðÚâ½·ò¿ÎCóð[¡H{¹ô¦±G Ñ ÀQì5ÒØƒ¾ö°)(Z
-cËFë;8÷xŒ2»ÂçÓbðn‰Ôˆk”€N”É¡Î`žqæ6ÐÛçY+çý¬—œGÐTd‘ì
-«K¿€x¯µYŸŠsƒÞæà²³¸G 6ðRãì‰ó}óµâK®àK"‹õÅë!p®0mAÿÔb3ÖZF þ:1]
-
----------------------------------------------------------------
-[ 2017-11-17T20:58:40+08:00 ] 172.31.179.54 106.120.162.107 GET /
-[ log ] dbgj.hoonking.com/ [è¿è¡Œæ—¶é—´ï¼š0.046875s][åžåçŽ‡ï¼š21.33req/s] [å†…å­˜æ¶ˆè€—ï¼š2,180.48kb] [æ–‡ä»¶åŠ è½½ï¼š53]
-[ info ] [ DB ] INIT mysql
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => '',
-    1 => NULL,
-    2 => NULL,
-  ),
-)
-[ info ] [ HEADER ] array (
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
-  'connection' => 'Keep-Alive',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'en-US,*',
-  'host' => 'dbgj.hoonking.com',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ LANG ] E:\www\dbgj/application/index\lang\en-us.php
-[ info ] [ SESSION ] INIT array (
-  'prefix' => 'minishop',
-  'type' => '',
-  'auto_start' => true,
-)
-[ info ] [ LOG ] INIT file
-
----------------------------------------------------------------
-[ 2017-11-17T20:58:40+08:00 ] 172.31.179.54 106.120.162.107 GET /index/base/login.html
-[ log ] dbgj.hoonking.com/index/base/login.html [è¿è¡Œæ—¶é—´ï¼š0.062500s][åžåçŽ‡ï¼š16.00req/s] [å†…å­˜æ¶ˆè€—ï¼š2,165.88kb] [æ–‡ä»¶åŠ è½½ï¼š51]
-[ info ] [ DB ] INIT mysql
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'index',
-    1 => 'base',
-    2 => 'login',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
-  'cookie' => 'think_var=en-us; PHPSESSID=q8tsmtemhh8kh2b9kbp7iflod1',
-  'connection' => 'Keep-Alive',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'en-US,*',
-  'host' => 'dbgj.hoonking.com',
-)
-[ info ] [ PARAM ] array (
-  'index/base/login_html' => '',
-)
-[ info ] [ LANG ] E:\www\dbgj/application/index\lang\en-us.php
-[ info ] [ SESSION ] INIT array (
-  'prefix' => 'minishop',
-  'type' => '',
-  'auto_start' => true,
-)
-[ info ] [ RUN ] /**
-     * ç”¨æˆ·ç™»å½•æ–¹æ³•
-     * @author  çŸ¢å¿—buæ¸ <745152620@qq.com>
-     */
-Method [ <user> public method login ] {
-  @@ E:\www\dbgj\application\index\controller\Base.php 57 - 83
-}
-
-[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
-  0 => 'userinfo',
-) ]
-[ info ] [ LOG ] INIT file
-
----------------------------------------------------------------
-[ 2017-11-17T20:58:40+08:00 ] 172.31.179.54 171.13.14.148 GET /
-[ log ] dbgj.hoonking.com/ [è¿è¡Œæ—¶é—´ï¼š0.046875s][åžåçŽ‡ï¼š21.33req/s] [å†…å­˜æ¶ˆè€—ï¼š2,235.26kb] [æ–‡ä»¶åŠ è½½ï¼š58]
-[ info ] [ DB ] INIT mysql
-[ info ] [ LANG ] E:\www\dbgj\core\lang\zh-cn.php
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => '',
-    1 => NULL,
-    2 => NULL,
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'dbgj.hoonking.com',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-  'referer' => 'http://dbgj.hoonking.com/',
-  'accept-encoding' => 'gzip,deflate',
-  'accept-charset' => 'iso-8859-1,*,utf-8',
-  'x-forwarded-for' => 'unknown',
-  'cache-control' => 'max-age=259200',
-  'connection' => 'keep-alive',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ LANG ] E:\www\dbgj/application/index\lang\zh-cn.php
-[ info ] [ SESSION ] INIT array (
-  'prefix' => 'minishop',
-  'type' => '',
-  'auto_start' => true,
-)
-[ info ] [ LOG ] INIT file
-[ error ] [4]è¯­æ³•é”™è¯¯: unexpected '}'[xÚíTën£F~™HÞühÄ%i‚RWÅ8Æƒ‰Áæ2?vƒ=Æ—Ô‡ïHb§Rß H–a.g¾ó]æ&™N’üP|ÿñ}r…Õþ÷ûûœñþÛ{7ùãï?\'w7æør{7™N_¬ùt:y¾éû~:ùíÿçòLžÿÚ7!ûöÎb¼XœltV‡®ÒcS Ì.‰<«Ÿ°ot‘lô(iSCåk[2’aJ‡ýYCr»Œ2R˜Zú¨eXŒ2K=¥FKûD^bk4%’[ã±Çª äkMMC_¥oŽš›}ÐiWG™+]K%¯¹çNêÙ<™ùÊ¯VšcÃy–-‡¹ªâuôEõ3CsÖx‹_¾l5ô‹ÅåéŒE9ô”žyÑ¬å
-Îž)¯y•]éâ¥p<CŸÙS…4›÷×ÇKT™[µ|íT8gVâ„RäØEà=¤‘¾£œOaýçØ›3Ëˆ¤œBIi±w_:k×°7Êm)ðÚâ½·ò¿ÎCóð[¡H{¹ô¦±G Ñ ÀQì5ÒØƒ¾ö°)(Z
-cËFë;8÷xŒ2»ÂçÓbðn‰Ôˆk”€N”É¡Î`žqæ6ÐÛçY+çý¬—œGÐTd‘ì
-«K¿€x¯µYŸŠsƒÞæà²³¸G 6ðRãì‰ó}óµâK®àK"‹õÅë!p®0mAÿÔb3ÖZF þ:1]
-
----------------------------------------------------------------

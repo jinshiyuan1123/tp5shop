@@ -1,3 +1,4 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:78:"D:\phpStudy2018\PHPTutorial\WWW\tp5shop/application/admin\view\base\login.html";i:1575945727;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -44,7 +45,7 @@
   <div class="login-box-body">
     <p class="login-box-msg"></p>
 
-    <form action="{:url('base/login')}" method="post" id="login">
+    <form action="<?php echo url('base/login'); ?>" method="post" id="login">
       <div class="form-group has-feedback">
         <input type="username" name="username" id="username"class="form-control" placeholder="用户名">
         <span id="uname" class="glyphicon glyphicon-envelope form-control-feedback"></span>
@@ -55,7 +56,7 @@
       </div>
       <div class="form-group has-feedback" id="captcha-container">
         <input type="text" name="captcha" class="form-control" style="width:50%;float:left" placeholder="验证码" >
-        <img id="captcha" style="width:45%;float:right;height:34px" src="{:url('admin/base/captcha')}" onclick="this.src='{:url('admin/base/captcha')}?rand='+Math.random()" title="点击刷新">  
+        <img id="captcha" style="width:45%;float:right;height:34px" src="<?php echo url('admin/base/captcha'); ?>" onclick="this.src='<?php echo url('admin/base/captcha'); ?>?rand='+Math.random()" title="点击刷新">  
         <span class="glyphicon  form-control-feedback"></span>
       </div>
       <div class="row">
@@ -82,7 +83,7 @@
       $.ajax({
         cache: true,
         type: "POST",
-        url : '{:url('base/login')}',
+        url : '<?php echo url('base/login'); ?>',
         data: $('#login').serialize(),
         async: false,
         success: function(data) {
