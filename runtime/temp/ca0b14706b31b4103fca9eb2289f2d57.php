@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:79:"D:\phpStudy2018\PHPTutorial\WWW\tp5shop/application/admin\view\config\edit.html";i:1575949087;s:79:"D:\phpStudy2018\PHPTutorial\WWW\tp5shop/application/admin\view\common\head.html";i:1575945625;s:81:"D:\phpStudy2018\PHPTutorial\WWW\tp5shop/application/admin\view\common\header.html";i:1575943965;s:81:"D:\phpStudy2018\PHPTutorial\WWW\tp5shop/application/admin\view\common\navbar.html";i:1575943965;s:81:"D:\phpStudy2018\PHPTutorial\WWW\tp5shop/application/admin\view\common\footer.html";i:1575943965;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:79:"D:\phpStudy2018\PHPTutorial\WWW\tp5shop/application/admin\view\config\edit.html";i:1575959130;s:79:"D:\phpStudy2018\PHPTutorial\WWW\tp5shop/application/admin\view\common\head.html";i:1575945625;s:81:"D:\phpStudy2018\PHPTutorial\WWW\tp5shop/application/admin\view\common\header.html";i:1575943965;s:81:"D:\phpStudy2018\PHPTutorial\WWW\tp5shop/application/admin\view\common\navbar.html";i:1575943965;s:81:"D:\phpStudy2018\PHPTutorial\WWW\tp5shop/application/admin\view\common\footer.html";i:1575943965;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -211,72 +211,37 @@
                   <label for="exampleInputPassword1">网站首页图片跳转地址</label>
                   <input type="text" class="form-control" id="sy_tzurl" value="<?php echo $list['web_sy_tzurl']; ?>" name="web_sy_tzurl" placeholder="网站首页图片跳转地址" />
                 </div>
-                <!-- <div class="form-group">
-                  <label for="exampleInputPassword1">当下分红池</label>
-                  <input type="text" class="form-control" id="qqfh_money" value="<?php echo $list['web_qqfh_money']; ?>" name="web_qqfh_money" placeholder="设置当下分红池" />
-                </div>
+              
                 <div class="form-group">
-                  <label for="exampleInputPassword1">会员复投价格（元）</label>
-                  <input type="text" class="form-control" id="user_jhmoney" value="<?php echo $list['web_user_jhmoney']; ?>" name="web_user_jhmoney" placeholder="设置激活会员价格" />
-                </div> -->
-                <div class="form-group">
-                  <label for="exampleInputPassword1">会员直推奖励（元）</label>
+                  <label for="exampleInputPassword1">(业务员)会员直推奖励（元）</label>
                   <input type="text" class="form-control" id="user_ztmoney" value="<?php echo $list['web_user_ztmoney']; ?>" name="web_user_ztmoney" placeholder="设置会员直推奖励金额" />
                 </div>
                 <div class="form-group">
-                  <label for="exampleInputPassword1">C层升B层奖励（元）</label>
+                  <label for="exampleInputPassword1">(业务员)C层升B(经销商)层奖励（元）</label>
                   <input type="text" class="form-control" id="user_scmoney1" value="<?php echo $list['web_user_scmoney1']; ?>" name="web_user_scmoney1" placeholder="C层升B层奖励金额" />
                 </div>
                 <div class="form-group">
-                  <label for="exampleInputPassword1">B层升A层奖励（元）</label>
+                  <label for="exampleInputPassword1">(经销商)B层升A(代理商)层奖励（元）</label>
                   <input type="text" class="form-control" id="user_scmoney2" value="<?php echo $list['web_user_scmoney2']; ?>" name="web_user_scmoney2" placeholder="B层升A层奖励金额" />
                 </div>
-               <!--  <div class="form-group">
-                  <label for="exampleInputPassword1">A层升队长奖励（元）</label>
-                  <input type="text" class="form-control" id="user_scmoney3" value="<?php echo $list['web_user_scmoney3']; ?>" name="web_user_scmoney3" placeholder="A层升队长奖励金额" />
-                </div> -->
-               <!--  <div class="form-group">
-                  <label for="exampleInputPassword1">队长出局奖励（元）</label>
-                  <input type="text" class="form-control" id="user_scmoney4" value="<?php echo $list['web_user_scmoney4']; ?>" name="web_user_scmoney4" placeholder="队长出局奖励金额" />
-                </div> -->
-               <!--  <div class="form-group">
-                  <label for="exampleInputPassword1">注册或复投时进入全球分红的比例(百分比形式)</label>
-                  <input type="text" class="form-control" id="qqfh_bili" value="<?php echo $list['web_qqfh_bili']; ?>" name="web_qqfh_bili" placeholder="注册或复投时进入全球分红的比例" />
-                </div> -->
+              
                 <div class="form-group">
-                  <label for="exampleInputPassword1">直推5人,钻石区分红比例(百分比形式)</label>
+                  <label for="exampleInputPassword1">直推5人,同等级升级经销商</label>
                   <input type="text" class="form-control" id="fanli_1" value="<?php echo $list['web_fanli_1']; ?>" name="web_fanli_1" placeholder="直推5人,钻石区分红比例" />
                 </div>
                 <div class="form-group">
-                  <label for="exampleInputPassword1">直推10人,钻石区分红比例(百分比形式)</label>
+                  <label for="exampleInputPassword1">直推10人,同等级升级代理商</label>
                   <input type="text" class="form-control" id="fanli_2" value="<?php echo $list['web_fanli_2']; ?>" name="web_fanli_2" placeholder="直推10人,钻石区分红比例" />
                 </div>
                 <div class="form-group">
-                  <label for="exampleInputPassword1">直推20人,钻石区分红比例(百分比形式)</label>
+                  <label for="exampleInputPassword1">间推经销商95元</label>
                   <input type="text" class="form-control" id="fanli_3" value="<?php echo $list['web_fanli_3']; ?>" name="web_fanli_3" placeholder="直推20人,钻石区分红比例" />
                 </div>
                 <div class="form-group">
-                  <label for="exampleInputPassword1">直推30人,钻石区分红比例(百分比形式)</label>
+                  <label for="exampleInputPassword1">间推代理商140元</label>
                   <input type="text" class="form-control" id="fanli_4" value="<?php echo $list['web_fanli_4']; ?>" name="web_fanli_4" placeholder="直推30人,钻石区分红比例" />
                 </div>
-               <!--  <div class="form-group">
-                  <label for="exampleInputPassword1">直推50人,钻石区分红比例(百分比形式)</label>
-                  <input type="text" class="form-control" id="fanli_5" value="<?php echo $list['web_fanli_5']; ?>" name="web_fanli_5" placeholder="直推50人,钻石区分红比例" />
-                </div> -->
-                <!-- <div class="form-group">
-                  <label for="exampleInputPassword1">直推80人,公司总营业额分红比例(百分比形式)</label>
-                  <input type="text" class="form-control" id="fanli_6" value="<?php echo $list['web_fanli_6']; ?>" name="web_fanli_6" placeholder="直推80人,公司总营业额分红比例" />
-                </div> -->
-                <div class="form-group">
-                  <label for="exampleInputPassword1">每个级别限制分红次数(次)</label>
-                  <input type="text" class="form-control" id="fenhong_num" value="<?php echo $list['web_fenhong_num']; ?>" name="web_fenhong_num" placeholder="每个级别限制分红次数" />
-                </div>
 
-
-
-
-
-                
                 <!-- <div class="form-group">
                   <label for="exampleInputPassword1">激活赠底分</label>
                   <input type="text" class="form-control" id="jihuo_df" value="<?php echo $list['web_jihuo_df']; ?>" name="web_jihuo_df" placeholder="设置1为开启0为关闭" />
@@ -302,43 +267,6 @@
                   <label for="exampleInputPassword1">积分名称</label>
                   <input type="text" class="form-control" id="score_name" value="<?php echo $list['web_score_name']; ?>" name="web_score_name" placeholder="设置积分名称 如：信用分" />
                 </div>              
-                <!-- <div class="form-group">
-                  <label for="exampleInputPassword1">保底积分（分）</label>
-                  <input type="text" class="form-control" id="user_bdscore" value="<?php echo $list['web_user_bdscore']; ?>" name="web_user_bdscore" placeholder="设置涨了保底积分" />
-                </div>
-                <div class="form-group">
-                  <label for="exampleInputPassword1">积分每天复利（%）</label>
-                  <input type="text" class="form-control" id="score_fulilu" value="<?php echo $list['web_score_fulilv']; ?>" name="web_score_fulilv" placeholder="设置每天复利率" />
-                </div>            
-                <div class="form-group">
-                  <label for="exampleInputPassword1">不可转出时间（分钟）</label>
-                  <input type="text" class="form-control" id="score_bkzc" value="<?php echo $list['web_score_bkzc']; ?>" name="web_score_bkzc" placeholder="设置交易的积分多久之内不能进行交易" />
-                </div>  
-                <div class="form-group">
-                  <label for="exampleInputPassword1">一次最多转入（分）</label>
-                  <input type="text" class="form-control" id="score_bkzc" value="<?php echo $list['web_score_zdzr']; ?>" name="web_score_zdzr" placeholder="设置积分交易一次最多转入交易额度 0为不限制额度" />
-                </div>
-        
-                <div class="form-group">
-                  <label for="exampleInputPassword1">激活会员上七级返利（元）</label>
-                  <input type="text" class="form-control" id="fanli_7" value="<?php echo $list['web_fanli_7']; ?>" name="web_fanli_7" placeholder="设置激活会员上一级返利" />
-                </div>
-                <div class="form-group">
-                  <label for="exampleInputPassword1">激活会员上八级返利（元）</label>
-                  <input type="text" class="form-control" id="fanli_8" value="<?php echo $list['web_fanli_8']; ?>" name="web_fanli_8" placeholder="设置激活会员上一级返利" />
-                </div>
-                <div class="form-group">
-                  <label for="exampleInputPassword1">激活会员上九级返利（元）</label>
-                  <input type="text" class="form-control" id="fanli_9" value="<?php echo $list['web_fanli_9']; ?>" name="web_fanli_9" placeholder="设置激活会员上一级返利" />
-                </div> -->
-                <!-- <div class="form-group">
-                  <label for="exampleInputPassword1">每人每天转盘次数</label>
-                  <input type="text" class="form-control" id="lucky_cs" value="<?php echo $list['web_lucky_cs']; ?>" name="web_lucky_cs" placeholder="设置每天转盘次数 0为不限制" />
-                </div> -->
-                <!-- <div class="form-group">
-                  <label for="exampleInputPassword1">每次转盘需要多少积分（分）</label>
-                  <input type="text" class="form-control" id="lucky_score" value="<?php echo $list['web_lucky_score']; ?>" name="web_lucky_score" placeholder="设置每次转盘需要多少积分" />
-                </div> -->
               <!-- <div class="form-group">
               <label for="exampleInputPassword1">转盘奖项设置</label>
                   <script type="text/plain" id="editor" name="web_lucky_jxsz" style="height:200px;"><?php echo $list['web_lucky_jxsz']; ?></script>
@@ -371,9 +299,6 @@
 
 
 
-  <!-- /.control-sidebar -->
-  <!-- Add the sidebar's background. This div must be placed
-       immediately after the control sidebar -->
   <div class="control-sidebar-bg"></div>
 </div>
 <!-- ./wrapper -->

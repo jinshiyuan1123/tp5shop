@@ -115,7 +115,7 @@ class User extends Common
     }
     /**
      * 修改手机号
-     * @author  赵祥祥654377754
+     * @author  xuelang
      */
     public function editMobile() {
         
@@ -196,7 +196,7 @@ class User extends Common
      }
     /**
      * 修改昵称
-     * @author  赵祥祥654377754
+     * @author  xuelang
      */
     public function editNickname() {
         
@@ -221,7 +221,7 @@ class User extends Common
 
     /**
      * 个人资料
-     * @author  赵祥祥654377754
+     * @author  xuelang
      */
     public function userProfile() {
         if (Request::instance()->isPost()) {
@@ -243,7 +243,7 @@ class User extends Common
     }
     /**
      * 转赠
-     * @author  赵祥祥654377754
+     * @author  xuelang
      */
     public function turnadd() { 
         $web_score_zdzr=config('web_score_zdzr');//一次转入限制
@@ -326,7 +326,7 @@ class User extends Common
     }
     /**
      * 积分详情
-     * @author  赵祥祥654377754
+     * @author  xuelang
      */
     public function score_detail(){
         $list = Db::name('user_score_log')
@@ -344,7 +344,7 @@ class User extends Common
     }
     /**
      * 资金详情
-     * @author  赵祥祥654377754
+     * @author  xuelang
      */
     public function money_detail() { 
 
@@ -359,7 +359,7 @@ class User extends Common
 
     /**
      * 推广链接
-     * @author  赵祥祥654377754
+     * @author  xuelang
      */
     public function user_link() { 
         $user_gongpai = Db::name('gongpai')->where(['uid'=>UID])->find();
@@ -407,7 +407,7 @@ class User extends Common
     }
     /**
      * 绑定微信
-     * @author  赵祥祥654377754
+     * @author  xuelang
      */
     public function user_wxbd() {
         if (strpos($_SERVER['HTTP_USER_AGENT'], 'MicroMessenger') == false ) {
@@ -624,7 +624,7 @@ class User extends Common
         } 
     /**
      * 提现
-     * @author  赵祥祥654377754
+     * @author  xuelang
      */
     public function user_withdrawal() {
 

@@ -50,7 +50,7 @@ return [
     'dispatch_success_tmpl'  => ROOT_PATH.'themes/default/index/dispatch_jump.html',
     'dispatch_error_tmpl'    => ROOT_PATH.'themes/default/index/dispatch_jump.html',
     // 入口访问url
-    'enter_url'				=> 'http://zsh.ruishengkj.net',
+    'enter_url'				=> 'http://www.wap1.com',
     // URL伪静态后缀
     'url_html_suffix'        => 'html|xml|json|jsonp',
 	// 短信发送

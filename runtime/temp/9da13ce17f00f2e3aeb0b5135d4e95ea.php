@@ -1,10 +1,10 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:82:"D:\phpStudy2018\PHPTutorial\WWW\tp5shop/application/admin\view\apiconfig\edit.html";i:1575943965;s:79:"D:\phpStudy2018\PHPTutorial\WWW\tp5shop/application/admin\view\common\head.html";i:1575945556;s:81:"D:\phpStudy2018\PHPTutorial\WWW\tp5shop/application/admin\view\common\header.html";i:1575943965;s:81:"D:\phpStudy2018\PHPTutorial\WWW\tp5shop/application/admin\view\common\navbar.html";i:1575943965;s:81:"D:\phpStudy2018\PHPTutorial\WWW\tp5shop/application/admin\view\common\footer.html";i:1575943965;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:82:"D:\phpStudy2018\PHPTutorial\WWW\tp5shop/application/admin\view\apiconfig\edit.html";i:1575943965;s:79:"D:\phpStudy2018\PHPTutorial\WWW\tp5shop/application/admin\view\common\head.html";i:1575945625;s:81:"D:\phpStudy2018\PHPTutorial\WWW\tp5shop/application/admin\view\common\header.html";i:1575943965;s:81:"D:\phpStudy2018\PHPTutorial\WWW\tp5shop/application/admin\view\common\navbar.html";i:1575943965;s:81:"D:\phpStudy2018\PHPTutorial\WWW\tp5shop/application/admin\view\common\footer.html";i:1575943965;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title><?php echo config('web_site_title'); ?></title>
+  <title><?php echo config('sms_signname'); ?></title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Msgbox -->
