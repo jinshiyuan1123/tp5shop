@@ -1,0 +1,540 @@
+[ 2019-12-10T09:55:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/user_link.html
+[ log ] www.tp5shop.com/index/user/user_link.html [运行时间：0.064004s][吞吐率：15.62req/s] [内存消耗：2,024.01kb] [文件加载：56]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\PStu\PHPTutorial\WWW\tp5shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'user_link',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'think_var=zh-cn; PHPSESSID=70b97kc37v13udjpr3pabkii66',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp5shop.com/index/user/usercenter.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.tp5shop.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/user/user_link_html' => '',
+)
+[ info ] [ LANG ] D:\PStu\PHPTutorial\WWW\tp5shop/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 推广链接
+     * @author  赵祥祥654377754
+     */
+Method [ <user> public method user_link ] {
+  @@ D:\PStu\PHPTutorial\WWW\tp5shop\application\index\controller\User.php 364 - 370
+}
+
+[ info ] [ VIEW ] D:\PStu\PHPTutorial\WWW\tp5shop\themes/default/index/dispatch_jump.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'code',
+  3 => 'msg',
+  4 => 'data',
+  5 => 'url',
+  6 => 'wait',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-12-10T09:55:10+08:00 ] 127.0.0.1 127.0.0.1 GET /themes/default/index/js/jquery.min.map
+[ log ] www.tp5shop.com/themes/default/index/js/jquery.min.map [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,484.91kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\PStu\PHPTutorial\WWW\tp5shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'themes',
+    1 => 'default',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'think_var=zh-cn; PHPSESSID=70b97kc37v13udjpr3pabkii66',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'connection' => 'close',
+  'host' => 'www.tp5shop.com',
+)
+[ info ] [ PARAM ] array (
+  '/themes/default/index/js/jquery_min_map' => '',
+  'js' => 'jquery.min.map',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-12-10T09:55:13+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/usercenter.html
+[ log ] www.tp5shop.com/index/user/usercenter.html [运行时间：0.083004s][吞吐率：12.05req/s] [内存消耗：2,090.72kb] [文件加载：56]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\PStu\PHPTutorial\WWW\tp5shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'think_var=zh-cn; PHPSESSID=70b97kc37v13udjpr3pabkii66',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp5shop.com/index/cart/yue_pay.html?order_no=2019121048495010',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.tp5shop.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/user/usercenter_html' => '',
+)
+[ info ] [ LANG ] D:\PStu\PHPTutorial\WWW\tp5shop/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人中心
+     * @author  ILsunshine
+     */
+Method [ <user> public method userCenter ] {
+  @@ D:\PStu\PHPTutorial\WWW\tp5shop\application\index\controller\User.php 39 - 72
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_center.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'is_gongpai',
+  3 => 'ytixian',
+  4 => 'tuijianren',
+  5 => 'userInfo',
+  6 => 'hys',
+  7 => 'zt_count',
+  8 => 'scoreorder',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-12-10T09:55:25+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.tp5shop.com/ [运行时间：0.062003s][吞吐率：16.13req/s] [内存消耗：2,009.20kb] [文件加载：56]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\PStu\PHPTutorial\WWW\tp5shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'think_var=zh-cn; PHPSESSID=70b97kc37v13udjpr3pabkii66',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.tp5shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\PStu\PHPTutorial\WWW\tp5shop/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\PStu\PHPTutorial\WWW\tp5shop\application\index\controller\Index.php 21 - 34
+}
+
+[ info ] [ VIEW ] ./themes/default/index/index.html [ array (
+  0 => 'userinfo',
+  1 => 'goodslist',
+  2 => 'gp_goodslist',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-12-10T09:55:25+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/picture/20191210/c20ea7d9f53afad03ba8b0b706d2e2a4.jpg
+[ log ] www.tp5shop.com/uploads/picture/20191210/c20ea7d9f53afad03ba8b0b706d2e2a4.jpg [运行时间：0.049002s][吞吐率：20.41req/s] [内存消耗：1,485.15kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\PStu\PHPTutorial\WWW\tp5shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => 'picture',
+    2 => '20191210',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'think_var=zh-cn; PHPSESSID=70b97kc37v13udjpr3pabkii66',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp5shop.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.tp5shop.com',
+)
+[ info ] [ PARAM ] array (
+  '/uploads/picture/20191210/c20ea7d9f53afad03ba8b0b706d2e2a4_jpg' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-12-10T09:55:28+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/usercenter.html
+[ log ] www.tp5shop.com/index/user/usercenter.html [运行时间：0.102006s][吞吐率：9.80req/s] [内存消耗：1,955.31kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\PStu\PHPTutorial\WWW\tp5shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'think_var=zh-cn; PHPSESSID=70b97kc37v13udjpr3pabkii66',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp5shop.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.tp5shop.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/user/usercenter_html' => '',
+)
+[ info ] [ LANG ] D:\PStu\PHPTutorial\WWW\tp5shop/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人中心
+     * @author  ILsunshine
+     */
+Method [ <user> public method userCenter ] {
+  @@ D:\PStu\PHPTutorial\WWW\tp5shop\application\index\controller\User.php 39 - 72
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_center.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'is_gongpai',
+  3 => 'ytixian',
+  4 => 'tuijianren',
+  5 => 'userInfo',
+  6 => 'hys',
+  7 => 'zt_count',
+  8 => 'scoreorder',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-12-10T09:55:32+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.tp5shop.com/ [运行时间：0.078004s][吞吐率：12.82req/s] [内存消耗：1,865.23kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\PStu\PHPTutorial\WWW\tp5shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'think_var=zh-cn; PHPSESSID=70b97kc37v13udjpr3pabkii66',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.tp5shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\PStu\PHPTutorial\WWW\tp5shop/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\PStu\PHPTutorial\WWW\tp5shop\application\index\controller\Index.php 21 - 34
+}
+
+[ info ] [ VIEW ] ./themes/default/index/index.html [ array (
+  0 => 'userinfo',
+  1 => 'goodslist',
+  2 => 'gp_goodslist',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-12-10T09:55:32+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/picture/20191210/c20ea7d9f53afad03ba8b0b706d2e2a4.jpg
+[ log ] www.tp5shop.com/uploads/picture/20191210/c20ea7d9f53afad03ba8b0b706d2e2a4.jpg [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：1,485.15kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\PStu\PHPTutorial\WWW\tp5shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => 'picture',
+    2 => '20191210',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'think_var=zh-cn; PHPSESSID=70b97kc37v13udjpr3pabkii66',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp5shop.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.tp5shop.com',
+)
+[ info ] [ PARAM ] array (
+  '/uploads/picture/20191210/c20ea7d9f53afad03ba8b0b706d2e2a4_jpg' => '',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-12-10T09:55:38+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/orderlists.html
+[ log ] www.tp5shop.com/index/order/orderlists.html [运行时间：0.087005s][吞吐率：11.49req/s] [内存消耗：1,974.12kb] [文件加载：56]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\PStu\PHPTutorial\WWW\tp5shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderlists',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'think_var=zh-cn; PHPSESSID=70b97kc37v13udjpr3pabkii66',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp5shop.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.tp5shop.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/order/orderlists_html' => '',
+)
+[ info ] [ LANG ] D:\PStu\PHPTutorial\WWW\tp5shop/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人订单
+     * @author ILsunshien
+     */
+Method [ <user> public method orderLists ] {
+  @@ D:\PStu\PHPTutorial\WWW\tp5shop\application\index\controller\Order.php 25 - 52
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_order.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'page',
+  3 => 'lists',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-12-10T09:55:38+08:00 ] 127.0.0.1 127.0.0.1 GET /themes/default/index/js/jquery.min.map
+[ log ] www.tp5shop.com/themes/default/index/js/jquery.min.map [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,484.91kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\PStu\PHPTutorial\WWW\tp5shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'themes',
+    1 => 'default',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'think_var=zh-cn; PHPSESSID=70b97kc37v13udjpr3pabkii66',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'connection' => 'close',
+  'host' => 'www.tp5shop.com',
+)
+[ info ] [ PARAM ] array (
+  '/themes/default/index/js/jquery_min_map' => '',
+  'js' => 'jquery.min.map',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-12-10T09:55:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/score_detail.html
+[ log ] www.tp5shop.com/index/user/score_detail.html [运行时间：0.106006s][吞吐率：9.43req/s] [内存消耗：2,140.74kb] [文件加载：60]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\PStu\PHPTutorial\WWW\tp5shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'score_detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'think_var=zh-cn; PHPSESSID=70b97kc37v13udjpr3pabkii66',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp5shop.com/index/order/orderlists.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.tp5shop.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/user/score_detail_html' => '',
+)
+[ info ] [ LANG ] D:\PStu\PHPTutorial\WWW\tp5shop/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 积分详情
+     * @author  赵祥祥654377754
+     */
+Method [ <user> public method score_detail ] {
+  @@ D:\PStu\PHPTutorial\WWW\tp5shop\application\index\controller\User.php 331 - 344
+}
+
+[ info ] [ VIEW ] ./themes/default/index/score_detail.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'page',
+  3 => 'lists',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-12-10T09:55:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/usercenter.html
+[ log ] www.tp5shop.com/index/user/usercenter.html [运行时间：0.102006s][吞吐率：9.80req/s] [内存消耗：1,955.31kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\PStu\PHPTutorial\WWW\tp5shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'think_var=zh-cn; PHPSESSID=70b97kc37v13udjpr3pabkii66',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp5shop.com/index/user/score_detail.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.tp5shop.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/user/usercenter_html' => '',
+)
+[ info ] [ LANG ] D:\PStu\PHPTutorial\WWW\tp5shop/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人中心
+     * @author  ILsunshine
+     */
+Method [ <user> public method userCenter ] {
+  @@ D:\PStu\PHPTutorial\WWW\tp5shop\application\index\controller\User.php 39 - 72
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_center.html [ array (
+  0 => 'userinfo',
+  1 => 'tyjfmc',
+  2 => 'is_gongpai',
+  3 => 'ytixian',
+  4 => 'tuijianren',
+  5 => 'userInfo',
+  6 => 'hys',
+  7 => 'zt_count',
+  8 => 'scoreorder',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
