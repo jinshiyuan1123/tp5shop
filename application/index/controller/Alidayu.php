@@ -65,10 +65,32 @@ class Alidayu extends Controller {
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
         $json_data = curl_exec($ch);
 
+        // start 短信宝接口
+        $statusStr = array(
+        "0" => "短信发送成功",
+        "-1" => "参数不全",
+        "-2" => "服务器空间不支持,请确认支持curl或者fsocket，联系您的空间商解决或者更换空间！",
+        "30" => "密码错误",
+        "40" => "账号不存在",
+        "41" => "余额不足",
+        "42" => "帐户已过期",
+        "43" => "IP地址限制",
+        "50" => "内容含有敏感词"
+        );
+        $smsapi = "http://api.smsbao.com/";
+        $user = "jinshiyuan1123"; //短信平台帐号
+        $pass = md5("w134789"); //短信平台密码
+        $content="【".config('sms_signname')."】您的验证码是".$ab."。如非本人操作，请忽略本短信";//要发送的短信内容
+        $phone =  $mobile;//要发送短信的手机号码
+        $sendurl = $smsapi."sms?u=".$user."&p=".$pass."&m=".$phone."&c=".urlencode($content);
+        $result =file_get_contents($sendurl) ;
+        // echo $statusStr[$result];
+        // end
+        // $result = 0;
         //解析返回结果（json格式字符串）
         $array = json_decode($json_data,true);
  
-        if($array['code'] == 0){
+        if($result == 0){
             $data['message']="发送成功";
             return $this->success($data['message']);
         }else{
