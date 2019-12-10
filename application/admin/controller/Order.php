@@ -193,6 +193,9 @@ class Order extends Common
      * @author  vaey
      */
     public function send(){
+        $express_no = input('post.express_no');
+        $express_type = input('post.express_type');
+        // var_dump($post);die;
         if (Request::instance()->isPost()) {
             $ordersId                   = input('post.ordersId');
             $info = Db::name('Orders')->where(['id'=>$ordersId])->find();
@@ -203,7 +206,10 @@ class Order extends Common
                 //开启事务
                 Db::startTrans();
                 $data['status']         = 'shipped';
-                $flg1 = Db::name('Orders')->where(['id'=>$ordersId])->update($data);
+                $date['status']         = 'shipped';
+                $date['express_no']     = $express_no;
+                $date['express_type']   = $express_type;
+                $flg1 = Db::name('Orders')->where(['id'=>$ordersId])->update($date);
                 //订单号
                 $data['order_id']       = $ordersId;
                 //操作人 
