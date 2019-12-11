@@ -1306,11 +1306,103 @@ function tj_shop_money($tz_money){
  * $reid 推荐人id
  */
 function zt_jiangli($uid,$reid){
-    config(select_key_value('config.base'));
-    $web_user_ztmoney = config('web_user_ztmoney');//直推奖励金额
+
+    $user = Db::name('Users')->where(['id'=>$reid])->find();
+
+     config(select_key_value('config.base'));
+    if($user['level'] == 1){
+        //(业务员)会员直推奖励95（元）
+         $web_user_ztmoney = config('web_user_ztmoney');//直推奖励金额
+    }elseif($user['level'] == 2){
+        //(业务员)C层升B(经销商)层奖励190（元）
+        $web_user_ztmoney = config('web_user_scmoney1');
+    }elseif($user['level'] == 3){
+        //(经销商)B层升A(代理商)层奖励235（元）
+         $web_user_ztmoney = config('web_user_scmoney2');
+    }
+      // var_dump($web_user_ztmoney);die;
+    // $web_user_ztmoney = config('web_user_ztmoney');//直推奖励金额
     $info = '直推奖励'.$web_user_ztmoney.'元';
     up_score($reid,$uid,$web_user_ztmoney,$info,time());
    
+}
+/**
+ * 间推奖励发放
+ * @param  [type] $uid  [description]
+ * @param  [type] $reid [description]
+ * @return [type]       [description]
+ */
+function jt_jiangli($uid,$reid){
+    config(select_key_value('config.base'));
+    //查询直推id
+    $user = Db::name('Users')->where(['id'=>$reid])->find();
+    if($user){
+        $two = $user['reid'];
+        //查询间推id
+        $user_r = Db::name('Users')->where(['id'=>$two])->find();
+        if($user_r){
+            if($user_r['level'] == 2){
+                //间推经销商95元
+                $web_user_ztmoney = config('web_fanli_3');
+            }elseif($user_r['level'] == 3){
+                //间推代理商140元
+                $web_user_ztmoney = config('web_fanli_4');
+            }
+             $info = '间推奖励'.$web_user_ztmoney.'元';
+            up_score($reid,$uid,$web_user_ztmoney,$info,time());
+        }
+       
+    }
+   
+
+}
+
+/**
+ * 进入公排等级 
+  
+   职位    直推  间推
+   代理商(一级)    235  140
+   经销商(二级)    190  95
+   业务员(三级)    95  0
+
+   满100可体现
+   业务员直推5个同等级升级经销商
+   经销商直推10同等级，升级代理商
+ * @param  [type] $uid  [description]
+ * @param  [type] $reid [description]
+ * @return [type]       [description]
+ */
+function level($reid){
+     $userInfo   = Db::name('Users')->where('id',$reid)->find();
+       
+        $res_r = Db::name('Users')->where(['reid'=>$reid,'status'=>1])->select();
+         foreach($res_r as $k=>$v){
+                $level[] = $v['level'];
+                
+            }
+
+            $lostlist2  =   array_count_values($level);  //算出每个元素的总数
+
+        //查询本身会员等级 1黄金 2白金 3钻石
+        if($userInfo['level'] == 1){
+             // $level =array();
+            
+            //业务员直推5个同等级升级经销商
+            if($lostlist2[1] >= 5 ){
+               $status = Db::name('Users')->where(['id'=>$reid])->update(['level'=>2]);
+              
+               $info = 'id号'.$reid.'业务员升级经销商';
+              
+                up_score($reid,0,0,$info,time());
+            }
+        }
+        if($userInfo['level'] == 2){
+            if($lostlist2[2] >= 10){
+                $status = Db::name('Users')->where(['id'=>$reid])->update(['level'=>3]);
+                $info = 'id号'.$reid.'经销商升级代理商';
+                up_score($reid,0,0,$info,time());
+            }
+        }
 }
 
 /**
@@ -1324,7 +1416,8 @@ function gongpai($uid,$reid,$order_no,$tz_money){
 
     tj_shop_money($tz_money);//把每次投资的金额计入商城的业绩
     zt_jiangli($uid,$reid);//复投时发放直推奖励
-    
+    jt_jiangli($uid,$reid);//复投时发放间推奖励
+    level($reid);//等级升级
     if($reid>0){
         $re_user = Db::name("gongpai")->where(['uid' => $reid,'is_chuju' => 1])->find();        
         $gongpai_count = Db::name("gongpai")->where(1)->count();//统计数据表中数据数量
