@@ -238,7 +238,7 @@ class User extends Common
      */
     public function userProfile() {
 
-         
+        $pic ="";
         if (Request::instance()->isPost()) {
             $file = request()->file('image_url');
             // 移动到框架应用根目录/public/uploads/ 目录下
