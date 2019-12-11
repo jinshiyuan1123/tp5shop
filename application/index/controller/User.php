@@ -606,33 +606,56 @@ class User extends Common
         return $this->themeFetch('user_fenhong');
     }
     
-    //我的好友
+    //会员充值
     public function user_friends(){ 
-    	$page=input('get.page');
-        if(empty($page)){  
-            $page = 1;
-        }else{ 
-            $page=input('get.page');
-        }
-        $size=20;//每页显示的记录数
+        $user = Db::name('Users')->where(['id'=>UID,'status'=>1])->find();
+    	 if (Request::instance()->isPost()) {
+            $post = input('post.');
+            $data = array(
+                'uid'=>UID,
+                'money'=>$post['money'],
+                'type'=>$post['Fruit'],
+                'info'=>'会员充值',
+                'addtime'=>time()
+            );
+           
+            $users_log=Db::name('money_log')->insert($data);
 
-       $user_info = Db::name('gongpai')->where(['uid'=>UID,'is_chuju'=>1])->find();
-        $user_friends = array();
-       if($user_info){
-           $user_friends = Db::name('gongpai')
-           ->alias('g')
-           ->join('users u','u.id= g.uid','LEFT')
-           ->where('g.panhao ='.$user_info['panhao'].' and g.jibie < '.$user_info['jibie'].' and g.lunshu='.$user_info['lunshu'])
-            ->field('g.*,u.nickname,u.mobile')
-           ->order('g.id asc')
-           ->paginate(32);
-       }
-
-        $this->assign('lists',$user_friends); 
-       
+            if($users_log){
+                 Db::commit(); // 提交事务
+                  return $this->success('充值成功！',url('user/user_friends'));
+            }
+            
+         }
+       $this->assign('user',$user);
 
         return $this->themeFetch('user_friends');
     }
+    //充值记录
+     public function user_jilu(){ 
+            $id = input('get.id');
+           
+            $page=input('get.page');
+            if(empty($page)){  
+                $page = 1;
+            }else{ 
+                $page=input('get.page');
+            }
+            $size=10;//每页显示的记录数
+           $id = UID;
+
+           $user_list = Db::name('money_log')->where(['uid'=>$id])->order('id desc')->select();
+             
+           $newarr = array_slice($user_list, ($page-1)*$size, $size);
+           $config['path']=url('user/user_jilu');
+           $list1=\think\paginator\driver\Bootstrap::make($newarr, $size, $page, count($user_list), false, $config);
+           $page=$list1->render();
+    
+            $this->assign('lists',$list1); 
+            $this->assign('page',$page);
+    
+            return $this->themeFetch('user_jilu');
+        } 
 
 
         //我的团队

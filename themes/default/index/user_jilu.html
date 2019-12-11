@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>充值记录</title>
+
+<link rel=stylesheet type=text/css href="{:config('theme_path')}/index/new/css/user_mingxi.css" />
+<link rel=stylesheet type=text/css href="{:config('theme_path')}/index/new/css/page.css" />
+<script type="text/javascript" src="{:config('theme_path')}/index/new/js/user_mingxi.js"></script>
+<style type="text/css">
+.jl_tj{ width:99%; height:38px;line-height:38px; text-align:center; display:block; background:#fff; border:1px #E7E7E7 solid; color:#000; cursor:pointer; font-size:1.4em;border-radius:3px; }
+.jl_tj:hover{ opacity:0.8; }
+.jl_tj2{ width:100%; height:38px;line-height:38px; text-align:center; display:block; background:#EC1A5B;  color:#fff; cursor:pointer; font-size:1.4em;border-radius:3px; }
+.jl_tj2:hover{ opacity:0.8; }
+.register_dl{ width:100%; height:45px; background:#EC1A5B;border:0; color:#FFFFFF; font-weight:500;font-family:Microsoft YaHei;  cursor:pointer; font-size:18px;border-radius:2px; }
+.register_dl:hover{ opacity:0.8; }
+.tijiao{ width:80px; height:37px; background:#EC1A5B;border:0; color:#FFFFFF; cursor:pointer; font-size:16px; }
+.tijiao:hover{ opacity:0.8; }
+.register_tc{ background:#fff; border:1px #E7E7E7 solid; margin:0 10px 0 10px;text-align:center;margin-top:10px;margin-bottom:10px;padding:12px;border-radius:3px; }
+.register_tc a{font-size:16px; color:#EC1A5B;}
+.register_tc:hover{ opacity:0.8; }
+.nr img{ width:300px;}
+.tx{width: 30px;height: 30px;border-radius: 50%;float: left;margin-right: 5px;}
+</style>
+</head>
+<body><div class="yingdao" align="center">
+  <p><b>充值记录</b><a href="javascript:;" onclick="history.back()" title="返回" class="left"></a> <a href="{:url('user/usercenter')}"  title="会员中心" class="right"></a> </p></div>  
+ 
+<!--b显示列表-->
+{empty name="lists"}
+<div class="mc radius">
+	<ul class="mu-l2w" ><div style=" width:185px; height:115px; margin:0 auto;"><img src="{:config('theme_path')}/index/new/picture/img_nocontent.png"/></div></ul>
+</div>
+{else /}
+<div class="mc radius"> 
+	<ul class="mu-l2w">
+
+{volist name="lists" key='k' id="data"}
+<li style="padding: 10px;margin-top:5px;border-top: none;overflow: hidden; line-height: 1.6em;border-bottom: 1px dashed #DED6C9;"> 
+  <span style="display: block;overflow: hidden;clear: both;padding: .22em 0;line-height: 30px;">
+  
+    {if condition="$data.type eq 1"}
+    微信充值
+    {elseif condition="$data.type eq 2" /}
+    支付宝充值
+    {/if}
+    
+  </span>
+  <a href="{:url('user/user_friends2')}">
+  <span class="pricecolor" style="display: block;margin-top:5px;color:#ff3366">
+  充值时间{$data['addtime']|date='Y-m-d H:i:s',###}
+  <span style="float: right;">
+            {$data.money}元
+    </span></span></span> 
+</li>
+</a>
+ {/volist}       
+      </ul>
+      <div class="djpage" style="background-color: #fff">{$page}</div>
+</div>
+
+{/empty}
+
+{template file="index/footer.html" /}
+ 
+</body></html>
